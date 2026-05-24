@@ -1,0 +1,238 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>GRU4Rec - Ochiai Slides</title><style>
+:root {
+  color-scheme: light;
+  --bg: #f4f8ff;
+  --slide: #ffffff;
+  --ink: #102033;
+  --muted: #526173;
+  --blue: #1266d6;
+  --blue-2: #e8f1ff;
+  --line: #d6e4f7;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Yu Gothic", "Noto Sans JP", sans-serif;
+}
+.deck { width: 100%; padding: 20px; }
+.slide {
+  width: min(1120px, calc(100vw - 32px));
+  min-height: min(630px, calc((100vw - 32px) * 9 / 16));
+  margin: 0 auto 22px;
+  padding: 42px 50px 38px;
+  background: var(--slide);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  box-shadow: 0 10px 28px rgba(18, 102, 214, 0.08);
+  position: relative;
+  overflow: hidden;
+}
+.slide::before {
+  content: "";
+  position: absolute;
+  inset: 0 0 auto 0;
+  height: 8px;
+  background: linear-gradient(90deg, var(--blue), #65a5ff);
+}
+.slide-number {
+  position: absolute;
+  right: 26px;
+  bottom: 18px;
+  color: #8aa1bd;
+  font-size: 13px;
+}
+h1, h2, h3 { margin: 0; line-height: 1.18; letter-spacing: 0; }
+h1 { font-size: 42px; color: var(--blue); max-width: 900px; }
+h2 { font-size: 34px; color: var(--blue); margin-bottom: 22px; }
+h3 { font-size: 23px; margin: 24px 0 10px; }
+p { font-size: 20px; line-height: 1.62; margin: 12px 0; }
+ul, ol { margin: 14px 0 0 1.2em; padding: 0; }
+li { font-size: 21px; line-height: 1.55; margin: 8px 0; }
+strong { color: var(--blue); }
+code { background: #eef5ff; padding: 2px 5px; border-radius: 4px; }
+blockquote {
+  margin: 18px 0;
+  padding: 16px 18px;
+  border-left: 5px solid var(--blue);
+  background: var(--blue-2);
+  color: #173a62;
+  font-size: 21px;
+}
+figure { margin: 18px 0 0; }
+img { max-width: 100%; max-height: 390px; display: block; margin: 0 auto; object-fit: contain; }
+figcaption { color: var(--muted); font-size: 15px; line-height: 1.45; margin-top: 8px; }
+table { border-collapse: collapse; width: 100%; margin: 16px 0; font-size: 17px; display: block; overflow-x: auto; }
+th, td { border: 1px solid var(--line); padding: 8px 10px; text-align: left; white-space: nowrap; }
+th { background: var(--blue-2); color: #173a62; }
+.two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; align-items: start; }
+@media (max-width: 720px) {
+  .deck { padding: 10px; }
+  .slide { width: calc(100vw - 20px); min-height: auto; padding: 30px 22px 42px; margin-bottom: 14px; }
+  h1 { font-size: 30px; }
+  h2 { font-size: 25px; }
+  h3 { font-size: 20px; }
+  p, li { font-size: 17px; }
+  .two-col { grid-template-columns: 1fr; }
+  img { max-height: none; }
+}
+@media print {
+  body { background: white; }
+  .deck { padding: 0; }
+  .slide { page-break-after: always; margin: 0; width: 100vw; min-height: 100vh; border: 0; box-shadow: none; border-radius: 0; }
+}
+</style></head><body><main class="deck"><section class="slide"><h1>Session-based Recommendations with Recurrent Neural Networks</h1>
+<p>Balázs Hidasi, Alexandros Karatzoglou, Linas Baltrunas, Domonkos Tikk ICLR 2016 / arXiv:1511.06939</p>
+<blockquote>GRU を session-based recommendation に適用し、Item-KNN を上回る性能を示した初期の代表論文。</blockquote><div class="slide-number">1/16</div></section>
+<section class="slide"><h2>どんなもの？</h2>
+<ul>
+<li>ユーザ ID や長期履歴が使えない <strong>session-based recommendation</strong> のための RNN 手法</li>
+<li>session 内の click sequence を GRU で逐次的に model 化</li>
+<li>次に click / watch される item を ranking する</li>
+<li>後に <strong>GRU4Rec</strong> と呼ばれる、session-based recommendation の古典的 baseline</li>
+</ul>
+<blockquote>「最後に見た item だけ」ではなく「session 全体の流れ」を使う推薦。</blockquote><div class="slide-number">2/16</div></section>
+<section class="slide"><h2>背景: session-based recommendation が必要な場面</h2>
+<ul>
+<li>小規模 EC やニュース・メディアでは user-id を長期追跡できないことが多い</li>
+<li>cookie / fingerprinting は不安定で privacy concern もある</li>
+<li>user が 1-2 session しか持たない場合、長期 profile を作れない</li>
+<li>classified site などでは同一 user でも session ごとに intent が違うことがある</li>
+</ul>
+<blockquote>長期 user profile を前提にした推薦ではなく、短い session の中だけで次 item を予測する必要がある。</blockquote><div class="slide-number">3/16</div></section>
+<section class="slide"><h2>課題: 既存手法は何を見落とすか</h2>
+<ul>
+<li>実務では item-to-item similarity / co-occurrence / transition probability がよく使われる</li>
+<li>これらは強いが、多くの場合 <strong>最後の click</strong> に強く依存する</li>
+<li>Session 内の過去 click の sequence 情報を十分に使えない</li>
+<li>Matrix factorization は user profile がないため直接適用しにくい</li>
+</ul>
+<table><thead><tr><th>手法</th><th>問題</th></tr></thead><tbody>
+<tr><td>Matrix factorization</td><td>user vector が作れない</td></tr>
+<tr><td>Item-KNN</td><td>主に現在 item との類似だけを見る</td></tr>
+<tr><td>Markov chain</td><td>長い履歴を state に含めると state space が爆発</td></tr>
+</tbody></table><div class="slide-number">4/16</div></section>
+<section class="slide"><h2>先行研究と比べてどこがすごい？</h2>
+<ul>
+<li>Recommender systems に RNN / GRU を本格適用</li>
+<li>Session 全体を hidden state として保持し、次 item を予測</li>
+<li>大規模 item set に対応するため output sampling を導入</li>
+<li>Recommendation に合う ranking loss（BPR / TOP1）を使う</li>
+<li>RSC15 と VIDEO の 2 dataset で Item-KNN を大きく上回る</li>
+</ul>
+<blockquote>深層学習を「session-based recommendation の実務問題」に合わせて改造した点が貢献。</blockquote><div class="slide-number">5/16</div></section>
+<section class="slide"><h2>技術や手法のキモ</h2>
+<div class="two-col">
+<h3>GRU で session を読む</h3>
+<ul>
+<li>input: 現在 click された item</li>
+<li>hidden state: session の文脈</li>
+<li>output: 次 item になる likelihood / score</li>
+<li>item は 1-of-N encoding</li>
+</ul>
+<h3>推薦向けの修正</h3>
+<ul>
+<li>session-parallel mini-batch</li>
+<li>mini-batch 内 item を negative sample として使う</li>
+<li>pairwise ranking loss</li>
+<li>large item set でも訓練可能にする</li>
+</ul>
+</div>
+<blockquote>RNN そのものより、推薦タスクに合わせた訓練設計が重要。</blockquote><div class="slide-number">6/16</div></section>
+<section class="slide"><h2>Architecture</h2>
+<figure><img src="assets/arch.png" alt="GRU4Rec の network architecture。session event を入力し、GRU layer を通して next item の score を出す。"><figcaption>GRU4Rec の network architecture。session event を入力し、GRU layer を通して next item の score を出す。</figcaption></figure>
+<ul>
+<li>GRU layer が session state を保持</li>
+<li>複数 GRU layer も試したが、単層が最良</li>
+<li>embedding layer より 1-of-N encoding が良好</li>
+<li>output layer は item score を出す</li>
+</ul><div class="slide-number">7/16</div></section>
+<section class="slide"><h2>Session-parallel mini-batch</h2>
+<figure><img src="assets/mini-batch.png" alt="Session-parallel mini-batch。複数 session を並列に進め、session が終わると hidden state を reset して次 session を入れる。"><figcaption>Session-parallel mini-batch。複数 session を並列に進め、session が終わると hidden state を reset して次 session を入れる。</figcaption></figure>
+<ul>
+<li>NLP の sliding window mini-batch は session 推薦に合わない</li>
+<li>session 長は 2 event から数百 event まで大きく異なる</li>
+<li>session の時間発展を壊さずに mini-batch 化する</li>
+<li>session 終了時に対応する hidden state を reset</li>
+</ul><div class="slide-number">8/16</div></section>
+<section class="slide"><h2>Loss: なぜ ranking loss か</h2>
+<ul>
+<li>推薦の本質は item の relevance ranking</li>
+<li>Classification 的な cross-entropy は不安定になりやすい</li>
+<li>Pairwise ranking loss が有効</li>
+</ul>
+<table><thead><tr><th>Loss</th><th>役割</th></tr></thead><tbody>
+<tr><td>BPR</td><td>positive item が negative item より高 score になるようにする</td></tr>
+<tr><td>TOP1</td><td>relevant item の relative rank を近似し、negative score を 0 付近に正則化</td></tr>
+</tbody></table>
+<blockquote>著者は BPR と TOP1 を推奨し、TOP1 は 2 dataset でやや良い性能を示す。</blockquote><div class="slide-number">9/16</div></section>
+<section class="slide"><h2>どうやって有効だと検証した？</h2>
+<ul>
+<li>Dataset 1: RecSys Challenge 2015（RSC15）</li>
+<li>Dataset 2: YouTube-like OTT video service platform（VIDEO）</li>
+<li>評価: session event を 1 つずつ与え、next event item の rank を見る</li>
+<li>Metrics: Recall@20, MRR@20</li>
+<li>Baselines: POP, S-POP, Item-KNN, BPR-MF</li>
+</ul>
+<table><thead><tr><th>Dataset</th><th>Train</th><th>Test</th></tr></thead><tbody>
+<tr><td>RSC15</td><td>7,966,257 sessions / 31,637,239 clicks / 37,483 items</td><td>15,324 sessions / 71,222 events</td></tr>
+<tr><td>VIDEO</td><td>約 300 万 sessions / 約 1,300 万 watch events / 33 万 videos</td><td>約 3.7 万 sessions / 約 18 万 events</td></tr>
+</tbody></table><div class="slide-number">10/16</div></section>
+<section class="slide"><h2>Baseline 結果</h2>
+<table><thead><tr><th>Baseline</th><th>RSC15 Recall@20</th><th>RSC15 MRR@20</th><th>VIDEO Recall@20</th><th>VIDEO MRR@20</th></tr></thead><tbody>
+<tr><td>POP</td><td>0.0050</td><td>0.0012</td><td>0.0499</td><td>0.0117</td></tr>
+<tr><td>S-POP</td><td>0.2672</td><td>0.1775</td><td>0.1301</td><td>0.0863</td></tr>
+<tr><td>Item-KNN</td><td>0.5065</td><td>0.2048</td><td>0.5508</td><td>0.3381</td></tr>
+<tr><td>BPR-MF</td><td>0.2574</td><td>0.0618</td><td>0.0692</td><td>0.0374</td></tr>
+</tbody></table>
+<ul>
+<li>Item-KNN が最強 baseline</li>
+<li>POP / BPR-MF は session 推薦では弱い</li>
+<li>以後の主比較は Item-KNN との比較</li>
+</ul><div class="slide-number">11/16</div></section>
+<section class="slide"><h2>主結果: GRU4Rec は Item-KNN を上回る</h2>
+<table><thead><tr><th>Loss / Units</th><th>RSC15 Recall@20</th><th>RSC15 MRR@20</th><th>VIDEO Recall@20</th><th>VIDEO MRR@20</th></tr></thead><tbody>
+<tr><td>Item-KNN</td><td>0.5065</td><td>0.2048</td><td>0.5508</td><td>0.3381</td></tr>
+<tr><td>TOP1 / 100</td><td>0.5853</td><td>0.2305</td><td>0.6141</td><td>0.3511</td></tr>
+<tr><td>BPR / 100</td><td>0.6069</td><td>0.2407</td><td>0.5999</td><td>0.3260</td></tr>
+<tr><td>TOP1 / 1000</td><td>0.6206</td><td>0.2693</td><td>0.6624</td><td>0.3891</td></tr>
+<tr><td>BPR / 1000</td><td>0.6322</td><td>0.2467</td><td>0.6311</td><td>0.3136</td></tr>
+</tbody></table>
+<blockquote>TOP1 1000 は VIDEO で Recall@20 +20.27%、MRR@20 +15.08%。BPR 1000 は RSC15 Recall@20 +24.82%。</blockquote><div class="slide-number">12/16</div></section>
+<section class="slide"><h2>実験から見えた設計判断</h2>
+<ul>
+<li>GRU が classic RNN / LSTM より良かった</li>
+<li>単層 GRU が最良で、多層化は悪化</li>
+<li>item embedding より 1-of-N encoding が良かった</li>
+<li>session の全 previous event を入力に足しても改善しなかった</li>
+<li>hidden units を 100 から 1000 に増やすと pairwise loss は改善</li>
+<li>cross-entropy は数値的に不安定になりやすい</li>
+</ul>
+<blockquote>Session が短いので、多層で複数 time scale を持つ必要は小さい、という解釈。</blockquote><div class="slide-number">13/16</div></section>
+<section class="slide"><h2>議論・限界</h2>
+<ul>
+<li>2016 年時点の古典的 RNN baseline であり、現在の attention / transformer / graph 系とは比較していない</li>
+<li>VIDEO dataset は recommendation algorithm が既に user behavior に影響していた可能性がある</li>
+<li>Item content は使わず、item ID sequence のみを使う</li>
+<li>Cross-entropy は不安定で、loss 設計への依存が大きい</li>
+<li>session-based なので長期 user preference は扱わない</li>
+</ul>
+<blockquote>「匿名 session の次 item 予測」には強いが、personalized long-term recommendation とは別問題。</blockquote><div class="slide-number">14/16</div></section>
+<section class="slide"><h2>次に読むべき論文</h2>
+<ul>
+<li>BPR: Bayesian Personalized Ranking from Implicit Feedback</li>
+<li>Amazon item-to-item collaborative filtering</li>
+<li>Recurrent Neural Networks with Top-k Gains for Session-based Recommendations</li>
+<li>NARM: Neural Attentive Session-based Recommendation</li>
+<li>STAMP: Short-Term Attention/Memory Priority Model</li>
+<li>SR-GNN: Session-based Recommendation with Graph Neural Networks</li>
+<li>SASRec / BERT4Rec: transformer-based sequential recommendation</li>
+</ul><div class="slide-number">15/16</div></section>
+<section class="slide"><h2>まとめ</h2>
+<ul>
+<li><strong>どんなもの？</strong> GRU を使って session 内 click sequence から next item を ranking する手法</li>
+<li><strong>何がすごい？</strong> user profile なしの session-based recommendation で Item-KNN を明確に上回る</li>
+<li><strong>手法のキモ</strong> session-parallel mini-batch、output sampling、pairwise ranking loss</li>
+<li><strong>検証</strong> RSC15 と VIDEO で Recall@20 / MRR@20 を評価し、約 20-30% の改善を報告</li>
+</ul><div class="slide-number">16/16</div></section></main></body></html>
