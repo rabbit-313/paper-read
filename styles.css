@@ -74,6 +74,87 @@ h1 {
   margin-bottom: 22px;
 }
 
+.recommendation-panel {
+  margin-bottom: 30px;
+  padding-bottom: 28px;
+  border-bottom: 1px solid var(--line);
+}
+
+.section-heading {
+  display: flex;
+  gap: 16px;
+  align-items: start;
+  justify-content: space-between;
+}
+
+.section-heading h2 {
+  margin: 0;
+  font-size: clamp(24px, 3vw, 34px);
+  line-height: 1.25;
+}
+
+.section-lead {
+  max-width: 880px;
+  margin: 12px 0 16px;
+  color: var(--muted);
+  line-height: 1.75;
+}
+
+.secondary-action {
+  display: inline-flex;
+  align-items: center;
+  min-height: 38px;
+  padding: 8px 12px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--panel);
+  font-weight: 700;
+}
+
+.recommendation-status {
+  margin-bottom: 14px;
+  color: var(--muted);
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.recommendation-list {
+  display: grid;
+  gap: 14px;
+}
+
+.recommendation-card {
+  padding: 18px;
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  box-shadow: var(--shadow);
+}
+
+.recommendation-card h3 {
+  margin: 10px 0;
+  font-size: clamp(19px, 2.4vw, 25px);
+  line-height: 1.32;
+}
+
+.recommendation-card p {
+  margin: 0;
+  color: var(--muted);
+  line-height: 1.7;
+}
+
+.reason-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 14px 0;
+}
+
+.reason-list span,
+.paper-meta span {
+  overflow-wrap: anywhere;
+}
+
 .stat {
   display: flex;
   gap: 10px;
@@ -211,6 +292,10 @@ h1 {
 
   .toolbar {
     grid-template-columns: 1fr;
+  }
+
+  .section-heading {
+    display: grid;
   }
 
   .summary-list div {

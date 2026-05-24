@@ -1,0 +1,42 @@
+name: Paper generation request
+description: Queue a paper for local Codex translation and slide generation.
+title: "Generate translation and slides for "
+labels:
+  - paper-generate
+body:
+  - type: input
+    id: paper_id
+    attributes:
+      label: Paper ID
+      description: arXiv ID or another stable paper identifier.
+      placeholder: "2503.02767"
+    validations:
+      required: true
+  - type: input
+    id: title
+    attributes:
+      label: Title
+      placeholder: "Paper title"
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: URL
+      placeholder: "https://arxiv.org/abs/2503.02767"
+    validations:
+      required: true
+  - type: checkboxes
+    id: outputs
+    attributes:
+      label: Outputs
+      options:
+        - label: Japanese translation HTML/Markdown
+          required: false
+        - label: Ochiai-format summary slides
+          required: false
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes
+      placeholder: "Optional instructions for the local watcher."

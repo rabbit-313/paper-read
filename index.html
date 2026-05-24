@@ -18,6 +18,22 @@
     </header>
 
     <main>
+      <section class="recommendation-panel" aria-labelledby="daily-recommendations-title">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Daily Recommendations</p>
+            <h2 id="daily-recommendations-title">今日の推薦システム論文候補</h2>
+          </div>
+          <a class="secondary-action" href="./recommendations/latest.json">JSON</a>
+        </div>
+        <p class="section-lead">
+          arXiv、Semantic Scholar、話題記事から毎日候補を集め、読書優先度と短い要約を表示します。
+          生成依頼ボタンは GitHub Issue を作り、ローカル watcher が Codex スキルで翻訳とスライドを作成します。
+        </p>
+        <div class="recommendation-status" id="recommendation-status">Loading recommendations...</div>
+        <div class="recommendation-list" id="recommendation-list"></div>
+      </section>
+
       <section class="toolbar" aria-label="Filters">
         <div class="stat">
           <span class="stat-value">2</span>

@@ -1,0 +1,163 @@
+{
+  "date": "2026-05-24",
+  "generatedAt": "2026-05-24T08:51:58.756653+00:00",
+  "focus": "Recommender systems, recommendation, retrieval, ranking, and related ML/DL papers",
+  "items": [
+    {
+      "id": "2605.21969",
+      "title": "LLM Retrieval for Stable and Predictable Ad Recommendations",
+      "url": "http://arxiv.org/abs/2605.21969v1",
+      "source": "arXiv",
+      "published": "2026-05-21",
+      "authors": [
+        "Vinodh Kumar Sunkara",
+        "Satheeshkumar Karuppusamy",
+        "Hangjun Xu",
+        "Sai Deepika Regani",
+        "Kshitij Gupta",
+        "Gaby Nahum",
+        "Sneha Iyer",
+        "Jean-Baptiste Fiot",
+        "Yinglong Guo",
+        "Xiaowen Guo",
+        "Atul Jangra",
+        "Yucheng Liu",
+        "Jinghao Yan",
+        "Vijay Pappu",
+        "Benjamin Schulte",
+        "Deepak Chandra"
+      ],
+      "venue": "",
+      "citationCount": null,
+      "influentialCitationCount": null,
+      "discussionCount": null,
+      "score": 70.0,
+      "reasons": [
+        "推薦システム",
+        "検索・ retrieval",
+        "グラフ推薦",
+        "LLM x 推薦",
+        "新着 arXiv"
+      ],
+      "summary": "Traditional ads recommendation systems have primarily focused on optimizing for prediction accuracy of click or conversion events using canonical metrics such as recall or normalized discounted cumulative gain (NDCG)....",
+      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2605.21969&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2605.21969%0A-+Title%3A+LLM+Retrieval+for+Stable+and+Predictable+Ad+Recommendations%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2605.21969v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
+    },
+    {
+      "id": "2605.21967",
+      "title": "Reinforced Preference Optimization for Reasoning-Augmented Recommendations",
+      "url": "http://arxiv.org/abs/2605.21967v1",
+      "source": "arXiv",
+      "published": "2026-05-21",
+      "authors": [
+        "Jingtong Gao",
+        "Zeyu Song",
+        "Chi Lu",
+        "Xiaopeng Li",
+        "Derong Xu",
+        "Maolin Wang",
+        "Peng Jiang",
+        "Kun Gai",
+        "Qingpeng Cai",
+        "Xiangyu Zhao"
+      ],
+      "venue": "",
+      "citationCount": null,
+      "influentialCitationCount": null,
+      "discussionCount": null,
+      "score": 70.0,
+      "reasons": [
+        "推薦システム",
+        "検索・ retrieval",
+        "LLM x 推薦",
+        "強化学習",
+        "新着 arXiv"
+      ],
+      "summary": "Recommender systems are critical for delivering personalized content across digital platforms, and recent advances in Large Language Models (LLMs) offer new opportunities to enhance them with richer world knowledge...",
+      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2605.21967&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2605.21967%0A-+Title%3A+Reinforced+Preference+Optimization+for+Reasoning-Augmented+Recommendations%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2605.21967v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
+    },
+    {
+      "id": "1905.08108",
+      "title": "Neural Graph Collaborative Filtering",
+      "url": "https://arxiv.org/abs/1905.08108",
+      "source": "Semantic Scholar",
+      "published": "2019-05-20",
+      "authors": [
+        "Xiang Wang",
+        "Xiangnan He",
+        "Meng Wang",
+        "Fuli Feng",
+        "Tat-Seng Chua"
+      ],
+      "venue": "Annual International ACM SIGIR Conference on Research and Development in Information Retrieval",
+      "citationCount": 3777,
+      "influentialCitationCount": 630,
+      "discussionCount": null,
+      "score": 65.0,
+      "reasons": [
+        "推薦システム",
+        "協調フィルタリング",
+        "グラフ推薦",
+        "引用数 3777"
+      ],
+      "summary": "Learning vector representations (aka. embeddings) of users and items lies at the core of modern recommender systems. Ranging from early matrix factorization to recently emerged deep learning based methods, existing...",
+      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+1905.08108&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+1905.08108%0A-+Title%3A+Neural+Graph+Collaborative+Filtering%0A-+URL%3A+https%3A%2F%2Farxiv.org%2Fabs%2F1905.08108%0A-+Source%3A+Semantic+Scholar%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
+    },
+    {
+      "id": "2605.19651",
+      "title": "Divergence Meets Consensus: A Multi-Source Negative Sampling Framework for Sequential Recommendation",
+      "url": "http://arxiv.org/abs/2605.19651v1",
+      "source": "arXiv",
+      "published": "2026-05-19",
+      "authors": [
+        "Yuanzi Li",
+        "Lingjie Wang",
+        "Jingyu Zhao",
+        "Zihang Tian",
+        "Yuhan Wang",
+        "Lei Wang",
+        "Xu Chen"
+      ],
+      "venue": "",
+      "citationCount": null,
+      "influentialCitationCount": null,
+      "discussionCount": null,
+      "score": 62.0,
+      "reasons": [
+        "推薦システム",
+        "ランキング",
+        "強化学習",
+        "新着 arXiv",
+        "5日前の新着"
+      ],
+      "summary": "Negative sampling is significant for training sequential recommendation models under implicit feedback. The predominant strategy, self-guided hard negative sampling, selects negatives based on the model's current...",
+      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2605.19651&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2605.19651%0A-+Title%3A+Divergence+Meets+Consensus%3A+A+Multi-Source+Negative+Sampling+Framework+for+Sequential+Recommendation%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2605.19651v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
+    },
+    {
+      "id": "2605.11145",
+      "title": "Debiasing Message Passing to Mitigate Popularity Bias in GNN-based Collaborative Filtering",
+      "url": "http://arxiv.org/abs/2605.11145v1",
+      "source": "arXiv",
+      "published": "2026-05-11",
+      "authors": [
+        "Md Aminul Islam",
+        "Ahmed Sayeed Faruk",
+        "Sourav Medya",
+        "Elena Zheleva"
+      ],
+      "venue": "",
+      "citationCount": null,
+      "influentialCitationCount": null,
+      "discussionCount": null,
+      "score": 62.0,
+      "reasons": [
+        "推薦システム",
+        "協調フィルタリング",
+        "グラフ推薦",
+        "新着 arXiv",
+        "13日前の新着"
+      ],
+      "summary": "Collaborative filtering (CF) models based on graph neural networks (GNNs) achieve strong performance in recommender systems by propagating user-item signals over interaction graphs. However, they are highly...",
+      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2605.11145&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2605.11145%0A-+Title%3A+Debiasing+Message+Passing+to+Mitigate+Popularity+Bias+in+GNN-based+Collaborative+Filtering%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2605.11145v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
+    }
+  ]
+}
