@@ -1,6 +1,6 @@
 {
   "date": "2026-05-24",
-  "generatedAt": "2026-05-24T08:51:58.756653+00:00",
+  "generatedAt": "2026-05-24T22:59:23.565372+00:00",
   "focus": "Recommender systems, recommendation, retrieval, ranking, and related ML/DL papers",
   "items": [
     {
@@ -76,6 +76,137 @@
       "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2605.21967&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2605.21967%0A-+Title%3A+Reinforced+Preference+Optimization+for+Reasoning-Augmented+Recommendations%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2605.21967v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
     },
     {
+      "id": "2605.14306",
+      "title": "Towards Self-Evolving Agentic Literature Retrieval",
+      "url": "http://arxiv.org/abs/2605.14306v1",
+      "source": "arXiv",
+      "published": "2026-05-14",
+      "authors": [
+        "Yuwen Du",
+        "Tian Jin",
+        "Jing Kang",
+        "Xianghe Pang",
+        "Jingyi Chai",
+        "Tingjia Miao",
+        "Fenyi Liu",
+        "WenHao Wang",
+        "Sikai Yao",
+        "Yuzhi Zhang",
+        "Siheng Chen"
+      ],
+      "venue": "",
+      "citationCount": null,
+      "influentialCitationCount": null,
+      "discussionCount": null,
+      "score": 70.0,
+      "reasons": [
+        "推薦システム",
+        "ランキング",
+        "検索・ retrieval",
+        "LLM x 推薦",
+        "新着 arXiv"
+      ],
+      "summary": "As large language models reshape scientific research, literature retrieval faces a twofold challenge: ensuring source authenticity while maintaining a deep comprehension of academic search intents. While reliable,...",
+      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2605.14306&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2605.14306%0A-+Title%3A+Towards+Self-Evolving+Agentic+Literature+Retrieval%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2605.14306v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
+    },
+    {
+      "id": "2605.12995",
+      "title": "F-GRPO: Factorized Group-Relative Policy Optimization for Unified Candidate Generation and Ranking",
+      "url": "http://arxiv.org/abs/2605.12995v1",
+      "source": "arXiv",
+      "published": "2026-05-13",
+      "authors": [
+        "Rohan Surana",
+        "Gagan Mundada",
+        "Junda Wu",
+        "Xintong Li",
+        "Yizhu Jiao",
+        "Bowen Jin",
+        "Sizhe Zhou",
+        "Tong Yu",
+        "Ritwik Sinha",
+        "Jiawei Han",
+        "Jingbo Shang",
+        "Julian McAuley"
+      ],
+      "venue": "",
+      "citationCount": null,
+      "influentialCitationCount": null,
+      "discussionCount": null,
+      "score": 70.0,
+      "reasons": [
+        "推薦システム",
+        "ランキング",
+        "検索・ retrieval",
+        "LLM x 推薦",
+        "新着 arXiv"
+      ],
+      "summary": "Traditional retrieval pipelines optimize utility through stages of candidate retrieval and reranking, where ranking operates over a predefined candidate set. Large Language Models (LLMs) broaden this into a generative...",
+      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2605.12995&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2605.12995%0A-+Title%3A+F-GRPO%3A+Factorized+Group-Relative+Policy+Optimization+for+Unified+Candidate+Generation+and+Ranking%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2605.12995v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
+    },
+    {
+      "id": "2605.11118",
+      "title": "A Cascaded Generative Approach for e-Commerce Recommendations",
+      "url": "http://arxiv.org/abs/2605.11118v2",
+      "source": "arXiv",
+      "published": "2026-05-11",
+      "authors": [
+        "Moein Hasani",
+        "Hamidreza Shahidi",
+        "Trace Levinson",
+        "Yuan Zhong",
+        "Guanghua Shu",
+        "Vinesh Gudla",
+        "Tejaswi Tenneti"
+      ],
+      "venue": "",
+      "citationCount": null,
+      "influentialCitationCount": null,
+      "discussionCount": null,
+      "score": 70.0,
+      "reasons": [
+        "推薦システム",
+        "ランキング",
+        "検索・ retrieval",
+        "LLM x 推薦",
+        "新着 arXiv"
+      ],
+      "summary": "Personalized storefronts in large e-commerce marketplaces are often assembled from many independent components: static themes per page section (\"placement\"), retrieval systems to fetch eligible products per placement,...",
+      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2605.11118&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2605.11118%0A-+Title%3A+A+Cascaded+Generative+Approach+for+e-Commerce+Recommendations%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2605.11118v2%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
+    },
+    {
+      "id": "2605.07677",
+      "title": "TRACE: Tourism Recommendation with Accountable Citation Evidence",
+      "url": "http://arxiv.org/abs/2605.07677v1",
+      "source": "arXiv",
+      "published": "2026-05-08",
+      "authors": [
+        "Zixu Zhao",
+        "Sijin Wang",
+        "Yu Hou",
+        "Yuanyuan Xu",
+        "Yufan Sheng",
+        "Xike Xie",
+        "Wenjie Zhang",
+        "Won-Yong Shin",
+        "Xin Cao"
+      ],
+      "venue": "",
+      "citationCount": null,
+      "influentialCitationCount": null,
+      "discussionCount": null,
+      "score": 66.0,
+      "reasons": [
+        "推薦システム",
+        "ランキング",
+        "検索・ retrieval",
+        "グラフ推薦",
+        "LLM x 推薦"
+      ],
+      "summary": "Tourism is a high-stakes setting for conversational recommender systems (CRS): a plausible-sounding suggestion can waste real money and trip time once a traveler acts on it. Existing CRS benchmarks primarily evaluate...",
+      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2605.07677&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2605.07677%0A-+Title%3A+TRACE%3A+Tourism+Recommendation+with+Accountable+Citation+Evidence%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2605.07677v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
+    },
+    {
       "id": "1905.08108",
       "title": "Neural Graph Collaborative Filtering",
       "url": "https://arxiv.org/abs/1905.08108",
@@ -89,7 +220,7 @@
         "Tat-Seng Chua"
       ],
       "venue": "Annual International ACM SIGIR Conference on Research and Development in Information Retrieval",
-      "citationCount": 3777,
+      "citationCount": 3778,
       "influentialCitationCount": 630,
       "discussionCount": null,
       "score": 65.0,
@@ -97,25 +228,26 @@
         "推薦システム",
         "協調フィルタリング",
         "グラフ推薦",
-        "引用数 3777"
+        "引用数 3778"
       ],
       "summary": "Learning vector representations (aka. embeddings) of users and items lies at the core of modern recommender systems. Ranging from early matrix factorization to recently emerged deep learning based methods, existing...",
       "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+1905.08108&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+1905.08108%0A-+Title%3A+Neural+Graph+Collaborative+Filtering%0A-+URL%3A+https%3A%2F%2Farxiv.org%2Fabs%2F1905.08108%0A-+Source%3A+Semantic+Scholar%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
     },
     {
-      "id": "2605.19651",
-      "title": "Divergence Meets Consensus: A Multi-Source Negative Sampling Framework for Sequential Recommendation",
-      "url": "http://arxiv.org/abs/2605.19651v1",
+      "id": "2605.18752",
+      "title": "Traditional statistical representations outperform generative AI in identifying expert peer reviewers",
+      "url": "http://arxiv.org/abs/2605.18752v1",
       "source": "arXiv",
-      "published": "2026-05-19",
+      "published": "2026-05-18",
       "authors": [
-        "Yuanzi Li",
-        "Lingjie Wang",
-        "Jingyu Zhao",
-        "Zihang Tian",
-        "Yuhan Wang",
-        "Lei Wang",
-        "Xu Chen"
+        "Vicente Amado Olivo",
+        "Tereza Jerabkova",
+        "Jakub Klencki",
+        "John Carpenter",
+        "Mario Malički",
+        "Ferdinando Patat",
+        "Louis-Gregory Strolger",
+        "Wolfgang Kerzendorf"
       ],
       "venue": "",
       "citationCount": null,
@@ -124,40 +256,13 @@
       "score": 62.0,
       "reasons": [
         "推薦システム",
-        "ランキング",
-        "強化学習",
+        "検索・ retrieval",
+        "LLM x 推薦",
         "新着 arXiv",
-        "5日前の新着"
+        "6日前の新着"
       ],
-      "summary": "Negative sampling is significant for training sequential recommendation models under implicit feedback. The predominant strategy, self-guided hard negative sampling, selects negatives based on the model's current...",
-      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2605.19651&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2605.19651%0A-+Title%3A+Divergence+Meets+Consensus%3A+A+Multi-Source+Negative+Sampling+Framework+for+Sequential+Recommendation%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2605.19651v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
-    },
-    {
-      "id": "2605.11145",
-      "title": "Debiasing Message Passing to Mitigate Popularity Bias in GNN-based Collaborative Filtering",
-      "url": "http://arxiv.org/abs/2605.11145v1",
-      "source": "arXiv",
-      "published": "2026-05-11",
-      "authors": [
-        "Md Aminul Islam",
-        "Ahmed Sayeed Faruk",
-        "Sourav Medya",
-        "Elena Zheleva"
-      ],
-      "venue": "",
-      "citationCount": null,
-      "influentialCitationCount": null,
-      "discussionCount": null,
-      "score": 62.0,
-      "reasons": [
-        "推薦システム",
-        "協調フィルタリング",
-        "グラフ推薦",
-        "新着 arXiv",
-        "13日前の新着"
-      ],
-      "summary": "Collaborative filtering (CF) models based on graph neural networks (GNNs) achieve strong performance in recommender systems by propagating user-item signals over interaction graphs. However, they are highly...",
-      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2605.11145&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2605.11145%0A-+Title%3A+Debiasing+Message+Passing+to+Mitigate+Popularity+Bias+in+GNN-based+Collaborative+Filtering%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2605.11145v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
+      "summary": "The exponential growth of scientific submissions has strained the peer review system. Despite the rapidly expanding global pool of researchers, this unprecedented scale has rendered the previous approach of manual...",
+      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2605.18752&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2605.18752%0A-+Title%3A+Traditional+statistical+representations+outperform+generative+AI+in+identifying+expert+peer+reviewers%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2605.18752v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
     }
   ]
 }
