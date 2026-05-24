@@ -1,0 +1,268 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Undertrained Image Reconstruction - Ochiai Slides</title><style>
+:root {
+  color-scheme: light;
+  --bg: #f4f8ff;
+  --slide: #ffffff;
+  --ink: #102033;
+  --muted: #526173;
+  --blue: #1266d6;
+  --blue-2: #e8f1ff;
+  --line: #d6e4f7;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Yu Gothic", "Noto Sans JP", sans-serif;
+}
+.deck { width: 100%; padding: 20px; }
+.slide {
+  width: min(1120px, calc(100vw - 32px));
+  min-height: min(630px, calc((100vw - 32px) * 9 / 16));
+  margin: 0 auto 22px;
+  padding: 42px 50px 38px;
+  background: var(--slide);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  box-shadow: 0 10px 28px rgba(18, 102, 214, 0.08);
+  position: relative;
+  overflow: hidden;
+}
+.slide::before {
+  content: "";
+  position: absolute;
+  inset: 0 0 auto 0;
+  height: 8px;
+  background: linear-gradient(90deg, var(--blue), #65a5ff);
+}
+.slide-number {
+  position: absolute;
+  right: 26px;
+  bottom: 18px;
+  color: #8aa1bd;
+  font-size: 13px;
+}
+h1, h2, h3 { margin: 0; line-height: 1.18; letter-spacing: 0; }
+h1 { font-size: 42px; color: var(--blue); max-width: 900px; }
+h2 { font-size: 34px; color: var(--blue); margin-bottom: 22px; }
+h3 { font-size: 23px; margin: 24px 0 10px; }
+p { font-size: 20px; line-height: 1.62; margin: 12px 0; }
+ul, ol { margin: 14px 0 0 1.2em; padding: 0; }
+li { font-size: 21px; line-height: 1.55; margin: 8px 0; }
+strong { color: var(--blue); }
+code { background: #eef5ff; padding: 2px 5px; border-radius: 4px; }
+blockquote {
+  margin: 18px 0;
+  padding: 16px 18px;
+  border-left: 5px solid var(--blue);
+  background: var(--blue-2);
+  color: #173a62;
+  font-size: 21px;
+}
+figure { margin: 18px 0 0; }
+img { max-width: 100%; max-height: 390px; display: block; margin: 0 auto; object-fit: contain; }
+figcaption { color: var(--muted); font-size: 15px; line-height: 1.45; margin-top: 8px; }
+table { border-collapse: collapse; width: 100%; margin: 16px 0; font-size: 17px; display: block; overflow-x: auto; }
+th, td { border: 1px solid var(--line); padding: 8px 10px; text-align: left; white-space: nowrap; }
+th { background: var(--blue-2); color: #173a62; }
+.two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; align-items: start; }
+@media (max-width: 720px) {
+  .deck { padding: 10px; }
+  .slide { width: calc(100vw - 20px); min-height: auto; padding: 30px 22px 42px; margin-bottom: 14px; }
+  h1 { font-size: 30px; }
+  h2 { font-size: 25px; }
+  h3 { font-size: 20px; }
+  p, li { font-size: 17px; }
+  .two-col { grid-template-columns: 1fr; }
+  img { max-height: none; }
+}
+@media print {
+  body { background: white; }
+  .deck { padding: 0; }
+  .slide { page-break-after: always; margin: 0; width: 100vw; min-height: 100vh; border: 0; box-shadow: none; border-radius: 0; }
+}
+</style></head><body><main class="deck"><section class="slide"><h1>Undertrained Image Reconstruction for Realistic Degradation in Blind Image Super-Resolution</h1>
+<p>Ru Ito, Supatta Viriyavisuthisakul, Kazuhiko Kawamoto, Hiroshi Kera arXiv:2503.02767 / 2025</p>
+<blockquote>未学習不足な画像再構成モデルを「劣化生成器」として使い、現実世界 LR 画像に強い超解像モデルへ fine-tuning する論文。</blockquote><div class="slide-number">1/19</div></section>
+<section class="slide"><h2>どんなもの？</h2>
+<ul>
+<li>Blind image super-resolution 向けの <strong>データセット生成手法</strong></li>
+<li>HR 画像だけから、現実世界っぽい多様な劣化をもつ LR 画像を作る</li>
+<li>生成した HR-LR ペアで既存 SR モデルを fine-tuning する</li>
+<li>新しい SR アーキテクチャではなく、<strong>学習データ側を改善する</strong>アプローチ</li>
+</ul>
+<blockquote>キモは「未学習不足な再構成モデルの出力は低品質だが、その低品質さを現実的な劣化として利用する」こと。</blockquote><div class="slide-number">2/19</div></section>
+<section class="slide"><h2>背景: なぜ現実世界 LR は難しいか</h2>
+<ul>
+<li>多くの SR モデルは HR 画像を bicubic などで downsample した合成 LR で訓練される</li>
+<li>合成 LR の劣化は単純: 主に縮小によるぼけ</li>
+<li>現実世界 LR は撮像過程、ノイズ、ぼけ、JPEG 圧縮、ringing などが混ざる</li>
+<li>そのため、合成データで最適化された SR モデルは現実世界 LR で性能が落ちる</li>
+</ul>
+<blockquote>問題の本質は、訓練データの劣化分布と実世界入力の劣化分布がずれていること。</blockquote><div class="slide-number">3/19</div></section>
+<section class="slide"><h2>課題: 既存のデータセット構築は何が難しいか</h2>
+<ul>
+<li>実機で HR-LR ペアを撮る方法は高コスト</li>
+<li>RealSR / DRealSR などは数百シーン規模で、シーン多様性が制限される</li>
+<li>既存の疑似劣化生成は、実世界劣化の一部しか再現しない</li>
+<li>GAN ベースの劣化生成は訓練が不安定になりやすい</li>
+</ul>
+<table><thead><tr><th>方向性</th><th>強み</th><th>弱み</th></tr></thead><tbody>
+<tr><td>実機収集</td><td>現実的な HR-LR ペア</td><td>高コスト・シーン数が少ない</td></tr>
+<tr><td>推定劣化の適用</td><td>HR 画像を多く使える</td><td>劣化種類が限定的</td></tr>
+<tr><td>GAN 劣化生成</td><td>分布を学習できる</td><td>不安定・破綻の可能性</td></tr>
+</tbody></table><div class="slide-number">4/19</div></section>
+<section class="slide"><h2>先行研究と比べてどこがすごい？</h2>
+<ul>
+<li>HR 画像だけでデータセット生成できる</li>
+<li>実機撮影や real LR 画像の劣化推定に依存しない</li>
+<li>VQ-VAE-2 などの画像再構成モデルを「十分に訓練しない」ことを利用する</li>
+<li>既存の SR モデルをそのまま fine-tuning できるため model-agnostic</li>
+</ul>
+<blockquote>先行研究が「劣化を正確に推定・学習する」方向だったのに対し、この論文は「未学習不足による自然な再構成失敗」を劣化源として使う。</blockquote><div class="slide-number">5/19</div></section>
+<section class="slide"><h2>技術や手法のキモ</h2>
+<div class="two-col">
+<h3>発想</h3>
+<ul>
+<li>画像再構成モデルを少ない epoch で止める</li>
+<li>入力構造はある程度保つ</li>
+<li>ただしノイズ、ぼけ、aliasing、ringing などが混ざる</li>
+<li>その出力を LR 画像として使う</li>
+</ul>
+<h3>生成されるペア</h3>
+<ol>
+<li>HR 画像 <code>y</code> を downsample して LR <code>x</code> を作る</li>
+<li>未学習不足モデル <code>Gθ</code> に <code>x</code> を入れる</li>
+<li>劣化 LR <code>x_deg</code> を得る</li>
+<li><code>(x_deg, y)</code> を訓練ペアにする</li>
+</ol>
+</div>
+<blockquote>未学習不足は普通は失敗だが、この論文では「多様な劣化を出す性質」として再利用する。</blockquote><div class="slide-number">6/19</div></section>
+<section class="slide"><h2>提案手法のパイプライン</h2>
+<figure><img src="assets/method.png" alt="提案手法。HR 画像を downsample し、未学習不足な画像再構成モデルを通して劣化 LR を生成し、HR と組にして fine-tuning 用データセットを作る。"><figcaption>提案手法。HR 画像を downsample し、未学習不足な画像再構成モデルを通して劣化 LR を生成し、HR と組にして fine-tuning 用データセットを作る。</figcaption></figure>
+<ul>
+<li>データセットは <code>D = {(x_deg^i, y^i)}</code></li>
+<li>fine-tuning 対象は既存の事前学習済み SR モデル</li>
+<li>手法自体は SR モデルの構造を変更しない</li>
+</ul><div class="slide-number">7/19</div></section>
+<section class="slide"><h2>どの再構成モデルを使うか</h2>
+<ul>
+<li>予備実験で 5 種類を比較</li>
+<li>VanillaVAE / DDIM は入力から大きく外れ、再構成品質が低すぎる</li>
+<li>MAE は epoch が進むと構造と色をある程度保持</li>
+<li>VQ-VAE / VQ-VAE-2 は少ない訓練でも構造を保ちつつ劣化を入れられる</li>
+</ul>
+<table><thead><tr><th>モデル</th><th>判断</th></tr></thead><tbody>
+<tr><td>VanillaVAE</td><td>表現能力不足で不採用</td></tr>
+<tr><td>DDIM</td><td>reverse process が不安定で不採用</td></tr>
+<tr><td>VQ-VAE</td><td>採用</td></tr>
+<tr><td>VQ-VAE-2</td><td>採用、最も有効</td></tr>
+<tr><td>MAE</td><td>採用、ただし色差が課題</td></tr>
+</tbody></table><div class="slide-number">8/19</div></section>
+<section class="slide"><h2>生成データセットは何を含むか</h2>
+<figure><img src="assets/dataset.png" alt="各モデルで生成された LR 画像例。VQ-VAE-2 は入力に近く、VQ-VAE は黄色み、MAE は疎な劣化を示す。"><figcaption>各モデルで生成された LR 画像例。VQ-VAE-2 は入力に近く、VQ-VAE は黄色み、MAE は疎な劣化を示す。</figcaption></figure>
+<ul>
+<li>DF2K の HR 画像を 1,024 x 1,024 に crop</li>
+<li>約 20,000 枚を scale factor 4 で downsample</li>
+<li>VQ-VAE / VQ-VAE-2 / MAE で劣化 LR を生成</li>
+</ul><div class="slide-number">9/19</div></section>
+<section class="slide"><h2>劣化の具体例</h2>
+<figure><img src="assets/dataset_deg.png" alt="VQ-VAE-2 8 epoch で生成された劣化例。ノイズ、ぼけ、ringing、aliasing が見られる。"><figcaption>VQ-VAE-2 8 epoch で生成された劣化例。ノイズ、ぼけ、ringing、aliasing が見られる。</figcaption></figure>
+<ul>
+<li>ノイズ: レンガの色が赤・緑に揺れる</li>
+<li>ぼけ: 桜の輪郭が不鮮明になる</li>
+<li>ringing: アヒルの頭部周辺にリング状アーティファクト</li>
+<li>aliasing: 屋根の直線に jagged edge</li>
+</ul>
+<blockquote>現実世界 LR 画像で起きる複数種類の劣化を、単一の生成手順から得ている。</blockquote><div class="slide-number">10/19</div></section>
+<section class="slide"><h2>どうやって有効だと検証した？</h2>
+<ul>
+<li>生成データセットで事前学習済み SR モデルを fine-tuning</li>
+<li>評価ベンチマーク: NTIRE2018 Track 3, NTIRE2020 Track 2</li>
+<li>対象モデル: HAT, EDSR, ESRGAN, SwinIR</li>
+<li>指標: PSNR ↑, SSIM ↑, LPIPS ↓</li>
+</ul>
+<table><thead><tr><th>検証軸</th><th>内容</th></tr></thead><tbody>
+<tr><td>データセット有効性</td><td>HAT を VQ-VAE / VQ-VAE-2 / MAE 生成データで fine-tuning</td></tr>
+<tr><td>汎用性</td><td>EDSR / ESRGAN / SwinIR にも適用</td></tr>
+<tr><td>劣化分析</td><td>entropy で劣化多様性を評価</td></tr>
+<tr><td>失敗要因分析</td><td>色差 ΔE と性能低下の関係を評価</td></tr>
+</tbody></table><div class="slide-number">11/19</div></section>
+<section class="slide"><h2>定量評価: HAT での主結果</h2>
+<table><thead><tr><th>生成モデル</th><th>Dataset</th><th>PSNR ↑</th><th>SSIM ↑</th><th>LPIPS ↓</th></tr></thead><tbody>
+<tr><td>w/o fine-tune</td><td>-</td><td>18.24</td><td>0.4337</td><td>0.6272</td></tr>
+<tr><td>VQ-VAE-2</td><td>Ep 4</td><td>16.68</td><td>0.5077</td><td>0.6386</td></tr>
+<tr><td>VQ-VAE-2</td><td>Ep 8</td><td>18.10</td><td>0.5288</td><td>0.5977</td></tr>
+<tr><td>VQ-VAE-2</td><td>Ep 32</td><td>17.92</td><td>0.4435</td><td>0.6036</td></tr>
+<tr><td>VQ-VAE-2</td><td>Ep 64</td><td>18.13</td><td>0.4968</td><td>0.5901</td></tr>
+</tbody></table>
+<ul>
+<li>VQ-VAE-2 Ep 8 は SSIM を <code>0.4337 -&gt; 0.5288</code> に改善</li>
+<li>LPIPS も <code>0.6272 -&gt; 0.5977</code> に改善</li>
+<li>PSNR は w/o fine-tune が高いが、知覚品質系の指標で改善</li>
+</ul>
+<blockquote>著者の主張は「VQ-VAE-2 生成データは現実世界 LR 向け SR 性能を改善する」。</blockquote><div class="slide-number">12/19</div></section>
+<section class="slide"><h2>定性的結果: ノイズとぼけが減る</h2>
+<figure><img src="assets/vqvae2_hat.png" alt="VQ-VAE-2 生成データで HAT を fine-tuning した結果。Ep 8 がノイズ、ぼけ、アーティファクトを最もよく抑える。"><figcaption>VQ-VAE-2 生成データで HAT を fine-tuning した結果。Ep 8 がノイズ、ぼけ、アーティファクトを最もよく抑える。</figcaption></figure>
+<ul>
+<li>事前学習済み HAT は LR 画像のノイズ・ぼけを残す</li>
+<li>fine-tuning 後はノイズ除去と鮮明化が改善</li>
+<li>Ep 4 は高彩度になりやすい</li>
+<li>Ep 16 / 32 / 64 はアーティファクトが目立つ場合がある</li>
+</ul><div class="slide-number">13/19</div></section>
+<section class="slide"><h2>汎用性: 他の SR モデルでも効くか</h2>
+<figure><img src="assets/edsr_esrgan_swinir.png" alt="EDSR、ESRGAN、SwinIR を VQ-VAE-2 Ep 8 データで fine-tuning した結果。複数モデルで残留ノイズとぼけが低減する。"><figcaption>EDSR、ESRGAN、SwinIR を VQ-VAE-2 Ep 8 データで fine-tuning した結果。複数モデルで残留ノイズとぼけが低減する。</figcaption></figure>
+<table><thead><tr><th>モデル</th><th>Ep 8 での主な改善</th></tr></thead><tbody>
+<tr><td>EDSR</td><td>SSIM +0.0871, LPIPS -0.0138</td></tr>
+<tr><td>ESRGAN</td><td>SSIM +0.1266, LPIPS -0.0816</td></tr>
+<tr><td>SwinIR</td><td>SSIM +0.0503</td></tr>
+</tbody></table>
+<blockquote>SR モデル固有の trick ではなく、データセット生成側の改善として効いていることを示す。</blockquote><div class="slide-number">14/19</div></section>
+<section class="slide"><h2>なぜ効くのか: 劣化多様性</h2>
+<figure><img src="assets/entropy.png" alt="各データセットの劣化多様性 entropy。VQ-VAE-2 Ep 8 は同モデル内で高い entropy を示す。"><figcaption>各データセットの劣化多様性 entropy。VQ-VAE-2 Ep 8 は同モデル内で高い entropy を示す。</figcaption></figure>
+<ul>
+<li>劣化クラス分類器で、データセット内の劣化クラス分布を推定</li>
+<li>entropy <code>H = -Σ P(x) log P(x)</code> で多様性を定量化</li>
+<li>VQ-VAE-2 Ep 8 は同モデル内で高い entropy</li>
+<li>この設定の fine-tuned model が高い SR 性能を示す</li>
+</ul>
+<blockquote>劣化多様性は性能向上に寄与する。ただし「多様なら何でもよい」わけではない。</blockquote><div class="slide-number">15/19</div></section>
+<section class="slide"><h2>何が悪さをするか: 色差</h2>
+<div class="two-col">
+<h3>データセット分析</h3>
+<figure><img src="assets/ep_deltae.png" alt="生成データセットの色差 ΔE。VQ-VAE と MAE は色差が大きく、VQ-VAE-2 は小さい。"><figcaption>生成データセットの色差 ΔE。VQ-VAE と MAE は色差が大きく、VQ-VAE-2 は小さい。</figcaption></figure>
+<h3>訓練への影響</h3>
+<figure><img src="assets/metrics_deltae.png" alt="色差を持つ 9 データセットで SwinIR を訓練した結果。色差が増えるほど評価指標が悪化する。"><figcaption>色差を持つ 9 データセットで SwinIR を訓練した結果。色差が増えるほど評価指標が悪化する。</figcaption></figure>
+</div>
+<ul>
+<li>VQ-VAE / MAE は高い劣化 entropy を示しても性能改善しない場合がある</li>
+<li>著者はその原因として HR-LR 間の色差を分析</li>
+<li>色差 ΔE が増えるほど評価指標が悪化</li>
+</ul>
+<blockquote>有効な劣化は「多様」かつ「色対応を壊しすぎない」必要がある。</blockquote><div class="slide-number">16/19</div></section>
+<section class="slide"><h2>議論・限界</h2>
+<ul>
+<li>PSNR は必ずしも改善せず、SSIM / LPIPS や視覚品質での改善が中心</li>
+<li>VQ-VAE-2 がなぜ有効な劣化を生成するかの機構分析は今後の課題</li>
+<li>色差のように、劣化の種類によっては訓練に悪影響を与える</li>
+<li>生成データセットの設計には「多様性」と「HR-LR 対応の保持」の両立が必要</li>
+<li>評価は NTIRE 系 benchmark が中心で、他ドメインへの外部妥当性は追加確認が必要</li>
+</ul><div class="slide-number">17/19</div></section>
+<section class="slide"><h2>次に読むべき論文</h2>
+<ul>
+<li>RealSR / DRealSR: 実機収集による real-world SR benchmark</li>
+<li>SR-RAW: zoom を用いた実世界 HR-LR ペア構築</li>
+<li>DegradationGAN / FSSR / FSSRGAN: GAN を用いた劣化生成</li>
+<li>VQ-VAE / VQ-VAE-2: 離散潜在表現による画像再構成</li>
+<li>MAE: masked autoencoder による画像再構成</li>
+<li>HAT / SwinIR / EDSR / ESRGAN: fine-tuning 対象の SR backbone</li>
+</ul>
+<blockquote>この論文は「SR モデル」よりも「SR 用データセット生成」の文脈で読むと位置づけが見えやすい。</blockquote><div class="slide-number">18/19</div></section>
+<section class="slide"><h2>まとめ</h2>
+<ul>
+<li><strong>どんなもの？</strong> 未学習不足な画像再構成モデルで、HR 画像のみから現実的な劣化 LR を生成する手法</li>
+<li><strong>何がすごい？</strong> 実機撮影や real LR 推定に頼らず、既存 SR モデルの fine-tuning に使える</li>
+<li><strong>どう検証した？</strong> NTIRE benchmark、複数 SR モデル、SSIM / LPIPS、劣化多様性 entropy、色差 ΔE で評価</li>
+<li><strong>結論</strong> VQ-VAE-2 Ep 8 の生成データは、ノイズ除去・ぼけ低減と知覚品質指標を改善する</li>
+</ul><div class="slide-number">19/19</div></section></main></body></html>

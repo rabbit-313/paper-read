@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Paper Read</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div>
+        <p class="eyebrow">Paper Read</p>
+        <h1>論文翻訳と要点スライドのアーカイブ</h1>
+        <p class="lead">
+          読んだ論文の日本語直訳、図付き HTML、落合陽一フォーマットの要点スライドをまとめて見返すためのページです。
+        </p>
+      </div>
+    </header>
+
+    <main>
+      <section class="toolbar" aria-label="Filters">
+        <div class="stat">
+          <span class="stat-value">1</span>
+          <span class="stat-label">papers</span>
+        </div>
+        <div class="search-box">
+          <label for="paper-search">Search</label>
+          <input id="paper-search" type="search" placeholder="title, arXiv, keyword" />
+        </div>
+      </section>
+
+      <section class="paper-grid" id="paper-grid">
+        <article
+          class="paper-card"
+          data-search="2503.02767 undertrained image reconstruction blind image super-resolution vq-vae-2 degradation sr"
+        >
+          <div class="paper-meta">
+            <span>arXiv:2503.02767</span>
+            <span>2025</span>
+          </div>
+          <h2>Undertrained Image Reconstruction for Realistic Degradation in Blind Image Super-Resolution</h2>
+          <p>
+            未学習不足な画像再構成モデルを劣化生成器として使い、現実世界 LR 画像に強い超解像モデルへ fine-tuning する論文。
+          </p>
+          <dl class="summary-list">
+            <div>
+              <dt>Task</dt>
+              <dd>Blind image super-resolution</dd>
+            </div>
+            <div>
+              <dt>Method</dt>
+              <dd>Undertrained VQ-VAE-2 based dataset generation</dd>
+            </div>
+            <div>
+              <dt>Evidence</dt>
+              <dd>NTIRE benchmarks, SSIM / LPIPS, degradation diversity and color-difference analysis</dd>
+            </div>
+          </dl>
+          <div class="actions">
+            <a href="./papers/2503.02767/translation/">翻訳を読む</a>
+            <a href="./papers/2503.02767/slides/">スライドを見る</a>
+            <a href="https://arxiv.org/abs/2503.02767">arXiv</a>
+          </div>
+        </article>
+      </section>
+    </main>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
