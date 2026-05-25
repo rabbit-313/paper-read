@@ -51,6 +51,25 @@ pre.math {
   background: #f6f8fa;
   padding: .75rem;
   border-radius: 6px;
+  white-space: pre;
+}
+.math-block {
+  overflow-x: auto;
+  margin: 1rem 0;
+  padding: .75rem;
+  border-radius: 6px;
+  background: #f6f8fa;
+}
+.math-inline {
+  white-space: nowrap;
+  overflow-wrap: normal;
+}
+pre.code-block {
+  overflow-x: auto;
+  background: #f6f8fa;
+  padding: .75rem;
+  border-radius: 6px;
+  white-space: pre;
 }
 code { background: #f6f8fa; padding: .1rem .25rem; border-radius: 4px; }
 @media (max-width: 640px) {
@@ -59,7 +78,7 @@ code { background: #f6f8fa; padding: .1rem .25rem; border-radius: 4px; }
   h2 { font-size: 1.2rem; }
   p, li { font-size: .98rem; }
 }
-</style></head><body><main><h1>Personalized Re-ranking for Recommendation</h1>
+</style><script>window.MathJax={tex:{inlineMath:[['\\(','\\)'],['$','$']],displayMath:[['$$','$$'],['\\[','\\]']]},svg:{fontCache:'global'}};</script><script defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"></script></head><body><main><h1>Personalized Re-ranking for Recommendation</h1>
 <p>Changhua Pei, Yi Zhang, Yongfeng Zhang, Fei Sun, Xiao Lin, Hanxiao Sun, Jian Wu, Peng Jiang, Junfeng Ge, Wenwu Ou&lt;br&gt; Alibaba Group / Rutgers University / Kwai Inc.&lt;br&gt; RecSys &#x27;19, Copenhagen, Denmark, September 16-20, 2019&lt;br&gt; DOI: 10.1145/3298689.3347000 / arXiv:1904.06813</p>
 <h2>概要</h2>
 <p>ランキングは推薦システムにおける中核的なタスクであり、ユーザーにアイテムの順序付きリストを提供することを目的とする。典型的には、ラベル付きデータセットからランキング関数を学習して全体性能を最適化し、各アイテムに対して個別のランキングスコアを生成する。しかし、この方法は各アイテムに個別にスコアリング関数を適用し、アイテム間の相互影響やユーザーの嗜好・意図の違いを明示的に考慮しないため、準最適になりうる。</p>
@@ -100,7 +119,7 @@ code { background: #f6f8fa; padding: .1rem .25rem; border-radius: 4px; }
 <tr><td><code>P(y_i)</code></td><td>モデルが予測したアイテム <code>i</code> のクリック確率</td></tr>
 </tbody></table>
 <p>learning to rank（LTR）は、実世界システムにおいて、情報検索や推薦の順序付きリストを生成するため広く用いられる。LTR は、アイテムの特徴ベクトルに基づく大域的なスコアリング関数を学習する。この関数により、候補集合内の各アイテムをスコアリングして順序付きリストを出力する。通常、このスコアリング関数は次の損失関数 <code>L</code> を最小化することで学習される。</p>
-<p>``<code>text L = sum_{r in R} l({ y_i, P(y_i | x_i; theta) }_{i in I_r}) </code>``</p>
+<pre class="code-block"><code>L = sum_{r in R} l({ y_i, P(y_i | x_i; theta) }_{i in I_r})</code></pre>
 <p>ここで <code>R</code> は推薦に対する全ユーザーリクエスト集合、<code>I_r</code> はリクエスト <code>r</code> に対する候補アイテム集合である。<code>x_i</code> はアイテム <code>i</code> の特徴空間、<code>y_i</code> はアイテム <code>i</code> のラベル、すなわちクリックされたか否かを表す。<code>P(y_i | x_i; theta)</code> は、パラメータ <code>theta</code> を持つランキングモデルが予測するアイテム <code>i</code> のクリック確率である。</p>
 <p>しかし、良いスコアリング関数を学習するには <code>x_i</code> だけでは十分ではない。推薦システムにおけるランキングでは、次の追加情報を考慮すべきである。</p>
 <ul>
@@ -108,7 +127,7 @@ code { background: #f6f8fa; padding: .1rem .25rem; border-radius: 4px; }
 <li>ユーザーとアイテムの相互作用</li>
 </ul>
 <p>アイテム対の相互影響は、既存の LTR モデルがリクエスト <code>r</code> に対して与える初期リスト <code>S_r = [i_1, i_2, ..., i_n]</code> から直接学習できる。既存研究はアイテム対の相互情報をよりよく利用する方法を提案してきたが、ユーザーとアイテムの相互作用を考慮する研究は少ない。アイテム対の相互影響の程度はユーザーごとに異なる。本論文では、個人化行列 <code>PV</code> を導入し、アイテム対の個人化された相互影響をモデル化できるユーザー固有の符号化関数を学習する。</p>
-<p>``<code>text L = sum_{r in R} l({ y_i, P(y_i | X, PV; hat(theta)) }_{i in S_r}) </code>``</p>
+<pre class="code-block"><code>L = sum_{r in R} l({ y_i, P(y_i | X, PV; hat(theta)) }_{i in S_r})</code></pre>
 <p>ここで <code>S_r</code> は前段のランキングモデルが与える初期リスト、<code>hat(theta)</code> は re-ranking モデルのパラメータ、<code>X</code> はリスト内全アイテムの特徴行列である。</p>
 <h2>4. Personalized Re-ranking Model</h2>
 <p>本節では、提案する Personalized Re-ranking Model（PRM）の概要を示し、各構成要素を説明する。</p>
@@ -118,7 +137,7 @@ code { background: #f6f8fa; padding: .1rem .25rem; border-radius: 4px; }
 <h3>4.2 入力層</h3>
 <p>入力層の目的は、初期リスト内の全アイテムについて包括的な表現を準備し、encoding layer へ渡すことである。まず、前段ランキング手法が与える固定長の初期系列リスト <code>S = [i_1, i_2, ..., i_n]</code> がある。前段ランキング手法と同様に、生の特徴行列 <code>X in R^{n x d_feature}</code> を持つ。<code>X</code> の各行は、<code>S</code> 内の各アイテム <code>i</code> に対応する生特徴ベクトル <code>x_i</code> を表す。</p>
 <p><strong>Personalized Vector（PV）</strong>: 2 つのアイテムの特徴ベクトルを符号化することで、それらの相互影響をモデル化できる。しかし、その影響がユーザーにどの程度作用するかは不明である。そこで、ユーザー固有の符号化関数を学習する必要がある。初期リスト全体の表現はユーザー嗜好を部分的に反映するが、強力な個人化符号化関数には不十分である。PRM では、生特徴行列 <code>X</code> と個人化行列 <code>PV in R^{n x d_pv}</code> を連結して中間 embedding 行列を得る。</p>
-<p>``<code>text E = [x_{i_1}; pv_{i_1}], [x_{i_2}; pv_{i_2}], ..., [x_{i_n}; pv_{i_n}] </code>``</p>
+<pre class="code-block"><code>E = [x_{i_1}; pv_{i_1}], [x_{i_2}; pv_{i_2}], ..., [x_{i_n}; pv_{i_n}]</code></pre>
 <p><code>PV</code> は後述する事前学習モデルによって生成される。</p>
 <p><strong>Position Embedding（PE）</strong>: 初期リストの系列情報を利用するため、入力 embedding に position embedding <code>PE</code> を注入する。本論文では learnable PE を用いる。著者らの実験では、Transformer 原論文で用いられた固定 position embedding よりわずかに良い性能を示した。</p>
 <p>最後に、単純な feed-forward network を用いて、特徴行列 <code>E in R^{n x (d_feature + d_pv)}</code> を <code>E in R^{n x d}</code> へ変換する。ここで <code>d</code> は encoding layer の各入力ベクトルの潜在次元数である。</p>
@@ -126,21 +145,24 @@ code { background: #f6f8fa; padding: .1rem .25rem; border-radius: 4px; }
 <p>符号化層の目的は、アイテム対の相互影響、ユーザー嗜好、初期リスト <code>S</code> のランキング順序を含む追加情報を統合することである。そのため、PRM は Transformer-like encoder を採用する。Transformer は多くの NLP タスク、特に機械翻訳で有効性が示されており、RNN ベース手法に比べて強力な符号化・復号能力を持つ。</p>
 <p>Transformer の self-attention 機構は、距離にかかわらず任意の 2 アイテムの相互影響を直接モデル化するため、re-ranking タスクに特に適している。距離減衰がないため、Transformer は初期リスト内で互いに離れたアイテム間の相互作用も捉えられる。</p>
 <p>attention 関数は次のように定義される。</p>
-<p>``<code>text Attention(Q, K, V) = softmax(Q K^T / sqrt(d)) V </code>``</p>
+<pre class="code-block"><code>Attention(Q, K, V) = softmax(Q K^T / sqrt(d)) V</code></pre>
 <p>ここで <code>Q, K, V</code> は query、key、value 行列であり、<code>d</code> は内積値が過大になることを避けるための <code>K</code> の次元数である。本論文では self-attention を用いるため、<code>Q, K, V</code> は同じ行列から射影される。</p>
 <p>より複雑な相互影響をモデル化するため、multi-head attention を用いる。</p>
-<p>``<code>text MH(E) = Concat(head_1, ..., head_h) W^O head_i = Attention(E W^Q, E W^K, E W^V) </code>``</p>
+<pre class="code-block"><code>MH(E) = Concat(head_1, ..., head_h) W^O
+head_i = Attention(E W^Q, E W^K, E W^V)</code></pre>
 <p>各 Transformer encoder block は attention layer と position-wise Feed-Forward Network（FFN）層から構成される。複数 block を積み重ねることで、より複雑で高次の相互情報を獲得できる。</p>
 <h3>4.4 出力層</h3>
 <p>出力層の役割は、各アイテム <code>i in {i_1, ..., i_n}</code> に対してスコア <code>Score(i)</code> を生成することである。PRM は softmax 層の前に線形層を 1 つ用いる。softmax 層の出力は各アイテムのクリック確率であり、<code>P(y_i | X, PV; hat(theta))</code> と表される。これを <code>Score(i)</code> として用い、1-step でアイテムを re-rank する。</p>
-<p>``<code>text Score(i) = P(y_i | X, PV; hat(theta))          = softmax(F(N_x) W^F + b^F), i in S_r </code>``</p>
+<pre class="code-block"><code>Score(i) = P(y_i | X, PV; hat(theta))
+         = softmax(F(N_x) W^F + b^F), i in S_r</code></pre>
 <p>ここで <code>F(N_x)</code> は <code>N_x</code> 個の Transformer encoder block の出力であり、<code>W^F</code> は学習可能な射影行列、<code>b^F</code> はバイアス項である。訓練ではクリックデータをラベルとして用い、負の対数尤度損失を最小化する。</p>
-<p>``<code>text L = - sum_{r in R} sum_{i in S_r} y_i log(P(y_i | X, PV; hat(theta))) </code>``</p>
+<pre class="code-block"><code>L = - sum_{r in R} sum_{i in S_r} y_i log(P(y_i | X, PV; hat(theta)))</code></pre>
 <h3>4.5 個人化モジュール</h3>
 <p>本節では、ユーザーとアイテムの相互作用を表す個人化行列 <code>PV</code> の計算方法を説明する。直感的には、<code>PV</code> を PRM モデル内で re-ranking loss により end-to-end に学習することもできる。しかし、re-ranking タスクは前段ランキング手法の出力を洗練するタスクであるため、re-ranking タスクだけで学習された表現は、ユーザーの汎用的な嗜好を十分に含まない。</p>
 <p>そこで PRM では、ユーザーの個人化 embedding <code>PV</code> を生成する事前学習 neural network を利用し、PRM の追加特徴として使用する。事前学習 neural network は、プラットフォーム全体のクリックログから学習される。このモデルは、ユーザー <code>u</code> の全行動履歴 <code>H_u</code> とユーザーの side information が与えられたとき、アイテム <code>i</code> に対するクリック確率 <code>P(y_i | H_u, u; theta&#x27;)</code> を出力する。ユーザーの side information には性別、年齢、購買レベルなどが含まれる。</p>
 <p>事前学習モデルの損失は pointwise cross entropy により計算される。</p>
-<p>``<code>text L = sum_{i in D} [ y_i log(P(y_i | H_u, u; theta&#x27;))     + (1 - y_i) log(1 - P(y_i | H_u, u; theta&#x27;)) ] </code>``</p>
+<pre class="code-block"><code>L = sum_{i in D} [ y_i log(P(y_i | H_u, u; theta&#x27;))
+    + (1 - y_i) log(1 - P(y_i | H_u, u; theta&#x27;)) ]</code></pre>
 <p>ここで <code>D</code> はプラットフォーム上でユーザー <code>u</code> に表示されたアイテム集合である。著者らは sigmoid 層の前の hidden vector を、PRM に入力する個人化ベクトル <code>pv_i</code> として用いる。事前学習モデルの構造は PRM と強く結合しているわけではなく、FM、FFM、DeepFM、DCN、FNN、PNN などの一般的なモデルも <code>PV</code> 生成の代替として利用できる。</p>
 <h2>5. 実験結果</h2>
 <p>本節では、評価に用いたデータセットと baseline を説明し、提案手法を baseline と比較する。同時に、PRM のどの部分が性能に寄与しているかを理解するために ablation study を行う。</p>
