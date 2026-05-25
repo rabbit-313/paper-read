@@ -2,6 +2,12 @@
 
 GitHub Pages archive for Japanese paper translations and Ochiai-format summary slides.
 
+## Public Site
+
+- Archive: https://rabbit-313.github.io/paper-read/
+- PRM translation: https://rabbit-313.github.io/paper-read/papers/1904.06813/translation/
+- PRM slides: https://rabbit-313.github.io/paper-read/papers/1904.06813/slides/
+
 ## Contents
 
 - `index.html`: paper archive UI
@@ -11,8 +17,19 @@ GitHub Pages archive for Japanese paper translations and Ochiai-format summary s
 - `tools/daily_recommend.py`: collects recommender-system paper candidates
 - `tools/paper_generation_watcher.py`: watches GitHub Issues and runs local Codex generation
 
+## Repository Layout
+
+- `.github/workflows/`: GitHub Actions for daily recommendations and GitHub Pages deployment
+- `.github/ISSUE_TEMPLATE/`: paper generation request template
+- `papers/`: published paper translations, figures, and slides
+- `recommendations/`: generated daily recommendation JSON and Markdown digests
+- `tools/`: automation scripts for recommendations and local Codex generation
+- `index.html`, `styles.css`, `script.js`: GitHub Pages frontend
+- `_local_artifacts/`: ignored local source PDFs, extracted paper sources, and older generated work directories
+
 ## Current Papers
 
+- arXiv:1904.06813 - Personalized Re-ranking for Recommendation
 - arXiv:2503.02767 - Undertrained Image Reconstruction for Realistic Degradation in Blind Image Super-Resolution
 - arXiv:1511.06939 - Session-based Recommendations with Recurrent Neural Networks
 
