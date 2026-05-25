@@ -1,0 +1,216 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>paper.ja</title><style>
+:root { color-scheme: light; }
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Yu Gothic", sans-serif;
+  line-height: 1.75;
+  margin: 0;
+  color: #1f2328;
+  background: #f7f7f5;
+}
+main {
+  max-width: 880px;
+  margin: 0 auto;
+  padding: 24px 18px 64px;
+  background: #fff;
+}
+h1 { font-size: 1.8rem; line-height: 1.25; margin: 0 0 1rem; }
+h2 {
+  font-size: 1.35rem;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: .25rem;
+  margin-top: 2.2rem;
+}
+h3 { font-size: 1.12rem; margin-top: 1.8rem; }
+h4 { font-size: 1rem; margin-top: 1.4rem; }
+p, li { font-size: 1rem; }
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+figure {
+  margin: 1.5rem 0;
+  padding: .75rem 0;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+}
+figcaption { font-size: .9rem; color: #555; margin-top: .6rem; }
+table {
+  border-collapse: collapse;
+  width: 100%;
+  overflow-x: auto;
+  display: block;
+  font-size: .88rem;
+  margin: 1rem 0;
+}
+th, td { border: 1px solid #ddd; padding: .35rem .5rem; white-space: nowrap; }
+th { background: #f2f4f7; }
+pre.math {
+  overflow-x: auto;
+  background: #f6f8fa;
+  padding: .75rem;
+  border-radius: 6px;
+}
+code { background: #f6f8fa; padding: .1rem .25rem; border-radius: 4px; }
+@media (max-width: 640px) {
+  main { padding: 18px 14px 48px; }
+  h1 { font-size: 1.45rem; }
+  h2 { font-size: 1.2rem; }
+  p, li { font-size: .98rem; }
+}
+</style></head><body><main><h1>Personalized Re-ranking for Recommendation</h1>
+<p>Changhua Pei, Yi Zhang, Yongfeng Zhang, Fei Sun, Xiao Lin, Hanxiao Sun, Jian Wu, Peng Jiang, Junfeng Ge, Wenwu Ou&lt;br&gt; Alibaba Group / Rutgers University / Kwai Inc.&lt;br&gt; RecSys &#x27;19, Copenhagen, Denmark, September 16-20, 2019&lt;br&gt; DOI: 10.1145/3298689.3347000 / arXiv:1904.06813</p>
+<h2>概要</h2>
+<p>ランキングは推薦システムにおける中核的なタスクであり、ユーザーにアイテムの順序付きリストを提供することを目的とする。典型的には、ラベル付きデータセットからランキング関数を学習して全体性能を最適化し、各アイテムに対して個別のランキングスコアを生成する。しかし、この方法は各アイテムに個別にスコアリング関数を適用し、アイテム間の相互影響やユーザーの嗜好・意図の違いを明示的に考慮しないため、準最適になりうる。</p>
+<p>そこで本論文では、推薦システムのための個人化 re-ranking モデルを提案する。提案する re-ranking モデルは、既存のランキング特徴ベクトルを直接利用することで、任意のランキングアルゴリズムの後段モジュールとして容易に導入できる。このモデルは Transformer 構造を用いて、リスト内の全アイテム情報を効率的に符号化し、推薦リスト全体を直接最適化する。具体的には、Transformer の self-attention 機構により、リスト全体に含まれる任意のアイテム対の大域的関係を直接モデル化する。</p>
+<p>さらに、事前学習 embedding を導入してユーザーごとに異なる個人化符号化関数を学習することで、性能をさらに改善できることを確認した。オフライン benchmark と実世界のオンライン EC システムの両方における実験結果は、提案する re-ranking モデルが有意な改善をもたらすことを示している。</p>
+<h2>1. はじめに</h2>
+<p>ランキングは推薦システムで極めて重要である。ランキングアルゴリズムが与える順序付きリストの品質は、ユーザー満足度と推薦システムの収益に大きな影響を与える。ランキング性能を最適化するために、多数のランキングアルゴリズムが提案されてきた。通常、推薦システムにおけるランキングはユーザー-アイテム対の特徴のみを考慮し、リスト内の他のアイテム、特に隣接して配置されるアイテムからの影響を考慮しない。</p>
+<p>pairwise および listwise の learning to rank 手法は、アイテム対またはアイテムリストを入力に取ることでこの問題に取り組もうとしている。しかし、それらは主にクリックデータなどのラベルをよりよく利用するために損失関数を最適化することに焦点を置いており、特徴空間におけるアイテム間の相互影響を明示的にはモデル化していない。</p>
+<p>一部の研究は、既存のランキングアルゴリズムによって与えられた初期リストを洗練するため、アイテム間の相互影響を明示的にモデル化する。この処理は re-ranking と呼ばれる。基本的な考え方は、アイテム内・アイテム間のパターンを特徴空間へ符号化することにより、スコアリング関数を構築することである。特徴ベクトルを符号化する従来の state-of-the-art 手法は、GlobalRerank や DLCM のような RNN ベースの手法である。これらは初期リストを RNN 構造へ逐次的に入力し、各時刻で符号化ベクトルを出力する。</p>
+<p>しかし、RNN ベースの手法は、リスト内アイテム間の相互作用をモデル化する能力に制限がある。先に符号化されたアイテムの特徴情報は、符号化距離が長くなるにつれて劣化する。機械翻訳で用いられた Transformer アーキテクチャに着想を得て、本論文ではアイテム間の相互影響をモデル化するために Transformer を用いる。Transformer は self-attention 機構を用いるため、任意の 2 アイテムが符号化距離による劣化なしに直接相互作用できる。また、Transformer の符号化処理は並列化できるため、RNN ベース手法より効率的である。</p>
+<p>アイテム間相互作用に加えて、推薦システムの re-ranking では、相互作用を符号化する関数も個人化されるべきである。推薦システムにおける re-ranking はユーザー固有であり、ユーザーの嗜好や意図に依存する。例えば価格に敏感なユーザーに対しては、価格特徴の相互作用が re-ranking モデルでより重要になるべきである。典型的な大域的符号化関数は、ユーザーごとの特徴分布の違いを無視するため、最適ではない可能性がある。</p>
+<p>例えば、ユーザーが価格比較に注目しているとき、異なる価格を持つ類似アイテムはリスト内でより集約される傾向がある。一方、ユーザーに明確な購買意図がないときは、推薦リスト内のアイテムはより多様になる傾向がある。そこで本論文では、Transformer 構造へ個人化モジュールを導入し、アイテム相互作用に対するユーザーの嗜好と意図を表現する。リスト内アイテムとユーザーの相互作用は、提案する個人化 re-ranking モデルで同時に捉えられる。</p>
+<p>本論文の主な貢献は以下である。</p>
+<ul>
+<li><strong>問題設定</strong>: 推薦システムにおける個人化 re-ranking 問題を提案する。著者らの知る限り、大規模オンラインシステムの re-ranking タスクへ個人化情報を明示的に導入した初めての研究である。実験結果は、ユーザー表現を re-ranking のリスト表現へ導入する有効性を示す。</li>
+<li><strong>モデル</strong>: 個人化 embedding を備えた Transformer を用いて、初期ランキングリストの表現を計算し、re-ranking スコアを出力する。self-attention 機構により、任意の 2 アイテム間のユーザー固有な相互影響を、RNN ベース手法より効果的かつ効率的にモデル化できる。</li>
+<li><strong>データ</strong>: 本論文で用いた大規模データセット E-commerce Re-ranking dataset を公開する。このデータセットは実世界の EC 推薦システムから構築され、クリックラベルとランキング特徴を持つユーザー向け推薦リストを含む。</li>
+<li><strong>評価</strong>: オフライン実験とオンライン実験の両方により、提案手法が state-of-the-art 手法を有意に上回ることを示す。オンライン A/B テストでは、実世界システムでクリック率と収益の向上を示す。</li>
+</ul>
+<h2>2. 関連研究</h2>
+<p>本研究は、base ranker が与える初期ランキングリストを洗練することを目的とする。base ranker の中で、learning to rank は広く用いられる方法の一つである。learning to rank 手法は、用いる損失関数に応じて pointwise、pairwise、listwise の 3 種類に分類できる。これらの手法は、ある特徴の重みを大域的に学習するグローバルなスコアリング関数を学習する。しかし、特徴の重みはアイテム間だけでなく、ユーザーとアイテムの相互作用にも応じるべきである。</p>
+<p>本研究に最も近いのは re-ranking 手法である。これらは初期リスト全体を入力に取り、異なる方法でアイテム間の複雑な依存関係をモデル化する。DLCM は一方向 GRU を用いてリスト全体の情報を各アイテム表現へ符号化する。GlobalRerank は LSTM を用い、Seq2Slate は pointer network を用いて、リスト全体の情報を符号化するだけでなく、decoder によりランキングリストを生成する。</p>
+<p>GRU や LSTM によってアイテム依存関係を符号化する手法では、encoder の能力が符号化距離に制限される。本論文では、self-attention 機構に基づく Transformer-like encoder を用い、任意の 2 アイテム間の相互作用を O(1) の距離でモデル化する。さらに、decoder により順次的に順序付きリストを生成する手法は、厳しい latency 条件を持つオンラインランキングシステムには適さない。時刻 t のアイテム選択に時刻 t-1 で選ばれたアイテムを入力として用いるため並列化できず、出力リスト長 n に対して n 回の inference が必要になる。</p>
+<h2>3. Re-ranking モデルの定式化</h2>
+<p>本節では、推薦システムにおける learning to rank と re-ranking の予備知識を述べ、対象とする問題を定式化する。</p>
+<h3>表1. 本論文で用いる記法</h3>
+<table><thead><tr><th>記法</th><th>説明</th></tr></thead><tbody>
+<tr><td><code>X</code></td><td>特徴行列</td></tr>
+<tr><td><code>PV</code></td><td>個人化ベクトル行列</td></tr>
+<tr><td><code>PE</code></td><td>位置 embedding 行列</td></tr>
+<tr><td><code>E</code></td><td>入力層の出力行列</td></tr>
+<tr><td><code>R</code></td><td>全ユーザーリクエスト集合</td></tr>
+<tr><td><code>I_r</code></td><td>ユーザーリクエスト <code>r in R</code> に対する候補アイテム集合</td></tr>
+<tr><td><code>S_r</code></td><td>ユーザーリクエスト <code>r</code> に対してランキング手法が生成した初期アイテムリスト</td></tr>
+<tr><td><code>H_u</code></td><td>ユーザー <code>u</code> がクリックしたアイテム系列</td></tr>
+<tr><td><code>theta, hat(theta), theta&#x27;</code></td><td>ランキング、re-ranking、事前学習モデルのパラメータ行列</td></tr>
+<tr><td><code>y_i</code></td><td>アイテム <code>i</code> のクリックラベル</td></tr>
+<tr><td><code>P(y_i)</code></td><td>モデルが予測したアイテム <code>i</code> のクリック確率</td></tr>
+</tbody></table>
+<p>learning to rank（LTR）は、実世界システムにおいて、情報検索や推薦の順序付きリストを生成するため広く用いられる。LTR は、アイテムの特徴ベクトルに基づく大域的なスコアリング関数を学習する。この関数により、候補集合内の各アイテムをスコアリングして順序付きリストを出力する。通常、このスコアリング関数は次の損失関数 <code>L</code> を最小化することで学習される。</p>
+<p>``<code>text L = sum_{r in R} l({ y_i, P(y_i | x_i; theta) }_{i in I_r}) </code>``</p>
+<p>ここで <code>R</code> は推薦に対する全ユーザーリクエスト集合、<code>I_r</code> はリクエスト <code>r</code> に対する候補アイテム集合である。<code>x_i</code> はアイテム <code>i</code> の特徴空間、<code>y_i</code> はアイテム <code>i</code> のラベル、すなわちクリックされたか否かを表す。<code>P(y_i | x_i; theta)</code> は、パラメータ <code>theta</code> を持つランキングモデルが予測するアイテム <code>i</code> のクリック確率である。</p>
+<p>しかし、良いスコアリング関数を学習するには <code>x_i</code> だけでは十分ではない。推薦システムにおけるランキングでは、次の追加情報を考慮すべきである。</p>
+<ul>
+<li>アイテム対の相互影響</li>
+<li>ユーザーとアイテムの相互作用</li>
+</ul>
+<p>アイテム対の相互影響は、既存の LTR モデルがリクエスト <code>r</code> に対して与える初期リスト <code>S_r = [i_1, i_2, ..., i_n]</code> から直接学習できる。既存研究はアイテム対の相互情報をよりよく利用する方法を提案してきたが、ユーザーとアイテムの相互作用を考慮する研究は少ない。アイテム対の相互影響の程度はユーザーごとに異なる。本論文では、個人化行列 <code>PV</code> を導入し、アイテム対の個人化された相互影響をモデル化できるユーザー固有の符号化関数を学習する。</p>
+<p>``<code>text L = sum_{r in R} l({ y_i, P(y_i | X, PV; hat(theta)) }_{i in S_r}) </code>``</p>
+<p>ここで <code>S_r</code> は前段のランキングモデルが与える初期リスト、<code>hat(theta)</code> は re-ranking モデルのパラメータ、<code>X</code> はリスト内全アイテムの特徴行列である。</p>
+<h2>4. Personalized Re-ranking Model</h2>
+<p>本節では、提案する Personalized Re-ranking Model（PRM）の概要を示し、各構成要素を説明する。</p>
+<h3>4.1 モデルアーキテクチャ</h3>
+<p>PRM の構造を図1に示す。モデルは input layer、encoding layer、output layer の 3 つから構成される。前段のランキング手法が生成したアイテム初期リストを入力とし、re-ranked list を出力する。</p>
+<figure><img src="figures/figure-1-prm-architecture.png" alt="図1. PRM（Personalized Re-ranking Model）の詳細なネットワーク構造とサブモジュール。"><figcaption>図1. PRM（Personalized Re-ranking Model）の詳細なネットワーク構造とサブモジュール。</figcaption></figure>
+<h3>4.2 入力層</h3>
+<p>入力層の目的は、初期リスト内の全アイテムについて包括的な表現を準備し、encoding layer へ渡すことである。まず、前段ランキング手法が与える固定長の初期系列リスト <code>S = [i_1, i_2, ..., i_n]</code> がある。前段ランキング手法と同様に、生の特徴行列 <code>X in R^{n x d_feature}</code> を持つ。<code>X</code> の各行は、<code>S</code> 内の各アイテム <code>i</code> に対応する生特徴ベクトル <code>x_i</code> を表す。</p>
+<p><strong>Personalized Vector（PV）</strong>: 2 つのアイテムの特徴ベクトルを符号化することで、それらの相互影響をモデル化できる。しかし、その影響がユーザーにどの程度作用するかは不明である。そこで、ユーザー固有の符号化関数を学習する必要がある。初期リスト全体の表現はユーザー嗜好を部分的に反映するが、強力な個人化符号化関数には不十分である。PRM では、生特徴行列 <code>X</code> と個人化行列 <code>PV in R^{n x d_pv}</code> を連結して中間 embedding 行列を得る。</p>
+<p>``<code>text E = [x_{i_1}; pv_{i_1}], [x_{i_2}; pv_{i_2}], ..., [x_{i_n}; pv_{i_n}] </code>``</p>
+<p><code>PV</code> は後述する事前学習モデルによって生成される。</p>
+<p><strong>Position Embedding（PE）</strong>: 初期リストの系列情報を利用するため、入力 embedding に position embedding <code>PE</code> を注入する。本論文では learnable PE を用いる。著者らの実験では、Transformer 原論文で用いられた固定 position embedding よりわずかに良い性能を示した。</p>
+<p>最後に、単純な feed-forward network を用いて、特徴行列 <code>E in R^{n x (d_feature + d_pv)}</code> を <code>E in R^{n x d}</code> へ変換する。ここで <code>d</code> は encoding layer の各入力ベクトルの潜在次元数である。</p>
+<h3>4.3 符号化層</h3>
+<p>符号化層の目的は、アイテム対の相互影響、ユーザー嗜好、初期リスト <code>S</code> のランキング順序を含む追加情報を統合することである。そのため、PRM は Transformer-like encoder を採用する。Transformer は多くの NLP タスク、特に機械翻訳で有効性が示されており、RNN ベース手法に比べて強力な符号化・復号能力を持つ。</p>
+<p>Transformer の self-attention 機構は、距離にかかわらず任意の 2 アイテムの相互影響を直接モデル化するため、re-ranking タスクに特に適している。距離減衰がないため、Transformer は初期リスト内で互いに離れたアイテム間の相互作用も捉えられる。</p>
+<p>attention 関数は次のように定義される。</p>
+<p>``<code>text Attention(Q, K, V) = softmax(Q K^T / sqrt(d)) V </code>``</p>
+<p>ここで <code>Q, K, V</code> は query、key、value 行列であり、<code>d</code> は内積値が過大になることを避けるための <code>K</code> の次元数である。本論文では self-attention を用いるため、<code>Q, K, V</code> は同じ行列から射影される。</p>
+<p>より複雑な相互影響をモデル化するため、multi-head attention を用いる。</p>
+<p>``<code>text MH(E) = Concat(head_1, ..., head_h) W^O head_i = Attention(E W^Q, E W^K, E W^V) </code>``</p>
+<p>各 Transformer encoder block は attention layer と position-wise Feed-Forward Network（FFN）層から構成される。複数 block を積み重ねることで、より複雑で高次の相互情報を獲得できる。</p>
+<h3>4.4 出力層</h3>
+<p>出力層の役割は、各アイテム <code>i in {i_1, ..., i_n}</code> に対してスコア <code>Score(i)</code> を生成することである。PRM は softmax 層の前に線形層を 1 つ用いる。softmax 層の出力は各アイテムのクリック確率であり、<code>P(y_i | X, PV; hat(theta))</code> と表される。これを <code>Score(i)</code> として用い、1-step でアイテムを re-rank する。</p>
+<p>``<code>text Score(i) = P(y_i | X, PV; hat(theta))          = softmax(F(N_x) W^F + b^F), i in S_r </code>``</p>
+<p>ここで <code>F(N_x)</code> は <code>N_x</code> 個の Transformer encoder block の出力であり、<code>W^F</code> は学習可能な射影行列、<code>b^F</code> はバイアス項である。訓練ではクリックデータをラベルとして用い、負の対数尤度損失を最小化する。</p>
+<p>``<code>text L = - sum_{r in R} sum_{i in S_r} y_i log(P(y_i | X, PV; hat(theta))) </code>``</p>
+<h3>4.5 個人化モジュール</h3>
+<p>本節では、ユーザーとアイテムの相互作用を表す個人化行列 <code>PV</code> の計算方法を説明する。直感的には、<code>PV</code> を PRM モデル内で re-ranking loss により end-to-end に学習することもできる。しかし、re-ranking タスクは前段ランキング手法の出力を洗練するタスクであるため、re-ranking タスクだけで学習された表現は、ユーザーの汎用的な嗜好を十分に含まない。</p>
+<p>そこで PRM では、ユーザーの個人化 embedding <code>PV</code> を生成する事前学習 neural network を利用し、PRM の追加特徴として使用する。事前学習 neural network は、プラットフォーム全体のクリックログから学習される。このモデルは、ユーザー <code>u</code> の全行動履歴 <code>H_u</code> とユーザーの side information が与えられたとき、アイテム <code>i</code> に対するクリック確率 <code>P(y_i | H_u, u; theta&#x27;)</code> を出力する。ユーザーの side information には性別、年齢、購買レベルなどが含まれる。</p>
+<p>事前学習モデルの損失は pointwise cross entropy により計算される。</p>
+<p>``<code>text L = sum_{i in D} [ y_i log(P(y_i | H_u, u; theta&#x27;))     + (1 - y_i) log(1 - P(y_i | H_u, u; theta&#x27;)) ] </code>``</p>
+<p>ここで <code>D</code> はプラットフォーム上でユーザー <code>u</code> に表示されたアイテム集合である。著者らは sigmoid 層の前の hidden vector を、PRM に入力する個人化ベクトル <code>pv_i</code> として用いる。事前学習モデルの構造は PRM と強く結合しているわけではなく、FM、FFM、DeepFM、DCN、FNN、PNN などの一般的なモデルも <code>PV</code> 生成の代替として利用できる。</p>
+<h2>5. 実験結果</h2>
+<p>本節では、評価に用いたデータセットと baseline を説明し、提案手法を baseline と比較する。同時に、PRM のどの部分が性能に寄与しているかを理解するために ablation study を行う。</p>
+<h3>5.1 データセット</h3>
+<p>評価には 2 つのデータセットを用いる。Yahoo! Webscope v2.0 set 11（以下 Yahoo Letor dataset）と、E-commerce Re-ranking dataset である。著者らの知る限り、推薦の文脈情報を持つ公開 re-ranking dataset は存在しないため、人気 EC プラットフォームから E-commerce Re-ranking dataset を構築した。</p>
+<h3>表2. データセット概要</h3>
+<table><thead><tr><th>項目</th><th>Yahoo Letor Dataset</th><th>E-commerce Re-ranking Dataset</th></tr></thead><tbody>
+<tr><td>Users</td><td>-</td><td>743,720</td></tr>
+<tr><td>Docs/Items</td><td>709,877</td><td>7,246,323</td></tr>
+<tr><td>Records</td><td>29,921</td><td>14,350,968</td></tr>
+<tr><td>Relevance/Feedback</td><td>{0,1,2,3,4}</td><td>{0,1}</td></tr>
+</tbody></table>
+<p>Yahoo Letor dataset は、Seq2Slate と同じ方法で推薦のランキングモデルに適合するよう処理する。まず、評価値 0 から 4 をしきい値 <code>T_b</code> により binary label へ変換する。次に、アイテムの impression probability をシミュレートするため decay factor <code>eta</code> を用いる。実世界の推薦では、アイテムはユーザーに上から下へ見られる。モバイルアプリの画面には限られた数のアイテムしか表示できないため、順位が下がるほど閲覧確率は小さくなる。本論文では、<code>1 / pos(i)^eta</code> を decay probability として用いる。</p>
+<p>E-commerce Re-ranking dataset は、実世界推薦システムから得られたクリックログ形式の大規模レコードを含む。各レコードは、ユーザーの基本情報、クリックラベル、ランキング用の生特徴を持つ推薦リストである。</p>
+<h3>5.2 Baselines</h3>
+<p>baseline として learning to rank（LTR）手法と re-ranking 手法を用いる。</p>
+<p>LTR 手法は 2 つの役割で用いられる。第一に、各ユーザーリクエスト <code>r</code> の候補集合 <code>I_r</code> から re-ranking モデル用の初期リスト <code>S_r</code> を生成する。第二に、pairwise または listwise loss を用いる LTR 手法は、初期リスト <code>S_r</code> を入力として再度ランキングを実行することで re-ranking 手法としても使える。本論文で用いる代表的 LTR は SVMRank、LambdaMART、DNN-based LTR である。DNN-based LTR は、実際のオンライン推薦システムに導入されている Wide&amp;Deep 構造を pointwise loss で学習するモデルである。</p>
+<p>re-ranking 手法としては DLCM を baseline に用いる。Seq2Slate と GlobalRerank は decoder 構造により re-ranked list を逐次生成するため、オンライン inference で並列化できず、厳しい latency 条件を持つオンライン推薦サービスでは許容できない。そのため baseline から除外する。</p>
+<h3>5.3 評価指標</h3>
+<p>オフライン評価では Precision と MAP を用いる。具体的には Precision@5、Precision@10、MAP@5、MAP@10、MAP@30 を用いる。実験における初期リストの最大長は 30 であるため、MAP@30 は全体 MAP を表し、本論文では MAP と表記される。</p>
+<p>オンライン A/B テストでは PV、IPV、CTR、GMV を用いる。PV と IPV は、ユーザーが閲覧したアイテム総数とクリックしたアイテム総数として定義される。CTR は <code>IPV / PV</code> で計算されるクリック率である。GMV は推薦アイテムに対してユーザーが支払った総金額、すなわち revenue を表す。</p>
+<h3>5.4 実験設定</h3>
+<p>baseline と PRM モデルの双方で、重要な hyperparameter には同じ値を用いる。hidden dimensionality <code>d_model</code> は Yahoo Letor dataset で 1024、E-commerce Re-ranking dataset で 64 とする。PRM の Adam optimizer の learning rate は Transformer 論文と同じ設定を用いる。損失関数には負の対数尤度を用い、dropout probability は 0.1 とする。batch size は Yahoo Letor dataset で 256、E-commerce Re-ranking dataset で 512 とする。</p>
+<h3>5.5 オフライン実験</h3>
+<h4>5.5.1 Yahoo Letor dataset における評価</h4>
+<p>本節では、Yahoo Letor dataset 上で以下の問いを検証する。</p>
+<ul>
+<li>RQ0: PRM は state-of-the-art 手法を上回るか。また、その理由は何か。</li>
+<li>RQ1: 異なる LTR 手法が生成した初期リストに応じて性能は変化するか。</li>
+</ul>
+<figure><img src="figures/table-3-yahoo-results.png" alt="表3. Yahoo Letor dataset におけるオフライン評価結果。"><figcaption>表3. Yahoo Letor dataset におけるオフライン評価結果。</figcaption></figure>
+<p>表3では、SVMRank と LambdaMART がそれぞれ生成した 2 種類の初期リストに基づいて baseline と PRM-BASE を比較する。PRM-BASE は個人化モジュールを持たない PRM の variant である。Yahoo Letor dataset にはユーザー関連情報がないため、比較には PRM-BASE のみを用いる。</p>
+<p>表3は、PRM-BASE がすべての baseline に対して安定して有意な性能改善を達成することを示す。SVMRank により生成された初期リストを用いた場合、PRM-BASE は DLCM に対して MAP で 1.7、Precision@5 で 1.4 上回る。SVMRank と比較すると、MAP で 5.6、Precision@5 で 5.7 の改善となる。LambdaMART による初期リストを用いた場合も、PRM-BASE は DLCM に対して MAP で 0.7、Precision@5 で 2.1 上回る。</p>
+<p>PRM-BASE は DLCM と同じ訓練データを用い、個人化モジュールを含まない。したがって DLCM に対する性能向上は、主に Transformer の強力な符号化能力に由来する。multi-head attention 機構は、特に符号化リストが長い場合に、任意のアイテム対の相互影響を O(1) の符号化距離でモデル化できる。</p>
+<figure><img src="figures/table-4-ablation.png" alt="表4. SVMRank が生成した初期リストを用いた Yahoo Letor dataset 上の PRM-BASE ablation study。数値は 100 倍されている。"><figcaption>表4. SVMRank が生成した初期リストを用いた Yahoo Letor dataset 上の PRM-BASE ablation study。数値は 100 倍されている。</figcaption></figure>
+<p>表4は、position embedding を削除すると性能が大きく低下することを示す。これは初期リストで与えられる系列情報の重要性を確認するものである。position embedding を削除すると、モデルは順序付きリストではなく候補集合からスコアリング関数を学習することになる。ただし、position embedding なしでも PRM-BASE は DLCM と同等の性能を達成しており、PRM-BASE が初期リストを DLCM より効果的に符号化できることを示す。</p>
+<p>residual connection と dropout layer を削除した場合、MAP はそれぞれ 0.1 と 0.7 程度低下する。block 数を 1、2、4 と増やすと性能は上がるが、6、8 とさらに積むと過学習により低下する。multi-head attention の head 数については大きな改善は観察されず、計算コストを節約するため head 数は 1 でもよいと著者らは述べている。</p>
+<h4>5.5.2 E-commerce Re-ranking dataset における評価</h4>
+<p>本節では、以下の問いを検証する。</p>
+<ul>
+<li>RQ2: 個人化モジュールを備えた PRM はどの程度の性能を示すか。</li>
+</ul>
+<figure><img src="figures/table-5-ecommerce-results.png" alt="表5. E-commerce Re-ranking dataset におけるオフライン評価結果。"><figcaption>表5. E-commerce Re-ranking dataset におけるオフライン評価結果。</figcaption></figure>
+<p>E-commerce Re-ranking dataset では、PRM-BASE に加えて、事前学習された personalized vector <code>PV</code> を備えた PRM-Personalized-Pretrain を評価する。初期リストは、実世界推薦システムで導入されている DNN-based LTR により生成される。</p>
+<p>表5は、PRM-BASE と DLCM の比較において表3と一貫した結果を示す。PRM-BASE は DLCM に対して MAP で 2.3、Precision@5 で 4.1 上回る。Yahoo Letor dataset では PRM-BASE の改善が MAP で 1.7、Precision@5 で 1.4 であったことを考えると、E-commerce Re-ranking dataset での改善はより大きい。</p>
+<p>この差はデータセット特性と強く関係する。Yahoo Letor dataset の平均 click-through rate は 30% であり、30 件の推薦ドキュメントのうち約 9 件がクリックされる。一方、実世界の E-commerce Re-ranking dataset の平均 click-through rate は 5% 以下である。つまり Yahoo Letor dataset のランキングは EC re-ranking dataset より容易である。著者らは、ランキングタスクが難しいほど PRM の改善幅が大きいことを観察している。</p>
+<p>表5はまた、PRM-Personalized-Pretrain が PRM-BASE に対して有意な改善を達成することを示す。PRM-Personalized-Pretrain は PRM-BASE を MAP で 4.5、Precision@5 で 6.8 上回る。これは主に事前学習モデルから得られる personalized vector <code>PV</code> によるものである。事前学習モデルは長期間のユーザーログを十分に活用し、より汎用的で代表的なユーザー嗜好 embedding を提供できる。また、長期的で汎用的なユーザー embedding により、PRM はユーザー固有の符号化関数をよりよく学習し、各ユーザーに対するアイテム対の相互影響をより精密に捉えられる。</p>
+<h3>5.6 オンライン実験</h3>
+<p>実世界 EC 推薦システムでオンライン A/B テストを行い、PV、IPV、CTR、GMV を評価する。各アルゴリズムについて、数十万ユーザーと数百万リクエストをオンラインテストに用いる。</p>
+<figure><img src="figures/table-6-online-ab.png" alt="表6. Re-ranking なし DNN-based LTR と比較したオンライン A/B テストの性能改善。"><figcaption>表6. Re-ranking なし DNN-based LTR と比較したオンライン A/B テストの性能改善。</figcaption></figure>
+<p>表6は、DNN-based LTR を用いたオンライン base ranker に対する 3 手法の相対改善を示す。第一に、どの re-ranking 手法でもオンライン指標が向上しており、re-ranking が初期リスト内アイテムの相互影響を考慮することで性能を改善することが分かる。DLCM による PV の 0.77% 改善は、著者らのオンラインシステムでは有意であり、re-ranking により数十億規模の追加アイテム閲覧が生じることを意味する。</p>
+<p>第二に、PRM-BASE は DLCM に比べて、閲覧アイテムで 0.50% の絶対改善、クリックアイテムで 0.69% の絶対改善をもたらす。最後に、個人化モジュールを用いる PRM-Personalized-Pretrain は、PRM-BASE に比べて GMV をさらに 6.29% 絶対改善する。オフライン実験で PRM-Personalized-Pretrain が PRM-BASE に対して MAP で 4.5% 改善したことを踏まえると、事前学習ユーザー表現による個人化符号化関数が、より精密なアイテム対相互作用を捉え、re-ranking に大きな性能向上をもたらすことを示している。</p>
+<h3>5.7 Attention weight の可視化</h3>
+<p>本節では、学習された attention weight を可視化し、以下の問いを検証する。</p>
+<ul>
+<li>RQ3: self-attention 機構は、位置やアイテム特性などの異なる側面に関して意味のある情報を学習できるか。</li>
+</ul>
+<figure><img src="figures/figure-2-attribute-attention.png" alt="図2. アイテム属性に関する平均 attention weight。"><figcaption>図2. アイテム属性に関する平均 attention weight。</figcaption></figure>
+<p><strong>属性への attention</strong>: 著者らは、category と price の 2 つの特性に関して、アイテム間の平均 attention weight を可視化する。図2の各 heatmap block は、7 つの主要カテゴリに属するアイテム間の平均 attention weight を表す。濃い block ほど weight が大きい。図2(a) から、attention 機構が異なるカテゴリにおける相互影響を捉えられることが分かる。類似カテゴリのアイテムはより大きな attention weight を持つ傾向があり、より大きな相互影響を示す。例えば men&#x27;s shoes は computer より women&#x27;s shoes に大きな影響を持つ。computer、mobile phone、home appliance が互いに大きな attention weight を持つことも理解しやすい。これらはいずれも electronics である。図2(b) では価格を 7 段階に分類しており、価格が近いアイテムほど相互影響が大きいことが示される。</p>
+<figure><img src="figures/figure-3-position-attention.png" alt="図3. 位置 embedding あり/なしの 2 つの PRM モデルにおける初期リスト位置の平均 attention weight。"><figcaption>図3. 位置 embedding あり/なしの 2 つの PRM モデルにおける初期リスト位置の平均 attention weight。</figcaption></figure>
+<p><strong>位置への attention</strong>: 図3は、初期リスト内の異なる位置に対する平均 attention weight を示す。図3(a) は、提案モデルの self-attention 機構が符号化距離にかかわらず相互影響を捉え、推薦リストの position bias も捉えられることを示す。リスト上位にあるアイテムはクリックされやすく、リスト末尾のアイテムにより大きな影響を与える。例えば、1 位のアイテムは、距離としては 26 位のアイテムの方が 30 位に近いにもかかわらず、30 位のアイテムに対して 26 位のアイテムより大きな影響を持つことが観察される。図3(b) と比較すると、position embedding の効果も明らかであり、position embedding がない場合には各位置間の attention weight がより一様に分布する。</p>
+<h2>6. 結論と今後の課題</h2>
+<p>本論文では、state-of-the-art の learning to rank 手法が与える初期リストを洗練するための個人化 re-ranking model（PRM）を提案した。re-ranking モデルでは Transformer network を用い、アイテム間依存関係とユーザー-アイテム間相互作用の両方を符号化する。personalized vector は re-ranking モデルにさらなる性能改善をもたらす。</p>
+<p>オンラインおよびオフライン実験の両方により、PRM が公開 benchmark dataset と公開された実世界 dataset の双方でランキング性能を大きく改善することが示された。公開された実世界 dataset は、推薦システムにおける ranking/re-ranking アルゴリズム研究を可能にする。</p>
+<p>本研究は特徴空間における複雑な item-item relationship を明示的にモデル化する。一方で、label space における最適化も有用である可能性がある。今後の方向性として、re-ranking による多様化の学習が挙げられる。提案モデルは実運用上 ranking diversity を損なわないが、多様化の目標を re-ranking モデルへ導入することは試す価値がある。著者らは今後この方向をさらに探索すると述べている。</p>
+<h2>参考文献</h2>
+<p>参考文献の詳細は原論文を参照。主要な関連論文として、DLCM、Seq2Slate、GlobalRerank、Transformer、Wide&amp;Deep、DeepFM、DCN、SVMRank、LambdaMART、Learning to Rank for Information Retrieval が引用されている。</p>
+<h2>抽出メモ</h2>
+<ul>
+<li>PDF は text-based として抽出された。</li>
+<li>本文抽出では 2 段組レイアウトのため一部の節順が崩れたため、ページ画像を参照して節順を補正した。</li>
+<li>主要図表は、PDF ページレンダリングから読みやすい PNG として再切り出しした。</li>
+</ul></main></body></html>

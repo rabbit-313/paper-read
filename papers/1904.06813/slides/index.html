@@ -1,0 +1,221 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Personalized Re-ranking for Recommendation</title><style>
+:root {
+  color-scheme: light;
+  --bg: #f4f8ff;
+  --slide: #ffffff;
+  --ink: #102033;
+  --muted: #526173;
+  --blue: #1266d6;
+  --blue-2: #e8f1ff;
+  --line: #d6e4f7;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Yu Gothic", "Noto Sans JP", sans-serif;
+}
+.deck { width: 100%; padding: 20px; }
+.slide {
+  width: min(1120px, calc(100vw - 32px));
+  min-height: min(630px, calc((100vw - 32px) * 9 / 16));
+  margin: 0 auto 22px;
+  padding: 42px 50px 38px;
+  background: var(--slide);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  box-shadow: 0 10px 28px rgba(18, 102, 214, 0.08);
+  position: relative;
+  overflow: hidden;
+}
+.slide::before {
+  content: "";
+  position: absolute;
+  inset: 0 0 auto 0;
+  height: 8px;
+  background: linear-gradient(90deg, var(--blue), #65a5ff);
+}
+.slide-number {
+  position: absolute;
+  right: 26px;
+  bottom: 18px;
+  color: #8aa1bd;
+  font-size: 13px;
+}
+h1, h2, h3 { margin: 0; line-height: 1.18; letter-spacing: 0; }
+h1 { font-size: 42px; color: var(--blue); max-width: 900px; }
+h2 { font-size: 34px; color: var(--blue); margin-bottom: 22px; }
+h3 { font-size: 23px; margin: 24px 0 10px; }
+p { font-size: 20px; line-height: 1.62; margin: 12px 0; }
+ul, ol { margin: 14px 0 0 1.2em; padding: 0; }
+li { font-size: 21px; line-height: 1.55; margin: 8px 0; }
+strong { color: var(--blue); }
+code { background: #eef5ff; padding: 2px 5px; border-radius: 4px; }
+blockquote {
+  margin: 18px 0;
+  padding: 16px 18px;
+  border-left: 5px solid var(--blue);
+  background: var(--blue-2);
+  color: #173a62;
+  font-size: 21px;
+}
+figure { margin: 18px 0 0; }
+img { max-width: 100%; max-height: 390px; display: block; margin: 0 auto; object-fit: contain; }
+figcaption { color: var(--muted); font-size: 15px; line-height: 1.45; margin-top: 8px; }
+table { border-collapse: collapse; width: 100%; margin: 16px 0; font-size: 17px; display: block; overflow-x: auto; }
+th, td { border: 1px solid var(--line); padding: 8px 10px; text-align: left; white-space: nowrap; }
+th { background: var(--blue-2); color: #173a62; }
+.two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; align-items: start; }
+@media (max-width: 720px) {
+  .deck { padding: 10px; }
+  .slide { width: calc(100vw - 20px); min-height: auto; padding: 30px 22px 42px; margin-bottom: 14px; }
+  h1 { font-size: 30px; }
+  h2 { font-size: 25px; }
+  h3 { font-size: 20px; }
+  p, li { font-size: 17px; }
+  .two-col { grid-template-columns: 1fr; }
+  img { max-height: none; }
+}
+@media print {
+  body { background: white; }
+  .deck { padding: 0; }
+  .slide { page-break-after: always; margin: 0; width: 100vw; min-height: 100vh; border: 0; box-shadow: none; border-radius: 0; }
+}
+</style></head><body><main class="deck"><section class="slide"><h1>Personalized Re-ranking for Recommendation</h1>
+<p>Changhua Pei, Yi Zhang, Yongfeng Zhang, Fei Sun, Xiao Lin, Hanxiao Sun, Jian Wu, Peng Jiang, Junfeng Ge, Wenwu Ou&lt;br&gt; RecSys 2019 / Alibaba Group, Rutgers University, Kwai Inc.</p>
+<blockquote>Transformer で初期推薦リスト全体を符号化し、事前学習したユーザー表現で re-ranking を個人化する。</blockquote><div class="slide-number">1/16</div></section>
+<section class="slide"><h2>どんなもの？</h2>
+<ul>
+<li>前段 ranker が作った初期推薦リストを後段で並べ替える <strong>Personalized Re-ranking Model（PRM）</strong></li>
+<li>各アイテムを独立にスコアリングせず、リスト内の item-item interaction を見る</li>
+<li>Transformer encoder の self-attention で任意のアイテム対を直接結ぶ</li>
+<li>事前学習 CTR モデルから personalized vector を取り、ユーザーごとの相互作用の効き方を変える</li>
+</ul>
+<blockquote>Two-stage recommendation の 2 段目を、リスト全体最適化として扱う論文。</blockquote><div class="slide-number">2/16</div></section>
+<section class="slide"><h2>背景: なぜ reranker が必要か</h2>
+<ul>
+<li>実運用の推薦は候補生成 -&gt; ranking -&gt; re-ranking の多段構成になりやすい</li>
+<li>通常の ranker は item 単体、または user-item pair を個別に評価する</li>
+<li>しかし表示リストでは、隣り合う item や似た item が互いに影響する</li>
+<li>ユーザーの意図によって、同じ item pair でも望ましい並びが変わる</li>
+</ul>
+<blockquote>最終表示リストでは「その item が良いか」だけでなく「どの item と一緒に、どの順で出すか」が重要。</blockquote><div class="slide-number">3/16</div></section>
+<section class="slide"><h2>課題: 既存手法は何を落とすか</h2>
+<ul>
+<li>Pointwise / pairwise / listwise LTR は主に loss 設計でリスト性を扱う</li>
+<li>特徴空間で item-item interaction を明示的に符号化しない</li>
+<li>RNN 系 reranker は遠い位置の情報が符号化距離で弱くなる</li>
+<li>Decoder で 1 件ずつ生成する手法はオンライン latency が厳しい</li>
+<li>多くの reranker はユーザーごとの intent 差を直接入れない</li>
+</ul>
+<blockquote>実運用の reranker には、相互作用、個人化、低 latency の 3 つが同時に必要。</blockquote><div class="slide-number">4/16</div></section>
+<section class="slide"><h2>先行研究と比べてどこがすごい？</h2>
+<ul>
+<li>DLCM / GlobalRerank のような RNN 系ではなく Transformer-like encoder を使う</li>
+<li>任意の item pair を self-attention で O(1) distance に接続する</li>
+<li>Decoder 逐次生成を使わず、1-step scoring でオンライン向けにする</li>
+<li>事前学習モデルの hidden vector を personalized vector として reranker に入れる</li>
+<li>オフライン公開 benchmark と実 EC オンライン A/B の両方で評価する</li>
+</ul>
+<blockquote>「リスト全体を見る」だけでなく、「誰にとってのリストか」まで入れた点が重要。</blockquote><div class="slide-number">5/16</div></section>
+<section class="slide"><h2>技術や手法のキモ</h2>
+<figure><img src="assets/figure-1-prm-architecture.png" alt="PRM architecture"><figcaption>PRM architecture</figcaption></figure>
+<ul>
+<li>Input: 初期リストの ranking features <code>X</code></li>
+<li>Personalized Vector: ユーザー履歴・属性を使う事前学習モデルから <code>PV</code> を生成</li>
+<li>Position Embedding: 初期順位の position bias を入れる</li>
+<li>Encoding: Transformer encoder blocks で item-item interaction を符号化</li>
+<li>Output: 各 item の click probability を出し、リストを並べ替える</li>
+</ul><div class="slide-number">6/16</div></section>
+<section class="slide"><h2>Method: 入力から re-ranked list まで</h2>
+<table><thead><tr><th>Step</th><th>処理</th><th>目的</th></tr></thead><tbody>
+<tr><td>1</td><td>前段 ranker が <code>S = [i1, ..., in]</code> を作る</td><td>候補を固定長リストにする</td></tr>
+<tr><td>2</td><td><code>x_i</code> と <code>pv_i</code> を concat</td><td>item feature と user intent を統合</td></tr>
+<tr><td>3</td><td>position embedding を加える</td><td>初期順位情報を保持</td></tr>
+<tr><td>4</td><td>multi-head self-attention + FFN</td><td>item 間の相互影響を符号化</td></tr>
+<tr><td>5</td><td>softmax score を出す</td><td>1-step で re-rank</td></tr>
+</tbody></table>
+<blockquote>Reranker は前段 ranker の特徴量をそのまま使える後段モジュールとして設計されている。</blockquote><div class="slide-number">7/16</div></section>
+<section class="slide"><h2>個人化モジュール</h2>
+<ul>
+<li>PRM 内で <code>PV</code> を end-to-end に学習するだけでは、ユーザーの一般的嗜好が弱い</li>
+<li>プラットフォーム全体のクリックログで CTR 予測モデルを事前学習する</li>
+<li>入力: ユーザー履歴 <code>H_u</code>、item、ユーザー属性</li>
+<li>出力: click probability</li>
+<li>sigmoid 直前の hidden vector を <code>pv_i</code> として PRM に渡す</li>
+</ul>
+<blockquote>価格重視、カテゴリ比較、探索中など、item-item interaction の意味をユーザーごとに変える。</blockquote><div class="slide-number">8/16</div></section>
+<section class="slide"><h2>どうやって有効だと検証した？</h2>
+<table><thead><tr><th>Dataset</th><th>内容</th><th>役割</th></tr></thead><tbody>
+<tr><td>Yahoo Letor</td><td>709,877 docs / 29,921 records</td><td>公開 benchmark、user 情報なし</td></tr>
+<tr><td>E-commerce Re-ranking</td><td>743,720 users / 7,246,323 items / 14,350,968 records</td><td>実 EC 由来、user 情報あり</td></tr>
+</tbody></table>
+<ul>
+<li>Offline metrics: Precision@5, Precision@10, MAP@5, MAP@10, MAP</li>
+<li>Online metrics: PV, IPV, CTR, GMV</li>
+<li>Baselines: SVMRank, LambdaMART, DNN-based LTR, DLCM</li>
+<li>Seq2Slate / GlobalRerank は逐次 decoder の latency が重いため online baseline から除外</li>
+</ul><div class="slide-number">9/16</div></section>
+<section class="slide"><h2>Quantitative Results: Yahoo Letor</h2>
+<figure><img src="assets/table-3-yahoo-results.png" alt="Yahoo results"><figcaption>Yahoo results</figcaption></figure>
+<ul>
+<li>PRM-BASE は personalized module なしの Transformer reranker</li>
+<li>SVMRank 初期リストで DLCM より MAP +1.10、Precision@5 +0.75</li>
+<li>LambdaMART 初期リストで DLCM より MAP +0.48、Precision@5 +1.09</li>
+<li>SVMRank / LambdaMART をもう一度かけるよりも安定して高い</li>
+</ul>
+<blockquote>User 情報がない設定でも、Transformer による list encoding だけで改善する。</blockquote><div class="slide-number">10/16</div></section>
+<section class="slide"><h2>Quantitative Results: E-commerce</h2>
+<figure><img src="assets/table-5-ecommerce-results.png" alt="E-commerce results"><figcaption>E-commerce results</figcaption></figure>
+<ul>
+<li>初期リストは実システムの DNN-based LTR</li>
+<li>PRM-BASE は DLCM より MAP 28.19 -&gt; 28.85</li>
+<li>PRM-Personalized-Pretrain は MAP 30.15 まで改善</li>
+<li>Precision@5 は 12.21 -&gt; 12.71 -&gt; 13.58</li>
+</ul>
+<blockquote>実 EC の難しい sparse click setting では、personalized vector の寄与が大きい。</blockquote><div class="slide-number">11/16</div></section>
+<section class="slide"><h2>Online A/B Test</h2>
+<figure><img src="assets/table-6-online-ab.png" alt="Online A/B"><figcaption>Online A/B</figcaption></figure>
+<ul>
+<li>DLCM でも re-ranking なし DNN-based LTR より online 指標が改善</li>
+<li>PRM-BASE は DLCM より PV と IPV をさらに伸ばす</li>
+<li>PRM-Personalized-Pretrain は GMV +6.65% を達成</li>
+<li>PRM-BASE から personalized module を足すと GMV が +6.29% absolute improvement</li>
+</ul>
+<blockquote>オフライン MAP だけでなく、実運用の売上指標 GMV にも効いている。</blockquote><div class="slide-number">12/16</div></section>
+<section class="slide"><h2>なぜ効くのか: Attention 可視化</h2>
+<figure><img src="assets/figure-2-attribute-attention.png" alt="Attribute attention"><figcaption>Attribute attention</figcaption></figure>
+<ul>
+<li>類似カテゴリ間で attention weight が大きくなる</li>
+<li>electronics 系カテゴリ同士にも強い関係が出る</li>
+<li>価格帯が近い item 同士で相互影響が大きい</li>
+<li>Position embedding ありでは、上位 item が下位 item へ強く影響する position bias も学習する</li>
+</ul>
+<blockquote>Self-attention はランダムな重みではなく、カテゴリ・価格・位置に沿った意味のある相互作用を学んでいる。</blockquote><div class="slide-number">13/16</div></section>
+<section class="slide"><h2>議論・限界</h2>
+<ul>
+<li>強み: 前段 ranker の特徴量を再利用でき、後段モジュールとして入れやすい</li>
+<li>強み: Transformer なので RNN より list encoding を並列化しやすい</li>
+<li>強み: 事前学習モデルを差し替えられるため、実システムの CTR model と接続しやすい</li>
+<li>限界: 多様性を直接目的関数に入れていない</li>
+<li>限界: Seq2Slate / GlobalRerank は latency 理由で比較除外され、精度比較の範囲は限定される</li>
+</ul>
+<blockquote>産業実装向きだが、diversity-aware reranking との統合は今後の課題。</blockquote><div class="slide-number">14/16</div></section>
+<section class="slide"><h2>次に読むべき論文</h2>
+<ul>
+<li><strong>Deep Neural Networks for YouTube Recommendations</strong>: two-stage recommendation の古典</li>
+<li><strong>DLCM</strong>: RNN/GRU 系の list context reranker</li>
+<li><strong>Seq2Slate</strong>: slate optimization と sequential decoder の代表例</li>
+<li><strong>GlobalRerank</strong>: attention decoder を使う re-ranking</li>
+<li><strong>Practical Diversified Recommendations on YouTube with DPP</strong>: 多様性 reranking の実運用例</li>
+</ul>
+<blockquote>PRM の次は、listwise neural reranking と diversity-aware reranking を並べて読むと位置づけが見える。</blockquote><div class="slide-number">15/16</div></section>
+<section class="slide"><h2>まとめ</h2>
+<ul>
+<li>PRM は前段 ranker の初期リストを Transformer で符号化する personalized reranker</li>
+<li>item-item interaction と user intent を同時に扱う点が、従来 RNN 系 reranker との差分</li>
+<li>Yahoo benchmark、EC dataset、オンライン A/B のすべてで改善を示した</li>
+<li>特に実 EC では personalized vector が MAP と GMV の改善に効いている</li>
+</ul>
+<blockquote>Two-stage recommendation の reranker を学ぶなら、実運用寄りの代表論文として読む価値が高い。</blockquote><div class="slide-number">16/16</div></section></main></body></html>
