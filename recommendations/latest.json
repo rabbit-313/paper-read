@@ -1,39 +1,8 @@
 {
-  "date": "2026-05-26",
-  "generatedAt": "2026-05-26T23:13:17.170702+00:00",
+  "date": "2026-05-27",
+  "generatedAt": "2026-05-27T23:19:33.891702+00:00",
   "focus": "Recommender systems, recommendation, retrieval, ranking, and related ML/DL papers",
   "items": [
-    {
-      "id": "2605.25007",
-      "title": "Meta-Modal Agent: Sequential Evidence Routing for Missing-Modality Candidate Reranking",
-      "url": "http://arxiv.org/abs/2605.25007v1",
-      "source": "arXiv",
-      "published": "2026-05-24",
-      "authors": [
-        "Jinze Wang",
-        "Yangchen Zeng",
-        "Tiehua Zhang",
-        "Lu Zhang",
-        "Yuze Liu",
-        "Zhishu Shen",
-        "Jiong Jin",
-        "Zhu Sun"
-      ],
-      "venue": "",
-      "citationCount": null,
-      "influentialCitationCount": null,
-      "discussionCount": null,
-      "score": 86.0,
-      "reasons": [
-        "推薦システム",
-        "ランキング",
-        "検索・ retrieval",
-        "グラフ推薦",
-        "LLM x 推薦"
-      ],
-      "summary": "Missing modalities cause severe failures in multimodal recommender systems. User histories, item text, and visual evidence are frequently absent during cold-start scenarios, exactly when recommendation quality matters...",
-      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2605.25007&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2605.25007%0A-+Title%3A+Meta-Modal+Agent%3A+Sequential+Evidence+Routing+for+Missing-Modality+Candidate+Reranking%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2605.25007v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
-    },
     {
       "id": "2605.24155",
       "title": "An Interpretable CF-RL-TOPSIS Fusion Model for Skills-Aware Talent Recommendation",
@@ -57,6 +26,34 @@
       ],
       "summary": "Effective skills-aware talent recommendation must balance behavioral transition patterns, trajectory-sensitive adaptation, and inspectable occupation-level criteria. Evidence from public benchmarks on how these...",
       "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2605.24155&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2605.24155%0A-+Title%3A+An+Interpretable+CF-RL-TOPSIS+Fusion+Model+for+Skills-Aware+Talent+Recommendation%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2605.24155v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
+    },
+    {
+      "id": "2605.26819",
+      "title": "RAGEAR: Retrieval-Augmented Graph-Enhanced Academic Recommender",
+      "url": "http://arxiv.org/abs/2605.26819v1",
+      "source": "arXiv",
+      "published": "2026-05-26",
+      "authors": [
+        "Francesco Granata",
+        "Lorenzo Lamazzi",
+        "Misael Mongiovì",
+        "Francesco Poggi",
+        "Valeria Secchini"
+      ],
+      "venue": "",
+      "citationCount": null,
+      "influentialCitationCount": null,
+      "discussionCount": null,
+      "score": 78.0,
+      "reasons": [
+        "推薦システム",
+        "ランキング",
+        "検索・ retrieval",
+        "グラフ推薦",
+        "LLM x 推薦"
+      ],
+      "summary": "We present RAGEAR (Retrieval-Augmented Graph-Enhanced Academic Recommender), a neurosymbolic recommender system for academic course recommendation. RAGEAR combines dense retrieval over full lecture transcripts with a...",
+      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2605.26819&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2605.26819%0A-+Title%3A+RAGEAR%3A+Retrieval-Augmented+Graph-Enhanced+Academic+Recommender%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2605.26819v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
     },
     {
       "id": "2605.24060",
@@ -156,22 +153,22 @@
       "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2605.21967&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2605.21967%0A-+Title%3A+Reinforced+Preference+Optimization+for+Reasoning-Augmented+Recommendations%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2605.21967v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
     },
     {
-      "id": "2605.23320",
-      "title": "Human-in-the-Loop Multi-Agent Ventilator Decision Support with Contextual Bandit Preference Learning",
-      "url": "http://arxiv.org/abs/2605.23320v1",
+      "id": "2605.26385",
+      "title": "Credit-assigned Policy Gradient for Early Stage Retrieval in Two-stage Ranking",
+      "url": "http://arxiv.org/abs/2605.26385v1",
       "source": "arXiv",
-      "published": "2026-05-22",
+      "published": "2026-05-25",
       "authors": [
-        "Sijia Li",
-        "Xiaoyu Tan",
-        "Qixing Wang",
-        "Weiyi Zhao",
-        "Chen Zhan",
-        "Teqi Hao",
-        "Xuemin Wang",
-        "Lei Gu",
-        "Roland Eils",
-        "Xihe Qiu"
+        "Haruka Kiyohara",
+        "Mihaela Curmei",
+        "Ariel Evnine",
+        "Shankar Kalyanaraman",
+        "Israel Nir",
+        "Ana-Roxana Pop",
+        "Nitzan Razin",
+        "Sarah Dean",
+        "Thorsten Joachims",
+        "Udi Weinsberg"
       ],
       "venue": "",
       "citationCount": null,
@@ -180,29 +177,28 @@
       "score": 70.0,
       "reasons": [
         "推薦システム",
-        "LLM x 推薦",
-        "バンディット",
+        "ランキング",
+        "検索・ retrieval",
         "強化学習",
         "新着 arXiv"
       ],
-      "summary": "Ventilator decision support requires sequential decisions that track evolving physiology and disease trajectories while respecting safety boundaries and clinician specific tuning styles. Rule based approaches rarely...",
-      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2605.23320&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2605.23320%0A-+Title%3A+Human-in-the-Loop+Multi-Agent+Ventilator+Decision+Support+with+Contextual+Bandit+Preference+Learning%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2605.23320v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
+      "summary": "Large-scale search, recommendation, and retrieval-augmented generation (RAG) systems typically employ a two-stage architecture: an early-stage ranker (ESR) generates a candidate set, which is subsequently re-ranked by...",
+      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2605.26385&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2605.26385%0A-+Title%3A+Credit-assigned+Policy+Gradient+for+Early+Stage+Retrieval+in+Two-stage+Ranking%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2605.26385v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
     },
     {
-      "id": "2605.18752",
-      "title": "Traditional statistical representations outperform generative AI in identifying expert peer reviewers",
-      "url": "http://arxiv.org/abs/2605.18752v1",
+      "id": "2605.27157",
+      "title": "Detecting Is Not Resolving: The Monitoring Control Gap in Retrieval Augmented LLMs",
+      "url": "http://arxiv.org/abs/2605.27157v1",
       "source": "arXiv",
-      "published": "2026-05-18",
+      "published": "2026-05-26",
       "authors": [
-        "Vicente Amado Olivo",
-        "Tereza Jerabkova",
-        "Jakub Klencki",
-        "John Carpenter",
-        "Mario Malički",
-        "Ferdinando Patat",
-        "Louis-Gregory Strolger",
-        "Wolfgang Kerzendorf"
+        "Zhe Yu",
+        "Wenpeng Xing",
+        "Chen Ye",
+        "Xuyang Teng",
+        "Bo Yang",
+        "Changting Lin",
+        "Meng Han"
       ],
       "venue": "",
       "citationCount": null,
@@ -214,21 +210,20 @@
         "検索・ retrieval",
         "LLM x 推薦",
         "新着 arXiv",
-        "8日前の新着"
+        "1日前の新着"
       ],
-      "summary": "The exponential growth of scientific submissions has strained the peer review system. Despite the rapidly expanding global pool of researchers, this unprecedented scale has rendered the previous approach of manual...",
-      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2605.18752&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2605.18752%0A-+Title%3A+Traditional+statistical+representations+outperform+generative+AI+in+identifying+expert+peer+reviewers%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2605.18752v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
+      "summary": "Retrieval-augmented LLMs are deployed for tasks where evidence quality determines action safety, yet evaluation protocols assume that single-turn robustness predicts robustness when evidence accumulates across turns....",
+      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2605.27157&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2605.27157%0A-+Title%3A+Detecting+Is+Not+Resolving%3A+The+Monitoring+Control+Gap+in+Retrieval+Augmented+LLMs%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2605.27157v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
     },
     {
-      "id": "2605.18032",
-      "title": "PROTEA: Offline Evaluation and Iterative Refinement for Multi-Agent LLM Workflows",
-      "url": "http://arxiv.org/abs/2605.18032v1",
+      "id": "2605.26533",
+      "title": "A Hybrid Vision-Language Architecture for Automated Defect Reasoning and Report Generation in Industrial Inspection",
+      "url": "http://arxiv.org/abs/2605.26533v1",
       "source": "arXiv",
-      "published": "2026-05-18",
+      "published": "2026-05-26",
       "authors": [
-        "Kazuki Kawamura",
-        "Satoshi Waki",
-        "Kei Tateno"
+        "Malikussaid",
+        "Imad Gohar"
       ],
       "venue": "",
       "citationCount": null,
@@ -237,13 +232,13 @@
       "score": 62.0,
       "reasons": [
         "推薦システム",
-        "グラフ推薦",
+        "検索・ retrieval",
         "LLM x 推薦",
         "新着 arXiv",
-        "8日前の新着"
+        "1日前の新着"
       ],
-      "summary": "Multi-agent LLM workflows -- systems composed of multiple role-specific LLM calls -- often outperform single-prompt baselines, but they remain difficult to debug and refine. Failures can originate from subtle errors...",
-      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2605.18032&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2605.18032%0A-+Title%3A+PROTEA%3A+Offline+Evaluation+and+Iterative+Refinement+for+Multi-Agent+LLM+Workflows%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2605.18032v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
+      "summary": "Automated industrial inspection requires both precise defect localization and structured maintenance report generation; in current practice these tasks are handled separately, with linguistic interpretation left to...",
+      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2605.26533&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2605.26533%0A-+Title%3A+A+Hybrid+Vision-Language+Architecture+for+Automated+Defect+Reasoning+and+Report+Generation+in+Industrial+Inspection%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2605.26533v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
     }
   ]
 }
