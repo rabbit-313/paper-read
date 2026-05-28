@@ -1,6 +1,6 @@
 {
-  "date": "2026-05-27",
-  "generatedAt": "2026-05-27T23:19:33.891702+00:00",
+  "date": "2026-05-28",
+  "generatedAt": "2026-05-28T23:18:35.180612+00:00",
   "focus": "Recommender systems, recommendation, retrieval, ranking, and related ML/DL papers",
   "items": [
     {
@@ -54,6 +54,82 @@
       ],
       "summary": "We present RAGEAR (Retrieval-Augmented Graph-Enhanced Academic Recommender), a neurosymbolic recommender system for academic course recommendation. RAGEAR combines dense retrieval over full lecture transcripts with a...",
       "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2605.26819&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2605.26819%0A-+Title%3A+RAGEAR%3A+Retrieval-Augmented+Graph-Enhanced+Academic+Recommender%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2605.26819v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
+    },
+    {
+      "id": "2605.28175",
+      "title": "Mixture-of-Experts Knowledge Graph Retrieval-Augmented Generation for Multi-Agent LLM-based Recommendation",
+      "url": "http://arxiv.org/abs/2605.28175v1",
+      "source": "arXiv",
+      "published": "2026-05-27",
+      "authors": [
+        "Shijie Wang",
+        "Chengyi Liu",
+        "Yujuan Ding",
+        "Shanru Lin",
+        "See-Kiong Ng",
+        "Xu Xin",
+        "Wenqi Fan"
+      ],
+      "venue": "",
+      "citationCount": null,
+      "influentialCitationCount": null,
+      "discussionCount": null,
+      "score": 70.0,
+      "reasons": [
+        "推薦システム",
+        "検索・ retrieval",
+        "グラフ推薦",
+        "LLM x 推薦",
+        "新着 arXiv"
+      ],
+      "summary": "Large language models (LLMs) have recently been adopted for recommendations due to their ability to understand user intent and item semantics. However, LLM-based recommender systems often rely on parametric knowledge...",
+      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2605.28175&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2605.28175%0A-+Title%3A+Mixture-of-Experts+Knowledge+Graph+Retrieval-Augmented+Generation+for+Multi-Agent+LLM-based+Recommendation%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2605.28175v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
+    },
+    {
+      "id": "2605.27856",
+      "title": "Fine-Tuned LLM as a Complementary Predictor Improving Ads System",
+      "url": "http://arxiv.org/abs/2605.27856v1",
+      "source": "arXiv",
+      "published": "2026-05-27",
+      "authors": [
+        "Hui Yang",
+        "Daiwei He",
+        "Kevin Jiang",
+        "Taejin Park",
+        "Kungang Li",
+        "Jiajun Luo",
+        "Yuying Chen",
+        "Xinyi Zhang",
+        "Sihan Wang",
+        "Haoyu He",
+        "Yu Liu",
+        "Lakshmi Manoharan",
+        "David Xue",
+        "Shubham Barhate",
+        "Runze Su",
+        "Duna Zhan",
+        "Ling Leng",
+        "Siping Ji",
+        "Jinfeng Zhuang",
+        "Alice Wu",
+        "Leo Lu",
+        "Han Sun",
+        "Zhifang Liu"
+      ],
+      "venue": "",
+      "citationCount": null,
+      "influentialCitationCount": null,
+      "discussionCount": null,
+      "score": 70.0,
+      "reasons": [
+        "推薦システム",
+        "ランキング",
+        "検索・ retrieval",
+        "LLM x 推薦",
+        "新着 arXiv"
+      ],
+      "summary": "Recommendation systems power engagement and monetization across feeds, ads, and short-video platforms, but translating the latest advances in Large Language Models into Recommendation Systems (RecSys) gains remains...",
+      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2605.27856&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2605.27856%0A-+Title%3A+Fine-Tuned+LLM+as+a+Complementary+Predictor+Improving+Ads+System%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2605.27856v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
     },
     {
       "id": "2605.24060",
@@ -184,61 +260,6 @@
       ],
       "summary": "Large-scale search, recommendation, and retrieval-augmented generation (RAG) systems typically employ a two-stage architecture: an early-stage ranker (ESR) generates a candidate set, which is subsequently re-ranked by...",
       "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2605.26385&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2605.26385%0A-+Title%3A+Credit-assigned+Policy+Gradient+for+Early+Stage+Retrieval+in+Two-stage+Ranking%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2605.26385v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
-    },
-    {
-      "id": "2605.27157",
-      "title": "Detecting Is Not Resolving: The Monitoring Control Gap in Retrieval Augmented LLMs",
-      "url": "http://arxiv.org/abs/2605.27157v1",
-      "source": "arXiv",
-      "published": "2026-05-26",
-      "authors": [
-        "Zhe Yu",
-        "Wenpeng Xing",
-        "Chen Ye",
-        "Xuyang Teng",
-        "Bo Yang",
-        "Changting Lin",
-        "Meng Han"
-      ],
-      "venue": "",
-      "citationCount": null,
-      "influentialCitationCount": null,
-      "discussionCount": null,
-      "score": 62.0,
-      "reasons": [
-        "推薦システム",
-        "検索・ retrieval",
-        "LLM x 推薦",
-        "新着 arXiv",
-        "1日前の新着"
-      ],
-      "summary": "Retrieval-augmented LLMs are deployed for tasks where evidence quality determines action safety, yet evaluation protocols assume that single-turn robustness predicts robustness when evidence accumulates across turns....",
-      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2605.27157&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2605.27157%0A-+Title%3A+Detecting+Is+Not+Resolving%3A+The+Monitoring+Control+Gap+in+Retrieval+Augmented+LLMs%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2605.27157v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
-    },
-    {
-      "id": "2605.26533",
-      "title": "A Hybrid Vision-Language Architecture for Automated Defect Reasoning and Report Generation in Industrial Inspection",
-      "url": "http://arxiv.org/abs/2605.26533v1",
-      "source": "arXiv",
-      "published": "2026-05-26",
-      "authors": [
-        "Malikussaid",
-        "Imad Gohar"
-      ],
-      "venue": "",
-      "citationCount": null,
-      "influentialCitationCount": null,
-      "discussionCount": null,
-      "score": 62.0,
-      "reasons": [
-        "推薦システム",
-        "検索・ retrieval",
-        "LLM x 推薦",
-        "新着 arXiv",
-        "1日前の新着"
-      ],
-      "summary": "Automated industrial inspection requires both precise defect localization and structured maintenance report generation; in current practice these tasks are handled separately, with linguistic interpretation left to...",
-      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2605.26533&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2605.26533%0A-+Title%3A+A+Hybrid+Vision-Language+Architecture+for+Automated+Defect+Reasoning+and+Report+Generation+in+Industrial+Inspection%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2605.26533v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
     }
   ]
 }
