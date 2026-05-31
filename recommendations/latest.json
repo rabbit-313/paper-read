@@ -1,6 +1,6 @@
 {
-  "date": "2026-05-28",
-  "generatedAt": "2026-05-28T23:18:35.180612+00:00",
+  "date": "2026-05-31",
+  "generatedAt": "2026-05-31T23:02:34.834213+00:00",
   "focus": "Recommender systems, recommendation, retrieval, ranking, and related ML/DL papers",
   "items": [
     {
@@ -28,238 +28,190 @@
       "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2605.24155&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2605.24155%0A-+Title%3A+An+Interpretable+CF-RL-TOPSIS+Fusion+Model+for+Skills-Aware+Talent+Recommendation%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2605.24155v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
     },
     {
-      "id": "2605.26819",
-      "title": "RAGEAR: Retrieval-Augmented Graph-Enhanced Academic Recommender",
-      "url": "http://arxiv.org/abs/2605.26819v1",
+      "id": "2605.27450",
+      "title": "Context Features Are Cheap: Rank-Aware Decomposition for Efficient Feature Interaction in Recommender Systems",
+      "url": "http://arxiv.org/abs/2605.27450v1",
       "source": "arXiv",
-      "published": "2026-05-26",
+      "published": "2026-05-24",
       "authors": [
-        "Francesco Granata",
-        "Lorenzo Lamazzi",
-        "Misael Mongiovì",
-        "Francesco Poggi",
-        "Valeria Secchini"
+        "Yevgeny Tkach"
       ],
       "venue": "",
       "citationCount": null,
       "influentialCitationCount": null,
       "discussionCount": null,
-      "score": 78.0,
+      "score": 54.0,
       "reasons": [
         "推薦システム",
         "ランキング",
+        "新着 arXiv",
+        "7日前の新着"
+      ],
+      "summary": "Modern industrial recommender systems use a deep ranking model to score N candidates against the same user and context features. Standard implementations broadcast context features early in the forward pass,...",
+      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2605.27450&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2605.27450%0A-+Title%3A+Context+Features+Are+Cheap%3A+Rank-Aware+Decomposition+for+Efficient+Feature+Interaction+in+Recommender+Systems%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2605.27450v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
+    },
+    {
+      "id": "2605.06963",
+      "title": "From Surface Learning to Deep Understanding: A Grounded AI Tutoring System for Moodle",
+      "url": "http://arxiv.org/abs/2605.06963v1",
+      "source": "arXiv",
+      "published": "2026-05-07",
+      "authors": [
+        "Anna Ostrowska",
+        "Michał Kukla",
+        "Gabriela Majstrak",
+        "Jan Opala",
+        "Sebastian Pergała",
+        "Jan Skwarek",
+        "Anna Wróblewska"
+      ],
+      "venue": "",
+      "citationCount": null,
+      "influentialCitationCount": null,
+      "discussionCount": null,
+      "score": 50.0,
+      "reasons": [
+        "推薦システム",
         "検索・ retrieval",
+        "LLM x 推薦",
+        "新着 arXiv",
+        "直近3か月"
+      ],
+      "summary": "This demo paper describes the development of the AI Teaching \\& Learning Assistant, a modular Moodle plugin that leverages Retrieval-Augmented Generation (RAG) to deliver high-quality, hallucination-free education....",
+      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2605.06963&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2605.06963%0A-+Title%3A+From+Surface+Learning+to+Deep+Understanding%3A+A+Grounded+AI+Tutoring+System+for+Moodle%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2605.06963v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
+    },
+    {
+      "id": "2604.18351",
+      "title": "Balanced Co-Clustering of Users and Items for Embedding Table Compression in Recommender Systems",
+      "url": "http://arxiv.org/abs/2604.18351v1",
+      "source": "arXiv",
+      "published": "2026-04-20",
+      "authors": [
+        "Runhao Jiang",
+        "Renchi Yang",
+        "Donghao Wu"
+      ],
+      "venue": "",
+      "citationCount": null,
+      "influentialCitationCount": null,
+      "discussionCount": null,
+      "score": 50.0,
+      "reasons": [
+        "推薦システム",
+        "協調フィルタリング",
         "グラフ推薦",
-        "LLM x 推薦"
+        "新着 arXiv",
+        "直近3か月"
       ],
-      "summary": "We present RAGEAR (Retrieval-Augmented Graph-Enhanced Academic Recommender), a neurosymbolic recommender system for academic course recommendation. RAGEAR combines dense retrieval over full lecture transcripts with a...",
-      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2605.26819&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2605.26819%0A-+Title%3A+RAGEAR%3A+Retrieval-Augmented+Graph-Enhanced+Academic+Recommender%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2605.26819v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
+      "summary": "Recommender systems have advanced markedly over the past decade by transforming each user/item into a dense embedding vector with deep learning models. At industrial scale, embedding tables constituted by such vectors...",
+      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2604.18351&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2604.18351%0A-+Title%3A+Balanced+Co-Clustering+of+Users+and+Items+for+Embedding+Table+Compression+in+Recommender+Systems%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2604.18351v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
     },
     {
-      "id": "2605.28175",
-      "title": "Mixture-of-Experts Knowledge Graph Retrieval-Augmented Generation for Multi-Agent LLM-based Recommendation",
-      "url": "http://arxiv.org/abs/2605.28175v1",
+      "id": "2604.17681",
+      "title": "FedCRF: A Federated Cross-domain Recommendation Method with Semantic-driven Deep Knowledge Fusion",
+      "url": "http://arxiv.org/abs/2604.17681v2",
       "source": "arXiv",
-      "published": "2026-05-27",
+      "published": "2026-04-20",
       "authors": [
-        "Shijie Wang",
-        "Chengyi Liu",
-        "Yujuan Ding",
-        "Shanru Lin",
-        "See-Kiong Ng",
-        "Xu Xin",
-        "Wenqi Fan"
+        "Lei Guo",
+        "Ting Yang",
+        "Xu Yu",
+        "Xiaohui Han",
+        "Guiyuan Jiang",
+        "Hui Liu"
       ],
       "venue": "",
       "citationCount": null,
       "influentialCitationCount": null,
       "discussionCount": null,
-      "score": 70.0,
+      "score": 50.0,
       "reasons": [
         "推薦システム",
-        "検索・ retrieval",
+        "協調フィルタリング",
         "グラフ推薦",
-        "LLM x 推薦",
-        "新着 arXiv"
+        "新着 arXiv",
+        "直近3か月"
       ],
-      "summary": "Large language models (LLMs) have recently been adopted for recommendations due to their ability to understand user intent and item semantics. However, LLM-based recommender systems often rely on parametric knowledge...",
-      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2605.28175&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2605.28175%0A-+Title%3A+Mixture-of-Experts+Knowledge+Graph+Retrieval-Augmented+Generation+for+Multi-Agent+LLM-based+Recommendation%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2605.28175v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
+      "summary": "As user behavior data becomes increasingly scattered across different platforms, achieving cross-domain knowledge fusion while preserving privacy has become a critical issue in recommender systems. Existing PPCDR...",
+      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2604.17681&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2604.17681%0A-+Title%3A+FedCRF%3A+A+Federated+Cross-domain+Recommendation+Method+with+Semantic-driven+Deep+Knowledge+Fusion%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2604.17681v2%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
     },
     {
-      "id": "2605.27856",
-      "title": "Fine-Tuned LLM as a Complementary Predictor Improving Ads System",
-      "url": "http://arxiv.org/abs/2605.27856v1",
+      "id": "2605.25141",
+      "title": "LLM Agent Based Renewable Energy Forecasting Using Edge and IoT Data A Review of Solar Wind Weather and Grid Aware Decision Support",
+      "url": "http://arxiv.org/abs/2605.25141v1",
       "source": "arXiv",
-      "published": "2026-05-27",
+      "published": "2026-05-24",
       "authors": [
-        "Hui Yang",
-        "Daiwei He",
-        "Kevin Jiang",
-        "Taejin Park",
-        "Kungang Li",
-        "Jiajun Luo",
-        "Yuying Chen",
-        "Xinyi Zhang",
-        "Sihan Wang",
-        "Haoyu He",
-        "Yu Liu",
-        "Lakshmi Manoharan",
-        "David Xue",
-        "Shubham Barhate",
-        "Runze Su",
-        "Duna Zhan",
-        "Ling Leng",
-        "Siping Ji",
-        "Jinfeng Zhuang",
-        "Alice Wu",
-        "Leo Lu",
-        "Han Sun",
-        "Zhifang Liu"
+        "Pavan Manjunath",
+        "Thomas Pruefer"
       ],
       "venue": "",
       "citationCount": null,
       "influentialCitationCount": null,
       "discussionCount": null,
-      "score": 70.0,
+      "score": 46.0,
       "reasons": [
-        "推薦システム",
-        "ランキング",
-        "検索・ retrieval",
         "LLM x 推薦",
-        "新着 arXiv"
+        "新着 arXiv",
+        "7日前の新着"
       ],
-      "summary": "Recommendation systems power engagement and monetization across feeds, ads, and short-video platforms, but translating the latest advances in Large Language Models into Recommendation Systems (RecSys) gains remains...",
-      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2605.27856&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2605.27856%0A-+Title%3A+Fine-Tuned+LLM+as+a+Complementary+Predictor+Improving+Ads+System%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2605.27856v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
+      "summary": "Reliable forecasting of renewable energy generation is a foundational requirement for grid stability energy trading battery scheduling and carbon aware operational planning Solar and wind resources are inherently...",
+      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2605.25141&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2605.25141%0A-+Title%3A+LLM+Agent+Based+Renewable+Energy+Forecasting+Using+Edge+and+IoT+Data+A+Review+of+Solar+Wind+Weather+and+Grid+Aware+Decision+Support%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2605.25141v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
     },
     {
-      "id": "2605.24060",
-      "title": "Same Ranking, Different Winner: How Scoring Targets Shape LLM Memory Benchmarks",
-      "url": "http://arxiv.org/abs/2605.24060v1",
+      "id": "2605.09408",
+      "title": "GravityGraphSAGE: Link Prediction in Directed Attributed Graphs",
+      "url": "http://arxiv.org/abs/2605.09408v1",
       "source": "arXiv",
-      "published": "2026-05-22",
+      "published": "2026-05-10",
       "authors": [
-        "Sugam Panthi",
-        "Rabab Abdelfattah"
+        "Riccardo Porcedda",
+        "Francesca Chiaromonte",
+        "Fabrizio Lillo",
+        "Andrea Vandin"
       ],
       "venue": "",
       "citationCount": null,
       "influentialCitationCount": null,
       "discussionCount": null,
-      "score": 70.0,
+      "score": 42.0,
       "reasons": [
         "推薦システム",
-        "ランキング",
-        "検索・ retrieval",
-        "LLM x 推薦",
-        "新着 arXiv"
-      ],
-      "summary": "Conversational-memory systems increasingly transform dialogue history into facts, summaries, timelines, and other source-linked descendants, so a single source turn can coexist with several derived memories in the...",
-      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2605.24060&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2605.24060%0A-+Title%3A+Same+Ranking%2C+Different+Winner%3A+How+Scoring+Targets+Shape+LLM+Memory+Benchmarks%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2605.24060v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
-    },
-    {
-      "id": "2605.21969",
-      "title": "LLM Retrieval for Stable and Predictable Ad Recommendations",
-      "url": "http://arxiv.org/abs/2605.21969v1",
-      "source": "arXiv",
-      "published": "2026-05-21",
-      "authors": [
-        "Vinodh Kumar Sunkara",
-        "Satheeshkumar Karuppusamy",
-        "Hangjun Xu",
-        "Sai Deepika Regani",
-        "Kshitij Gupta",
-        "Gaby Nahum",
-        "Sneha Iyer",
-        "Jean-Baptiste Fiot",
-        "Yinglong Guo",
-        "Xiaowen Guo",
-        "Atul Jangra",
-        "Yucheng Liu",
-        "Jinghao Yan",
-        "Vijay Pappu",
-        "Benjamin Schulte",
-        "Deepak Chandra"
-      ],
-      "venue": "",
-      "citationCount": null,
-      "influentialCitationCount": null,
-      "discussionCount": null,
-      "score": 70.0,
-      "reasons": [
-        "推薦システム",
-        "検索・ retrieval",
         "グラフ推薦",
-        "LLM x 推薦",
-        "新着 arXiv"
+        "新着 arXiv",
+        "直近3か月"
       ],
-      "summary": "Traditional ads recommendation systems have primarily focused on optimizing for prediction accuracy of click or conversion events using canonical metrics such as recall or normalized discounted cumulative gain (NDCG)....",
-      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2605.21969&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2605.21969%0A-+Title%3A+LLM+Retrieval+for+Stable+and+Predictable+Ad+Recommendations%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2605.21969v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
+      "summary": "Link prediction (inferring missing or future connections between nodes in a graph) is a fundamental problem in network science with widespread applications in, e.g., biological systems, recommender systems, finance...",
+      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2605.09408&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2605.09408%0A-+Title%3A+GravityGraphSAGE%3A+Link+Prediction+in+Directed+Attributed+Graphs%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2605.09408v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
     },
     {
-      "id": "2605.21967",
-      "title": "Reinforced Preference Optimization for Reasoning-Augmented Recommendations",
-      "url": "http://arxiv.org/abs/2605.21967v1",
+      "id": "2605.01101",
+      "title": "Virtual Speech Therapist: A Clinician-in-the-Loop AI Speech Therapy Agent for Personalized and Supervised Therapy",
+      "url": "http://arxiv.org/abs/2605.01101v1",
       "source": "arXiv",
-      "published": "2026-05-21",
+      "published": "2026-05-01",
       "authors": [
-        "Jingtong Gao",
-        "Zeyu Song",
-        "Chi Lu",
-        "Xiaopeng Li",
-        "Derong Xu",
-        "Maolin Wang",
-        "Peng Jiang",
-        "Kun Gai",
-        "Qingpeng Cai",
-        "Xiangyu Zhao"
+        "Shakeel Sheikh",
+        "Patrick Marmaroli",
+        "MD Sahidullah",
+        "Slim Ouni",
+        "Fabrice Hirsch",
+        "Goncalo Leal",
+        "Bjorn W Schuller"
       ],
       "venue": "",
       "citationCount": null,
       "influentialCitationCount": null,
       "discussionCount": null,
-      "score": 70.0,
+      "score": 42.0,
       "reasons": [
         "推薦システム",
-        "検索・ retrieval",
         "LLM x 推薦",
-        "強化学習",
-        "新着 arXiv"
+        "新着 arXiv",
+        "直近3か月"
       ],
-      "summary": "Recommender systems are critical for delivering personalized content across digital platforms, and recent advances in Large Language Models (LLMs) offer new opportunities to enhance them with richer world knowledge...",
-      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2605.21967&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2605.21967%0A-+Title%3A+Reinforced+Preference+Optimization+for+Reasoning-Augmented+Recommendations%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2605.21967v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
-    },
-    {
-      "id": "2605.26385",
-      "title": "Credit-assigned Policy Gradient for Early Stage Retrieval in Two-stage Ranking",
-      "url": "http://arxiv.org/abs/2605.26385v1",
-      "source": "arXiv",
-      "published": "2026-05-25",
-      "authors": [
-        "Haruka Kiyohara",
-        "Mihaela Curmei",
-        "Ariel Evnine",
-        "Shankar Kalyanaraman",
-        "Israel Nir",
-        "Ana-Roxana Pop",
-        "Nitzan Razin",
-        "Sarah Dean",
-        "Thorsten Joachims",
-        "Udi Weinsberg"
-      ],
-      "venue": "",
-      "citationCount": null,
-      "influentialCitationCount": null,
-      "discussionCount": null,
-      "score": 70.0,
-      "reasons": [
-        "推薦システム",
-        "ランキング",
-        "検索・ retrieval",
-        "強化学習",
-        "新着 arXiv"
-      ],
-      "summary": "Large-scale search, recommendation, and retrieval-augmented generation (RAG) systems typically employ a two-stage architecture: an early-stage ranker (ESR) generates a candidate set, which is subsequently re-ranked by...",
-      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2605.26385&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2605.26385%0A-+Title%3A+Credit-assigned+Policy+Gradient+for+Early+Stage+Retrieval+in+Two-stage+Ranking%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2605.26385v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
+      "summary": "This paper develops Virtual Speech Therapist (VST), an intelligent agent-based platform that streamlines stuttering assessment and delivers customized therapy planning through automated and adaptive AI-driven...",
+      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2605.01101&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2605.01101%0A-+Title%3A+Virtual+Speech+Therapist%3A+A+Clinician-in-the-Loop+AI+Speech+Therapy+Agent+for+Personalized+and+Supervised+Therapy%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2605.01101v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
     }
   ]
 }
