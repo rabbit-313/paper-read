@@ -1,6 +1,6 @@
 {
-  "date": "2026-06-01",
-  "generatedAt": "2026-06-01T23:28:06.972052+00:00",
+  "date": "2026-06-02",
+  "generatedAt": "2026-06-02T23:46:30.218718+00:00",
   "focus": "Recommender systems, recommendation, retrieval, ranking, and related ML/DL papers",
   "items": [
     {
@@ -26,6 +26,32 @@
       ],
       "summary": "Effective skills-aware talent recommendation must balance behavioral transition patterns, trajectory-sensitive adaptation, and inspectable occupation-level criteria. Evidence from public benchmarks on how these...",
       "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2605.24155&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2605.24155%0A-+Title%3A+An+Interpretable+CF-RL-TOPSIS+Fusion+Model+for+Skills-Aware+Talent+Recommendation%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2605.24155v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
+    },
+    {
+      "id": "2606.01783",
+      "title": "Breaking the Information Silo: Semantic Personas for Cross-Domain Recommendation",
+      "url": "http://arxiv.org/abs/2606.01783v1",
+      "source": "arXiv",
+      "published": "2026-06-01",
+      "authors": [
+        "Jonathan Mayo",
+        "Moshe Unger",
+        "Konstantin Bauman"
+      ],
+      "venue": "",
+      "citationCount": null,
+      "influentialCitationCount": null,
+      "discussionCount": null,
+      "score": 78.0,
+      "reasons": [
+        "推薦システム",
+        "ランキング",
+        "協調フィルタリング",
+        "グラフ推薦",
+        "LLM x 推薦"
+      ],
+      "summary": "Digital platforms increasingly operate as isolated information silos, limiting their ability to construct comprehensive user representations across domains. Cross-domain recommender systems seek to overcome this...",
+      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2606.01783&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2606.01783%0A-+Title%3A+Breaking+the+Information+Silo%3A+Semantic+Personas+for+Cross-Domain+Recommendation%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2606.01783v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
     },
     {
       "id": "2605.26819",
@@ -54,6 +80,31 @@
       ],
       "summary": "We present RAGEAR (Retrieval-Augmented Graph-Enhanced Academic Recommender), a neurosymbolic recommender system for academic course recommendation. RAGEAR combines dense retrieval over full lecture transcripts with a...",
       "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2605.26819&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2605.26819%0A-+Title%3A+RAGEAR%3A+Retrieval-Augmented+Graph-Enhanced+Academic+Recommender%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2605.26819v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
+    },
+    {
+      "id": "2606.01747",
+      "title": "Construction of Historical Knowledge Graphs Based on BERT and Graph Neural Networks",
+      "url": "http://arxiv.org/abs/2606.01747v1",
+      "source": "arXiv",
+      "published": "2026-06-01",
+      "authors": [
+        "Ping Li",
+        "Bartlomiej Brzozka"
+      ],
+      "venue": "",
+      "citationCount": null,
+      "influentialCitationCount": null,
+      "discussionCount": null,
+      "score": 70.0,
+      "reasons": [
+        "推薦システム",
+        "検索・ retrieval",
+        "グラフ推薦",
+        "LLM x 推薦",
+        "新着 arXiv"
+      ],
+      "summary": "Through digital humanities research and scale-up historical data analysis, a significant amount of traditional historical text is converted into structured knowledge graphs. This paper provides a high-level...",
+      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2606.01747&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2606.01747%0A-+Title%3A+Construction+of+Historical+Knowledge+Graphs+Based+on+BERT+and+Graph+Neural+Networks%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2606.01747v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
     },
     {
       "id": "2605.29368",
@@ -85,19 +136,20 @@
       "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2605.29368&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2605.29368%0A-+Title%3A+SURGENT%3A+A+Surgical+Multi-Agent+Assistance+System+Across+the+Perioperative+Workflow%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2605.29368v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
     },
     {
-      "id": "2605.28175",
-      "title": "Mixture-of-Experts Knowledge Graph Retrieval-Augmented Generation for Multi-Agent LLM-based Recommendation",
-      "url": "http://arxiv.org/abs/2605.28175v2",
+      "id": "2605.29287",
+      "title": "UniNote: A Unified Embedding Model for Multimodal Representation and Ranking",
+      "url": "http://arxiv.org/abs/2605.29287v2",
       "source": "arXiv",
-      "published": "2026-05-27",
+      "published": "2026-05-28",
       "authors": [
-        "Shijie Wang",
-        "Chengyi Liu",
-        "Yujuan Ding",
-        "Shanru Lin",
-        "See-Kiong Ng",
-        "Xu Xin",
-        "Wenqi Fan"
+        "Jinghan Zhao",
+        "Wenwei Jin",
+        "Anqi Li",
+        "Jintao Tong",
+        "Luya Mo",
+        "Jiawei Li",
+        "Bin Li",
+        "Yao Hu"
       ],
       "venue": "",
       "citationCount": null,
@@ -106,13 +158,13 @@
       "score": 70.0,
       "reasons": [
         "推薦システム",
+        "ランキング",
         "検索・ retrieval",
-        "グラフ推薦",
-        "LLM x 推薦",
+        "強化学習",
         "新着 arXiv"
       ],
-      "summary": "Large language models (LLMs) have recently been adopted for recommendations due to their ability to understand user intent and item semantics. However, LLM-based recommender systems often rely on parametric knowledge...",
-      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2605.28175&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2605.28175%0A-+Title%3A+Mixture-of-Experts+Knowledge+Graph+Retrieval-Augmented+Generation+for+Multi-Agent+LLM-based+Recommendation%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2605.28175v2%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
+      "summary": "Item-to-Item (I2I) retrieval is a fundamental part of modern content platforms, supporting critical industrial workflows from recommendation engines to content auditing. While multimodal embedding methods have...",
+      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2605.29287&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2605.29287%0A-+Title%3A+UniNote%3A+A+Unified+Embedding+Model+for+Multimodal+Representation+and+Ranking%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2605.29287v2%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
     },
     {
       "id": "2605.27856",
@@ -161,84 +213,18 @@
       "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2605.27856&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2605.27856%0A-+Title%3A+Fine-Tuned+LLM+as+a+Complementary+Predictor+Improving+Ads+System%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2605.27856v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
     },
     {
-      "id": "2605.29287",
-      "title": "UniNote: A Unified Embedding Model for Multimodal Representation and Ranking",
-      "url": "http://arxiv.org/abs/2605.29287v1",
+      "id": "2606.00324",
+      "title": "LLMs Need Encoders for Semantic IDs Too",
+      "url": "http://arxiv.org/abs/2606.00324v1",
       "source": "arXiv",
-      "published": "2026-05-28",
+      "published": "2026-05-29",
       "authors": [
-        "Jinghan Zhao",
-        "Wenwei Jin",
-        "Anqi Li",
-        "Jintao Tong",
-        "Luya Mo",
-        "Jiawei Li",
-        "Bin Li",
-        "Yao Hu"
-      ],
-      "venue": "",
-      "citationCount": null,
-      "influentialCitationCount": null,
-      "discussionCount": null,
-      "score": 70.0,
-      "reasons": [
-        "推薦システム",
-        "ランキング",
-        "検索・ retrieval",
-        "強化学習",
-        "新着 arXiv"
-      ],
-      "summary": "Item-to-Item (I2I) retrieval is a fundamental part of modern content platforms, supporting critical industrial workflows from recommendation engines to content auditing. While multimodal embedding methods have...",
-      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2605.29287&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2605.29287%0A-+Title%3A+UniNote%3A+A+Unified+Embedding+Model+for+Multimodal+Representation+and+Ranking%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2605.29287v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
-    },
-    {
-      "id": "2605.26385",
-      "title": "Credit-assigned Policy Gradient for Early Stage Retrieval in Two-stage Ranking",
-      "url": "http://arxiv.org/abs/2605.26385v1",
-      "source": "arXiv",
-      "published": "2026-05-25",
-      "authors": [
-        "Haruka Kiyohara",
-        "Mihaela Curmei",
-        "Ariel Evnine",
-        "Shankar Kalyanaraman",
-        "Israel Nir",
-        "Ana-Roxana Pop",
-        "Nitzan Razin",
-        "Sarah Dean",
-        "Thorsten Joachims",
-        "Udi Weinsberg"
-      ],
-      "venue": "",
-      "citationCount": null,
-      "influentialCitationCount": null,
-      "discussionCount": null,
-      "score": 70.0,
-      "reasons": [
-        "推薦システム",
-        "ランキング",
-        "検索・ retrieval",
-        "強化学習",
-        "新着 arXiv"
-      ],
-      "summary": "Large-scale search, recommendation, and retrieval-augmented generation (RAG) systems typically employ a two-stage architecture: an early-stage ranker (ESR) generates a candidate set, which is subsequently re-ranked by...",
-      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2605.26385&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2605.26385%0A-+Title%3A+Credit-assigned+Policy+Gradient+for+Early+Stage+Retrieval+in+Two-stage+Ranking%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2605.26385v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
-    },
-    {
-      "id": "2605.29640",
-      "title": "VikingMem: A Memory Base Management System for Stateful LLM-based Applications",
-      "url": "http://arxiv.org/abs/2605.29640v2",
-      "source": "arXiv",
-      "published": "2026-05-28",
-      "authors": [
-        "Jiajie Fu",
-        "Junwen Chen",
-        "Mengzhao Wang",
-        "Aoxiang He",
-        "Maojia Sheng",
-        "Xiangyu Ke",
-        "Yifan Zhu",
-        "Yunjun Gao"
+        "Xiangyi Chen",
+        "Zelun Wang",
+        "Xinyi Li",
+        "Yi-Ping Hsu",
+        "Jaewon Yang",
+        "Jiajing Xu"
       ],
       "venue": "",
       "citationCount": null,
@@ -252,8 +238,8 @@
         "新着 arXiv",
         "4日前の新着"
       ],
-      "summary": "Large Language Models have revolutionized interactive applications; however, their finite context windows pose a critical data management challenge for maintaining stateful, long-term interactions. Existing memory...",
-      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2605.29640&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2605.29640%0A-+Title%3A+VikingMem%3A+A+Memory+Base+Management+System+for+Stateful+LLM-based+Applications%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2605.29640v2%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
+      "summary": "Multimodal LLMs use dedicated encoders to bridge non-language modalities (vision encoders for images, depth models for audio codec tokens) because raw token embeddings alone cannot capture modality-specific structure....",
+      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2606.00324&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2606.00324%0A-+Title%3A+LLMs+Need+Encoders+for+Semantic+IDs+Too%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2606.00324v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
     }
   ]
 }
