@@ -1,6 +1,6 @@
 {
-  "date": "2026-06-02",
-  "generatedAt": "2026-06-02T23:46:30.218718+00:00",
+  "date": "2026-06-03",
+  "generatedAt": "2026-06-03T23:45:14.228302+00:00",
   "focus": "Recommender systems, recommendation, retrieval, ranking, and related ML/DL papers",
   "items": [
     {
@@ -107,35 +107,6 @@
       "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2606.01747&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2606.01747%0A-+Title%3A+Construction+of+Historical+Knowledge+Graphs+Based+on+BERT+and+Graph+Neural+Networks%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2606.01747v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
     },
     {
-      "id": "2605.29368",
-      "title": "SURGENT: A Surgical Multi-Agent Assistance System Across the Perioperative Workflow",
-      "url": "http://arxiv.org/abs/2605.29368v1",
-      "source": "arXiv",
-      "published": "2026-05-28",
-      "authors": [
-        "Dongsheng Shi",
-        "Yue Li",
-        "Xin Yi",
-        "Yongyi Cui",
-        "Huawei Feng",
-        "Linlin Wang"
-      ],
-      "venue": "",
-      "citationCount": null,
-      "influentialCitationCount": null,
-      "discussionCount": null,
-      "score": 70.0,
-      "reasons": [
-        "推薦システム",
-        "検索・ retrieval",
-        "協調フィルタリング",
-        "LLM x 推薦",
-        "新着 arXiv"
-      ],
-      "summary": "The intricate nature of modern surgical care necessitates intelligent systems that can synthesize extensive patient records, support collaborative decision-making, and provide transparent, auditable reasoning across...",
-      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2605.29368&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2605.29368%0A-+Title%3A+SURGENT%3A+A+Surgical+Multi-Agent+Assistance+System+Across+the+Perioperative+Workflow%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2605.29368v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
-    },
-    {
       "id": "2605.29287",
       "title": "UniNote: A Unified Embedding Model for Multimodal Representation and Ranking",
       "url": "http://arxiv.org/abs/2605.29287v2",
@@ -213,18 +184,18 @@
       "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2605.27856&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2605.27856%0A-+Title%3A+Fine-Tuned+LLM+as+a+Complementary+Predictor+Improving+Ads+System%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2605.27856v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
     },
     {
-      "id": "2606.00324",
-      "title": "LLMs Need Encoders for Semantic IDs Too",
-      "url": "http://arxiv.org/abs/2606.00324v1",
+      "id": "2606.03866",
+      "title": "Taiji: Pareto Optimal Policy Optimization with Semantics-IDs Trade-off for Industrial LLM-Enhanced Recommendation",
+      "url": "http://arxiv.org/abs/2606.03866v1",
       "source": "arXiv",
-      "published": "2026-05-29",
+      "published": "2026-06-02",
       "authors": [
-        "Xiangyi Chen",
-        "Zelun Wang",
-        "Xinyi Li",
-        "Yi-Ping Hsu",
-        "Jaewon Yang",
-        "Jiajing Xu"
+        "Yuecheng Li",
+        "Zeyu Song",
+        "Jing Yao",
+        "Chi Lu",
+        "Peng Jiang",
+        "Kun Gai"
       ],
       "venue": "",
       "citationCount": null,
@@ -233,13 +204,37 @@
       "score": 62.0,
       "reasons": [
         "推薦システム",
-        "検索・ retrieval",
+        "協調フィルタリング",
         "LLM x 推薦",
         "新着 arXiv",
-        "4日前の新着"
+        "1日前の新着"
       ],
-      "summary": "Multimodal LLMs use dedicated encoders to bridge non-language modalities (vision encoders for images, depth models for audio codec tokens) because raw token embeddings alone cannot capture modality-specific structure....",
-      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2606.00324&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2606.00324%0A-+Title%3A+LLMs+Need+Encoders+for+Semantic+IDs+Too%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2606.00324v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
+      "summary": "Scaling recommender systems via large language models (LLMs) has become a prominent trend in the industry. However, aligning the LLM's semantic space with the recommender's ID space via post-training (e.g., SFT and...",
+      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2606.03866&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2606.03866%0A-+Title%3A+Taiji%3A+Pareto+Optimal+Policy+Optimization+with+Semantics-IDs+Trade-off+for+Industrial+LLM-Enhanced+Recommendation%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2606.03866v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
+    },
+    {
+      "id": "2606.03641",
+      "title": "Gender-Dependent Diagnostic Substitution in LLM Medical Triage: Same Symptoms, Unequal Urgency",
+      "url": "http://arxiv.org/abs/2606.03641v1",
+      "source": "arXiv",
+      "published": "2026-06-02",
+      "authors": [
+        "Qi Han Wong"
+      ],
+      "venue": "",
+      "citationCount": null,
+      "influentialCitationCount": null,
+      "discussionCount": null,
+      "score": 62.0,
+      "reasons": [
+        "推薦システム",
+        "グラフ推薦",
+        "LLM x 推薦",
+        "新着 arXiv",
+        "1日前の新着"
+      ],
+      "summary": "We investigate whether large language models produce different medical triage recommendations for identical neurological symptoms when only the patient's stated gender and age vary. Using three model families--Gemini...",
+      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2606.03641&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2606.03641%0A-+Title%3A+Gender-Dependent+Diagnostic+Substitution+in+LLM+Medical+Triage%3A+Same+Symptoms%2C+Unequal+Urgency%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2606.03641v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
     }
   ]
 }
