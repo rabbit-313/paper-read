@@ -1,240 +1,211 @@
 {
-  "date": "2026-06-03",
-  "generatedAt": "2026-06-03T23:45:14.228302+00:00",
+  "date": "2026-06-04",
+  "generatedAt": "2026-06-04T23:11:31.111816+00:00",
   "focus": "Recommender systems, recommendation, retrieval, ranking, and related ML/DL papers",
   "items": [
     {
-      "id": "2605.24155",
-      "title": "An Interpretable CF-RL-TOPSIS Fusion Model for Skills-Aware Talent Recommendation",
-      "url": "http://arxiv.org/abs/2605.24155v1",
-      "source": "arXiv",
-      "published": "2026-05-22",
+      "id": "1905.08108",
+      "title": "Neural Graph Collaborative Filtering",
+      "url": "https://arxiv.org/abs/1905.08108",
+      "source": "Semantic Scholar",
+      "published": "2019-05-20",
       "authors": [
-        "Özkan Canay"
+        "Xiang Wang",
+        "Xiangnan He",
+        "Meng Wang",
+        "Fuli Feng",
+        "Tat-Seng Chua"
       ],
-      "venue": "",
-      "citationCount": null,
-      "influentialCitationCount": null,
+      "venue": "Annual International ACM SIGIR Conference on Research and Development in Information Retrieval",
+      "citationCount": 3807,
+      "influentialCitationCount": 631,
       "discussionCount": null,
-      "score": 78.0,
+      "score": 65.0,
       "reasons": [
         "推薦システム",
-        "ランキング",
         "協調フィルタリング",
-        "バンディット",
-        "強化学習"
+        "グラフ推薦",
+        "引用数 3807"
       ],
-      "summary": "Effective skills-aware talent recommendation must balance behavioral transition patterns, trajectory-sensitive adaptation, and inspectable occupation-level criteria. Evidence from public benchmarks on how these...",
-      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2605.24155&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2605.24155%0A-+Title%3A+An+Interpretable+CF-RL-TOPSIS+Fusion+Model+for+Skills-Aware+Talent+Recommendation%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2605.24155v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
+      "summary": "Learning vector representations (aka. embeddings) of users and items lies at the core of modern recommender systems. Ranging from early matrix factorization to recently emerged deep learning based methods, existing...",
+      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+1905.08108&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+1905.08108%0A-+Title%3A+Neural+Graph+Collaborative+Filtering%0A-+URL%3A+https%3A%2F%2Farxiv.org%2Fabs%2F1905.08108%0A-+Source%3A+Semantic+Scholar%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
     },
     {
-      "id": "2606.01783",
-      "title": "Breaking the Information Silo: Semantic Personas for Cross-Domain Recommendation",
-      "url": "http://arxiv.org/abs/2606.01783v1",
-      "source": "arXiv",
-      "published": "2026-06-01",
+      "id": "1409.2944",
+      "title": "Collaborative Deep Learning for Recommender Systems",
+      "url": "https://arxiv.org/abs/1409.2944",
+      "source": "Semantic Scholar",
+      "published": "2014-09-09",
       "authors": [
-        "Jonathan Mayo",
-        "Moshe Unger",
-        "Konstantin Bauman"
+        "Hao Wang",
+        "Naiyan Wang",
+        "D. Yeung"
       ],
-      "venue": "",
-      "citationCount": null,
-      "influentialCitationCount": null,
+      "venue": "Knowledge Discovery and Data Mining",
+      "citationCount": 1709,
+      "influentialCitationCount": 173,
       "discussionCount": null,
-      "score": 78.0,
+      "score": 57.0,
+      "reasons": [
+        "推薦システム",
+        "協調フィルタリング",
+        "引用数 1709"
+      ],
+      "summary": "Collaborative filtering (CF) is a successful approach commonly used by many recommender systems. Conventional CF-based methods use the ratings given to items by users as the sole source of information for learning to...",
+      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+1409.2944&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+1409.2944%0A-+Title%3A+Collaborative+Deep+Learning+for+Recommender+Systems%0A-+URL%3A+https%3A%2F%2Farxiv.org%2Fabs%2F1409.2944%0A-+Source%3A+Semantic+Scholar%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
+    },
+    {
+      "id": "1708.05031",
+      "title": "Neural Collaborative Filtering",
+      "url": "https://arxiv.org/abs/1708.05031",
+      "source": "Semantic Scholar",
+      "published": "2017-04-03",
+      "authors": [
+        "Xiangnan He",
+        "Lizi Liao",
+        "Hanwang Zhang",
+        "Liqiang Nie",
+        "Xia Hu",
+        "Tat-Seng Chua"
+      ],
+      "venue": "The Web Conference",
+      "citationCount": 7028,
+      "influentialCitationCount": 998,
+      "discussionCount": null,
+      "score": 57.0,
+      "reasons": [
+        "推薦システム",
+        "協調フィルタリング",
+        "引用数 7028"
+      ],
+      "summary": "In recent years, deep neural networks have yielded immense success on speech recognition, computer vision and natural language processing. However, the exploration of deep neural networks on recommender systems has...",
+      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+1708.05031&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+1708.05031%0A-+Title%3A+Neural+Collaborative+Filtering%0A-+URL%3A+https%3A%2F%2Farxiv.org%2Fabs%2F1708.05031%0A-+Source%3A+Semantic+Scholar%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
+    },
+    {
+      "id": "1606.07792",
+      "title": "Wide & Deep Learning for Recommender Systems",
+      "url": "https://arxiv.org/abs/1606.07792",
+      "source": "Semantic Scholar",
+      "published": "2016-06-24",
+      "authors": [
+        "Heng-Tze Cheng",
+        "L. Koc",
+        "Jeremiah Harmsen",
+        "T. Shaked",
+        "Tushar Chandra",
+        "H. Aradhye"
+      ],
+      "venue": "DLRS@RecSys",
+      "citationCount": 4137,
+      "influentialCitationCount": 456,
+      "discussionCount": null,
+      "score": 49.0,
+      "reasons": [
+        "推薦システム",
+        "引用数 4137"
+      ],
+      "summary": "Generalized linear models with nonlinear feature transformations are widely used for large-scale regression and classification problems with sparse inputs. Memorization of feature interactions through a wide set of...",
+      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+1606.07792&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+1606.07792%0A-+Title%3A+Wide+%26+Deep+Learning+for+Recommender+Systems%0A-+URL%3A+https%3A%2F%2Farxiv.org%2Fabs%2F1606.07792%0A-+Source%3A+Semantic+Scholar%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
+    },
+    {
+      "id": "a-hybrid-llm-and-graph-enhanced-transformer-framework-for-cold-start-session-bas",
+      "title": "A Hybrid LLM and Graph-Enhanced Transformer Framework for Cold-Start Session-Based Fashion Recommendation",
+      "url": "https://www.semanticscholar.org/paper/dec858a2d13d69a2a785a8fc905ce11f3a68cb88",
+      "source": "Semantic Scholar",
+      "published": "2025-07-18",
+      "authors": [
+        "Junchen Liu"
+      ],
+      "venue": "2025 7th International Conference on Electronics and Communication, Network and Computer Technology (ECNCT)",
+      "citationCount": 18,
+      "influentialCitationCount": 0,
+      "discussionCount": null,
+      "score": 38.9,
       "reasons": [
         "推薦システム",
         "ランキング",
-        "協調フィルタリング",
         "グラフ推薦",
         "LLM x 推薦"
       ],
-      "summary": "Digital platforms increasingly operate as isolated information silos, limiting their ability to construct comprehensive user representations across domains. Cross-domain recommender systems seek to overcome this...",
-      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2606.01783&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2606.01783%0A-+Title%3A+Breaking+the+Information+Silo%3A+Semantic+Personas+for+Cross-Domain+Recommendation%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2606.01783v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
+      "summary": "Session-based recommendation in areas like fashion is hard because of cold-start problems, changing user needs, and the difficulty of using product labels. Traditional models, such as sequence models or graph methods,...",
+      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+a-hybrid-llm-and-graph-enhanced-transformer-framework-for-cold-start-session-bas&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+a-hybrid-llm-and-graph-enhanced-transformer-framework-for-cold-start-session-bas%0A-+Title%3A+A+Hybrid+LLM+and+Graph-Enhanced+Transformer+Framework+for+Cold-Start+Session-Based+Fashion+Recommendation%0A-+URL%3A+https%3A%2F%2Fwww.semanticscholar.org%2Fpaper%2Fdec858a2d13d69a2a785a8fc905ce11f3a68cb88%0A-+Source%3A+Semantic+Scholar%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
     },
     {
-      "id": "2605.26819",
-      "title": "RAGEAR: Retrieval-Augmented Graph-Enhanced Academic Recommender",
-      "url": "http://arxiv.org/abs/2605.26819v1",
-      "source": "arXiv",
-      "published": "2026-05-26",
+      "id": "2412.08847",
+      "title": "MOPI-HFRS: A Multi-objective Personalized Health-aware Food Recommendation System with LLM-enhanced Interpretation",
+      "url": "https://arxiv.org/abs/2412.08847",
+      "source": "Semantic Scholar",
+      "published": "2024-12-12",
       "authors": [
-        "Francesco Granata",
-        "Lorenzo Lamazzi",
-        "Misael Mongiovì",
-        "Francesco Poggi",
-        "Valeria Secchini"
+        "Zheyuan Zhang",
+        "Zehong Wang",
+        "Tianyi Ma",
+        "V. Taneja",
+        "Sofia Nelson",
+        "Nhi Ha Lan Le"
       ],
-      "venue": "",
-      "citationCount": null,
-      "influentialCitationCount": null,
+      "venue": "Knowledge Discovery and Data Mining",
+      "citationCount": 31,
+      "influentialCitationCount": 1,
       "discussionCount": null,
-      "score": 78.0,
+      "score": 31.65,
       "reasons": [
         "推薦システム",
-        "ランキング",
-        "検索・ retrieval",
         "グラフ推薦",
         "LLM x 推薦"
       ],
-      "summary": "We present RAGEAR (Retrieval-Augmented Graph-Enhanced Academic Recommender), a neurosymbolic recommender system for academic course recommendation. RAGEAR combines dense retrieval over full lecture transcripts with a...",
-      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2605.26819&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2605.26819%0A-+Title%3A+RAGEAR%3A+Retrieval-Augmented+Graph-Enhanced+Academic+Recommender%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2605.26819v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
+      "summary": "The prevalence of unhealthy eating habits has become a growing concern in the United States. However, popular food recommendation platforms, such as Yelp, tend to prioritize users' dietary preferences over the...",
+      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2412.08847&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2412.08847%0A-+Title%3A+MOPI-HFRS%3A+A+Multi-objective+Personalized+Health-aware+Food+Recommendation+System+with+LLM-enhanced+Interpretation%0A-+URL%3A+https%3A%2F%2Farxiv.org%2Fabs%2F2412.08847%0A-+Source%3A+Semantic+Scholar%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
     },
     {
-      "id": "2606.01747",
-      "title": "Construction of Historical Knowledge Graphs Based on BERT and Graph Neural Networks",
-      "url": "http://arxiv.org/abs/2606.01747v1",
-      "source": "arXiv",
-      "published": "2026-06-01",
+      "id": "cores-context-aware-emotion-driven-recommendation-system-based-llm-to-improve-vi",
+      "title": "CORES: Context-Aware Emotion-Driven Recommendation System-Based LLM to Improve Virtual Shopping Experiences",
+      "url": "https://www.semanticscholar.org/paper/d063f3c257b767401f3069c094a6be89a1da87b3",
+      "source": "Semantic Scholar",
+      "published": "2025-02-18",
       "authors": [
-        "Ping Li",
-        "Bartlomiej Brzozka"
+        "Abderrahim Lakehal",
+        "Adel Alti",
+        "Boubakeur Annane"
       ],
-      "venue": "",
-      "citationCount": null,
-      "influentialCitationCount": null,
+      "venue": "Future Internet",
+      "citationCount": 10,
+      "influentialCitationCount": 0,
       "discussionCount": null,
-      "score": 70.0,
+      "score": 30.5,
       "reasons": [
         "推薦システム",
         "検索・ retrieval",
-        "グラフ推薦",
-        "LLM x 推薦",
-        "新着 arXiv"
+        "LLM x 推薦"
       ],
-      "summary": "Through digital humanities research and scale-up historical data analysis, a significant amount of traditional historical text is converted into structured knowledge graphs. This paper provides a high-level...",
-      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2606.01747&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2606.01747%0A-+Title%3A+Construction+of+Historical+Knowledge+Graphs+Based+on+BERT+and+Graph+Neural+Networks%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2606.01747v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
+      "summary": "In today’s business landscape, artificial intelligence (AI) plays a pivotal role in shopping processes and customization. As the demand for customization grows, virtual reality (VR) emerges as an innovative solution...",
+      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+cores-context-aware-emotion-driven-recommendation-system-based-llm-to-improve-vi&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+cores-context-aware-emotion-driven-recommendation-system-based-llm-to-improve-vi%0A-+Title%3A+CORES%3A+Context-Aware+Emotion-Driven+Recommendation+System-Based+LLM+to+Improve+Virtual+Shopping+Experiences%0A-+URL%3A+https%3A%2F%2Fwww.semanticscholar.org%2Fpaper%2Fd063f3c257b767401f3069c094a6be89a1da87b3%0A-+Source%3A+Semantic+Scholar%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
     },
     {
-      "id": "2605.29287",
-      "title": "UniNote: A Unified Embedding Model for Multimodal Representation and Ranking",
-      "url": "http://arxiv.org/abs/2605.29287v2",
-      "source": "arXiv",
-      "published": "2026-05-28",
+      "id": "2501.13908",
+      "title": "Graph Neural Controlled Differential Equations For Collaborative Filtering",
+      "url": "https://arxiv.org/abs/2501.13908",
+      "source": "Semantic Scholar",
+      "published": "2025-01-23",
       "authors": [
-        "Jinghan Zhao",
-        "Wenwei Jin",
-        "Anqi Li",
-        "Jintao Tong",
-        "Luya Mo",
-        "Jiawei Li",
-        "Bin Li",
-        "Yao Hu"
+        "Ke Xu",
+        "Weizhi Zhang",
+        "Zihe Song",
+        "Yuanjie Zhu",
+        "Philip S. Yu"
       ],
-      "venue": "",
-      "citationCount": null,
-      "influentialCitationCount": null,
+      "venue": "The Web Conference",
+      "citationCount": 6,
+      "influentialCitationCount": 0,
       "discussionCount": null,
-      "score": 70.0,
-      "reasons": [
-        "推薦システム",
-        "ランキング",
-        "検索・ retrieval",
-        "強化学習",
-        "新着 arXiv"
-      ],
-      "summary": "Item-to-Item (I2I) retrieval is a fundamental part of modern content platforms, supporting critical industrial workflows from recommendation engines to content auditing. While multimodal embedding methods have...",
-      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2605.29287&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2605.29287%0A-+Title%3A+UniNote%3A+A+Unified+Embedding+Model+for+Multimodal+Representation+and+Ranking%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2605.29287v2%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
-    },
-    {
-      "id": "2605.27856",
-      "title": "Fine-Tuned LLM as a Complementary Predictor Improving Ads System",
-      "url": "http://arxiv.org/abs/2605.27856v1",
-      "source": "arXiv",
-      "published": "2026-05-27",
-      "authors": [
-        "Hui Yang",
-        "Daiwei He",
-        "Kevin Jiang",
-        "Taejin Park",
-        "Kungang Li",
-        "Jiajun Luo",
-        "Yuying Chen",
-        "Xinyi Zhang",
-        "Sihan Wang",
-        "Haoyu He",
-        "Yu Liu",
-        "Lakshmi Manoharan",
-        "David Xue",
-        "Shubham Barhate",
-        "Runze Su",
-        "Duna Zhan",
-        "Ling Leng",
-        "Siping Ji",
-        "Jinfeng Zhuang",
-        "Alice Wu",
-        "Leo Lu",
-        "Han Sun",
-        "Zhifang Liu"
-      ],
-      "venue": "",
-      "citationCount": null,
-      "influentialCitationCount": null,
-      "discussionCount": null,
-      "score": 70.0,
-      "reasons": [
-        "推薦システム",
-        "ランキング",
-        "検索・ retrieval",
-        "LLM x 推薦",
-        "新着 arXiv"
-      ],
-      "summary": "Recommendation systems power engagement and monetization across feeds, ads, and short-video platforms, but translating the latest advances in Large Language Models into Recommendation Systems (RecSys) gains remains...",
-      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2605.27856&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2605.27856%0A-+Title%3A+Fine-Tuned+LLM+as+a+Complementary+Predictor+Improving+Ads+System%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2605.27856v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
-    },
-    {
-      "id": "2606.03866",
-      "title": "Taiji: Pareto Optimal Policy Optimization with Semantics-IDs Trade-off for Industrial LLM-Enhanced Recommendation",
-      "url": "http://arxiv.org/abs/2606.03866v1",
-      "source": "arXiv",
-      "published": "2026-06-02",
-      "authors": [
-        "Yuecheng Li",
-        "Zeyu Song",
-        "Jing Yao",
-        "Chi Lu",
-        "Peng Jiang",
-        "Kun Gai"
-      ],
-      "venue": "",
-      "citationCount": null,
-      "influentialCitationCount": null,
-      "discussionCount": null,
-      "score": 62.0,
+      "score": 30.3,
       "reasons": [
         "推薦システム",
         "協調フィルタリング",
-        "LLM x 推薦",
-        "新着 arXiv",
-        "1日前の新着"
+        "グラフ推薦"
       ],
-      "summary": "Scaling recommender systems via large language models (LLMs) has become a prominent trend in the industry. However, aligning the LLM's semantic space with the recommender's ID space via post-training (e.g., SFT and...",
-      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2606.03866&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2606.03866%0A-+Title%3A+Taiji%3A+Pareto+Optimal+Policy+Optimization+with+Semantics-IDs+Trade-off+for+Industrial+LLM-Enhanced+Recommendation%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2606.03866v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
-    },
-    {
-      "id": "2606.03641",
-      "title": "Gender-Dependent Diagnostic Substitution in LLM Medical Triage: Same Symptoms, Unequal Urgency",
-      "url": "http://arxiv.org/abs/2606.03641v1",
-      "source": "arXiv",
-      "published": "2026-06-02",
-      "authors": [
-        "Qi Han Wong"
-      ],
-      "venue": "",
-      "citationCount": null,
-      "influentialCitationCount": null,
-      "discussionCount": null,
-      "score": 62.0,
-      "reasons": [
-        "推薦システム",
-        "グラフ推薦",
-        "LLM x 推薦",
-        "新着 arXiv",
-        "1日前の新着"
-      ],
-      "summary": "We investigate whether large language models produce different medical triage recommendations for identical neurological symptoms when only the patient's stated gender and age vary. Using three model families--Gemini...",
-      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2606.03641&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2606.03641%0A-+Title%3A+Gender-Dependent+Diagnostic+Substitution+in+LLM+Medical+Triage%3A+Same+Symptoms%2C+Unequal+Urgency%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2606.03641v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
+      "summary": "Graph Convolution Networks (GCNs) are widely considered state-of-the-art for recommendation systems. Several studies in the field of recommendation systems have attempted to apply collaborative filtering (CF) within...",
+      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2501.13908&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2501.13908%0A-+Title%3A+Graph+Neural+Controlled+Differential+Equations+For+Collaborative+Filtering%0A-+URL%3A+https%3A%2F%2Farxiv.org%2Fabs%2F2501.13908%0A-+Source%3A+Semantic+Scholar%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
     }
   ]
 }
