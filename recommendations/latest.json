@@ -1,6 +1,6 @@
 {
-  "date": "2026-06-06",
-  "generatedAt": "2026-06-06T23:05:45.562192+00:00",
+  "date": "2026-06-07",
+  "generatedAt": "2026-06-07T23:05:59.615832+00:00",
   "focus": "Recommender systems, recommendation, retrieval, ranking, and related ML/DL papers",
   "items": [
     {
@@ -135,33 +135,6 @@
       "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2605.24155&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2605.24155%0A-+Title%3A+An+Interpretable+CF-RL-TOPSIS+Fusion+Model+for+Skills-Aware+Talent+Recommendation%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2605.24155v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
     },
     {
-      "id": "1905.08108",
-      "title": "Neural Graph Collaborative Filtering",
-      "url": "https://arxiv.org/abs/1905.08108",
-      "source": "Semantic Scholar",
-      "published": "2019-05-20",
-      "authors": [
-        "Xiang Wang",
-        "Xiangnan He",
-        "Meng Wang",
-        "Fuli Feng",
-        "Tat-Seng Chua"
-      ],
-      "venue": "Annual International ACM SIGIR Conference on Research and Development in Information Retrieval",
-      "citationCount": 3811,
-      "influentialCitationCount": 631,
-      "discussionCount": null,
-      "score": 65.0,
-      "reasons": [
-        "推薦システム",
-        "協調フィルタリング",
-        "グラフ推薦",
-        "引用数 3811"
-      ],
-      "summary": "Learning vector representations (aka. embeddings) of users and items lies at the core of modern recommender systems. Ranging from early matrix factorization to recently emerged deep learning based methods, existing...",
-      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+1905.08108&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+1905.08108%0A-+Title%3A+Neural+Graph+Collaborative+Filtering%0A-+URL%3A+https%3A%2F%2Farxiv.org%2Fabs%2F1905.08108%0A-+Source%3A+Semantic+Scholar%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
-    },
-    {
       "id": "2606.06448",
       "title": "Agent Memory: Characterization and System Implications of Stateful Long-Horizon Workloads",
       "url": "http://arxiv.org/abs/2606.06448v1",
@@ -188,7 +161,7 @@
         "検索・ retrieval",
         "LLM x 推薦",
         "新着 arXiv",
-        "2日前の新着"
+        "3日前の新着"
       ],
       "summary": "LLM agents are increasingly deployed on long-horizon tasks requiring sustained reasoning over extended interaction histories. Realizing this at scale requires agents to persistently store, retrieve, and update their...",
       "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2606.06448&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2606.06448%0A-+Title%3A+Agent+Memory%3A+Characterization+and+System+Implications+of+Stateful+Long-Horizon+Workloads%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2606.06448v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
@@ -216,10 +189,44 @@
         "協調フィルタリング",
         "LLM x 推薦",
         "新着 arXiv",
-        "2日前の新着"
+        "3日前の新着"
       ],
       "summary": "Distilling accurate user preferences from noisy implicit feedback remains a fundamental bottleneck in recommendation systems, highlighting the need for recommendation denoising. However, real-world data lack explicit...",
       "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2606.05621&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2606.05621%0A-+Title%3A+ANCHOR%3A+Agentic+Noise+Creation+Framework+for+Human+Simulation+and+Denoising+Recommendation%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2606.05621v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
+    },
+    {
+      "id": "2606.04547",
+      "title": "Beyond Retrieval: Learning Compact User Representations for Scalable LLM Personalization",
+      "url": "http://arxiv.org/abs/2606.04547v1",
+      "source": "arXiv",
+      "published": "2026-06-03",
+      "authors": [
+        "Heng Cao",
+        "Fan Zhang",
+        "Jian Yao",
+        "Yujie Zheng",
+        "Changlin Zhao",
+        "Lu Hao",
+        "Yuxuan Wei",
+        "Wangze Ni",
+        "Huaiyu Fu",
+        "Yuqian Sun",
+        "Xuyan Mo"
+      ],
+      "venue": "",
+      "citationCount": null,
+      "influentialCitationCount": null,
+      "discussionCount": null,
+      "score": 62.0,
+      "reasons": [
+        "推薦システム",
+        "検索・ retrieval",
+        "LLM x 推薦",
+        "新着 arXiv",
+        "4日前の新着"
+      ],
+      "summary": "Personalizing large language models requires adapting model behavior to individual users while preserving robustness and deployment-scale efficiency. Existing approaches typically personalize LLMs either at the input...",
+      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2606.04547&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2606.04547%0A-+Title%3A+Beyond+Retrieval%3A+Learning+Compact+User+Representations+for+Scalable+LLM+Personalization%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2606.04547v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
     }
   ]
 }
