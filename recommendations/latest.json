@@ -1,34 +1,8 @@
 {
-  "date": "2026-06-07",
-  "generatedAt": "2026-06-07T23:05:59.615832+00:00",
+  "date": "2026-06-08",
+  "generatedAt": "2026-06-08T23:12:34.671270+00:00",
   "focus": "Recommender systems, recommendation, retrieval, ranking, and related ML/DL papers",
   "items": [
-    {
-      "id": "2606.01783",
-      "title": "Breaking the Information Silo: Semantic Personas for Cross-Domain Recommendation",
-      "url": "http://arxiv.org/abs/2606.01783v1",
-      "source": "arXiv",
-      "published": "2026-06-01",
-      "authors": [
-        "Jonathan Mayo",
-        "Moshe Unger",
-        "Konstantin Bauman"
-      ],
-      "venue": "",
-      "citationCount": null,
-      "influentialCitationCount": null,
-      "discussionCount": null,
-      "score": 78.0,
-      "reasons": [
-        "推薦システム",
-        "ランキング",
-        "協調フィルタリング",
-        "グラフ推薦",
-        "LLM x 推薦"
-      ],
-      "summary": "Digital platforms increasingly operate as isolated information silos, limiting their ability to construct comprehensive user representations across domains. Cross-domain recommender systems seek to overcome this...",
-      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2606.01783&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2606.01783%0A-+Title%3A+Breaking+the+Information+Silo%3A+Semantic+Personas+for+Cross-Domain+Recommendation%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2606.01783v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
-    },
     {
       "id": "2606.01747",
       "title": "Construction of Historical Knowledge Graphs Based on BERT and Graph Neural Networks",
@@ -79,6 +53,33 @@
       ],
       "summary": "E-commerce recommender systems strongly influence which products users consider and purchase, yet sustainability signals such as Product Carbon Footprint (PCF) are almost never available at catalog scale. We study...",
       "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2606.04550&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2606.04550%0A-+Title%3A+Trading+Engagement+for+Sustainability%3A+Carbon-Aware+Re-ranking+for+E-commerce+Recommendations%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2606.04550v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
+    },
+    {
+      "id": "2606.06779",
+      "title": "Mind the Gap: Bridging Behavioral Silos with LLMs in Multi-Vertical Recommendations",
+      "url": "http://arxiv.org/abs/2606.06779v1",
+      "source": "arXiv",
+      "published": "2026-06-04",
+      "authors": [
+        "Nimesh Sinha",
+        "Raghav Saboo",
+        "Martin Wang",
+        "Sudeep Das"
+      ],
+      "venue": "",
+      "citationCount": null,
+      "influentialCitationCount": null,
+      "discussionCount": null,
+      "score": 70.0,
+      "reasons": [
+        "推薦システム",
+        "ランキング",
+        "検索・ retrieval",
+        "LLM x 推薦",
+        "新着 arXiv"
+      ],
+      "summary": "In multi-vertical e-commerce platforms like DoorDash, relatively newer product verticals such as grocery and retail present a significant opportunity for personalization innovation. A key challenge lies in solving the...",
+      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2606.06779&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2606.06779%0A-+Title%3A+Mind+the+Gap%3A+Bridging+Behavioral+Silos+with+LLMs+in+Multi-Vertical+Recommendations%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2606.06779v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
     },
     {
       "id": "2606.06225",
@@ -161,7 +162,7 @@
         "検索・ retrieval",
         "LLM x 推薦",
         "新着 arXiv",
-        "3日前の新着"
+        "4日前の新着"
       ],
       "summary": "LLM agents are increasingly deployed on long-horizon tasks requiring sustained reasoning over extended interaction histories. Realizing this at scale requires agents to persistently store, retrieve, and update their...",
       "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2606.06448&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2606.06448%0A-+Title%3A+Agent+Memory%3A+Characterization+and+System+Implications+of+Stateful+Long-Horizon+Workloads%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2606.06448v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
@@ -189,7 +190,7 @@
         "協調フィルタリング",
         "LLM x 推薦",
         "新着 arXiv",
-        "3日前の新着"
+        "4日前の新着"
       ],
       "summary": "Distilling accurate user preferences from noisy implicit feedback remains a fundamental bottleneck in recommendation systems, highlighting the need for recommendation denoising. However, real-world data lack explicit...",
       "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2606.05621&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2606.05621%0A-+Title%3A+ANCHOR%3A+Agentic+Noise+Creation+Framework+for+Human+Simulation+and+Denoising+Recommendation%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2606.05621v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
@@ -223,7 +224,7 @@
         "検索・ retrieval",
         "LLM x 推薦",
         "新着 arXiv",
-        "4日前の新着"
+        "5日前の新着"
       ],
       "summary": "Personalizing large language models requires adapting model behavior to individual users while preserving robustness and deployment-scale efficiency. Existing approaches typically personalize LLMs either at the input...",
       "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2606.04547&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2606.04547%0A-+Title%3A+Beyond+Retrieval%3A+Learning+Compact+User+Representations+for+Scalable+LLM+Personalization%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2606.04547v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
