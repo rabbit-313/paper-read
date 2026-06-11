@@ -1,6 +1,6 @@
 {
-  "date": "2026-06-10",
-  "generatedAt": "2026-06-10T23:26:17.147078+00:00",
+  "date": "2026-06-11",
+  "generatedAt": "2026-06-11T23:23:43.616267+00:00",
   "focus": "Recommender systems, recommendation, retrieval, ranking, and related ML/DL papers",
   "items": [
     {
@@ -27,32 +27,6 @@
       ],
       "summary": "Through digital humanities research and scale-up historical data analysis, a significant amount of traditional historical text is converted into structured knowledge graphs. This paper provides a high-level...",
       "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2606.01747&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2606.01747%0A-+Title%3A+Construction+of+Historical+Knowledge+Graphs+Based+on+BERT+and+Graph+Neural+Networks%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2606.01747v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
-    },
-    {
-      "id": "2606.04550",
-      "title": "Trading Engagement for Sustainability: Carbon-Aware Re-ranking for E-commerce Recommendations",
-      "url": "http://arxiv.org/abs/2606.04550v1",
-      "source": "arXiv",
-      "published": "2026-06-03",
-      "authors": [
-        "Noah Lund Syrdal",
-        "Anders Vestrum",
-        "Jorgen Bergh"
-      ],
-      "venue": "",
-      "citationCount": null,
-      "influentialCitationCount": null,
-      "discussionCount": null,
-      "score": 70.0,
-      "reasons": [
-        "推薦システム",
-        "ランキング",
-        "検索・ retrieval",
-        "LLM x 推薦",
-        "新着 arXiv"
-      ],
-      "summary": "E-commerce recommender systems strongly influence which products users consider and purchase, yet sustainability signals such as Product Carbon Footprint (PCF) are almost never available at catalog scale. We study...",
-      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2606.04550&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2606.04550%0A-+Title%3A+Trading+Engagement+for+Sustainability%3A+Carbon-Aware+Re-ranking+for+E-commerce+Recommendations%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2606.04550v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
     },
     {
       "id": "2606.06779",
@@ -125,7 +99,7 @@
         "検索・ retrieval",
         "グラフ推薦",
         "新着 arXiv",
-        "2日前の新着"
+        "3日前の新着"
       ],
       "summary": "This paper presents a unified system designed to support precision agriculture by integrating advanced weather prediction, crop recommendation, and a question-answering tool for farmers. We propose two deep learning...",
       "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2606.09160&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2606.09160%0A-+Title%3A+Crop+Recommendation+and+Agricultural+Query+Answering+System+Using+Spatio-Temporal+Graph+Neural+Networks+and+Hybrid+Retrieval+Augmentation%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2606.09160v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
@@ -157,7 +131,7 @@
         "検索・ retrieval",
         "LLM x 推薦",
         "新着 arXiv",
-        "1日前の新着"
+        "2日前の新着"
       ],
       "summary": "Cross-domain recommendation is a core problem in content-to-e-commerce platforms. Its objective is to leverage user interactions with content to infer potential purchasing intent on the e-commerce side, thereby...",
       "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2606.10357&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2606.10357%0A-+Title%3A+Atomic+Intent+Reasoning%3A+Bringing+LLM+Semantics+to+Industrial+Cross-Domain+Recommendations%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2606.10357v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
@@ -165,7 +139,7 @@
     {
       "id": "2606.10120",
       "title": "MetaPlate: Counterfactual-Guided RAG-LLM Tool for Personalized Food Recommendation and Hyperglycemia Prevention",
-      "url": "http://arxiv.org/abs/2606.10120v1",
+      "url": "http://arxiv.org/abs/2606.10120v2",
       "source": "arXiv",
       "published": "2026-06-08",
       "authors": [
@@ -183,10 +157,10 @@
         "検索・ retrieval",
         "LLM x 推薦",
         "新着 arXiv",
-        "2日前の新着"
+        "3日前の新着"
       ],
       "summary": "Postprandial hyperglycemia is a key risk factor for metabolic disorders; however, existing dietary guidance is often static, impractical, and insufficiently personalized, providing recommendations that are difficult...",
-      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2606.10120&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2606.10120%0A-+Title%3A+MetaPlate%3A+Counterfactual-Guided+RAG-LLM+Tool+for+Personalized+Food+Recommendation+and+Hyperglycemia+Prevention%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2606.10120v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
+      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2606.10120&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2606.10120%0A-+Title%3A+MetaPlate%3A+Counterfactual-Guided+RAG-LLM+Tool+for+Personalized+Food+Recommendation+and+Hyperglycemia+Prevention%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2606.10120v2%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
     },
     {
       "id": "2606.10078",
@@ -213,10 +187,40 @@
         "ランキング",
         "LLM x 推薦",
         "新着 arXiv",
-        "2日前の新着"
+        "3日前の新着"
       ],
       "summary": "Direct preference optimization (DPO) is a simple and effective alignment strategy for large language models (LLMs) based on pairwise preferences. In recommender systems, however, user feedback is rarely pairwise. For...",
       "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2606.10078&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2606.10078%0A-+Title%3A+Mult-DPO%3A+Multinomial+Direct+Preference+Optimization+for+Recommender+Systems%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2606.10078v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
+    },
+    {
+      "id": "2606.08466",
+      "title": "ToolRec: Calibrated Preference Alignment for Query Recommendation in On-Device Assistants",
+      "url": "http://arxiv.org/abs/2606.08466v1",
+      "source": "arXiv",
+      "published": "2026-06-07",
+      "authors": [
+        "Zihan Luo",
+        "Lingkui Chen",
+        "Ruike Zhang",
+        "Hong Huang",
+        "Boyang Zhang",
+        "Ziniu Chen",
+        "Lizhong Wang"
+      ],
+      "venue": "",
+      "citationCount": null,
+      "influentialCitationCount": null,
+      "discussionCount": null,
+      "score": 62.0,
+      "reasons": [
+        "推薦システム",
+        "検索・ retrieval",
+        "LLM x 推薦",
+        "新着 arXiv",
+        "4日前の新着"
+      ],
+      "summary": "Large Language Models (LLMs) have significantly advanced generative query recommendation. However, existing alignment methods primarily focus on standard chatbot scenarios, falling short in on-device intelligent...",
+      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2606.08466&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2606.08466%0A-+Title%3A+ToolRec%3A+Calibrated+Preference+Alignment+for+Query+Recommendation+in+On-Device+Assistants%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2606.08466v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
     }
   ]
 }
