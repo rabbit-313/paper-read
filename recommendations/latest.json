@@ -1,17 +1,50 @@
 {
-  "date": "2026-06-15",
-  "generatedAt": "2026-06-15T23:46:34.406473+00:00",
+  "date": "2026-06-16",
+  "generatedAt": "2026-06-16T23:24:44.607865+00:00",
   "focus": "Recommender systems, recommendation, retrieval, ranking, and related ML/DL papers",
   "items": [
     {
-      "id": "2606.01747",
-      "title": "Construction of Historical Knowledge Graphs Based on BERT and Graph Neural Networks",
-      "url": "http://arxiv.org/abs/2606.01747v1",
+      "id": "2606.16703",
+      "title": "Harmonizing Semantic and Collaborative in LLMs: Reasoning-based Embedding Generator for Sequential Recommendation",
+      "url": "http://arxiv.org/abs/2606.16703v1",
       "source": "arXiv",
-      "published": "2026-06-01",
+      "published": "2026-06-15",
       "authors": [
-        "Ping Li",
-        "Bartlomiej Brzozka"
+        "Qidong Liu",
+        "Mingyao Huang",
+        "Moranxin Wang",
+        "Wenxuan Yang",
+        "Haiping Zhu"
+      ],
+      "venue": "",
+      "citationCount": null,
+      "influentialCitationCount": null,
+      "discussionCount": null,
+      "score": 70.0,
+      "reasons": [
+        "推薦システム",
+        "協調フィルタリング",
+        "LLM x 推薦",
+        "強化学習",
+        "新着 arXiv"
+      ],
+      "summary": "Sequential Recommender Systems (SRS) predict the next item of interest based on users' interaction histories and have been widely deployed, but hindered by long-tail problem. Large Language Models (LLMs), with strong...",
+      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2606.16703&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2606.16703%0A-+Title%3A+Harmonizing+Semantic+and+Collaborative+in+LLMs%3A+Reasoning-based+Embedding+Generator+for+Sequential+Recommendation%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2606.16703v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
+    },
+    {
+      "id": "2606.15838",
+      "title": "Intelligent Multimodal Retrieval and Reasoning for Geospatial Knowledge Discovery on the I-GUIDE Platform",
+      "url": "http://arxiv.org/abs/2606.15838v1",
+      "source": "arXiv",
+      "published": "2026-06-14",
+      "authors": [
+        "Yunfan Kang",
+        "Erick Li",
+        "Furqan Baig",
+        "Wei Hu",
+        "Alexander Michels",
+        "Anand Padmanabhan",
+        "Shaowen Wang"
       ],
       "venue": "",
       "citationCount": null,
@@ -25,8 +58,65 @@
         "LLM x 推薦",
         "新着 arXiv"
       ],
-      "summary": "Through digital humanities research and scale-up historical data analysis, a significant amount of traditional historical text is converted into structured knowledge graphs. This paper provides a high-level...",
-      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2606.01747&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2606.01747%0A-+Title%3A+Construction+of+Historical+Knowledge+Graphs+Based+on+BERT+and+Graph+Neural+Networks%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2606.01747v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
+      "summary": "Geospatial knowledge discovery increasingly requires search across heterogeneous artifacts: datasets, maps, notebooks, software, publications, and the provenance links among them. Conventional geoportals support...",
+      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2606.15838&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2606.15838%0A-+Title%3A+Intelligent+Multimodal+Retrieval+and+Reasoning+for+Geospatial+Knowledge+Discovery+on+the+I-GUIDE+Platform%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2606.15838v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
+    },
+    {
+      "id": "2606.15277",
+      "title": "Guiding Federated Graph Recommendation with LLM-encoded knowledge",
+      "url": "http://arxiv.org/abs/2606.15277v1",
+      "source": "arXiv",
+      "published": "2026-06-13",
+      "authors": [
+        "Thi Minh Chau Nguyen",
+        "Hien Trang Nguyen",
+        "Duc Anh Nguyen",
+        "Van Ho-Long",
+        "Thanh Trung Huynh",
+        "Zhao Ren"
+      ],
+      "venue": "",
+      "citationCount": null,
+      "influentialCitationCount": null,
+      "discussionCount": null,
+      "score": 70.0,
+      "reasons": [
+        "推薦システム",
+        "協調フィルタリング",
+        "グラフ推薦",
+        "LLM x 推薦",
+        "新着 arXiv"
+      ],
+      "summary": "Graph-based recommender systems are highly effective at extracting collaborative signals from user--item interactions, and federated learning (FL) allows these models to be trained while preserving user privacy....",
+      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2606.15277&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2606.15277%0A-+Title%3A+Guiding+Federated+Graph+Recommendation+with+LLM-encoded+knowledge%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2606.15277v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
+    },
+    {
+      "id": "2606.14932",
+      "title": "Retrieval-as-a-Service:A System-Oriented Analysis of Industrial Retrieval Pipelines in Web Systems",
+      "url": "http://arxiv.org/abs/2606.14932v1",
+      "source": "arXiv",
+      "published": "2026-06-12",
+      "authors": [
+        "Fang Liu",
+        "Yuan Yuan",
+        "Yifan Dang",
+        "Xuncheng Zhang",
+        "Cuiqianhe Du"
+      ],
+      "venue": "",
+      "citationCount": null,
+      "influentialCitationCount": null,
+      "discussionCount": null,
+      "score": 70.0,
+      "reasons": [
+        "推薦システム",
+        "ランキング",
+        "検索・ retrieval",
+        "LLM x 推薦",
+        "新着 arXiv"
+      ],
+      "summary": "Retrieval systems have become a foundational infrastructure component in modern Web services, supporting applications such as content recommendation, advertising targeting, and API discovery. In large-scale industrial...",
+      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2606.14932&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2606.14932%0A-+Title%3A+Retrieval-as-a-Service%3AA+System-Oriented+Analysis+of+Industrial+Retrieval+Pipelines+in+Web+Systems%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2606.14932v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
     },
     {
       "id": "2606.14474",
@@ -56,33 +146,6 @@
       ],
       "summary": "Large-language-model (LLM) based user simulation is increasingly adopted for evaluating search engines, recommender systems, and retrieval-augmented generation pipelines, yet most simulators remain opaque: it is...",
       "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2606.14474&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2606.14474%0A-+Title%3A+Verifiable+User+Simulation+for+Search+and+Recommendation+Systems%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2606.14474v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
-    },
-    {
-      "id": "2606.06779",
-      "title": "Mind the Gap: Bridging Behavioral Silos with LLMs in Multi-Vertical Recommendations",
-      "url": "http://arxiv.org/abs/2606.06779v1",
-      "source": "arXiv",
-      "published": "2026-06-04",
-      "authors": [
-        "Nimesh Sinha",
-        "Raghav Saboo",
-        "Martin Wang",
-        "Sudeep Das"
-      ],
-      "venue": "",
-      "citationCount": null,
-      "influentialCitationCount": null,
-      "discussionCount": null,
-      "score": 70.0,
-      "reasons": [
-        "推薦システム",
-        "ランキング",
-        "検索・ retrieval",
-        "LLM x 推薦",
-        "新着 arXiv"
-      ],
-      "summary": "In multi-vertical e-commerce platforms like DoorDash, relatively newer product verticals such as grocery and retail present a significant opportunity for personalization innovation. A key challenge lies in solving the...",
-      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2606.06779&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2606.06779%0A-+Title%3A+Mind+the+Gap%3A+Bridging+Behavioral+Silos+with+LLMs+in+Multi-Vertical+Recommendations%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2606.06779v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
     },
     {
       "id": "2605.24155",
@@ -128,57 +191,23 @@
         "検索・ retrieval",
         "グラフ推薦",
         "新着 arXiv",
-        "7日前の新着"
+        "8日前の新着"
       ],
       "summary": "This paper presents a unified system designed to support precision agriculture by integrating advanced weather prediction, crop recommendation, and a question-answering tool for farmers. We propose two deep learning...",
       "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2606.09160&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2606.09160%0A-+Title%3A+Crop+Recommendation+and+Agricultural+Query+Answering+System+Using+Spatio-Temporal+Graph+Neural+Networks+and+Hybrid+Retrieval+Augmentation%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2606.09160v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
     },
     {
-      "id": "2606.13001",
-      "title": "CFALR: Collaborative Filtering-Augmented Large Language Model for Personalized Fashion Outfit Recommendation",
-      "url": "http://arxiv.org/abs/2606.13001v1",
+      "id": "2606.15077",
+      "title": "Risk-Aware LLM Agents for Geospatial Data Retrieval: Design and Preliminary Adversarial Evaluation",
+      "url": "http://arxiv.org/abs/2606.15077v1",
       "source": "arXiv",
-      "published": "2026-06-11",
+      "published": "2026-06-13",
       "authors": [
-        "Yujuan Ding",
-        "Junrong Liao",
-        "Yunshan Ma",
-        "Yi Bin",
-        "Wenqi Fan",
-        "Tat-Seng Chua",
-        "Qing Li"
-      ],
-      "venue": "",
-      "citationCount": null,
-      "influentialCitationCount": null,
-      "discussionCount": null,
-      "score": 62.0,
-      "reasons": [
-        "推薦システム",
-        "協調フィルタリング",
-        "LLM x 推薦",
-        "新着 arXiv",
-        "4日前の新着"
-      ],
-      "summary": "Personalized outfit recommendation poses a significant challenge in e-commerce and social media platforms, requiring systems that balance user preferences with aesthetic compatibility. Collaborative filtering (CF)...",
-      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2606.13001&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2606.13001%0A-+Title%3A+CFALR%3A+Collaborative+Filtering-Augmented+Large+Language+Model+for+Personalized+Fashion+Outfit+Recommendation%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2606.13001v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
-    },
-    {
-      "id": "2606.10357",
-      "title": "Atomic Intent Reasoning: Bringing LLM Semantics to Industrial Cross-Domain Recommendations",
-      "url": "http://arxiv.org/abs/2606.10357v1",
-      "source": "arXiv",
-      "published": "2026-06-09",
-      "authors": [
-        "Zhuohang Jiang",
-        "Yuxin Chen",
-        "Shijie Wang",
-        "Haohao Qu",
-        "Zhou Jindong",
-        "Wenqi Fan",
-        "Li Qing",
-        "Dongxu Liang",
-        "Jun Wang"
+        "Kyle Gao",
+        "Joel Cumming",
+        "Jonathan Li",
+        "Linlin Xu",
+        "David A. Clausi"
       ],
       "venue": "",
       "citationCount": null,
@@ -190,36 +219,10 @@
         "検索・ retrieval",
         "LLM x 推薦",
         "新着 arXiv",
-        "6日前の新着"
+        "3日前の新着"
       ],
-      "summary": "Cross-domain recommendation is a core problem in content-to-e-commerce platforms. Its objective is to leverage user interactions with content to infer potential purchasing intent on the e-commerce side, thereby...",
-      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2606.10357&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2606.10357%0A-+Title%3A+Atomic+Intent+Reasoning%3A+Bringing+LLM+Semantics+to+Industrial+Cross-Domain+Recommendations%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2606.10357v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
-    },
-    {
-      "id": "2606.10120",
-      "title": "MetaPlate: Counterfactual-Guided RAG-LLM Tool for Personalized Food Recommendation and Hyperglycemia Prevention",
-      "url": "http://arxiv.org/abs/2606.10120v2",
-      "source": "arXiv",
-      "published": "2026-06-08",
-      "authors": [
-        "Asiful Arefeen",
-        "Carol Johnston",
-        "Hassan Ghasemzadeh"
-      ],
-      "venue": "",
-      "citationCount": null,
-      "influentialCitationCount": null,
-      "discussionCount": null,
-      "score": 62.0,
-      "reasons": [
-        "推薦システム",
-        "検索・ retrieval",
-        "LLM x 推薦",
-        "新着 arXiv",
-        "7日前の新着"
-      ],
-      "summary": "Postprandial hyperglycemia is a key risk factor for metabolic disorders; however, existing dietary guidance is often static, impractical, and insufficiently personalized, providing recommendations that are difficult...",
-      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2606.10120&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2606.10120%0A-+Title%3A+MetaPlate%3A+Counterfactual-Guided+RAG-LLM+Tool+for+Personalized+Food+Recommendation+and+Hyperglycemia+Prevention%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2606.10120v2%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
+      "summary": "We present an LLM-driven framework for retrieving remote sensing data from cloud-based geospatial catalogues using natural language queries. The system converts user intent into structured API calls, enabling...",
+      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2606.15077&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2606.15077%0A-+Title%3A+Risk-Aware+LLM+Agents+for+Geospatial+Data+Retrieval%3A+Design+and+Preliminary+Adversarial+Evaluation%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2606.15077v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
     }
   ]
 }
