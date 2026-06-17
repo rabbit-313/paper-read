@@ -1,6 +1,6 @@
 {
-  "date": "2026-06-16",
-  "generatedAt": "2026-06-16T23:24:44.607865+00:00",
+  "date": "2026-06-17",
+  "generatedAt": "2026-06-17T23:25:54.052483+00:00",
   "focus": "Recommender systems, recommendation, retrieval, ranking, and related ML/DL papers",
   "items": [
     {
@@ -119,35 +119,6 @@
       "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2606.14932&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2606.14932%0A-+Title%3A+Retrieval-as-a-Service%3AA+System-Oriented+Analysis+of+Industrial+Retrieval+Pipelines+in+Web+Systems%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2606.14932v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
     },
     {
-      "id": "2606.14474",
-      "title": "Verifiable User Simulation for Search and Recommendation Systems",
-      "url": "http://arxiv.org/abs/2606.14474v1",
-      "source": "arXiv",
-      "published": "2026-06-12",
-      "authors": [
-        "Chenglong Ma",
-        "Xinye Wanyan",
-        "Danula Hettiachchi",
-        "Ziqi Xu",
-        "Yongli Ren",
-        "Jeffrey Chan"
-      ],
-      "venue": "",
-      "citationCount": null,
-      "influentialCitationCount": null,
-      "discussionCount": null,
-      "score": 70.0,
-      "reasons": [
-        "推薦システム",
-        "検索・ retrieval",
-        "グラフ推薦",
-        "LLM x 推薦",
-        "新着 arXiv"
-      ],
-      "summary": "Large-language-model (LLM) based user simulation is increasingly adopted for evaluating search engines, recommender systems, and retrieval-augmented generation pipelines, yet most simulators remain opaque: it is...",
-      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2606.14474&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2606.14474%0A-+Title%3A+Verifiable+User+Simulation+for+Search+and+Recommendation+Systems%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2606.14474v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
-    },
-    {
       "id": "2605.24155",
       "title": "An Interpretable CF-RL-TOPSIS Fusion Model for Skills-Aware Talent Recommendation",
       "url": "http://arxiv.org/abs/2605.24155v1",
@@ -191,23 +162,53 @@
         "検索・ retrieval",
         "グラフ推薦",
         "新着 arXiv",
-        "8日前の新着"
+        "9日前の新着"
       ],
       "summary": "This paper presents a unified system designed to support precision agriculture by integrating advanced weather prediction, crop recommendation, and a question-answering tool for farmers. We propose two deep learning...",
       "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2606.09160&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2606.09160%0A-+Title%3A+Crop+Recommendation+and+Agricultural+Query+Answering+System+Using+Spatio-Temporal+Graph+Neural+Networks+and+Hybrid+Retrieval+Augmentation%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2606.09160v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
     },
     {
-      "id": "2606.15077",
-      "title": "Risk-Aware LLM Agents for Geospatial Data Retrieval: Design and Preliminary Adversarial Evaluation",
-      "url": "http://arxiv.org/abs/2606.15077v1",
+      "id": "2606.17707",
+      "title": "Do Generative Recommenders Deepen the Information Cocoon? A Closed-Loop Simulation with LLM-powered User Simulators",
+      "url": "http://arxiv.org/abs/2606.17707v1",
       "source": "arXiv",
-      "published": "2026-06-13",
+      "published": "2026-06-16",
       "authors": [
-        "Kyle Gao",
-        "Joel Cumming",
-        "Jonathan Li",
-        "Linlin Xu",
-        "David A. Clausi"
+        "Jiyuan Yang",
+        "Gengxin Sun",
+        "Mengqi Zhang",
+        "Lingjie Wang",
+        "Yuanzi Li",
+        "Hongxi Cui",
+        "Xin Xin",
+        "Pengjie Ren"
+      ],
+      "venue": "",
+      "citationCount": null,
+      "influentialCitationCount": null,
+      "discussionCount": null,
+      "score": 62.0,
+      "reasons": [
+        "推薦システム",
+        "協調フィルタリング",
+        "LLM x 推薦",
+        "新着 arXiv",
+        "1日前の新着"
+      ],
+      "summary": "Recommender systems alleviate information overload, yet repeated feedback between recommendations and user interactions can reinforce existing preferences and narrow users' exposure, forming information cocoons. While...",
+      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2606.17707&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2606.17707%0A-+Title%3A+Do+Generative+Recommenders+Deepen+the+Information+Cocoon%3F+A+Closed-Loop+Simulation+with+LLM-powered+User+Simulators%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2606.17707v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
+    },
+    {
+      "id": "2606.17459",
+      "title": "Can LLMs Be CEOs? Benchmarking Strategic Resource Reallocation with Multi-Role Agent Simulation",
+      "url": "http://arxiv.org/abs/2606.17459v1",
+      "source": "arXiv",
+      "published": "2026-06-16",
+      "authors": [
+        "Yuyang Dai",
+        "Xueqing Peng",
+        "Lingfei Qian",
+        "Zhuohan Xie"
       ],
       "venue": "",
       "citationCount": null,
@@ -219,10 +220,10 @@
         "検索・ retrieval",
         "LLM x 推薦",
         "新着 arXiv",
-        "3日前の新着"
+        "1日前の新着"
       ],
-      "summary": "We present an LLM-driven framework for retrieving remote sensing data from cloud-based geospatial catalogues using natural language queries. The system converts user intent into structured API calls, enabling...",
-      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2606.15077&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2606.15077%0A-+Title%3A+Risk-Aware+LLM+Agents+for+Geospatial+Data+Retrieval%3A+Design+and+Preliminary+Adversarial+Evaluation%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2606.15077v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
+      "summary": "Evaluating the decision-making capabilities of large language models (LLMs) is a growing research priority, yet existing benchmarks focus on isolated cognitive tasks such as reasoning, knowledge retrieval, and...",
+      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2606.17459&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2606.17459%0A-+Title%3A+Can+LLMs+Be+CEOs%3F+Benchmarking+Strategic+Resource+Reallocation+with+Multi-Role+Agent+Simulation%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2606.17459v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
     }
   ]
 }
