@@ -1,36 +1,8 @@
 {
-  "date": "2026-06-22",
-  "generatedAt": "2026-06-22T23:20:53.508807+00:00",
+  "date": "2026-06-23",
+  "generatedAt": "2026-06-23T23:09:13.421638+00:00",
   "focus": "Recommender systems, recommendation, retrieval, ranking, and related ML/DL papers",
   "items": [
-    {
-      "id": "2606.16703",
-      "title": "Harmonizing Semantic and Collaborative in LLMs: Reasoning-based Embedding Generator for Sequential Recommendation",
-      "url": "http://arxiv.org/abs/2606.16703v1",
-      "source": "arXiv",
-      "published": "2026-06-15",
-      "authors": [
-        "Qidong Liu",
-        "Mingyao Huang",
-        "Moranxin Wang",
-        "Wenxuan Yang",
-        "Haiping Zhu"
-      ],
-      "venue": "",
-      "citationCount": null,
-      "influentialCitationCount": null,
-      "discussionCount": null,
-      "score": 70.0,
-      "reasons": [
-        "推薦システム",
-        "協調フィルタリング",
-        "LLM x 推薦",
-        "強化学習",
-        "新着 arXiv"
-      ],
-      "summary": "Sequential Recommender Systems (SRS) predict the next item of interest based on users' interaction histories and have been widely deployed, but hindered by long-tail problem. Large Language Models (LLMs), with strong...",
-      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2606.16703&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2606.16703%0A-+Title%3A+Harmonizing+Semantic+and+Collaborative+in+LLMs%3A+Reasoning-based+Embedding+Generator+for+Sequential+Recommendation%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2606.16703v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
-    },
     {
       "id": "2606.14932",
       "title": "Retrieval-as-a-Service:A System-Oriented Analysis of Industrial Retrieval Pipelines in Web Systems",
@@ -82,124 +54,10 @@
         "グラフ推薦",
         "強化学習",
         "新着 arXiv",
-        "4日前の新着"
+        "5日前の新着"
       ],
       "summary": "From the past few years, web intelligent enhancement systems increasingly rely on heterogeneous and dynamic web data to deliver personalized, context-aware services. However, traditional machine learning, deep...",
       "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2606.19690&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2606.19690%0A-+Title%3A+Multi-Granular+Attention-Driven+Reinforcement+Learning+Framework+for+Web+Intelligent+Enhancement+Systems%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2606.19690v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
-    },
-    {
-      "id": "2606.09160",
-      "title": "Crop Recommendation and Agricultural Query Answering System Using Spatio-Temporal Graph Neural Networks and Hybrid Retrieval Augmentation",
-      "url": "http://arxiv.org/abs/2606.09160v1",
-      "source": "arXiv",
-      "published": "2026-06-08",
-      "authors": [
-        "Prajwal Thapa",
-        "Yagya Raj Pandeya"
-      ],
-      "venue": "",
-      "citationCount": null,
-      "influentialCitationCount": null,
-      "discussionCount": null,
-      "score": 62.0,
-      "reasons": [
-        "推薦システム",
-        "検索・ retrieval",
-        "グラフ推薦",
-        "新着 arXiv",
-        "14日前の新着"
-      ],
-      "summary": "This paper presents a unified system designed to support precision agriculture by integrating advanced weather prediction, crop recommendation, and a question-answering tool for farmers. We propose two deep learning...",
-      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2606.09160&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2606.09160%0A-+Title%3A+Crop+Recommendation+and+Agricultural+Query+Answering+System+Using+Spatio-Temporal+Graph+Neural+Networks+and+Hybrid+Retrieval+Augmentation%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2606.09160v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
-    },
-    {
-      "id": "2606.17707",
-      "title": "Do Generative Recommenders Deepen the Information Cocoon? A Closed-Loop Simulation with LLM-powered User Simulators",
-      "url": "http://arxiv.org/abs/2606.17707v1",
-      "source": "arXiv",
-      "published": "2026-06-16",
-      "authors": [
-        "Jiyuan Yang",
-        "Gengxin Sun",
-        "Mengqi Zhang",
-        "Lingjie Wang",
-        "Yuanzi Li",
-        "Hongxi Cui",
-        "Xin Xin",
-        "Pengjie Ren"
-      ],
-      "venue": "",
-      "citationCount": null,
-      "influentialCitationCount": null,
-      "discussionCount": null,
-      "score": 62.0,
-      "reasons": [
-        "推薦システム",
-        "協調フィルタリング",
-        "LLM x 推薦",
-        "新着 arXiv",
-        "6日前の新着"
-      ],
-      "summary": "Recommender systems alleviate information overload, yet repeated feedback between recommendations and user interactions can reinforce existing preferences and narrow users' exposure, forming information cocoons. While...",
-      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2606.17707&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2606.17707%0A-+Title%3A+Do+Generative+Recommenders+Deepen+the+Information+Cocoon%3F+A+Closed-Loop+Simulation+with+LLM-powered+User+Simulators%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2606.17707v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
-    },
-    {
-      "id": "2606.17459",
-      "title": "Can LLMs Be CEOs? Benchmarking Strategic Resource Reallocation with Multi-Role Agent Simulation",
-      "url": "http://arxiv.org/abs/2606.17459v1",
-      "source": "arXiv",
-      "published": "2026-06-16",
-      "authors": [
-        "Yuyang Dai",
-        "Xueqing Peng",
-        "Lingfei Qian",
-        "Zhuohan Xie"
-      ],
-      "venue": "",
-      "citationCount": null,
-      "influentialCitationCount": null,
-      "discussionCount": null,
-      "score": 62.0,
-      "reasons": [
-        "推薦システム",
-        "検索・ retrieval",
-        "LLM x 推薦",
-        "新着 arXiv",
-        "6日前の新着"
-      ],
-      "summary": "Evaluating the decision-making capabilities of large language models (LLMs) is a growing research priority, yet existing benchmarks focus on isolated cognitive tasks such as reasoning, knowledge retrieval, and...",
-      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2606.17459&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2606.17459%0A-+Title%3A+Can+LLMs+Be+CEOs%3F+Benchmarking+Strategic+Resource+Reallocation+with+Multi-Role+Agent+Simulation%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2606.17459v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
-    },
-    {
-      "id": "2606.17276",
-      "title": "On the Memorization Behavior of LLMs in Generative Recommendation: Observations, Implications, and Training Strategies",
-      "url": "http://arxiv.org/abs/2606.17276v2",
-      "source": "arXiv",
-      "published": "2026-06-15",
-      "authors": [
-        "Sunwoo Kim",
-        "Sunkyung Lee",
-        "Clark Mingxuan Ju",
-        "Donald Loveland",
-        "Bhuvesh Kumar",
-        "Kijung Shin",
-        "Neil Shah",
-        "Liam Collins"
-      ],
-      "venue": "",
-      "citationCount": null,
-      "influentialCitationCount": null,
-      "discussionCount": null,
-      "score": 62.0,
-      "reasons": [
-        "推薦システム",
-        "協調フィルタリング",
-        "LLM x 推薦",
-        "新着 arXiv",
-        "7日前の新着"
-      ],
-      "summary": "Generative recommendation (GR) has emerged as a promising direction for recommender systems. Recently, large language models (LLMs) have been increasingly adopted for GR, as their rich pretrained knowledge is expected...",
-      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2606.17276&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2606.17276%0A-+Title%3A+On+the+Memorization+Behavior+of+LLMs+in+Generative+Recommendation%3A+Observations%2C+Implications%2C+and+Training+Strategies%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2606.17276v2%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
     },
     {
       "id": "2606.13858",
@@ -221,10 +79,143 @@
         "ランキング",
         "協調フィルタリング",
         "新着 arXiv",
-        "11日前の新着"
+        "12日前の新着"
       ],
       "summary": "Recommendation systems are essential in modern music streaming platforms due to the vast amount of available content. While collaborative filtering is widely used to suggest items based on the preferences of others...",
       "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2606.13858&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2606.13858%0A-+Title%3A+Mood-Aware+Music+Recommendation%3A+Integrating+User+Affective+Signals+into+Ranking+Systems%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2606.13858v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
+    },
+    {
+      "id": "2606.22180",
+      "title": "FeLoG: Scalable and Efficient Distributed Graph Embedding with Feedback Loop Mechanism",
+      "url": "http://arxiv.org/abs/2606.22180v1",
+      "source": "arXiv",
+      "published": "2026-06-20",
+      "authors": [
+        "Peng Fang",
+        "Arijit Khan",
+        "Ziqiang Wu",
+        "Zhenli Li",
+        "Yibo Zhou",
+        "Fang Wang",
+        "Dan Feng"
+      ],
+      "venue": "",
+      "citationCount": null,
+      "influentialCitationCount": null,
+      "discussionCount": null,
+      "score": 62.0,
+      "reasons": [
+        "推薦システム",
+        "検索・ retrieval",
+        "グラフ推薦",
+        "新着 arXiv",
+        "3日前の新着"
+      ],
+      "summary": "Graph embedding maps graph nodes into low-dimensional vectors to support applications such as recommendation, fraud detection, and graph-based retrieval-augmented generation (GraphRAG). As graphs scale to billions of...",
+      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2606.22180&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2606.22180%0A-+Title%3A+FeLoG%3A+Scalable+and+Efficient+Distributed+Graph+Embedding+with+Feedback+Loop+Mechanism%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2606.22180v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
+    },
+    {
+      "id": "2606.01747",
+      "title": "Construction of Historical Knowledge Graphs Based on BERT and Graph Neural Networks",
+      "url": "http://arxiv.org/abs/2606.01747v1",
+      "source": "arXiv",
+      "published": "2026-06-01",
+      "authors": [
+        "Ping Li",
+        "Bartlomiej Brzozka"
+      ],
+      "venue": "",
+      "citationCount": null,
+      "influentialCitationCount": null,
+      "discussionCount": null,
+      "score": 58.0,
+      "reasons": [
+        "推薦システム",
+        "検索・ retrieval",
+        "グラフ推薦",
+        "LLM x 推薦",
+        "新着 arXiv"
+      ],
+      "summary": "Through digital humanities research and scale-up historical data analysis, a significant amount of traditional historical text is converted into structured knowledge graphs. This paper provides a high-level...",
+      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2606.01747&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2606.01747%0A-+Title%3A+Construction+of+Historical+Knowledge+Graphs+Based+on+BERT+and+Graph+Neural+Networks%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2606.01747v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
+    },
+    {
+      "id": "2604.22549",
+      "title": "ASPIRE: Make Spectral Graph Collaborative Filtering Great Again via Adaptive Filter Learning",
+      "url": "http://arxiv.org/abs/2604.22549v1",
+      "source": "arXiv",
+      "published": "2026-04-24",
+      "authors": [
+        "Yunhang He",
+        "Cong Xu",
+        "Zhangchi Zhu",
+        "Hongzhi Yin",
+        "Wei Zhang"
+      ],
+      "venue": "",
+      "citationCount": null,
+      "influentialCitationCount": null,
+      "discussionCount": null,
+      "score": 58.0,
+      "reasons": [
+        "推薦システム",
+        "協調フィルタリング",
+        "グラフ推薦",
+        "LLM x 推薦",
+        "新着 arXiv"
+      ],
+      "summary": "Graph filter design is central to spectral collaborative filtering, yet most existing methods rely on manually tuned hyperparameters rather than fully learnable filters. We show that this challenge stems from a bias...",
+      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2604.22549&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2604.22549%0A-+Title%3A+ASPIRE%3A+Make+Spectral+Graph+Collaborative+Filtering+Great+Again+via+Adaptive+Filter+Learning%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2604.22549v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
+    },
+    {
+      "id": "2606.20978",
+      "title": "How Should Agents Read Demonstrations? Hierarchical Structure Beats Flat Action Logs",
+      "url": "http://arxiv.org/abs/2606.20978v1",
+      "source": "arXiv",
+      "published": "2026-06-18",
+      "authors": [
+        "Honjar Xing",
+        "Jefferson Lin",
+        "Henry Lieberman"
+      ],
+      "venue": "",
+      "citationCount": null,
+      "influentialCitationCount": null,
+      "discussionCount": null,
+      "score": 54.0,
+      "reasons": [
+        "推薦システム",
+        "LLM x 推薦",
+        "新着 arXiv",
+        "5日前の新着"
+      ],
+      "summary": "Programming by Demonstration (PbD) offers a human-centered way to author procedural knowledge for LLM agents: users communicate what they want by showing rather than by writing prompts or code, making agent authoring...",
+      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2606.20978&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2606.20978%0A-+Title%3A+How+Should+Agents+Read+Demonstrations%3F+Hierarchical+Structure+Beats+Flat+Action+Logs%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2606.20978v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
+    },
+    {
+      "id": "2606.15155",
+      "title": "Semantic Reasoning in Medicine: The Role of Knowledge Graphs Across Five Key Domains",
+      "url": "http://arxiv.org/abs/2606.15155v1",
+      "source": "arXiv",
+      "published": "2026-06-13",
+      "authors": [
+        "Haniye Sherafatmandjoo",
+        "Mohammad Akbari",
+        "Zahed Rahmati"
+      ],
+      "venue": "",
+      "citationCount": null,
+      "influentialCitationCount": null,
+      "discussionCount": null,
+      "score": 54.0,
+      "reasons": [
+        "推薦システム",
+        "グラフ推薦",
+        "新着 arXiv",
+        "10日前の新着"
+      ],
+      "summary": "Knowledge graphs (KGs) have emerged as a promising solution for integrating and reasoning over complex biomedical and clinical data in healthcare. By representing structured relationships among entities such as...",
+      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2606.15155&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2606.15155%0A-+Title%3A+Semantic+Reasoning+in+Medicine%3A+The+Role+of+Knowledge+Graphs+Across+Five+Key+Domains%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2606.15155v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
     }
   ]
 }
