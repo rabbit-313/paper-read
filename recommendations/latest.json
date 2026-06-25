@@ -1,8 +1,49 @@
 {
-  "date": "2026-06-23",
-  "generatedAt": "2026-06-23T23:09:13.421638+00:00",
+  "date": "2026-06-25",
+  "generatedAt": "2026-06-25T23:19:13.619761+00:00",
   "focus": "Recommender systems, recommendation, retrieval, ranking, and related ML/DL papers",
   "items": [
+    {
+      "id": "2606.25147",
+      "title": "TokenMinds: Pretrained User Tokens and Embeddings for User Understanding in Large Recommender Systems",
+      "url": "http://arxiv.org/abs/2606.25147v1",
+      "source": "arXiv",
+      "published": "2026-06-23",
+      "authors": [
+        "Qingyun Liu",
+        "Bo Yan",
+        "Yang Liu",
+        "Yuji Roh",
+        "Ekansh Sharma",
+        "Likang Yin",
+        "Emma Olowo",
+        "Min-hsuan Tsai",
+        "Yuxuan Li",
+        "Diego Uribe",
+        "Saksham Aggarwal",
+        "Siqi Wu",
+        "Yuan Hao",
+        "Vikas Kedigehalli",
+        "Lukasz Heldt",
+        "Lichan Hong",
+        "Li Wei",
+        "Xinyang Yi"
+      ],
+      "venue": "",
+      "citationCount": null,
+      "influentialCitationCount": null,
+      "discussionCount": null,
+      "score": 70.0,
+      "reasons": [
+        "推薦システム",
+        "ランキング",
+        "検索・ retrieval",
+        "LLM x 推薦",
+        "新着 arXiv"
+      ],
+      "summary": "User modeling in industrial recommender systems typically produces dense embeddings, which suffer from representational constraints inherent to fixed-dimensional vectors. An emerging alternative for discrete user...",
+      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2606.25147&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2606.25147%0A-+Title%3A+TokenMinds%3A+Pretrained+User+Tokens+and+Embeddings+for+User+Understanding+in+Large+Recommender+Systems%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2606.25147v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
+    },
     {
       "id": "2606.14932",
       "title": "Retrieval-as-a-Service:A System-Oriented Analysis of Industrial Retrieval Pipelines in Web Systems",
@@ -54,7 +95,7 @@
         "グラフ推薦",
         "強化学習",
         "新着 arXiv",
-        "5日前の新着"
+        "7日前の新着"
       ],
       "summary": "From the past few years, web intelligent enhancement systems increasingly rely on heterogeneous and dynamic web data to deliver personalized, context-aware services. However, traditional machine learning, deep...",
       "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2606.19690&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2606.19690%0A-+Title%3A+Multi-Granular+Attention-Driven+Reinforcement+Learning+Framework+for+Web+Intelligent+Enhancement+Systems%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2606.19690v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
@@ -79,7 +120,7 @@
         "ランキング",
         "協調フィルタリング",
         "新着 arXiv",
-        "12日前の新着"
+        "14日前の新着"
       ],
       "summary": "Recommendation systems are essential in modern music streaming platforms due to the vast amount of available content. While collaborative filtering is widely used to suggest items based on the preferences of others...",
       "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2606.13858&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2606.13858%0A-+Title%3A+Mood-Aware+Music+Recommendation%3A+Integrating+User+Affective+Signals+into+Ranking+Systems%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2606.13858v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
@@ -109,35 +150,10 @@
         "検索・ retrieval",
         "グラフ推薦",
         "新着 arXiv",
-        "3日前の新着"
+        "5日前の新着"
       ],
       "summary": "Graph embedding maps graph nodes into low-dimensional vectors to support applications such as recommendation, fraud detection, and graph-based retrieval-augmented generation (GraphRAG). As graphs scale to billions of...",
       "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2606.22180&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2606.22180%0A-+Title%3A+FeLoG%3A+Scalable+and+Efficient+Distributed+Graph+Embedding+with+Feedback+Loop+Mechanism%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2606.22180v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
-    },
-    {
-      "id": "2606.01747",
-      "title": "Construction of Historical Knowledge Graphs Based on BERT and Graph Neural Networks",
-      "url": "http://arxiv.org/abs/2606.01747v1",
-      "source": "arXiv",
-      "published": "2026-06-01",
-      "authors": [
-        "Ping Li",
-        "Bartlomiej Brzozka"
-      ],
-      "venue": "",
-      "citationCount": null,
-      "influentialCitationCount": null,
-      "discussionCount": null,
-      "score": 58.0,
-      "reasons": [
-        "推薦システム",
-        "検索・ retrieval",
-        "グラフ推薦",
-        "LLM x 推薦",
-        "新着 arXiv"
-      ],
-      "summary": "Through digital humanities research and scale-up historical data analysis, a significant amount of traditional historical text is converted into structured knowledge graphs. This paper provides a high-level...",
-      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2606.01747&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2606.01747%0A-+Title%3A+Construction+of+Historical+Knowledge+Graphs+Based+on+BERT+and+Graph+Neural+Networks%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2606.01747v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
     },
     {
       "id": "2604.22549",
@@ -168,15 +184,15 @@
       "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2604.22549&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2604.22549%0A-+Title%3A+ASPIRE%3A+Make+Spectral+Graph+Collaborative+Filtering+Great+Again+via+Adaptive+Filter+Learning%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2604.22549v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
     },
     {
-      "id": "2606.20978",
-      "title": "How Should Agents Read Demonstrations? Hierarchical Structure Beats Flat Action Logs",
-      "url": "http://arxiv.org/abs/2606.20978v1",
+      "id": "2606.24042",
+      "title": "Breaking the Filter Bubble: A Semantic Pareto-DQN Framework for Multi-Objective Recommendation",
+      "url": "http://arxiv.org/abs/2606.24042v1",
       "source": "arXiv",
-      "published": "2026-06-18",
+      "published": "2026-06-23",
       "authors": [
-        "Honjar Xing",
-        "Jefferson Lin",
-        "Henry Lieberman"
+        "Cláudio Lúcio Do Val Lopes",
+        "Lucca Machado da Silva",
+        "André de Oliveira Brandão"
       ],
       "venue": "",
       "citationCount": null,
@@ -185,23 +201,26 @@
       "score": 54.0,
       "reasons": [
         "推薦システム",
-        "LLM x 推薦",
+        "強化学習",
         "新着 arXiv",
-        "5日前の新着"
+        "2日前の新着"
       ],
-      "summary": "Programming by Demonstration (PbD) offers a human-centered way to author procedural knowledge for LLM agents: users communicate what they want by showing rather than by writing prompts or code, making agent authoring...",
-      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2606.20978&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2606.20978%0A-+Title%3A+How+Should+Agents+Read+Demonstrations%3F+Hierarchical+Structure+Beats+Flat+Action+Logs%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2606.20978v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
+      "summary": "Recommender systems often induce filter bubbles and semantic homogenization by monolithically optimizing for immediate user engagement. Standard single-objective models, including traditional Deep Q-Networks, are ill-...",
+      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2606.24042&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2606.24042%0A-+Title%3A+Breaking+the+Filter+Bubble%3A+A+Semantic+Pareto-DQN+Framework+for+Multi-Objective+Recommendation%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2606.24042v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
     },
     {
-      "id": "2606.15155",
-      "title": "Semantic Reasoning in Medicine: The Role of Knowledge Graphs Across Five Key Domains",
-      "url": "http://arxiv.org/abs/2606.15155v1",
+      "id": "2606.23978",
+      "title": "Offline Reinforcement Learning for Warehouse SLAM Throughput Control",
+      "url": "http://arxiv.org/abs/2606.23978v1",
       "source": "arXiv",
-      "published": "2026-06-13",
+      "published": "2026-06-22",
       "authors": [
-        "Haniye Sherafatmandjoo",
-        "Mohammad Akbari",
-        "Zahed Rahmati"
+        "Tina Dongxu Li",
+        "Mouhacine Benosman",
+        "Rajat Kumar",
+        "Kevin Tan",
+        "Ken Meszaros",
+        "Trevor Dardik"
       ],
       "venue": "",
       "citationCount": null,
@@ -209,13 +228,13 @@
       "discussionCount": null,
       "score": 54.0,
       "reasons": [
-        "推薦システム",
-        "グラフ推薦",
+        "LLM x 推薦",
+        "強化学習",
         "新着 arXiv",
-        "10日前の新着"
+        "3日前の新着"
       ],
-      "summary": "Knowledge graphs (KGs) have emerged as a promising solution for integrating and reasoning over complex biomedical and clinical data in healthcare. By representing structured relationships among entities such as...",
-      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2606.15155&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2606.15155%0A-+Title%3A+Semantic+Reasoning+in+Medicine%3A+The+Role+of+Knowledge+Graphs+Across+Five+Key+Domains%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2606.15155v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
+      "summary": "We present an offline reinforcement learning (RL) framework for optimizing SLAM throughput control in a warehouse fulfillment environment. SLAM (Scan/Label/Apply/Manifest) throughput directly influences system...",
+      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2606.23978&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2606.23978%0A-+Title%3A+Offline+Reinforcement+Learning+for+Warehouse+SLAM+Throughput+Control%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2606.23978v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
     }
   ]
 }
