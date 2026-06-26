@@ -1,6 +1,6 @@
 {
-  "date": "2026-06-25",
-  "generatedAt": "2026-06-25T23:19:13.619761+00:00",
+  "date": "2026-06-26",
+  "generatedAt": "2026-06-26T23:07:41.354444+00:00",
   "focus": "Recommender systems, recommendation, retrieval, ranking, and related ML/DL papers",
   "items": [
     {
@@ -95,20 +95,25 @@
         "グラフ推薦",
         "強化学習",
         "新着 arXiv",
-        "7日前の新着"
+        "8日前の新着"
       ],
       "summary": "From the past few years, web intelligent enhancement systems increasingly rely on heterogeneous and dynamic web data to deliver personalized, context-aware services. However, traditional machine learning, deep...",
       "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2606.19690&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2606.19690%0A-+Title%3A+Multi-Granular+Attention-Driven+Reinforcement+Learning+Framework+for+Web+Intelligent+Enhancement+Systems%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2606.19690v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
     },
     {
-      "id": "2606.13858",
-      "title": "Mood-Aware Music Recommendation: Integrating User Affective Signals into Ranking Systems",
-      "url": "http://arxiv.org/abs/2606.13858v1",
+      "id": "2606.26277",
+      "title": "From Clicks to Intent: Cross-Platform Session Embeddings with LLM-Distilled Taxonomy for Financial Services Recommendations",
+      "url": "http://arxiv.org/abs/2606.26277v1",
       "source": "arXiv",
-      "published": "2026-06-11",
+      "published": "2026-06-24",
       "authors": [
-        "Terence Zeng",
-        "Abhishek K. Umrawal"
+        "Dianjing Fan",
+        "Yao Li",
+        "Kyaw Hpone Myint",
+        "Dwipam Katariya",
+        "Alexandre G. R. Day",
+        "Pranab Mohanty",
+        "Giri Iyengar"
       ],
       "venue": "",
       "citationCount": null,
@@ -118,27 +123,23 @@
       "reasons": [
         "推薦システム",
         "ランキング",
-        "協調フィルタリング",
+        "LLM x 推薦",
         "新着 arXiv",
-        "14日前の新着"
+        "2日前の新着"
       ],
-      "summary": "Recommendation systems are essential in modern music streaming platforms due to the vast amount of available content. While collaborative filtering is widely used to suggest items based on the preferences of others...",
-      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2606.13858&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2606.13858%0A-+Title%3A+Mood-Aware+Music+Recommendation%3A+Integrating+User+Affective+Signals+into+Ranking+Systems%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2606.13858v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
+      "summary": "Sequential user behavior modeling is widely adopted in industrial recommender systems; however, significant gaps remain in financial services, where pre-login web interactions and authenticated in-app experiences...",
+      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2606.26277&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2606.26277%0A-+Title%3A+From+Clicks+to+Intent%3A+Cross-Platform+Session+Embeddings+with+LLM-Distilled+Taxonomy+for+Financial+Services+Recommendations%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2606.26277v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
     },
     {
-      "id": "2606.22180",
-      "title": "FeLoG: Scalable and Efficient Distributed Graph Embedding with Feedback Loop Mechanism",
-      "url": "http://arxiv.org/abs/2606.22180v1",
+      "id": "2606.26369",
+      "title": "Scoring Is Not Enough: Addressing Gaps in Utility-fairness Trade-offs for Ranking",
+      "url": "http://arxiv.org/abs/2606.26369v1",
       "source": "arXiv",
-      "published": "2026-06-20",
+      "published": "2026-06-24",
       "authors": [
-        "Peng Fang",
-        "Arijit Khan",
-        "Ziqiang Wu",
-        "Zhenli Li",
-        "Yibo Zhou",
-        "Fang Wang",
-        "Dan Feng"
+        "Shubham Singh",
+        "Ian A. Kash",
+        "Mesrob I. Ohannessian"
       ],
       "venue": "",
       "citationCount": null,
@@ -147,13 +148,13 @@
       "score": 62.0,
       "reasons": [
         "推薦システム",
+        "ランキング",
         "検索・ retrieval",
-        "グラフ推薦",
         "新着 arXiv",
-        "5日前の新着"
+        "2日前の新着"
       ],
-      "summary": "Graph embedding maps graph nodes into low-dimensional vectors to support applications such as recommendation, fraud detection, and graph-based retrieval-augmented generation (GraphRAG). As graphs scale to billions of...",
-      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2606.22180&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2606.22180%0A-+Title%3A+FeLoG%3A+Scalable+and+Efficient+Distributed+Graph+Embedding+with+Feedback+Loop+Mechanism%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2606.22180v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
+      "summary": "Scoring functions are used to represent the relevance of individual documents. In modern information retrieval or recommendation systems, they are often learned from data and play a pivotal role in ranking sets of...",
+      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2606.26369&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2606.26369%0A-+Title%3A+Scoring+Is+Not+Enough%3A+Addressing+Gaps+in+Utility-fairness+Trade-offs+for+Ranking%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2606.26369v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
     },
     {
       "id": "2604.22549",
@@ -203,7 +204,7 @@
         "推薦システム",
         "強化学習",
         "新着 arXiv",
-        "2日前の新着"
+        "3日前の新着"
       ],
       "summary": "Recommender systems often induce filter bubbles and semantic homogenization by monolithically optimizing for immediate user engagement. Standard single-objective models, including traditional Deep Q-Networks, are ill-...",
       "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2606.24042&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2606.24042%0A-+Title%3A+Breaking+the+Filter+Bubble%3A+A+Semantic+Pareto-DQN+Framework+for+Multi-Objective+Recommendation%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2606.24042v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
@@ -231,7 +232,7 @@
         "LLM x 推薦",
         "強化学習",
         "新着 arXiv",
-        "3日前の新着"
+        "4日前の新着"
       ],
       "summary": "We present an offline reinforcement learning (RL) framework for optimizing SLAM throughput control in a warehouse fulfillment environment. SLAM (Scan/Label/Apply/Manifest) throughput directly influences system...",
       "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2606.23978&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2606.23978%0A-+Title%3A+Offline+Reinforcement+Learning+for+Warehouse+SLAM+Throughput+Control%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2606.23978v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
