@@ -1,6 +1,6 @@
 {
-  "date": "2026-06-27",
-  "generatedAt": "2026-06-27T23:03:45.563682+00:00",
+  "date": "2026-06-28",
+  "generatedAt": "2026-06-28T23:03:08.434143+00:00",
   "focus": "Recommender systems, recommendation, retrieval, ranking, and related ML/DL papers",
   "items": [
     {
@@ -67,7 +67,7 @@
         "グラフ推薦",
         "強化学習",
         "新着 arXiv",
-        "9日前の新着"
+        "10日前の新着"
       ],
       "summary": "From the past few years, web intelligent enhancement systems increasingly rely on heterogeneous and dynamic web data to deliver personalized, context-aware services. However, traditional machine learning, deep...",
       "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2606.19690&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2606.19690%0A-+Title%3A+Multi-Granular+Attention-Driven+Reinforcement+Learning+Framework+for+Web+Intelligent+Enhancement+Systems%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2606.19690v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
@@ -97,7 +97,7 @@
         "ランキング",
         "LLM x 推薦",
         "新着 arXiv",
-        "3日前の新着"
+        "4日前の新着"
       ],
       "summary": "Sequential user behavior modeling is widely adopted in industrial recommender systems; however, significant gaps remain in financial services, where pre-login web interactions and authenticated in-app experiences...",
       "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2606.26277&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2606.26277%0A-+Title%3A+From+Clicks+to+Intent%3A+Cross-Platform+Session+Embeddings+with+LLM-Distilled+Taxonomy+for+Financial+Services+Recommendations%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2606.26277v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
@@ -123,7 +123,7 @@
         "ランキング",
         "検索・ retrieval",
         "新着 arXiv",
-        "3日前の新着"
+        "4日前の新着"
       ],
       "summary": "Scoring functions are used to represent the relevance of individual documents. In modern information retrieval or recommendation systems, they are often learned from data and play a pivotal role in ranking sets of...",
       "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2606.26369&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2606.26369%0A-+Title%3A+Scoring+Is+Not+Enough%3A+Addressing+Gaps+in+Utility-fairness+Trade-offs+for+Ranking%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2606.26369v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
@@ -204,7 +204,7 @@
         "推薦システム",
         "強化学習",
         "新着 arXiv",
-        "4日前の新着"
+        "5日前の新着"
       ],
       "summary": "Recommender systems often induce filter bubbles and semantic homogenization by monolithically optimizing for immediate user engagement. Standard single-objective models, including traditional Deep Q-Networks, are ill-...",
       "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2606.24042&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2606.24042%0A-+Title%3A+Breaking+the+Filter+Bubble%3A+A+Semantic+Pareto-DQN+Framework+for+Multi-Objective+Recommendation%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2606.24042v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
@@ -232,7 +232,7 @@
         "LLM x 推薦",
         "強化学習",
         "新着 arXiv",
-        "5日前の新着"
+        "6日前の新着"
       ],
       "summary": "We present an offline reinforcement learning (RL) framework for optimizing SLAM throughput control in a warehouse fulfillment environment. SLAM (Scan/Label/Apply/Manifest) throughput directly influences system...",
       "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2606.23978&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2606.23978%0A-+Title%3A+Offline+Reinforcement+Learning+for+Warehouse+SLAM+Throughput+Control%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2606.23978v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
