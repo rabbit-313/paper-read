@@ -1,6 +1,6 @@
 {
-  "date": "2026-06-28",
-  "generatedAt": "2026-06-28T23:03:08.434143+00:00",
+  "date": "2026-06-29",
+  "generatedAt": "2026-06-29T22:59:12.834530+00:00",
   "focus": "Recommender systems, recommendation, retrieval, ranking, and related ML/DL papers",
   "items": [
     {
@@ -45,6 +45,33 @@
       "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2606.25147&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2606.25147%0A-+Title%3A+TokenMinds%3A+Pretrained+User+Tokens+and+Embeddings+for+User+Understanding+in+Large+Recommender+Systems%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2606.25147v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
     },
     {
+      "id": "1905.08108",
+      "title": "Neural Graph Collaborative Filtering",
+      "url": "https://arxiv.org/abs/1905.08108",
+      "source": "Semantic Scholar",
+      "published": "2019-05-20",
+      "authors": [
+        "Xiang Wang",
+        "Xiangnan He",
+        "Meng Wang",
+        "Fuli Feng",
+        "Tat-Seng Chua"
+      ],
+      "venue": "Annual International ACM SIGIR Conference on Research and Development in Information Retrieval",
+      "citationCount": 3850,
+      "influentialCitationCount": 634,
+      "discussionCount": null,
+      "score": 65.0,
+      "reasons": [
+        "推薦システム",
+        "協調フィルタリング",
+        "グラフ推薦",
+        "引用数 3850"
+      ],
+      "summary": "Learning vector representations (aka. embeddings) of users and items lies at the core of modern recommender systems. Ranging from early matrix factorization to recently emerged deep learning based methods, existing...",
+      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+1905.08108&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+1905.08108%0A-+Title%3A+Neural+Graph+Collaborative+Filtering%0A-+URL%3A+https%3A%2F%2Farxiv.org%2Fabs%2F1905.08108%0A-+Source%3A+Semantic+Scholar%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
+    },
+    {
       "id": "2606.19690",
       "title": "Multi-Granular Attention-Driven Reinforcement Learning Framework for Web Intelligent Enhancement Systems",
       "url": "http://arxiv.org/abs/2606.19690v1",
@@ -67,7 +94,7 @@
         "グラフ推薦",
         "強化学習",
         "新着 arXiv",
-        "10日前の新着"
+        "11日前の新着"
       ],
       "summary": "From the past few years, web intelligent enhancement systems increasingly rely on heterogeneous and dynamic web data to deliver personalized, context-aware services. However, traditional machine learning, deep...",
       "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2606.19690&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2606.19690%0A-+Title%3A+Multi-Granular+Attention-Driven+Reinforcement+Learning+Framework+for+Web+Intelligent+Enhancement+Systems%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2606.19690v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
@@ -97,7 +124,7 @@
         "ランキング",
         "LLM x 推薦",
         "新着 arXiv",
-        "4日前の新着"
+        "5日前の新着"
       ],
       "summary": "Sequential user behavior modeling is widely adopted in industrial recommender systems; however, significant gaps remain in financial services, where pre-login web interactions and authenticated in-app experiences...",
       "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2606.26277&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2606.26277%0A-+Title%3A+From+Clicks+to+Intent%3A+Cross-Platform+Session+Embeddings+with+LLM-Distilled+Taxonomy+for+Financial+Services+Recommendations%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2606.26277v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
@@ -123,7 +150,7 @@
         "ランキング",
         "検索・ retrieval",
         "新着 arXiv",
-        "4日前の新着"
+        "5日前の新着"
       ],
       "summary": "Scoring functions are used to represent the relevance of individual documents. In modern information retrieval or recommendation systems, they are often learned from data and play a pivotal role in ranking sets of...",
       "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2606.26369&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2606.26369%0A-+Title%3A+Scoring+Is+Not+Enough%3A+Addressing+Gaps+in+Utility-fairness+Trade-offs+for+Ranking%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2606.26369v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
@@ -185,57 +212,31 @@
       "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2604.22549&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2604.22549%0A-+Title%3A+ASPIRE%3A+Make+Spectral+Graph+Collaborative+Filtering+Great+Again+via+Adaptive+Filter+Learning%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2604.22549v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
     },
     {
-      "id": "2606.24042",
-      "title": "Breaking the Filter Bubble: A Semantic Pareto-DQN Framework for Multi-Objective Recommendation",
-      "url": "http://arxiv.org/abs/2606.24042v1",
-      "source": "arXiv",
-      "published": "2026-06-23",
+      "id": "1708.05031",
+      "title": "Neural Collaborative Filtering",
+      "url": "https://arxiv.org/abs/1708.05031",
+      "source": "Semantic Scholar",
+      "published": "2017-04-03",
       "authors": [
-        "Cláudio Lúcio Do Val Lopes",
-        "Lucca Machado da Silva",
-        "André de Oliveira Brandão"
+        "Xiangnan He",
+        "Lizi Liao",
+        "Hanwang Zhang",
+        "Liqiang Nie",
+        "Xia Hu",
+        "Tat-Seng Chua"
       ],
-      "venue": "",
-      "citationCount": null,
-      "influentialCitationCount": null,
+      "venue": "The Web Conference",
+      "citationCount": 7093,
+      "influentialCitationCount": 1000,
       "discussionCount": null,
-      "score": 54.0,
+      "score": 57.0,
       "reasons": [
         "推薦システム",
-        "強化学習",
-        "新着 arXiv",
-        "5日前の新着"
+        "協調フィルタリング",
+        "引用数 7093"
       ],
-      "summary": "Recommender systems often induce filter bubbles and semantic homogenization by monolithically optimizing for immediate user engagement. Standard single-objective models, including traditional Deep Q-Networks, are ill-...",
-      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2606.24042&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2606.24042%0A-+Title%3A+Breaking+the+Filter+Bubble%3A+A+Semantic+Pareto-DQN+Framework+for+Multi-Objective+Recommendation%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2606.24042v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
-    },
-    {
-      "id": "2606.23978",
-      "title": "Offline Reinforcement Learning for Warehouse SLAM Throughput Control",
-      "url": "http://arxiv.org/abs/2606.23978v1",
-      "source": "arXiv",
-      "published": "2026-06-22",
-      "authors": [
-        "Tina Dongxu Li",
-        "Mouhacine Benosman",
-        "Rajat Kumar",
-        "Kevin Tan",
-        "Ken Meszaros",
-        "Trevor Dardik"
-      ],
-      "venue": "",
-      "citationCount": null,
-      "influentialCitationCount": null,
-      "discussionCount": null,
-      "score": 54.0,
-      "reasons": [
-        "LLM x 推薦",
-        "強化学習",
-        "新着 arXiv",
-        "6日前の新着"
-      ],
-      "summary": "We present an offline reinforcement learning (RL) framework for optimizing SLAM throughput control in a warehouse fulfillment environment. SLAM (Scan/Label/Apply/Manifest) throughput directly influences system...",
-      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2606.23978&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2606.23978%0A-+Title%3A+Offline+Reinforcement+Learning+for+Warehouse+SLAM+Throughput+Control%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2606.23978v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
+      "summary": "In recent years, deep neural networks have yielded immense success on speech recognition, computer vision and natural language processing. However, the exploration of deep neural networks on recommender systems has...",
+      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+1708.05031&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+1708.05031%0A-+Title%3A+Neural+Collaborative+Filtering%0A-+URL%3A+https%3A%2F%2Farxiv.org%2Fabs%2F1708.05031%0A-+Source%3A+Semantic+Scholar%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
     }
   ]
 }
