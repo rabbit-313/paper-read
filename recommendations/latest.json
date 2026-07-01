@@ -1,250 +1,199 @@
 {
-  "date": "2026-06-30",
-  "generatedAt": "2026-06-30T23:14:33.972710+00:00",
+  "date": "2026-07-01",
+  "generatedAt": "2026-07-01T23:19:12.546986+00:00",
   "focus": "Recommender systems, recommendation, retrieval, ranking, and related ML/DL papers",
   "items": [
     {
-      "id": "2606.29947",
-      "title": "Diagnosing and Mitigating Retrieval Bottlenecks in LLM-Based Cold-Start Recommendation",
-      "url": "http://arxiv.org/abs/2606.29947v1",
-      "source": "arXiv",
-      "published": "2026-06-29",
+      "id": "2412.08847",
+      "title": "MOPI-HFRS: A Multi-objective Personalized Health-aware Food Recommendation System with LLM-enhanced Interpretation",
+      "url": "https://arxiv.org/abs/2412.08847",
+      "source": "Semantic Scholar",
+      "published": "2024-12-12",
       "authors": [
-        "Zhe Dong",
-        "Fang Qin",
-        "Manish Shah",
-        "Yicheng Wang"
+        "Zheyuan Zhang",
+        "Zehong Wang",
+        "Tianyi Ma",
+        "V. Taneja",
+        "Sofia Nelson",
+        "Nhi Ha Lan Le"
       ],
-      "venue": "",
-      "citationCount": null,
-      "influentialCitationCount": null,
+      "venue": "Knowledge Discovery and Data Mining",
+      "citationCount": 34,
+      "influentialCitationCount": 2,
       "discussionCount": null,
-      "score": 78.0,
+      "score": 31.9,
+      "reasons": [
+        "推薦システム",
+        "グラフ推薦",
+        "LLM x 推薦"
+      ],
+      "summary": "The prevalence of unhealthy eating habits has become a growing concern in the United States. However, popular food recommendation platforms, such as Yelp, tend to prioritize users' dietary preferences over the...",
+      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2412.08847&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2412.08847%0A-+Title%3A+MOPI-HFRS%3A+A+Multi-objective+Personalized+Health-aware+Food+Recommendation+System+with+LLM-enhanced+Interpretation%0A-+URL%3A+https%3A%2F%2Farxiv.org%2Fabs%2F2412.08847%0A-+Source%3A+Semantic+Scholar%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
+    },
+    {
+      "id": "cores-context-aware-emotion-driven-recommendation-system-based-llm-to-improve-vi",
+      "title": "CORES: Context-Aware Emotion-Driven Recommendation System-Based LLM to Improve Virtual Shopping Experiences",
+      "url": "https://www.semanticscholar.org/paper/d063f3c257b767401f3069c094a6be89a1da87b3",
+      "source": "Semantic Scholar",
+      "published": "2025-02-18",
+      "authors": [
+        "Abderrahim Lakehal",
+        "Adel Alti",
+        "Boubakeur Annane"
+      ],
+      "venue": "Future Internet",
+      "citationCount": 11,
+      "influentialCitationCount": 0,
+      "discussionCount": null,
+      "score": 30.55,
+      "reasons": [
+        "推薦システム",
+        "検索・ retrieval",
+        "LLM x 推薦"
+      ],
+      "summary": "In today’s business landscape, artificial intelligence (AI) plays a pivotal role in shopping processes and customization. As the demand for customization grows, virtual reality (VR) emerges as an innovative solution...",
+      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+cores-context-aware-emotion-driven-recommendation-system-based-llm-to-improve-vi&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+cores-context-aware-emotion-driven-recommendation-system-based-llm-to-improve-vi%0A-+Title%3A+CORES%3A+Context-Aware+Emotion-Driven+Recommendation+System-Based+LLM+to+Improve+Virtual+Shopping+Experiences%0A-+URL%3A+https%3A%2F%2Fwww.semanticscholar.org%2Fpaper%2Fd063f3c257b767401f3069c094a6be89a1da87b3%0A-+Source%3A+Semantic+Scholar%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
+    },
+    {
+      "id": "2508.13423",
+      "title": "AdaptJobRec: Enhancing Conversational Career Recommendation through an LLM-Powered Agentic System",
+      "url": "https://arxiv.org/abs/2508.13423",
+      "source": "Semantic Scholar",
+      "published": "2025-08-19",
+      "authors": [
+        "Qixin Wang",
+        "Dawei Wang",
+        "Kun Chen",
+        "Yaowei Hu",
+        "Puneet Girdhar",
+        "Ruoteng Wang"
+      ],
+      "venue": "AAAI Conference on Artificial Intelligence",
+      "citationCount": 5,
+      "influentialCitationCount": 0,
+      "discussionCount": null,
+      "score": 30.25,
+      "reasons": [
+        "推薦システム",
+        "検索・ retrieval",
+        "LLM x 推薦"
+      ],
+      "summary": "In recent years, recommendation systems have evolved from providing a single list of recommendations to offering a comprehensive suite of topic-focused services. To better accomplish this task, conversational...",
+      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2508.13423&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2508.13423%0A-+Title%3A+AdaptJobRec%3A+Enhancing+Conversational+Career+Recommendation+through+an+LLM-Powered+Agentic+System%0A-+URL%3A+https%3A%2F%2Farxiv.org%2Fabs%2F2508.13423%0A-+Source%3A+Semantic+Scholar%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
+    },
+    {
+      "id": "2512.03439",
+      "title": "LLM as Explainable Re-Ranker for Recommendation System",
+      "url": "https://arxiv.org/abs/2512.03439",
+      "source": "Semantic Scholar",
+      "published": "2025-12-03",
+      "authors": [
+        "Yaqi Wang",
+        "Haojia Sun",
+        "Shuting Zhang"
+      ],
+      "venue": "arXiv.org",
+      "citationCount": 3,
+      "influentialCitationCount": 0,
+      "discussionCount": null,
+      "score": 30.15,
       "reasons": [
         "推薦システム",
         "ランキング",
-        "検索・ retrieval",
+        "LLM x 推薦"
+      ],
+      "summary": "The application of large language models (LLMs) in recommendation systems has recently gained traction. Traditional recommendation systems often lack explainability and suffer from issues such as popularity bias....",
+      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2512.03439&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2512.03439%0A-+Title%3A+LLM+as+Explainable+Re-Ranker+for+Recommendation+System%0A-+URL%3A+https%3A%2F%2Farxiv.org%2Fabs%2F2512.03439%0A-+Source%3A+Semantic+Scholar%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
+    },
+    {
+      "id": "design-of-an-llm-driven-personalized-learning-resource-recommendation-system",
+      "title": "Design of an LLM-Driven Personalized Learning Resource Recommendation System",
+      "url": "https://www.semanticscholar.org/paper/f8f0f9dfc2e2b0f0c6a400e34c006d6cc51db90b",
+      "source": "Semantic Scholar",
+      "published": "2025-03-27",
+      "authors": [
+        "Zhiyuan Ma",
+        "Jie Wu"
+      ],
+      "venue": "Frontiers in Computing and Intelligent Systems",
+      "citationCount": 2,
+      "influentialCitationCount": 0,
+      "discussionCount": null,
+      "score": 30.1,
+      "reasons": [
+        "推薦システム",
         "協調フィルタリング",
         "LLM x 推薦"
       ],
-      "summary": "Large language models (LLMs) are increasingly used as rerankers in recommender systems, with the expectation that semantic understanding will help in cold-start and long-tail regimes. We test this assumption with a...",
-      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2606.29947&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2606.29947%0A-+Title%3A+Diagnosing+and+Mitigating+Retrieval+Bottlenecks+in+LLM-Based+Cold-Start+Recommendation%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2606.29947v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
+      "summary": "Recently, the demand for personalized learning resources has increased substantially. Traditional recommendation algorithms, such as collaborative filtering (CF), often struggle with cold-start scenarios and data...",
+      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+design-of-an-llm-driven-personalized-learning-resource-recommendation-system&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+design-of-an-llm-driven-personalized-learning-resource-recommendation-system%0A-+Title%3A+Design+of+an+LLM-Driven+Personalized+Learning+Resource+Recommendation+System%0A-+URL%3A+https%3A%2F%2Fwww.semanticscholar.org%2Fpaper%2Ff8f0f9dfc2e2b0f0c6a400e34c006d6cc51db90b%0A-+Source%3A+Semantic+Scholar%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
     },
     {
-      "id": "2606.28533",
-      "title": "CMSL: Constructive Multi-Sequence Learning for Recommendation Systems",
-      "url": "http://arxiv.org/abs/2606.28533v1",
-      "source": "arXiv",
-      "published": "2026-06-26",
+      "id": "llm-based-generation-of-item-description-for-recommendation-system",
+      "title": "LLM Based Generation of Item-Description for Recommendation System",
+      "url": "https://www.semanticscholar.org/paper/c47ba62dd18c70aafa04a8e04e105f624090217c",
+      "source": "Semantic Scholar",
+      "published": "2023-09-14",
       "authors": [
-        "Zikun Cui",
-        "Renzhi Wu",
-        "Junjie Yang",
-        "Li Sheng",
-        "Jijie Wei",
-        "Linfeng Liu",
-        "Tai Guo",
-        "Tao Jia",
-        "Xiaodong Wang",
-        "Hong Li",
-        "Li Yu",
-        "Sri Reddy",
-        "Hong Yan"
+        "Arkadeep Acharya",
+        "Brijraj Singh",
+        "N. Onoe"
       ],
-      "venue": "",
-      "citationCount": null,
-      "influentialCitationCount": null,
+      "venue": "ACM Conference on Recommender Systems",
+      "citationCount": 157,
+      "influentialCitationCount": 2,
       "discussionCount": null,
-      "score": 70.0,
+      "score": 30.05,
       "reasons": [
         "推薦システム",
-        "ランキング",
-        "検索・ retrieval",
         "LLM x 推薦",
-        "新着 arXiv"
+        "引用数 157"
       ],
-      "summary": "Sequence learning has emerged as the promising paradigm in recommendation systems, surpassing traditional Deep Learning Recommendation Models (DLRM) by capturing the temporal nuances of user behavior. However, current...",
-      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2606.28533&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2606.28533%0A-+Title%3A+CMSL%3A+Constructive+Multi-Sequence+Learning+for+Recommendation+Systems%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2606.28533v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
+      "summary": "The description of an item plays a pivotal role in providing concise and informative summaries to captivate potential viewers and is essential for recommendation systems. Traditionally, such descriptions were obtained...",
+      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+llm-based-generation-of-item-description-for-recommendation-system&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+llm-based-generation-of-item-description-for-recommendation-system%0A-+Title%3A+LLM+Based+Generation+of+Item-Description+for+Recommendation+System%0A-+URL%3A+https%3A%2F%2Fwww.semanticscholar.org%2Fpaper%2Fc47ba62dd18c70aafa04a8e04e105f624090217c%0A-+Source%3A+Semantic+Scholar%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
     },
     {
-      "id": "2606.25147",
-      "title": "TokenMinds: Pretrained User Tokens and Embeddings for User Understanding in Large Recommender Systems",
-      "url": "http://arxiv.org/abs/2606.25147v1",
-      "source": "arXiv",
-      "published": "2026-06-23",
+      "id": "sealr-sequential-emotion-aware-llm-based-personalized-recommendation-system",
+      "title": "SEALR: Sequential Emotion-Aware LLM-Based Personalized Recommendation System",
+      "url": "https://www.semanticscholar.org/paper/142ebe2ae1a52b83643c7589c951e5b06efc2a21",
+      "source": "Semantic Scholar",
+      "published": "2025-07-13",
       "authors": [
-        "Qingyun Liu",
-        "Bo Yan",
-        "Yang Liu",
-        "Yuji Roh",
-        "Ekansh Sharma",
-        "Likang Yin",
-        "Emma Olowo",
-        "Min-hsuan Tsai",
-        "Yuxuan Li",
-        "Diego Uribe",
-        "Saksham Aggarwal",
-        "Siqi Wu",
-        "Yuan Hao",
-        "Vikas Kedigehalli",
-        "Lukasz Heldt",
-        "Lichan Hong",
-        "Li Wei",
-        "Xinyang Yi"
+        "Namjun Lee",
+        "Jaekwang Kim"
       ],
-      "venue": "",
-      "citationCount": null,
-      "influentialCitationCount": null,
+      "venue": "Annual International ACM SIGIR Conference on Research and Development in Information Retrieval",
+      "citationCount": 7,
+      "influentialCitationCount": 0,
       "discussionCount": null,
-      "score": 70.0,
+      "score": 22.35,
       "reasons": [
         "推薦システム",
-        "ランキング",
-        "検索・ retrieval",
-        "LLM x 推薦",
-        "新着 arXiv"
+        "LLM x 推薦"
       ],
-      "summary": "User modeling in industrial recommender systems typically produces dense embeddings, which suffer from representational constraints inherent to fixed-dimensional vectors. An emerging alternative for discrete user...",
-      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2606.25147&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2606.25147%0A-+Title%3A+TokenMinds%3A+Pretrained+User+Tokens+and+Embeddings+for+User+Understanding+in+Large+Recommender+Systems%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2606.25147v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
+      "summary": "Large Language Models (LLMs) excel in various NLP tasks but remain underexplored in recommendation systems. This study proposes the Sequential Emotion-Aware LLM-Based Personalized Recommendation System (SEALR ) to...",
+      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+sealr-sequential-emotion-aware-llm-based-personalized-recommendation-system&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+sealr-sequential-emotion-aware-llm-based-personalized-recommendation-system%0A-+Title%3A+SEALR%3A+Sequential+Emotion-Aware+LLM-Based+Personalized+Recommendation+System%0A-+URL%3A+https%3A%2F%2Fwww.semanticscholar.org%2Fpaper%2F142ebe2ae1a52b83643c7589c951e5b06efc2a21%0A-+Source%3A+Semantic+Scholar%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
     },
     {
-      "id": "2606.29762",
-      "title": "Do Recommendation Algorithms Work When Users Are LLM Agents? A Case Study on Moltbook",
-      "url": "http://arxiv.org/abs/2606.29762v1",
-      "source": "arXiv",
-      "published": "2026-06-29",
+      "id": "2505.03824",
+      "title": "Memory Assisted LLM for Personalized Recommendation System",
+      "url": "https://arxiv.org/abs/2505.03824",
+      "source": "Semantic Scholar",
+      "published": "2025-05-03",
       "authors": [
-        "Daming Li",
-        "Simeng Han",
-        "Jialu Zhang"
+        "Jiarui Chen"
       ],
-      "venue": "",
-      "citationCount": null,
-      "influentialCitationCount": null,
+      "venue": "arXiv.org",
+      "citationCount": 7,
+      "influentialCitationCount": 0,
       "discussionCount": null,
-      "score": 70.0,
+      "score": 22.35,
       "reasons": [
         "推薦システム",
-        "協調フィルタリング",
-        "グラフ推薦",
-        "LLM x 推薦",
-        "新着 arXiv"
+        "LLM x 推薦"
       ],
-      "summary": "Large language model (LLM) agents are increasingly populating web platforms, raising a fundamental question for recommender systems: do algorithms designed for human users still work when users are LLM agents that may...",
-      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2606.29762&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2606.29762%0A-+Title%3A+Do+Recommendation+Algorithms+Work+When+Users+Are+LLM+Agents%3F+A+Case+Study+on+Moltbook%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2606.29762v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
-    },
-    {
-      "id": "2606.28467",
-      "title": "An Agentic AI Pipeline for Appliance-Level Energy Anomaly Detection and LLM-Driven Recommendations",
-      "url": "http://arxiv.org/abs/2606.28467v1",
-      "source": "arXiv",
-      "published": "2026-06-26",
-      "authors": [
-        "Dihia Falouz",
-        "Aida Douaibia",
-        "Amine Bechar",
-        "Youssef Elmir",
-        "Abbes Amira",
-        "Adel Oulefki"
-      ],
-      "venue": "",
-      "citationCount": null,
-      "influentialCitationCount": null,
-      "discussionCount": null,
-      "score": 62.0,
-      "reasons": [
-        "推薦システム",
-        "検索・ retrieval",
-        "LLM x 推薦",
-        "新着 arXiv",
-        "4日前の新着"
-      ],
-      "summary": "Appliance-level energy monitoring in office buildings produces noisy alerts that non-expert facility managers struggle to use. This paper proposes an end-to-end agentic pipeline that combines deep time-series...",
-      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2606.28467&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2606.28467%0A-+Title%3A+An+Agentic+AI+Pipeline+for+Appliance-Level+Energy+Anomaly+Detection+and+LLM-Driven+Recommendations%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2606.28467v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
-    },
-    {
-      "id": "2606.19690",
-      "title": "Multi-Granular Attention-Driven Reinforcement Learning Framework for Web Intelligent Enhancement Systems",
-      "url": "http://arxiv.org/abs/2606.19690v1",
-      "source": "arXiv",
-      "published": "2026-06-18",
-      "authors": [
-        "Navin Chhibber",
-        "Deepak Singh",
-        "Anokh Kishore",
-        "Nikita Chawla",
-        "K. Anguraj"
-      ],
-      "venue": "",
-      "citationCount": null,
-      "influentialCitationCount": null,
-      "discussionCount": null,
-      "score": 62.0,
-      "reasons": [
-        "推薦システム",
-        "グラフ推薦",
-        "強化学習",
-        "新着 arXiv",
-        "12日前の新着"
-      ],
-      "summary": "From the past few years, web intelligent enhancement systems increasingly rely on heterogeneous and dynamic web data to deliver personalized, context-aware services. However, traditional machine learning, deep...",
-      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2606.19690&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2606.19690%0A-+Title%3A+Multi-Granular+Attention-Driven+Reinforcement+Learning+Framework+for+Web+Intelligent+Enhancement+Systems%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2606.19690v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
-    },
-    {
-      "id": "2606.29341",
-      "title": "Monosemanticity in Recommender Systems",
-      "url": "http://arxiv.org/abs/2606.29341v1",
-      "source": "arXiv",
-      "published": "2026-06-28",
-      "authors": [
-        "Yagel Alfasi",
-        "Eden Rzezak",
-        "Eadan Schechter"
-      ],
-      "venue": "",
-      "citationCount": null,
-      "influentialCitationCount": null,
-      "discussionCount": null,
-      "score": 62.0,
-      "reasons": [
-        "推薦システム",
-        "協調フィルタリング",
-        "LLM x 推薦",
-        "新着 arXiv",
-        "2日前の新着"
-      ],
-      "summary": "Latent factor models such as matrix factorization are widely used in recommender systems, yet the learned embedding dimensions typically lack explicit semantic interpretation. This opacity limits transparency,...",
-      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2606.29341&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2606.29341%0A-+Title%3A+Monosemanticity+in+Recommender+Systems%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2606.29341v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
-    },
-    {
-      "id": "2606.26277",
-      "title": "From Clicks to Intent: Cross-Platform Session Embeddings with LLM-Distilled Taxonomy for Financial Services Recommendations",
-      "url": "http://arxiv.org/abs/2606.26277v1",
-      "source": "arXiv",
-      "published": "2026-06-24",
-      "authors": [
-        "Dianjing Fan",
-        "Yao Li",
-        "Kyaw Hpone Myint",
-        "Dwipam Katariya",
-        "Alexandre G. R. Day",
-        "Pranab Mohanty",
-        "Giri Iyengar"
-      ],
-      "venue": "",
-      "citationCount": null,
-      "influentialCitationCount": null,
-      "discussionCount": null,
-      "score": 62.0,
-      "reasons": [
-        "推薦システム",
-        "ランキング",
-        "LLM x 推薦",
-        "新着 arXiv",
-        "6日前の新着"
-      ],
-      "summary": "Sequential user behavior modeling is widely adopted in industrial recommender systems; however, significant gaps remain in financial services, where pre-login web interactions and authenticated in-app experiences...",
-      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2606.26277&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2606.26277%0A-+Title%3A+From+Clicks+to+Intent%3A+Cross-Platform+Session+Embeddings+with+LLM-Distilled+Taxonomy+for+Financial+Services+Recommendations%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2606.26277v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
+      "summary": "Large language models (LLMs) have demonstrated significant potential in solving recommendation tasks. With proven capabilities in understanding user preferences, LLM personalization has emerged as a critical area for...",
+      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2505.03824&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2505.03824%0A-+Title%3A+Memory+Assisted+LLM+for+Personalized+Recommendation+System%0A-+URL%3A+https%3A%2F%2Farxiv.org%2Fabs%2F2505.03824%0A-+Source%3A+Semantic+Scholar%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
     }
   ]
 }
