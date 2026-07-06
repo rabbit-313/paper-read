@@ -1,6 +1,6 @@
 {
-  "date": "2026-07-05",
-  "generatedAt": "2026-07-05T23:01:41.834323+00:00",
+  "date": "2026-07-06",
+  "generatedAt": "2026-07-06T23:08:52.670885+00:00",
   "focus": "Recommender systems, recommendation, retrieval, ranking, and related ML/DL papers",
   "items": [
     {
@@ -338,7 +338,7 @@
         "検索・ retrieval",
         "LLM x 推薦",
         "新着 arXiv",
-        "9日前の新着"
+        "10日前の新着"
       ],
       "summary": "Appliance-level energy monitoring in office buildings produces noisy alerts that non-expert facility managers struggle to use. This paper proposes an end-to-end agentic pipeline that combines deep time-series...",
       "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2606.28467&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2606.28467%0A-+Title%3A+An+Agentic+AI+Pipeline+for+Appliance-Level+Energy+Anomaly+Detection+and+LLM-Driven+Recommendations%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2606.28467v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
