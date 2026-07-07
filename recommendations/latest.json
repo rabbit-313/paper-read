@@ -1,12 +1,12 @@
 {
-  "date": "2026-07-06",
-  "generatedAt": "2026-07-06T23:08:52.670885+00:00",
+  "date": "2026-07-07",
+  "generatedAt": "2026-07-07T23:02:34.852553+00:00",
   "focus": "Recommender systems, recommendation, retrieval, ranking, and related ML/DL papers",
   "items": [
     {
       "id": "2606.31984",
       "title": "GR2 Technical Report",
-      "url": "http://arxiv.org/abs/2606.31984v2",
+      "url": "http://arxiv.org/abs/2606.31984v3",
       "source": "arXiv",
       "published": "2026-06-30",
       "authors": [
@@ -24,8 +24,7 @@
         "Tianyi Chen",
         "Jean-Pascal Billaud",
         "Garret Buell",
-        "YK",
-        "Zhu",
+        "Yongkang Zhu",
         "Sachin Patil",
         "Brooke Bian",
         "Zhou Fang",
@@ -41,6 +40,7 @@
         "Chao Li",
         "Gaoxiang Liu",
         "Neil Wu",
+        "Zhongyin Hu",
         "Li Han",
         "Loki Chen",
         "Ming Lei",
@@ -65,6 +65,7 @@
         "Chonglin Sun",
         "Shuo Gu",
         "Parish Aggarwal",
+        "Senthil Manickavelu",
         "Kaushik Rangadurai",
         "Zhi Hua",
         "Frank Shyu",
@@ -75,8 +76,7 @@
         "Santanu Kolay",
         "Ben Schulte",
         "Deepak Chandra",
-        "Adam",
-        "Song",
+        "Yang Song",
         "Sandeep Pandey",
         "Xi Liu",
         "Hamed Firooz",
@@ -95,39 +95,12 @@
         "強化学習"
       ],
       "summary": "Industrial recommendation systems serve billions of users through a multi-stage funnel -- retrieval, early-stage ranking, and re-ranking -- where the final re-ranking step disproportionately shapes user engagement and...",
-      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2606.31984&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2606.31984%0A-+Title%3A+GR2+Technical+Report%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2606.31984v2%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
-    },
-    {
-      "id": "2606.29947",
-      "title": "Diagnosing and Mitigating Retrieval Bottlenecks in LLM-Based Cold-Start Recommendation",
-      "url": "http://arxiv.org/abs/2606.29947v1",
-      "source": "arXiv",
-      "published": "2026-06-29",
-      "authors": [
-        "Zhe Dong",
-        "Fang Qin",
-        "Manish Shah",
-        "Yicheng Wang"
-      ],
-      "venue": "",
-      "citationCount": null,
-      "influentialCitationCount": null,
-      "discussionCount": null,
-      "score": 78.0,
-      "reasons": [
-        "推薦システム",
-        "ランキング",
-        "検索・ retrieval",
-        "協調フィルタリング",
-        "LLM x 推薦"
-      ],
-      "summary": "Large language models (LLMs) are increasingly used as rerankers in recommender systems, with the expectation that semantic understanding will help in cold-start and long-tail regimes. We test this assumption with a...",
-      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2606.29947&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2606.29947%0A-+Title%3A+Diagnosing+and+Mitigating+Retrieval+Bottlenecks+in+LLM-Based+Cold-Start+Recommendation%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2606.29947v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
+      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2606.31984&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2606.31984%0A-+Title%3A+GR2+Technical+Report%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2606.31984v3%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
     },
     {
       "id": "2607.01170",
       "title": "Diffusion-GR2: Diffusion Generative Reasoning Re-ranker",
-      "url": "http://arxiv.org/abs/2607.01170v1",
+      "url": "http://arxiv.org/abs/2607.01170v2",
       "source": "arXiv",
       "published": "2026-07-01",
       "authors": [
@@ -160,7 +133,34 @@
         "強化学習"
       ],
       "summary": "Generative reasoning re-rankers achieve strong recommendation accuracy by emitting a chain-of-thought before re-ordering a candidate list, but they are slow at inference: an autoregressive (AR) decoder spends one...",
-      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2607.01170&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2607.01170%0A-+Title%3A+Diffusion-GR2%3A+Diffusion+Generative+Reasoning+Re-ranker%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2607.01170v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
+      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2607.01170&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2607.01170%0A-+Title%3A+Diffusion-GR2%3A+Diffusion+Generative+Reasoning+Re-ranker%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2607.01170v2%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
+    },
+    {
+      "id": "2606.29947",
+      "title": "Diagnosing and Mitigating Retrieval Bottlenecks in LLM-Based Cold-Start Recommendation",
+      "url": "http://arxiv.org/abs/2606.29947v1",
+      "source": "arXiv",
+      "published": "2026-06-29",
+      "authors": [
+        "Zhe Dong",
+        "Fang Qin",
+        "Manish Shah",
+        "Yicheng Wang"
+      ],
+      "venue": "",
+      "citationCount": null,
+      "influentialCitationCount": null,
+      "discussionCount": null,
+      "score": 78.0,
+      "reasons": [
+        "推薦システム",
+        "ランキング",
+        "検索・ retrieval",
+        "協調フィルタリング",
+        "LLM x 推薦"
+      ],
+      "summary": "Large language models (LLMs) are increasingly used as rerankers in recommender systems, with the expectation that semantic understanding will help in cold-start and long-tail regimes. We test this assumption with a...",
+      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2606.29947&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2606.29947%0A-+Title%3A+Diagnosing+and+Mitigating+Retrieval+Bottlenecks+in+LLM-Based+Cold-Start+Recommendation%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2606.29947v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
     },
     {
       "id": "2606.28533",
@@ -240,6 +240,32 @@
       "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2606.25147&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2606.25147%0A-+Title%3A+TokenMinds%3A+Pretrained+User+Tokens+and+Embeddings+for+User+Understanding+in+Large+Recommender+Systems%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2606.25147v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
     },
     {
+      "id": "2607.03025",
+      "title": "Human-Centric Reflective Architecture for Human-AI Collaborative Decision-Making",
+      "url": "http://arxiv.org/abs/2607.03025v1",
+      "source": "arXiv",
+      "published": "2026-07-03",
+      "authors": [
+        "Andreas Kouridakis",
+        "Dimitrios Patiniotis Spyropoulos",
+        "George Vouros"
+      ],
+      "venue": "",
+      "citationCount": null,
+      "influentialCitationCount": null,
+      "discussionCount": null,
+      "score": 70.0,
+      "reasons": [
+        "推薦システム",
+        "協調フィルタリング",
+        "LLM x 推薦",
+        "強化学習",
+        "新着 arXiv"
+      ],
+      "summary": "The use of Large Language Models (LLMs) across diverse areas of human activity-ranging from everyday tasks to safety-critical applications-aims to enhance decision-making effectiveness with minimal human feedback....",
+      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2607.03025&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2607.03025%0A-+Title%3A+Human-Centric+Reflective+Architecture+for+Human-AI+Collaborative+Decision-Making%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2607.03025v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
+    },
+    {
       "id": "2606.31693",
       "title": "ShopX: A Foundation Model for Intent-to-Item Fulfillment in Agentic Shopping",
       "url": "http://arxiv.org/abs/2606.31693v1",
@@ -289,32 +315,6 @@
       "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2606.31693&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2606.31693%0A-+Title%3A+ShopX%3A+A+Foundation+Model+for+Intent-to-Item+Fulfillment+in+Agentic+Shopping%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2606.31693v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
     },
     {
-      "id": "2606.29762",
-      "title": "Do Recommendation Algorithms Work When Users Are LLM Agents? A Case Study on Moltbook",
-      "url": "http://arxiv.org/abs/2606.29762v1",
-      "source": "arXiv",
-      "published": "2026-06-29",
-      "authors": [
-        "Daming Li",
-        "Simeng Han",
-        "Jialu Zhang"
-      ],
-      "venue": "",
-      "citationCount": null,
-      "influentialCitationCount": null,
-      "discussionCount": null,
-      "score": 70.0,
-      "reasons": [
-        "推薦システム",
-        "協調フィルタリング",
-        "グラフ推薦",
-        "LLM x 推薦",
-        "新着 arXiv"
-      ],
-      "summary": "Large language model (LLM) agents are increasingly populating web platforms, raising a fundamental question for recommender systems: do algorithms designed for human users still work when users are LLM agents that may...",
-      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2606.29762&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2606.29762%0A-+Title%3A+Do+Recommendation+Algorithms+Work+When+Users+Are+LLM+Agents%3F+A+Case+Study+on+Moltbook%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2606.29762v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
-    },
-    {
       "id": "2606.28467",
       "title": "An Agentic AI Pipeline for Appliance-Level Energy Anomaly Detection and LLM-Driven Recommendations",
       "url": "http://arxiv.org/abs/2606.28467v1",
@@ -338,7 +338,7 @@
         "検索・ retrieval",
         "LLM x 推薦",
         "新着 arXiv",
-        "10日前の新着"
+        "11日前の新着"
       ],
       "summary": "Appliance-level energy monitoring in office buildings produces noisy alerts that non-expert facility managers struggle to use. This paper proposes an end-to-end agentic pipeline that combines deep time-series...",
       "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2606.28467&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2606.28467%0A-+Title%3A+An+Agentic+AI+Pipeline+for+Appliance-Level+Energy+Anomaly+Detection+and+LLM-Driven+Recommendations%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2606.28467v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
