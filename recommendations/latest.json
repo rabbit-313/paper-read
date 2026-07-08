@@ -1,6 +1,6 @@
 {
-  "date": "2026-07-07",
-  "generatedAt": "2026-07-07T23:02:34.852553+00:00",
+  "date": "2026-07-08",
+  "generatedAt": "2026-07-08T23:08:21.143667+00:00",
   "focus": "Recommender systems, recommendation, retrieval, ranking, and related ML/DL papers",
   "items": [
     {
@@ -199,47 +199,6 @@
       "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2606.28533&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2606.28533%0A-+Title%3A+CMSL%3A+Constructive+Multi-Sequence+Learning+for+Recommendation+Systems%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2606.28533v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
     },
     {
-      "id": "2606.25147",
-      "title": "TokenMinds: Pretrained User Tokens and Embeddings for User Understanding in Large Recommender Systems",
-      "url": "http://arxiv.org/abs/2606.25147v1",
-      "source": "arXiv",
-      "published": "2026-06-23",
-      "authors": [
-        "Qingyun Liu",
-        "Bo Yan",
-        "Yang Liu",
-        "Yuji Roh",
-        "Ekansh Sharma",
-        "Likang Yin",
-        "Emma Olowo",
-        "Min-hsuan Tsai",
-        "Yuxuan Li",
-        "Diego Uribe",
-        "Saksham Aggarwal",
-        "Siqi Wu",
-        "Yuan Hao",
-        "Vikas Kedigehalli",
-        "Lukasz Heldt",
-        "Lichan Hong",
-        "Li Wei",
-        "Xinyang Yi"
-      ],
-      "venue": "",
-      "citationCount": null,
-      "influentialCitationCount": null,
-      "discussionCount": null,
-      "score": 70.0,
-      "reasons": [
-        "推薦システム",
-        "ランキング",
-        "検索・ retrieval",
-        "LLM x 推薦",
-        "新着 arXiv"
-      ],
-      "summary": "User modeling in industrial recommender systems typically produces dense embeddings, which suffer from representational constraints inherent to fixed-dimensional vectors. An emerging alternative for discrete user...",
-      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2606.25147&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2606.25147%0A-+Title%3A+TokenMinds%3A+Pretrained+User+Tokens+and+Embeddings+for+User+Understanding+in+Large+Recommender+Systems%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2606.25147v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
-    },
-    {
       "id": "2607.03025",
       "title": "Human-Centric Reflective Architecture for Human-AI Collaborative Decision-Making",
       "url": "http://arxiv.org/abs/2607.03025v1",
@@ -338,10 +297,43 @@
         "検索・ retrieval",
         "LLM x 推薦",
         "新着 arXiv",
-        "11日前の新着"
+        "12日前の新着"
       ],
       "summary": "Appliance-level energy monitoring in office buildings produces noisy alerts that non-expert facility managers struggle to use. This paper proposes an end-to-end agentic pipeline that combines deep time-series...",
       "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2606.28467&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2606.28467%0A-+Title%3A+An+Agentic+AI+Pipeline+for+Appliance-Level+Energy+Anomaly+Detection+and+LLM-Driven+Recommendations%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2606.28467v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
+    },
+    {
+      "id": "2607.04433",
+      "title": "Autonomous Information Seeking: A Roadmap for Agentic Recommender Systems",
+      "url": "http://arxiv.org/abs/2607.04433v1",
+      "source": "arXiv",
+      "published": "2026-07-05",
+      "authors": [
+        "Xinyu Lin",
+        "Yashar Deldjoo",
+        "Sunhao Dai",
+        "Honghui Bao",
+        "Xiaopeng Ye",
+        "Fatemeh Nazary",
+        "Wenjie Wang",
+        "Tommaso Di Noia",
+        "Jun Xu",
+        "Tat-Seng Chua"
+      ],
+      "venue": "",
+      "citationCount": null,
+      "influentialCitationCount": null,
+      "discussionCount": null,
+      "score": 62.0,
+      "reasons": [
+        "推薦システム",
+        "ランキング",
+        "LLM x 推薦",
+        "新着 arXiv",
+        "3日前の新着"
+      ],
+      "summary": "The rapid integration of large language model-based agents into recommender systems has driven a shift from static, ranking-based pipelines toward autonomous and interactive systems that can reason, plan, and act....",
+      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2607.04433&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2607.04433%0A-+Title%3A+Autonomous+Information+Seeking%3A+A+Roadmap+for+Agentic+Recommender+Systems%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2607.04433v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
     }
   ]
 }
