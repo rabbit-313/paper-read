@@ -1,6 +1,6 @@
 {
-  "date": "2026-07-09",
-  "generatedAt": "2026-07-09T23:12:30.061501+00:00",
+  "date": "2026-07-10",
+  "generatedAt": "2026-07-10T22:59:31.064038+00:00",
   "focus": "Recommender systems, recommendation, retrieval, ranking, and related ML/DL papers",
   "items": [
     {
@@ -35,7 +35,7 @@
     {
       "id": "2607.01170",
       "title": "Diffusion-GR2: Diffusion Generative Reasoning Re-ranker",
-      "url": "http://arxiv.org/abs/2607.01170v2",
+      "url": "http://arxiv.org/abs/2607.01170v3",
       "source": "arXiv",
       "published": "2026-07-01",
       "authors": [
@@ -68,7 +68,7 @@
         "強化学習"
       ],
       "summary": "Generative reasoning re-rankers achieve strong recommendation accuracy by emitting a chain-of-thought before re-ordering a candidate list, but they are slow at inference: an autoregressive (AR) decoder spends one...",
-      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2607.01170&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2607.01170%0A-+Title%3A+Diffusion-GR2%3A+Diffusion+Generative+Reasoning+Re-ranker%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2607.01170v2%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
+      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2607.01170&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2607.01170%0A-+Title%3A+Diffusion-GR2%3A+Diffusion+Generative+Reasoning+Re-ranker%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2607.01170v3%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
     },
     {
       "id": "2606.31984",
@@ -303,31 +303,33 @@
       "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2606.31693&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2606.31693%0A-+Title%3A+ShopX%3A+A+Foundation+Model+for+Intent-to-Item+Fulfillment+in+Agentic+Shopping%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2606.31693v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
     },
     {
-      "id": "1905.08108",
-      "title": "Neural Graph Collaborative Filtering",
-      "url": "https://arxiv.org/abs/1905.08108",
-      "source": "Semantic Scholar",
-      "published": "2019-05-20",
+      "id": "2606.28467",
+      "title": "An Agentic AI Pipeline for Appliance-Level Energy Anomaly Detection and LLM-Driven Recommendations",
+      "url": "http://arxiv.org/abs/2606.28467v1",
+      "source": "arXiv",
+      "published": "2026-06-26",
       "authors": [
-        "Xiang Wang",
-        "Xiangnan He",
-        "Meng Wang",
-        "Fuli Feng",
-        "Tat-Seng Chua"
+        "Dihia Falouz",
+        "Aida Douaibia",
+        "Amine Bechar",
+        "Youssef Elmir",
+        "Abbes Amira",
+        "Adel Oulefki"
       ],
-      "venue": "Annual International ACM SIGIR Conference on Research and Development in Information Retrieval",
-      "citationCount": 3871,
-      "influentialCitationCount": 637,
+      "venue": "",
+      "citationCount": null,
+      "influentialCitationCount": null,
       "discussionCount": null,
-      "score": 65.0,
+      "score": 62.0,
       "reasons": [
         "推薦システム",
-        "協調フィルタリング",
-        "グラフ推薦",
-        "引用数 3871"
+        "検索・ retrieval",
+        "LLM x 推薦",
+        "新着 arXiv",
+        "14日前の新着"
       ],
-      "summary": "Learning vector representations (aka. embeddings) of users and items lies at the core of modern recommender systems. Ranging from early matrix factorization to recently emerged deep learning based methods, existing...",
-      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+1905.08108&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+1905.08108%0A-+Title%3A+Neural+Graph+Collaborative+Filtering%0A-+URL%3A+https%3A%2F%2Farxiv.org%2Fabs%2F1905.08108%0A-+Source%3A+Semantic+Scholar%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
+      "summary": "Appliance-level energy monitoring in office buildings produces noisy alerts that non-expert facility managers struggle to use. This paper proposes an end-to-end agentic pipeline that combines deep time-series...",
+      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2606.28467&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2606.28467%0A-+Title%3A+An+Agentic+AI+Pipeline+for+Appliance-Level+Energy+Anomaly+Detection+and+LLM-Driven+Recommendations%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2606.28467v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
     }
   ]
 }
