@@ -1,6 +1,6 @@
 {
-  "date": "2026-07-10",
-  "generatedAt": "2026-07-10T22:59:31.064038+00:00",
+  "date": "2026-07-11",
+  "generatedAt": "2026-07-11T22:49:45.837597+00:00",
   "focus": "Recommender systems, recommendation, retrieval, ranking, and related ML/DL papers",
   "items": [
     {
@@ -192,42 +192,6 @@
       "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2606.29947&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2606.29947%0A-+Title%3A+Diagnosing+and+Mitigating+Retrieval+Bottlenecks+in+LLM-Based+Cold-Start+Recommendation%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2606.29947v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
     },
     {
-      "id": "2606.28533",
-      "title": "CMSL: Constructive Multi-Sequence Learning for Recommendation Systems",
-      "url": "http://arxiv.org/abs/2606.28533v1",
-      "source": "arXiv",
-      "published": "2026-06-26",
-      "authors": [
-        "Zikun Cui",
-        "Renzhi Wu",
-        "Junjie Yang",
-        "Li Sheng",
-        "Jijie Wei",
-        "Linfeng Liu",
-        "Tai Guo",
-        "Tao Jia",
-        "Xiaodong Wang",
-        "Hong Li",
-        "Li Yu",
-        "Sri Reddy",
-        "Hong Yan"
-      ],
-      "venue": "",
-      "citationCount": null,
-      "influentialCitationCount": null,
-      "discussionCount": null,
-      "score": 70.0,
-      "reasons": [
-        "推薦システム",
-        "ランキング",
-        "検索・ retrieval",
-        "LLM x 推薦",
-        "新着 arXiv"
-      ],
-      "summary": "Sequence learning has emerged as the promising paradigm in recommendation systems, surpassing traditional Deep Learning Recommendation Models (DLRM) by capturing the temporal nuances of user behavior. However, current...",
-      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2606.28533&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2606.28533%0A-+Title%3A+CMSL%3A+Constructive+Multi-Sequence+Learning+for+Recommendation+Systems%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2606.28533v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
-    },
-    {
       "id": "2607.03025",
       "title": "Human-Centric Reflective Architecture for Human-AI Collaborative Decision-Making",
       "url": "http://arxiv.org/abs/2607.03025v1",
@@ -303,18 +267,14 @@
       "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2606.31693&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2606.31693%0A-+Title%3A+ShopX%3A+A+Foundation+Model+for+Intent-to-Item+Fulfillment+in+Agentic+Shopping%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2606.31693v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
     },
     {
-      "id": "2606.28467",
-      "title": "An Agentic AI Pipeline for Appliance-Level Energy Anomaly Detection and LLM-Driven Recommendations",
-      "url": "http://arxiv.org/abs/2606.28467v1",
+      "id": "2607.06963",
+      "title": "Large Language Models (LLMs) and Generative AI in Cybersecurity and Privacy: A Survey of Dual-Use Risks, AI-Generated Malware, Explainability, and Defensive Strategies",
+      "url": "http://arxiv.org/abs/2607.06963v1",
       "source": "arXiv",
-      "published": "2026-06-26",
+      "published": "2026-07-08",
       "authors": [
-        "Dihia Falouz",
-        "Aida Douaibia",
-        "Amine Bechar",
-        "Youssef Elmir",
-        "Abbes Amira",
-        "Adel Oulefki"
+        "Kiarash Ahi",
+        "Saeed Valizadeh"
       ],
       "venue": "",
       "citationCount": null,
@@ -323,13 +283,46 @@
       "score": 62.0,
       "reasons": [
         "推薦システム",
-        "検索・ retrieval",
+        "LLM x 推薦",
+        "生成モデル",
+        "新着 arXiv",
+        "3日前の新着"
+      ],
+      "summary": "Large Language Models (LLMs) and generative AI (GenAI) systems, such as ChatGPT, Claude, Gemini, LLaMA, Copilot, Stable Diffusion by OpenAI, Anthropic, Google, Meta, Microsoft, Stability AI, respectively, are...",
+      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2607.06963&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2607.06963%0A-+Title%3A+Large+Language+Models+%28LLMs%29+and+Generative+AI+in+Cybersecurity+and+Privacy%3A+A+Survey+of+Dual-Use+Risks%2C+AI-Generated+Malware%2C+Explainability%2C+and+Defensive+Strategies%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2607.06963v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
+    },
+    {
+      "id": "2607.04433",
+      "title": "Autonomous Information Seeking: A Roadmap for Agentic Recommender Systems",
+      "url": "http://arxiv.org/abs/2607.04433v1",
+      "source": "arXiv",
+      "published": "2026-07-05",
+      "authors": [
+        "Xinyu Lin",
+        "Yashar Deldjoo",
+        "Sunhao Dai",
+        "Honghui Bao",
+        "Xiaopeng Ye",
+        "Fatemeh Nazary",
+        "Wenjie Wang",
+        "Tommaso Di Noia",
+        "Jun Xu",
+        "Tat-Seng Chua"
+      ],
+      "venue": "",
+      "citationCount": null,
+      "influentialCitationCount": null,
+      "discussionCount": null,
+      "score": 62.0,
+      "reasons": [
+        "推薦システム",
+        "ランキング",
         "LLM x 推薦",
         "新着 arXiv",
-        "14日前の新着"
+        "6日前の新着"
       ],
-      "summary": "Appliance-level energy monitoring in office buildings produces noisy alerts that non-expert facility managers struggle to use. This paper proposes an end-to-end agentic pipeline that combines deep time-series...",
-      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2606.28467&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2606.28467%0A-+Title%3A+An+Agentic+AI+Pipeline+for+Appliance-Level+Energy+Anomaly+Detection+and+LLM-Driven+Recommendations%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2606.28467v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
+      "summary": "The rapid integration of large language model-based agents into recommender systems has driven a shift from static, ranking-based pipelines toward autonomous and interactive systems that can reason, plan, and act....",
+      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2607.04433&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2607.04433%0A-+Title%3A+Autonomous+Information+Seeking%3A+A+Roadmap+for+Agentic+Recommender+Systems%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2607.04433v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
     }
   ]
 }
