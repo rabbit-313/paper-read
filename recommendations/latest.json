@@ -1,6 +1,6 @@
 {
-  "date": "2026-07-11",
-  "generatedAt": "2026-07-11T22:49:45.837597+00:00",
+  "date": "2026-07-12",
+  "generatedAt": "2026-07-12T22:50:14.586632+00:00",
   "focus": "Recommender systems, recommendation, retrieval, ranking, and related ML/DL papers",
   "items": [
     {
@@ -286,7 +286,7 @@
         "LLM x 推薦",
         "生成モデル",
         "新着 arXiv",
-        "3日前の新着"
+        "4日前の新着"
       ],
       "summary": "Large Language Models (LLMs) and generative AI (GenAI) systems, such as ChatGPT, Claude, Gemini, LLaMA, Copilot, Stable Diffusion by OpenAI, Anthropic, Google, Meta, Microsoft, Stability AI, respectively, are...",
       "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2607.06963&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2607.06963%0A-+Title%3A+Large+Language+Models+%28LLMs%29+and+Generative+AI+in+Cybersecurity+and+Privacy%3A+A+Survey+of+Dual-Use+Risks%2C+AI-Generated+Malware%2C+Explainability%2C+and+Defensive+Strategies%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2607.06963v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
@@ -319,7 +319,7 @@
         "ランキング",
         "LLM x 推薦",
         "新着 arXiv",
-        "6日前の新着"
+        "7日前の新着"
       ],
       "summary": "The rapid integration of large language model-based agents into recommender systems has driven a shift from static, ranking-based pipelines toward autonomous and interactive systems that can reason, plan, and act....",
       "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2607.04433&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2607.04433%0A-+Title%3A+Autonomous+Information+Seeking%3A+A+Roadmap+for+Agentic+Recommender+Systems%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2607.04433v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
