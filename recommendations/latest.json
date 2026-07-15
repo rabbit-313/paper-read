@@ -1,6 +1,6 @@
 {
-  "date": "2026-07-14",
-  "generatedAt": "2026-07-14T22:57:14.967755+00:00",
+  "date": "2026-07-15",
+  "generatedAt": "2026-07-15T22:58:24.798236+00:00",
   "focus": "Recommender systems, recommendation, retrieval, ranking, and related ML/DL papers",
   "items": [
     {
@@ -31,44 +31,6 @@
       ],
       "summary": "Large language model (LLM)-based agentic recommender systems show promise in modeling user preferences through natural-language reasoning, yet they remain limited by text-centric inputs and coarse-grained memory...",
       "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2607.07108&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2607.07108%0A-+Title%3A+Seeing+and+Reflecting%3A+Multimodal+Memory-Enhanced+Agent+Collaboration+for+Recommendation%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2607.07108v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
-    },
-    {
-      "id": "2607.01170",
-      "title": "Diffusion-GR2: Diffusion Generative Reasoning Re-ranker",
-      "url": "http://arxiv.org/abs/2607.01170v4",
-      "source": "arXiv",
-      "published": "2026-07-01",
-      "authors": [
-        "Zhuoxuan Zhang",
-        "Kangqi Ni",
-        "Yuhang Chen",
-        "Mingfu Liang",
-        "Xiaohan Wei",
-        "Yunchen Pu",
-        "Fei Tian",
-        "Chonglin Sun",
-        "Frank Shyu",
-        "Adam",
-        "Song",
-        "Sandeep Pandey",
-        "Luke Simon",
-        "Tianlong Chen",
-        "Xi Liu"
-      ],
-      "venue": "",
-      "citationCount": null,
-      "influentialCitationCount": null,
-      "discussionCount": null,
-      "score": 78.0,
-      "reasons": [
-        "推薦システム",
-        "ランキング",
-        "LLM x 推薦",
-        "生成モデル",
-        "強化学習"
-      ],
-      "summary": "Generative reasoning re-rankers achieve strong recommendation accuracy by emitting a chain-of-thought before re-ordering a candidate list, but they are slow at inference: an autoregressive (AR) decoder spends one...",
-      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2607.01170&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2607.01170%0A-+Title%3A+Diffusion-GR2%3A+Diffusion+Generative+Reasoning+Re-ranker%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2607.01170v4%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
     },
     {
       "id": "2607.09988",
@@ -139,6 +101,33 @@
       "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2607.09908&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2607.09908%0A-+Title%3A+RouteRec%3A+Strict+Evaluation+of+Recommender-Agent+Selection+and+Aggregation%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2607.09908v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
     },
     {
+      "id": "1905.08108",
+      "title": "Neural Graph Collaborative Filtering",
+      "url": "https://arxiv.org/abs/1905.08108",
+      "source": "Semantic Scholar",
+      "published": "2019-05-20",
+      "authors": [
+        "Xiang Wang",
+        "Xiangnan He",
+        "Meng Wang",
+        "Fuli Feng",
+        "Tat-Seng Chua"
+      ],
+      "venue": "Annual International ACM SIGIR Conference on Research and Development in Information Retrieval",
+      "citationCount": 3884,
+      "influentialCitationCount": 637,
+      "discussionCount": null,
+      "score": 65.0,
+      "reasons": [
+        "推薦システム",
+        "協調フィルタリング",
+        "グラフ推薦",
+        "引用数 3884"
+      ],
+      "summary": "Learning vector representations (aka. embeddings) of users and items lies at the core of modern recommender systems. Ranging from early matrix factorization to recently emerged deep learning based methods, existing...",
+      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+1905.08108&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+1905.08108%0A-+Title%3A+Neural+Graph+Collaborative+Filtering%0A-+URL%3A+https%3A%2F%2Farxiv.org%2Fabs%2F1905.08108%0A-+Source%3A+Semantic+Scholar%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
+    },
+    {
       "id": "2607.11354",
       "title": "User Preference Induction with LLMs for Offline Top-N Recommendation Evaluation",
       "url": "http://arxiv.org/abs/2607.11354v1",
@@ -158,7 +147,7 @@
         "ランキング",
         "LLM x 推薦",
         "新着 arXiv",
-        "1日前の新着"
+        "2日前の新着"
       ],
       "summary": "Offline evaluation is the standard methodology for comparing top-N recommender systems, yet it relies on incomplete relevance information. In most benchmark datasets, only a small subset of user--item preferences is...",
       "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2607.11354&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2607.11354%0A-+Title%3A+User+Preference+Induction+with+LLMs+for+Offline+Top-N+Recommendation+Evaluation%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2607.11354v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
@@ -209,7 +198,7 @@
         "検索・ retrieval",
         "LLM x 推薦",
         "新着 arXiv",
-        "1日前の新着"
+        "2日前の新着"
       ],
       "summary": "Generative retrieval has become an increasingly adopted paradigm for industrial search, recommendation, and advertising systems, delivering significant online gains. Most existing work combines user behavior sequences...",
       "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2607.11326&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2607.11326%0A-+Title%3A+Prompt+Generation+Technical+Report%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2607.11326v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
@@ -242,7 +231,7 @@
         "検索・ retrieval",
         "LLM x 推薦",
         "新着 arXiv",
-        "4日前の新着"
+        "5日前の新着"
       ],
       "summary": "Large language models (LLMs) are increasingly used as backbone architectures for recommender systems because of their strong sequence modeling and representation learning capabilities. However, most LLM-based...",
       "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2607.10016&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2607.10016%0A-+Title%3A+Tokenizing+Numerical+and+Embedding+Features+for+LLM+RecSys%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2607.10016v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
@@ -267,7 +256,7 @@
         "グラフ推薦",
         "LLM x 推薦",
         "新着 arXiv",
-        "6日前の新着"
+        "7日前の新着"
       ],
       "summary": "The article investigates the fundamental problem of ensuring the stability of operator control and preserving goal-targeting in hybrid human-machine decision support systems (DSS) of a new generation. Based on a two-...",
       "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2607.09790&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2607.09790%0A-+Title%3A+Semantic+Drift+and+the+Stability+of+Operator+Control+in+Reasoning-Class+Decision+Support+Systems%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2607.09790v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
