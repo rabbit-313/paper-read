@@ -1,36 +1,31 @@
 {
-  "date": "2026-07-16",
-  "generatedAt": "2026-07-16T22:57:08.834026+00:00",
+  "date": "2026-07-17",
+  "generatedAt": "2026-07-17T22:51:50.992775+00:00",
   "focus": "Recommender systems, recommendation, retrieval, ranking, and related ML/DL papers",
   "items": [
     {
-      "id": "2607.07108",
-      "title": "Seeing and Reflecting: Multimodal Memory-Enhanced Agent Collaboration for Recommendation",
-      "url": "http://arxiv.org/abs/2607.07108v1",
+      "id": "2607.14707",
+      "title": "Harnessing LLMs for Reliable Academic Supervision: A Comparative Study",
+      "url": "http://arxiv.org/abs/2607.14707v1",
       "source": "arXiv",
-      "published": "2026-07-08",
+      "published": "2026-07-16",
       "authors": [
-        "Hao Cong",
-        "Huizu Lin",
-        "Zihan Wang",
-        "Chengkai Huang",
-        "Quan Z. Sheng",
-        "Lina Yao"
+        "Akash Raj"
       ],
       "venue": "",
       "citationCount": null,
       "influentialCitationCount": null,
       "discussionCount": null,
-      "score": 78.0,
+      "score": 70.0,
       "reasons": [
         "推薦システム",
-        "ランキング",
-        "協調フィルタリング",
+        "検索・ retrieval",
+        "グラフ推薦",
         "LLM x 推薦",
-        "強化学習"
+        "新着 arXiv"
       ],
-      "summary": "Large language model (LLM)-based agentic recommender systems show promise in modeling user preferences through natural-language reasoning, yet they remain limited by text-centric inputs and coarse-grained memory...",
-      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2607.07108&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2607.07108%0A-+Title%3A+Seeing+and+Reflecting%3A+Multimodal+Memory-Enhanced+Agent+Collaboration+for+Recommendation%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2607.07108v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
+      "summary": "Large language models routinely produce fluent answers to single-shot prompts, yet deploying them as reliable components of a domain decision system is substantially harder. Closing this gap is the work of harness...",
+      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2607.14707&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2607.14707%0A-+Title%3A+Harnessing+LLMs+for+Reliable+Academic+Supervision%3A+A+Comparative+Study%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2607.14707v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
     },
     {
       "id": "2607.09988",
@@ -126,10 +121,37 @@
         "ランキング",
         "LLM x 推薦",
         "新着 arXiv",
-        "1日前の新着"
+        "2日前の新着"
       ],
       "summary": "In industrial search and ranking systems, Click-Through Rate (CTR) prediction is shifting from traditional Deep Learning Recommendation Models (DLRM) toward unified, compute-intensive Transformer architectures. This...",
       "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2607.13398&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2607.13398%0A-+Title%3A+TMallGS%3A+Scaling+Unified+Feature+and+Sequence+Modeling+for+Generative+E-commerce+Search%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2607.13398v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
+    },
+    {
+      "id": "2607.14835",
+      "title": "LLM-Based Re-Ranking for Real Estate Search",
+      "url": "http://arxiv.org/abs/2607.14835v1",
+      "source": "arXiv",
+      "published": "2026-07-16",
+      "authors": [
+        "Nkateko Ntimane",
+        "Rafel Guedes",
+        "Tiago Cunha",
+        "Pedro Nogueira"
+      ],
+      "venue": "",
+      "citationCount": null,
+      "influentialCitationCount": null,
+      "discussionCount": null,
+      "score": 62.0,
+      "reasons": [
+        "推薦システム",
+        "ランキング",
+        "LLM x 推薦",
+        "新着 arXiv",
+        "1日前の新着"
+      ],
+      "summary": "QuintoAndar Group operates the leading housing marketplace in Latin America for both rentals and sales. The platform replaces traditionally paper-heavy workflows with a fully digital experience, making housing...",
+      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2607.14835&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2607.14835%0A-+Title%3A+LLM-Based+Re-Ranking+for+Real+Estate+Search%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2607.14835v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
     },
     {
       "id": "2607.11354",
@@ -151,7 +173,7 @@
         "ランキング",
         "LLM x 推薦",
         "新着 arXiv",
-        "3日前の新着"
+        "4日前の新着"
       ],
       "summary": "Offline evaluation is the standard methodology for comparing top-N recommender systems, yet it relies on incomplete relevance information. In most benchmark datasets, only a small subset of user--item preferences is...",
       "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2607.11354&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2607.11354%0A-+Title%3A+User+Preference+Induction+with+LLMs+for+Offline+Top-N+Recommendation+Evaluation%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2607.11354v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
@@ -202,7 +224,7 @@
         "検索・ retrieval",
         "LLM x 推薦",
         "新着 arXiv",
-        "3日前の新着"
+        "4日前の新着"
       ],
       "summary": "Generative retrieval has become an increasingly adopted paradigm for industrial search, recommendation, and advertising systems, delivering significant online gains. Most existing work combines user behavior sequences...",
       "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2607.11326&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2607.11326%0A-+Title%3A+Prompt+Generation+Technical+Report%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2607.11326v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
@@ -235,35 +257,10 @@
         "検索・ retrieval",
         "LLM x 推薦",
         "新着 arXiv",
-        "6日前の新着"
+        "7日前の新着"
       ],
       "summary": "Large language models (LLMs) are increasingly used as backbone architectures for recommender systems because of their strong sequence modeling and representation learning capabilities. However, most LLM-based...",
       "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2607.10016&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2607.10016%0A-+Title%3A+Tokenizing+Numerical+and+Embedding+Features+for+LLM+RecSys%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2607.10016v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
-    },
-    {
-      "id": "2607.09790",
-      "title": "Semantic Drift and the Stability of Operator Control in Reasoning-Class Decision Support Systems",
-      "url": "http://arxiv.org/abs/2607.09790v1",
-      "source": "arXiv",
-      "published": "2026-07-08",
-      "authors": [
-        "M. L. Kaluzhsky",
-        "V. A. Efirov"
-      ],
-      "venue": "",
-      "citationCount": null,
-      "influentialCitationCount": null,
-      "discussionCount": null,
-      "score": 62.0,
-      "reasons": [
-        "推薦システム",
-        "グラフ推薦",
-        "LLM x 推薦",
-        "新着 arXiv",
-        "8日前の新着"
-      ],
-      "summary": "The article investigates the fundamental problem of ensuring the stability of operator control and preserving goal-targeting in hybrid human-machine decision support systems (DSS) of a new generation. Based on a two-...",
-      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2607.09790&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2607.09790%0A-+Title%3A+Semantic+Drift+and+the+Stability+of+Operator+Control+in+Reasoning-Class+Decision+Support+Systems%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2607.09790v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
     }
   ]
 }
