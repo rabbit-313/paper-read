@@ -1,6 +1,6 @@
 {
-  "date": "2026-07-19",
-  "generatedAt": "2026-07-19T22:53:19.083458+00:00",
+  "date": "2026-07-20",
+  "generatedAt": "2026-07-20T23:01:15.296895+00:00",
   "focus": "Recommender systems, recommendation, retrieval, ranking, and related ML/DL papers",
   "items": [
     {
@@ -28,74 +28,6 @@
       "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2607.14707&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2607.14707%0A-+Title%3A+Harnessing+LLMs+for+Reliable+Academic+Supervision%3A+A+Comparative+Study%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2607.14707v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
     },
     {
-      "id": "2607.09988",
-      "title": "An LLM-powered Agentic Recommendation System for Connected TV Content Discovery",
-      "url": "http://arxiv.org/abs/2607.09988v1",
-      "source": "arXiv",
-      "published": "2026-07-10",
-      "authors": [
-        "Lei Shi",
-        "Di Wang",
-        "Harry Tran",
-        "Helsing Xu",
-        "Yuchen Lu",
-        "Dhara Ghodasara",
-        "Wilson Chaney",
-        "Xueting Liao",
-        "Jerry Yu",
-        "Huayu Ding",
-        "Mingze Gao",
-        "Shike Mei",
-        "Shuo Tang",
-        "Zhe Zhang",
-        "Jianming He",
-        "Abhishek Kumar",
-        "Haotian Wu",
-        "Hamed Firooz",
-        "Li Li"
-      ],
-      "venue": "",
-      "citationCount": null,
-      "influentialCitationCount": null,
-      "discussionCount": null,
-      "score": 70.0,
-      "reasons": [
-        "推薦システム",
-        "ランキング",
-        "検索・ retrieval",
-        "LLM x 推薦",
-        "新着 arXiv"
-      ],
-      "summary": "Recommendation systems, from traditional multi-stage to recent unified generative architectures, face challenges in incorporating diverse contextual signals, such as trending topics, breaking news, cultural events,...",
-      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2607.09988&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2607.09988%0A-+Title%3A+An+LLM-powered+Agentic+Recommendation+System+for+Connected+TV+Content+Discovery%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2607.09988v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
-    },
-    {
-      "id": "2607.09908",
-      "title": "RouteRec: Strict Evaluation of Recommender-Agent Selection and Aggregation",
-      "url": "http://arxiv.org/abs/2607.09908v1",
-      "source": "arXiv",
-      "published": "2026-07-10",
-      "authors": [
-        "Kaiji Zhou",
-        "Vladimir Kalmykov",
-        "Yue Feng"
-      ],
-      "venue": "",
-      "citationCount": null,
-      "influentialCitationCount": null,
-      "discussionCount": null,
-      "score": 70.0,
-      "reasons": [
-        "推薦システム",
-        "ランキング",
-        "協調フィルタリング",
-        "LLM x 推薦",
-        "新着 arXiv"
-      ],
-      "summary": "Recommender systems increasingly face a choice among heterogeneous agents -- collaborative filters, sequential models, content-based retrievers, and LLM-based rerankers -- yet no single agent is uniformly best. We...",
-      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2607.09908&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2607.09908%0A-+Title%3A+RouteRec%3A+Strict+Evaluation+of+Recommender-Agent+Selection+and+Aggregation%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2607.09908v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
-    },
-    {
       "id": "1905.08108",
       "title": "Neural Graph Collaborative Filtering",
       "url": "https://arxiv.org/abs/1905.08108",
@@ -109,7 +41,7 @@
         "Tat-Seng Chua"
       ],
       "venue": "Annual International ACM SIGIR Conference on Research and Development in Information Retrieval",
-      "citationCount": 3904,
+      "citationCount": 3905,
       "influentialCitationCount": 637,
       "discussionCount": null,
       "score": 65.0,
@@ -117,7 +49,7 @@
         "推薦システム",
         "協調フィルタリング",
         "グラフ推薦",
-        "引用数 3904"
+        "引用数 3905"
       ],
       "summary": "Learning vector representations (aka. embeddings) of users and items lies at the core of modern recommender systems. Ranging from early matrix factorization to recently emerged deep learning based methods, existing...",
       "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+1905.08108&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+1905.08108%0A-+Title%3A+Neural+Graph+Collaborative+Filtering%0A-+URL%3A+https%3A%2F%2Farxiv.org%2Fabs%2F1905.08108%0A-+Source%3A+Semantic+Scholar%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
@@ -148,20 +80,73 @@
         "ランキング",
         "LLM x 推薦",
         "新着 arXiv",
-        "4日前の新着"
+        "5日前の新着"
       ],
       "summary": "In industrial search and ranking systems, Click-Through Rate (CTR) prediction is shifting from traditional Deep Learning Recommendation Models (DLRM) toward unified, compute-intensive Transformer architectures. This...",
       "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2607.13398&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2607.13398%0A-+Title%3A+TMallGS%3A+Scaling+Unified+Feature+and+Sequence+Modeling+for+Generative+E-commerce+Search%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2607.13398v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
     },
     {
+      "id": "2607.15593",
+      "title": "Scalable LLM Agent Tool Access in the Cloud",
+      "url": "http://arxiv.org/abs/2607.15593v1",
+      "source": "arXiv",
+      "published": "2026-07-17",
+      "authors": [
+        "Mingxin Li",
+        "Enge Song",
+        "Yueshang Zuo",
+        "Xiaodong Liu",
+        "Rong Wen",
+        "Qiang Fu",
+        "Gianni Antichi",
+        "Jian He",
+        "Jing Tie",
+        "Zhou Shao",
+        "Xiaobo Xue",
+        "Xiong Xiao",
+        "Luyao Zhong",
+        "Shaokai Zhang",
+        "Jiangu Zhao",
+        "Jianyuan Lu",
+        "Shize Zhang",
+        "Xiaoqing Sun",
+        "Changgang Zheng",
+        "Zihao Fan",
+        "Haonan Li",
+        "Tian Pan",
+        "Xiaomin Wu",
+        "Yang Song",
+        "Xing Li",
+        "Biao Lyu",
+        "Meng Li",
+        "Haipeng Dai",
+        "Guihai Chen",
+        "Shunmin Zhu"
+      ],
+      "venue": "",
+      "citationCount": null,
+      "influentialCitationCount": null,
+      "discussionCount": null,
+      "score": 62.0,
+      "reasons": [
+        "推薦システム",
+        "検索・ retrieval",
+        "LLM x 推薦",
+        "新着 arXiv",
+        "3日前の新着"
+      ],
+      "summary": "LLM agents increasingly rely on tool calling to act on external systems, and the Model Context Protocol (MCP) has quickly become its de facto interface. Operating MCP at cloud scale, however, becomes difficult. On the...",
+      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2607.15593&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2607.15593%0A-+Title%3A+Scalable+LLM+Agent+Tool+Access+in+the+Cloud%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2607.15593v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
+    },
+    {
       "id": "2607.14835",
       "title": "LLM-Based Re-Ranking for Real Estate Search",
-      "url": "http://arxiv.org/abs/2607.14835v1",
+      "url": "http://arxiv.org/abs/2607.14835v2",
       "source": "arXiv",
       "published": "2026-07-16",
       "authors": [
         "Nkateko Ntimane",
-        "Rafel Guedes",
+        "Rafael Guedes",
         "Tiago Cunha",
         "Pedro Nogueira"
       ],
@@ -175,10 +160,10 @@
         "ランキング",
         "LLM x 推薦",
         "新着 arXiv",
-        "3日前の新着"
+        "4日前の新着"
       ],
       "summary": "QuintoAndar Group operates the leading housing marketplace in Latin America for both rentals and sales. The platform replaces traditionally paper-heavy workflows with a fully digital experience, making housing...",
-      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2607.14835&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2607.14835%0A-+Title%3A+LLM-Based+Re-Ranking+for+Real+Estate+Search%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2607.14835v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
+      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2607.14835&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2607.14835%0A-+Title%3A+LLM-Based+Re-Ranking+for+Real+Estate+Search%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2607.14835v2%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
     },
     {
       "id": "2607.11354",
@@ -200,7 +185,7 @@
         "ランキング",
         "LLM x 推薦",
         "新着 arXiv",
-        "6日前の新着"
+        "7日前の新着"
       ],
       "summary": "Offline evaluation is the standard methodology for comparing top-N recommender systems, yet it relies on incomplete relevance information. In most benchmark datasets, only a small subset of user--item preferences is...",
       "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2607.11354&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2607.11354%0A-+Title%3A+User+Preference+Induction+with+LLMs+for+Offline+Top-N+Recommendation+Evaluation%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2607.11354v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
@@ -251,10 +236,43 @@
         "検索・ retrieval",
         "LLM x 推薦",
         "新着 arXiv",
-        "6日前の新着"
+        "7日前の新着"
       ],
       "summary": "Generative retrieval has become an increasingly adopted paradigm for industrial search, recommendation, and advertising systems, delivering significant online gains. Most existing work combines user behavior sequences...",
       "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2607.11326&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2607.11326%0A-+Title%3A+Prompt+Generation+Technical+Report%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2607.11326v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
+    },
+    {
+      "id": "2607.10016",
+      "title": "Tokenizing Numerical and Embedding Features for LLM RecSys",
+      "url": "http://arxiv.org/abs/2607.10016v1",
+      "source": "arXiv",
+      "published": "2026-07-10",
+      "authors": [
+        "Zhe Xu",
+        "Ankit Peshin",
+        "Chiyu Zhang",
+        "Feng Qi",
+        "Johnson Lui",
+        "Anil Ramakrishna",
+        "Justin Johnson",
+        "Carl Hu",
+        "Kaushik Rangadurai",
+        "Luke Simon"
+      ],
+      "venue": "",
+      "citationCount": null,
+      "influentialCitationCount": null,
+      "discussionCount": null,
+      "score": 62.0,
+      "reasons": [
+        "推薦システム",
+        "検索・ retrieval",
+        "LLM x 推薦",
+        "新着 arXiv",
+        "10日前の新着"
+      ],
+      "summary": "Large language models (LLMs) are increasingly used as backbone architectures for recommender systems because of their strong sequence modeling and representation learning capabilities. However, most LLM-based...",
+      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2607.10016&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2607.10016%0A-+Title%3A+Tokenizing+Numerical+and+Embedding+Features+for+LLM+RecSys%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2607.10016v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
     }
   ]
 }
