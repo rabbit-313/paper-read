@@ -1,6 +1,6 @@
 {
-  "date": "2026-07-21",
-  "generatedAt": "2026-07-21T22:57:42.167792+00:00",
+  "date": "2026-07-22",
+  "generatedAt": "2026-07-22T23:04:27.741385+00:00",
   "focus": "Recommender systems, recommendation, retrieval, ranking, and related ML/DL papers",
   "items": [
     {
@@ -53,15 +53,15 @@
         "ランキング",
         "LLM x 推薦",
         "新着 arXiv",
-        "6日前の新着"
+        "7日前の新着"
       ],
       "summary": "In industrial search and ranking systems, Click-Through Rate (CTR) prediction is shifting from traditional Deep Learning Recommendation Models (DLRM) toward unified, compute-intensive Transformer architectures. This...",
       "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2607.13398&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2607.13398%0A-+Title%3A+TMallGS%3A+Scaling+Unified+Feature+and+Sequence+Modeling+for+Generative+E-commerce+Search%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2607.13398v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
     },
     {
       "id": "2607.17719",
-      "title": "SR-Agent: An Experience-Driven Agentic Framework for Post-Ranking Strategies Refinement in E-Commerce Recommendation",
-      "url": "http://arxiv.org/abs/2607.17719v1",
+      "title": "SR-Agent: An Experience-Driven Agentic Framework for Post-Ranking Strategy Refinement in E-Commerce Recommendation",
+      "url": "http://arxiv.org/abs/2607.17719v2",
       "source": "arXiv",
       "published": "2026-07-20",
       "authors": [
@@ -86,10 +86,10 @@
         "ランキング",
         "LLM x 推薦",
         "新着 arXiv",
-        "1日前の新着"
+        "2日前の新着"
       ],
       "summary": "User experience is a first-class objective in industrial e-commerce recommender systems (RS). Post-ranking strategies, which govern diversity, similarity, and exposure over a ranked list, are widely deployed in...",
-      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2607.17719&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2607.17719%0A-+Title%3A+SR-Agent%3A+An+Experience-Driven+Agentic+Framework+for+Post-Ranking+Strategies+Refinement+in+E-Commerce+Recommendation%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2607.17719v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
+      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2607.17719&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2607.17719%0A-+Title%3A+SR-Agent%3A+An+Experience-Driven+Agentic+Framework+for+Post-Ranking+Strategy+Refinement+in+E-Commerce+Recommendation%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2607.17719v2%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
     },
     {
       "id": "2607.15593",
@@ -139,7 +139,7 @@
         "検索・ retrieval",
         "LLM x 推薦",
         "新着 arXiv",
-        "4日前の新着"
+        "5日前の新着"
       ],
       "summary": "LLM agents increasingly rely on tool calling to act on external systems, and the Model Context Protocol (MCP) has quickly become its de facto interface. Operating MCP at cloud scale, however, becomes difficult. On the...",
       "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2607.15593&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2607.15593%0A-+Title%3A+Scalable+LLM+Agent+Tool+Access+in+the+Cloud%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2607.15593v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
@@ -166,7 +166,7 @@
         "ランキング",
         "LLM x 推薦",
         "新着 arXiv",
-        "5日前の新着"
+        "6日前の新着"
       ],
       "summary": "QuintoAndar Group operates the leading housing marketplace in Latin America for both rentals and sales. The platform replaces traditionally paper-heavy workflows with a fully digital experience, making housing...",
       "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2607.14835&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2607.14835%0A-+Title%3A+LLM-Based+Re-Ranking+for+Real+Estate+Search%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2607.14835v2%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
@@ -191,7 +191,7 @@
         "ランキング",
         "LLM x 推薦",
         "新着 arXiv",
-        "8日前の新着"
+        "9日前の新着"
       ],
       "summary": "Offline evaluation is the standard methodology for comparing top-N recommender systems, yet it relies on incomplete relevance information. In most benchmark datasets, only a small subset of user--item preferences is...",
       "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2607.11354&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2607.11354%0A-+Title%3A+User+Preference+Induction+with+LLMs+for+Offline+Top-N+Recommendation+Evaluation%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2607.11354v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
@@ -199,7 +199,7 @@
     {
       "id": "2607.14192",
       "title": "Long-term User Engagement Optimization through Model-agnostic Downstream Rewards Learning",
-      "url": "http://arxiv.org/abs/2607.14192v1",
+      "url": "http://arxiv.org/abs/2607.14192v2",
       "source": "arXiv",
       "published": "2026-07-15",
       "authors": [
@@ -229,10 +229,10 @@
         "ランキング",
         "強化学習",
         "新着 arXiv",
-        "6日前の新着"
+        "7日前の新着"
       ],
       "summary": "As recommender systems mature in the past few years, their optimization objectives have evolved from a primary focusing on short-term behavioral signals to a broader emphasis on long-term user engagement and...",
-      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2607.14192&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2607.14192%0A-+Title%3A+Long-term+User+Engagement+Optimization+through+Model-agnostic+Downstream+Rewards+Learning%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2607.14192v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
+      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2607.14192&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2607.14192%0A-+Title%3A+Long-term+User+Engagement+Optimization+through+Model-agnostic+Downstream+Rewards+Learning%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2607.14192v2%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
     },
     {
       "id": "2607.13304",
@@ -253,7 +253,7 @@
         "検索・ retrieval",
         "LLM x 推薦",
         "新着 arXiv",
-        "7日前の新着"
+        "8日前の新着"
       ],
       "summary": "Teams measuring whether large language models (LLMs) recommend a brand face a reproducibility problem: ask the same question twice and the answer moves. Practice resamples each prompt a few times (commonly five) and...",
       "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2607.13304&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2607.13304%0A-+Title%3A+Where+Does+the+Noise+Come+From%3F+A+Variance-Components+Decomposition+of+Non-Determinism+in+LLM+Brand+Answers%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2607.13304v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
