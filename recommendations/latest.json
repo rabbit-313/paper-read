@@ -1,6 +1,6 @@
 {
-  "date": "2026-07-24",
-  "generatedAt": "2026-07-24T23:01:51.066591+00:00",
+  "date": "2026-07-26",
+  "generatedAt": "2026-07-26T22:59:06.085827+00:00",
   "focus": "Recommender systems, recommendation, retrieval, ranking, and related ML/DL papers",
   "items": [
     {
@@ -87,7 +87,7 @@
         "ランキング",
         "LLM x 推薦",
         "新着 arXiv",
-        "9日前の新着"
+        "11日前の新着"
       ],
       "summary": "In industrial search and ranking systems, Click-Through Rate (CTR) prediction is shifting from traditional Deep Learning Recommendation Models (DLRM) toward unified, compute-intensive Transformer architectures. This...",
       "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2607.13398&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2607.13398%0A-+Title%3A+TMallGS%3A+Scaling+Unified+Feature+and+Sequence+Modeling+for+Generative+E-commerce+Search%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2607.13398v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
@@ -116,7 +116,7 @@
         "ランキング",
         "LLM x 推薦",
         "新着 arXiv",
-        "2日前の新着"
+        "4日前の新着"
       ],
       "summary": "Although large language models (LLMs) have recently gained traction in recommender systems due to their strong reasoning capabilities and extensive world knowledge, previous LLM-based agents suffer from hallucination...",
       "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2607.19739&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2607.19739%0A-+Title%3A+Personalized+Recommendation+Tool+Learning+via+Autonomous+Language+Agents%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2607.19739v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
@@ -149,7 +149,7 @@
         "ランキング",
         "LLM x 推薦",
         "新着 arXiv",
-        "4日前の新着"
+        "6日前の新着"
       ],
       "summary": "User experience is a first-class objective in industrial e-commerce recommender systems (RS). Post-ranking strategies, which govern diversity, similarity, and exposure over a ranked list, are widely deployed in...",
       "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2607.17719&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2607.17719%0A-+Title%3A+SR-Agent%3A+An+Experience-Driven+Agentic+Framework+for+Post-Ranking+Strategy+Refinement+in+E-Commerce+Recommendation%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2607.17719v2%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
@@ -202,7 +202,7 @@
         "検索・ retrieval",
         "LLM x 推薦",
         "新着 arXiv",
-        "7日前の新着"
+        "9日前の新着"
       ],
       "summary": "LLM agents increasingly rely on tool calling to act on external systems, and the Model Context Protocol (MCP) has quickly become its de facto interface. Operating MCP at cloud scale, however, becomes difficult. On the...",
       "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2607.15593&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2607.15593%0A-+Title%3A+Scalable+LLM+Agent+Tool+Access+in+the+Cloud%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2607.15593v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
@@ -229,7 +229,7 @@
         "ランキング",
         "LLM x 推薦",
         "新着 arXiv",
-        "8日前の新着"
+        "10日前の新着"
       ],
       "summary": "QuintoAndar Group operates the leading housing marketplace in Latin America for both rentals and sales. The platform replaces traditionally paper-heavy workflows with a fully digital experience, making housing...",
       "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2607.14835&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2607.14835%0A-+Title%3A+LLM-Based+Re-Ranking+for+Real+Estate+Search%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2607.14835v2%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
@@ -255,7 +255,7 @@
         "ランキング",
         "LLM x 推薦",
         "新着 arXiv",
-        "1日前の新着"
+        "3日前の新着"
       ],
       "summary": "Large language models can make conversational product advisors fluent but opaque. If they hide the logic behind a ranking and the evidence for a recommendation inside natural-language replies, they challenge users'...",
       "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2607.21513&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2607.21513%0A-+Title%3A+Transparent+by+Design%2C+Usable+in+Practice%3F+A+Formative+Usability+Study+of+a+Conversational+Product+Advisor%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2607.21513v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
