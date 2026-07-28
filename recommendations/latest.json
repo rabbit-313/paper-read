@@ -1,8 +1,66 @@
 {
-  "date": "2026-07-27",
-  "generatedAt": "2026-07-27T23:02:33.668435+00:00",
+  "date": "2026-07-28",
+  "generatedAt": "2026-07-28T22:59:52.560340+00:00",
   "focus": "Recommender systems, recommendation, retrieval, ranking, and related ML/DL papers",
   "items": [
+    {
+      "id": "2607.24213",
+      "title": "Integrating Factual and Normative Industrial Knowledge via Constraint-Aware Graph Attention for Process Plan Recommendation",
+      "url": "http://arxiv.org/abs/2607.24213v1",
+      "source": "arXiv",
+      "published": "2026-07-27",
+      "authors": [
+        "Yuntong Chen",
+        "Yingqi Li",
+        "Yingying Xiao",
+        "Ziang Wang",
+        "Zewei Liu",
+        "Jiahao Liu",
+        "Xitian Tian",
+        "Lijiang Huang"
+      ],
+      "venue": "",
+      "citationCount": null,
+      "influentialCitationCount": null,
+      "discussionCount": null,
+      "score": 78.0,
+      "reasons": [
+        "推薦システム",
+        "ランキング",
+        "検索・ retrieval",
+        "協調フィルタリング",
+        "グラフ推薦"
+      ],
+      "summary": "Integrating heterogeneous industrial knowledge, including factual relations and decision constraints, remains a core challenge in industrial information systems. Machining process planning exemplifies this problem...",
+      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2607.24213&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2607.24213%0A-+Title%3A+Integrating+Factual+and+Normative+Industrial+Knowledge+via+Constraint-Aware+Graph+Attention+for+Process+Plan+Recommendation%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2607.24213v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
+    },
+    {
+      "id": "2607.23561",
+      "title": "Towards a Relevance Posterior in Neural Information Access",
+      "url": "http://arxiv.org/abs/2607.23561v1",
+      "source": "arXiv",
+      "published": "2026-07-26",
+      "authors": [
+        "Andrew Parry",
+        "Emmanouil Georgios Lionis",
+        "Debasis Ganguly",
+        "Sean MacAvaney"
+      ],
+      "venue": "",
+      "citationCount": null,
+      "influentialCitationCount": null,
+      "discussionCount": null,
+      "score": 70.0,
+      "reasons": [
+        "推薦システム",
+        "ランキング",
+        "検索・ retrieval",
+        "LLM x 推薦",
+        "新着 arXiv"
+      ],
+      "summary": "Modern information retrieval systems typically operationalise relevance as a query-conditional score computed at inference time. This design choice has become dominant such that alternative decompositions of relevance...",
+      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2607.23561&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2607.23561%0A-+Title%3A+Towards+a+Relevance+Posterior+in+Neural+Information+Access%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2607.23561v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
+    },
     {
       "id": "2607.21519",
       "title": "Diffusion Language Model for Recommendation",
@@ -38,6 +96,41 @@
       "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2607.21519&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2607.21519%0A-+Title%3A+Diffusion+Language+Model+for+Recommendation%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2607.21519v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
     },
     {
+      "id": "2607.24255",
+      "title": "OxygenREC-v2: Internalizing Discrimination into Generative Recommendation",
+      "url": "http://arxiv.org/abs/2607.24255v1",
+      "source": "arXiv",
+      "published": "2026-07-27",
+      "authors": [
+        "Guo Tang",
+        "Hanye Wu",
+        "Changjiang Han",
+        "Qingyang Li",
+        "Ming Zhang",
+        "Xiangyu Qian",
+        "Yanchen Qiao",
+        "Huanjie Wang",
+        "Zhi Ma",
+        "Zhen Li",
+        "Yaqiang Zang",
+        "Pinghua Gong"
+      ],
+      "venue": "",
+      "citationCount": null,
+      "influentialCitationCount": null,
+      "discussionCount": null,
+      "score": 70.0,
+      "reasons": [
+        "推薦システム",
+        "ランキング",
+        "検索・ retrieval",
+        "強化学習",
+        "新着 arXiv"
+      ],
+      "summary": "Generative recommendation unifies retrieval and ranking within a single model by autoregressively decoding semantic identifier (SID) sequences. Yet reliably incorporating behavior signals from clicks, cart additions,...",
+      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2607.24255&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2607.24255%0A-+Title%3A+OxygenREC-v2%3A+Internalizing+Discrimination+into+Generative+Recommendation%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2607.24255v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
+    },
+    {
       "id": "2607.21951",
       "title": "SIREN (Luring LLMs onto the Rocks): PAIR-Driven Preference Manipulation in Web-RAG Recommenders",
       "url": "http://arxiv.org/abs/2607.21951v1",
@@ -66,30 +159,6 @@
       "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2607.21951&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2607.21951%0A-+Title%3A+SIREN+%28Luring+LLMs+onto+the+Rocks%29%3A+PAIR-Driven+Preference+Manipulation+in+Web-RAG+Recommenders%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2607.21951v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
     },
     {
-      "id": "2607.20925",
-      "title": "Representing Entity Importance in AI Knowledge Systems: A Dual-Signal Framework of Audience Evaluation and Structural Authority",
-      "url": "http://arxiv.org/abs/2607.20925v1",
-      "source": "arXiv",
-      "published": "2026-07-23",
-      "authors": [
-        "Shen Xu"
-      ],
-      "venue": "",
-      "citationCount": null,
-      "influentialCitationCount": null,
-      "discussionCount": null,
-      "score": 70.0,
-      "reasons": [
-        "推薦システム",
-        "ランキング",
-        "検索・ retrieval",
-        "グラフ推薦",
-        "新着 arXiv"
-      ],
-      "summary": "AI knowledge systems require representations of entity importance for retrieval, recommendation, evidence selection, and knowledge-intensive reasoning. Yet importance is often reduced to a single score derived from...",
-      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2607.20925&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2607.20925%0A-+Title%3A+Representing+Entity+Importance+in+AI+Knowledge+Systems%3A+A+Dual-Signal+Framework+of+Audience+Evaluation+and+Structural+Authority%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2607.20925v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
-    },
-    {
       "id": "2607.13398",
       "title": "TMallGS: Scaling Unified Feature and Sequence Modeling for Generative E-commerce Search",
       "url": "http://arxiv.org/abs/2607.13398v1",
@@ -115,24 +184,25 @@
         "ランキング",
         "LLM x 推薦",
         "新着 arXiv",
-        "12日前の新着"
+        "13日前の新着"
       ],
       "summary": "In industrial search and ranking systems, Click-Through Rate (CTR) prediction is shifting from traditional Deep Learning Recommendation Models (DLRM) toward unified, compute-intensive Transformer architectures. This...",
       "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2607.13398&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2607.13398%0A-+Title%3A+TMallGS%3A+Scaling+Unified+Feature+and+Sequence+Modeling+for+Generative+E-commerce+Search%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2607.13398v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
     },
     {
-      "id": "2607.19739",
-      "title": "Personalized Recommendation Tool Learning via Autonomous Language Agents",
-      "url": "http://arxiv.org/abs/2607.19739v1",
+      "id": "2607.23718",
+      "title": "Melo: A Production LLM-Powered Music Recommendation Agent",
+      "url": "http://arxiv.org/abs/2607.23718v1",
       "source": "arXiv",
-      "published": "2026-07-22",
+      "published": "2026-07-26",
       "authors": [
-        "Mingdai Yang",
-        "Zhiwei Liu",
-        "Weizhi Zhang",
-        "Yibo Wang",
-        "Hao Peng",
-        "Philip Yu"
+        "Shijia Wang",
+        "Da Guo",
+        "Qiang Xiao",
+        "Fanghui Bi",
+        "Weisheng Li",
+        "Dongjing Wang",
+        "Chuanjiang Luo"
       ],
       "venue": "",
       "citationCount": null,
@@ -141,84 +211,37 @@
       "score": 62.0,
       "reasons": [
         "推薦システム",
-        "ランキング",
+        "グラフ推薦",
         "LLM x 推薦",
         "新着 arXiv",
-        "5日前の新着"
+        "2日前の新着"
       ],
-      "summary": "Although large language models (LLMs) have recently gained traction in recommender systems due to their strong reasoning capabilities and extensive world knowledge, previous LLM-based agents suffer from hallucination...",
-      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2607.19739&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2607.19739%0A-+Title%3A+Personalized+Recommendation+Tool+Learning+via+Autonomous+Language+Agents%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2607.19739v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
+      "summary": "We describe Melo, an LLM-powered music recommendation agent deployed on NetEase Cloud Music. Melo is structured as a deterministic five-node state graph over heterogeneous tools, with a prompt- and state-machine-...",
+      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2607.23718&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2607.23718%0A-+Title%3A+Melo%3A+A+Production+LLM-Powered+Music+Recommendation+Agent%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2607.23718v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
     },
     {
-      "id": "2607.17719",
-      "title": "SR-Agent: An Experience-Driven Agentic Framework for Post-Ranking Strategy Refinement in E-Commerce Recommendation",
-      "url": "http://arxiv.org/abs/2607.17719v2",
+      "id": "2607.23038",
+      "title": "EGR: Embedding-Native Generative Retrieval with a Shared LLM",
+      "url": "http://arxiv.org/abs/2607.23038v1",
       "source": "arXiv",
-      "published": "2026-07-20",
+      "published": "2026-07-25",
       "authors": [
-        "Hanchen Yang",
-        "Kaiwen Yang",
-        "Junpeng Zhuang",
-        "Yang He",
-        "Keting Cen",
-        "Bochao Liu",
-        "Zhongbo Sun",
-        "An Liu",
-        "Zhongteng Han",
-        "Chenyi Lei"
-      ],
-      "venue": "",
-      "citationCount": null,
-      "influentialCitationCount": null,
-      "discussionCount": null,
-      "score": 62.0,
-      "reasons": [
-        "推薦システム",
-        "ランキング",
-        "LLM x 推薦",
-        "新着 arXiv",
-        "7日前の新着"
-      ],
-      "summary": "User experience is a first-class objective in industrial e-commerce recommender systems (RS). Post-ranking strategies, which govern diversity, similarity, and exposure over a ranked list, are widely deployed in...",
-      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2607.17719&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2607.17719%0A-+Title%3A+SR-Agent%3A+An+Experience-Driven+Agentic+Framework+for+Post-Ranking+Strategy+Refinement+in+E-Commerce+Recommendation%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2607.17719v2%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
-    },
-    {
-      "id": "2607.15593",
-      "title": "Scalable LLM Agent Tool Access in the Cloud",
-      "url": "http://arxiv.org/abs/2607.15593v1",
-      "source": "arXiv",
-      "published": "2026-07-17",
-      "authors": [
-        "Mingxin Li",
-        "Enge Song",
-        "Yueshang Zuo",
         "Xiaodong Liu",
-        "Rong Wen",
-        "Qiang Fu",
-        "Gianni Antichi",
-        "Jian He",
-        "Jing Tie",
-        "Zhou Shao",
-        "Xiaobo Xue",
-        "Xiong Xiao",
-        "Luyao Zhong",
-        "Shaokai Zhang",
-        "Jiangu Zhao",
-        "Jianyuan Lu",
-        "Shize Zhang",
-        "Xiaoqing Sun",
-        "Changgang Zheng",
-        "Zihao Fan",
-        "Haonan Li",
-        "Tian Pan",
-        "Xiaomin Wu",
-        "Yang Song",
-        "Xing Li",
-        "Biao Lyu",
-        "Meng Li",
-        "Haipeng Dai",
-        "Guihai Chen",
-        "Shunmin Zhu"
+        "Congfei Zhang",
+        "Hsiang-wei Chao",
+        "Siman Wang",
+        "Tong Zhao",
+        "Xiao Bai",
+        "Vincent Zhang",
+        "Jingxiao Ma",
+        "Zhe Liu",
+        "Wenfeng Zhuo",
+        "Zichu Li",
+        "Jitin Krishnan",
+        "Yunzhi Zhou",
+        "Yajun Wang",
+        "Jinchao Li",
+        "Yu Zhang"
       ],
       "venue": "",
       "citationCount": null,
@@ -230,37 +253,10 @@
         "検索・ retrieval",
         "LLM x 推薦",
         "新着 arXiv",
-        "10日前の新着"
+        "3日前の新着"
       ],
-      "summary": "LLM agents increasingly rely on tool calling to act on external systems, and the Model Context Protocol (MCP) has quickly become its de facto interface. Operating MCP at cloud scale, however, becomes difficult. On the...",
-      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2607.15593&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2607.15593%0A-+Title%3A+Scalable+LLM+Agent+Tool+Access+in+the+Cloud%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2607.15593v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
-    },
-    {
-      "id": "2607.14835",
-      "title": "LLM-Based Re-Ranking for Real Estate Search",
-      "url": "http://arxiv.org/abs/2607.14835v2",
-      "source": "arXiv",
-      "published": "2026-07-16",
-      "authors": [
-        "Nkateko Ntimane",
-        "Rafael Guedes",
-        "Tiago Cunha",
-        "Pedro Nogueira"
-      ],
-      "venue": "",
-      "citationCount": null,
-      "influentialCitationCount": null,
-      "discussionCount": null,
-      "score": 62.0,
-      "reasons": [
-        "推薦システム",
-        "ランキング",
-        "LLM x 推薦",
-        "新着 arXiv",
-        "11日前の新着"
-      ],
-      "summary": "QuintoAndar Group operates the leading housing marketplace in Latin America for both rentals and sales. The platform replaces traditionally paper-heavy workflows with a fully digital experience, making housing...",
-      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2607.14835&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2607.14835%0A-+Title%3A+LLM-Based+Re-Ranking+for+Real+Estate+Search%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2607.14835v2%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
+      "summary": "Generative retrieval is increasingly popular in large-scale recommendation and advertising systems, yet current methods introduce practical complications. Semantic-ID methods rely on quantization, mutable identifier...",
+      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2607.23038&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2607.23038%0A-+Title%3A+EGR%3A+Embedding-Native+Generative+Retrieval+with+a+Shared+LLM%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2607.23038v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
     }
   ]
 }
