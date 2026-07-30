@@ -1,6 +1,6 @@
 {
-  "date": "2026-07-29",
-  "generatedAt": "2026-07-29T22:59:12.592007+00:00",
+  "date": "2026-07-30",
+  "generatedAt": "2026-07-30T23:08:07.001375+00:00",
   "focus": "Recommender systems, recommendation, retrieval, ranking, and related ML/DL papers",
   "items": [
     {
@@ -29,87 +29,17 @@
       "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2607.25420&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2607.25420%0A-+Title%3A+MARS%3A+Multi-Agent+Re-ranking+for+Repeat-Order+Food+Delivery+Recommendation%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2607.25420v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
     },
     {
-      "id": "2607.24865",
-      "title": "Tokens are All You Need: Dual-purpose Semantic IDs for Achieving LLM-Level I/O Efficiency in recommendation systems",
-      "url": "http://arxiv.org/abs/2607.24865v1",
+      "id": "2607.26720",
+      "title": "CaIRec: Calibrated Modality Imputation for Incomplete Multimodal Recommendation",
+      "url": "http://arxiv.org/abs/2607.26720v1",
       "source": "arXiv",
-      "published": "2026-07-26",
+      "published": "2026-07-29",
       "authors": [
-        "Baolei Li",
-        "Yiping Yuan",
-        "Yilin Zheng",
-        "Likang Yin",
-        "Ling Liu",
-        "Fabio Soldo",
-        "Romer Rosales",
-        "Xinyang Yi",
-        "Lichan Hong"
-      ],
-      "venue": "",
-      "citationCount": null,
-      "influentialCitationCount": null,
-      "discussionCount": null,
-      "score": 78.0,
-      "reasons": [
-        "推薦システム",
-        "ランキング",
-        "検索・ retrieval",
-        "協調フィルタリング",
-        "LLM x 推薦"
-      ],
-      "summary": "Large-scale recommendation systems face \"Memory Wall\" bottlenecks due to massive, dense embedding tables. While generative retrieval uses discrete tokens for IDs, high-dimensional context still relies on inefficient...",
-      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2607.24865&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2607.24865%0A-+Title%3A+Tokens+are+All+You+Need%3A+Dual-purpose+Semantic+IDs+for+Achieving+LLM-Level+I%2FO+Efficiency+in+recommendation+systems%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2607.24865v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
-    },
-    {
-      "id": "2607.24213",
-      "title": "Integrating Factual and Normative Industrial Knowledge via Constraint-Aware Graph Attention for Process Plan Recommendation",
-      "url": "http://arxiv.org/abs/2607.24213v1",
-      "source": "arXiv",
-      "published": "2026-07-27",
-      "authors": [
-        "Yuntong Chen",
-        "Yingqi Li",
-        "Yingying Xiao",
-        "Ziang Wang",
-        "Zewei Liu",
-        "Jiahao Liu",
-        "Xitian Tian",
-        "Lijiang Huang"
-      ],
-      "venue": "",
-      "citationCount": null,
-      "influentialCitationCount": null,
-      "discussionCount": null,
-      "score": 78.0,
-      "reasons": [
-        "推薦システム",
-        "ランキング",
-        "検索・ retrieval",
-        "協調フィルタリング",
-        "グラフ推薦"
-      ],
-      "summary": "Integrating heterogeneous industrial knowledge, including factual relations and decision constraints, remains a core challenge in industrial information systems. Machining process planning exemplifies this problem...",
-      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2607.24213&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2607.24213%0A-+Title%3A+Integrating+Factual+and+Normative+Industrial+Knowledge+via+Constraint-Aware+Graph+Attention+for+Process+Plan+Recommendation%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2607.24213v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
-    },
-    {
-      "id": "2607.24255",
-      "title": "OxygenREC-v2: Internalizing Discrimination into Generative Recommendation",
-      "url": "http://arxiv.org/abs/2607.24255v1",
-      "source": "arXiv",
-      "published": "2026-07-27",
-      "authors": [
-        "Guo Tang",
-        "Hanye Wu",
-        "Changjiang Han",
-        "Qingyang Li",
-        "Ming Zhang",
-        "Xiangyu Qian",
-        "Yanchen Qiao",
-        "Huanjie Wang",
-        "Zhi Ma",
-        "Zhen Li",
-        "Yaqiang Zang",
-        "Pinghua Gong"
+        "Ruiyu Liu",
+        "Xiaohao Liu",
+        "Miaomiao Cai",
+        "Yunshan Ma",
+        "See-Kiong Ng"
       ],
       "venue": "",
       "citationCount": null,
@@ -119,28 +49,21 @@
       "reasons": [
         "推薦システム",
         "ランキング",
-        "検索・ retrieval",
-        "強化学習",
+        "協調フィルタリング",
+        "グラフ推薦",
         "新着 arXiv"
       ],
-      "summary": "Generative recommendation unifies retrieval and ranking within a single model by autoregressively decoding semantic identifier (SID) sequences. Yet reliably incorporating behavior signals from clicks, cart additions,...",
-      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2607.24255&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2607.24255%0A-+Title%3A+OxygenREC-v2%3A+Internalizing+Discrimination+into+Generative+Recommendation%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2607.24255v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
+      "summary": "Real-world multimodal recommender systems often face incomplete modality observations, where items lack images, text, or other content features. Such incompleteness weakens item representations and degrades...",
+      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2607.26720&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2607.26720%0A-+Title%3A+CaIRec%3A+Calibrated+Modality+Imputation+for+Incomplete+Multimodal+Recommendation%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2607.26720v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
     },
     {
-      "id": "2607.13398",
-      "title": "TMallGS: Scaling Unified Feature and Sequence Modeling for Generative E-commerce Search",
-      "url": "http://arxiv.org/abs/2607.13398v1",
+      "id": "2607.26832",
+      "title": "Kairos: Numerically Robust News Recommendation under Item Cold-Start via Cholesky-based LinUCB",
+      "url": "http://arxiv.org/abs/2607.26832v1",
       "source": "arXiv",
-      "published": "2026-07-15",
+      "published": "2026-07-29",
       "authors": [
-        "Zhentao Song",
-        "Yufeng Gao",
-        "Xing Fang",
-        "Jing Wang",
-        "Guangxin Song",
-        "Bokang Wang",
-        "Yipin Dai",
-        "He Guo"
+        "Finn Hertsch"
       ],
       "venue": "",
       "citationCount": null,
@@ -150,12 +73,12 @@
       "reasons": [
         "推薦システム",
         "ランキング",
-        "LLM x 推薦",
+        "協調フィルタリング",
         "新着 arXiv",
-        "14日前の新着"
+        "1日前の新着"
       ],
-      "summary": "In industrial search and ranking systems, Click-Through Rate (CTR) prediction is shifting from traditional Deep Learning Recommendation Models (DLRM) toward unified, compute-intensive Transformer architectures. This...",
-      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2607.13398&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2607.13398%0A-+Title%3A+TMallGS%3A+Scaling+Unified+Feature+and+Sequence+Modeling+for+Generative+E-commerce+Search%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2607.13398v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
+      "summary": "Algorithmic news personalization in regional markets often fails because modern deep learning models require massive interaction data while real-world news has a short Time-to-Live (TTL < 48 h) and shallow article...",
+      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2607.26832&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2607.26832%0A-+Title%3A+Kairos%3A+Numerically+Robust+News+Recommendation+under+Item+Cold-Start+via+Cholesky-based+LinUCB%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2607.26832v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
     },
     {
       "id": "2607.25823",
@@ -191,7 +114,7 @@
         "検索・ retrieval",
         "LLM x 推薦",
         "新着 arXiv",
-        "1日前の新着"
+        "2日前の新着"
       ],
       "summary": "Modern recommendation interfaces organise content into shelves: themed rows such as \"More of What You Like\" or \"New Releases for You.\" In production systems, these shelves are typically defined through hand-crafted...",
       "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2607.25823&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2607.25823%0A-+Title%3A+Hypothesis-Driven+Shelf+Generation+for+Personalised+Recommendation%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2607.25823v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
@@ -219,7 +142,7 @@
         "ランキング",
         "LLM x 推薦",
         "新着 arXiv",
-        "1日前の新着"
+        "2日前の新着"
       ],
       "summary": "Conversational Recommendation Systems (CRS) aim to achieve two primary objectives: recommending relevant items and generating natural language responses. While recommendation accuracy is effectively measured by...",
       "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2607.25640&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2607.25640%0A-+Title%3A+LLM-as-a-Judge+for+Evaluating+System+Responses+in+Conversational+Music+Recommendation%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2607.25640v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
@@ -244,10 +167,79 @@
         "グラフ推薦",
         "LLM x 推薦",
         "新着 arXiv",
-        "1日前の新着"
+        "2日前の新着"
       ],
       "summary": "Graph Neural Networks (GNNs) and Large Language Models (LLMs) have each advanced recommendation systems by modeling structural and semantic signals, respectively. However, integrating their complementary strengths...",
       "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2607.25471&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2607.25471%0A-+Title%3A+TRWH%3A+A+Text-Driven+Random+Walk+Heterogeneous+GNN+for+Semantic-Aware+Sparse+Recommendation%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2607.25471v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
+    },
+    {
+      "id": "2607.25346",
+      "title": "The Case Against Generation for Retrieval: Discriminative Language Models as Effective Retrievers",
+      "url": "http://arxiv.org/abs/2607.25346v1",
+      "source": "arXiv",
+      "published": "2026-07-28",
+      "authors": [
+        "Zhe Xu",
+        "Prachi Agrawal",
+        "Kavosh Asadi",
+        "Tianyi Chen",
+        "Carl Hu",
+        "Justin Johnson",
+        "Wuwei Lan",
+        "Mingfu Liang",
+        "Xi Liu",
+        "Tik On Lui",
+        "Oladipo Ositelu",
+        "Sandeep Pandey",
+        "Ankit Peshin",
+        "Feng Qi",
+        "Anil Ramakrishna",
+        "Kaushik Rangadurai",
+        "Frank Shyu",
+        "Luke Simon",
+        "Yang Yang",
+        "Chiyu Zhang"
+      ],
+      "venue": "",
+      "citationCount": null,
+      "influentialCitationCount": null,
+      "discussionCount": null,
+      "score": 62.0,
+      "reasons": [
+        "推薦システム",
+        "検索・ retrieval",
+        "LLM x 推薦",
+        "新着 arXiv",
+        "2日前の新着"
+      ],
+      "summary": "Large Language Models (LLMs) have emerged as powerful assets for recommender systems. However, deploying them as generative recommenders or zero-shot rankers at web-scale remains bottlenecked by prohibitive...",
+      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2607.25346&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2607.25346%0A-+Title%3A+The+Case+Against+Generation+for+Retrieval%3A+Discriminative+Language+Models+as+Effective+Retrievers%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2607.25346v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
+    },
+    {
+      "id": "2607.24869",
+      "title": "Ranked by Position: Order Sensitivity as an Exploitable Attack Surface in LLM Listwise Recommenders",
+      "url": "http://arxiv.org/abs/2607.24869v1",
+      "source": "arXiv",
+      "published": "2026-07-26",
+      "authors": [
+        "Ge Zhang",
+        "Jingru Cheng",
+        "Huiyuan Chen"
+      ],
+      "venue": "",
+      "citationCount": null,
+      "influentialCitationCount": null,
+      "discussionCount": null,
+      "score": 62.0,
+      "reasons": [
+        "推薦システム",
+        "ランキング",
+        "LLM x 推薦",
+        "新着 arXiv",
+        "4日前の新着"
+      ],
+      "summary": "Large language models (LLMs) used as listwise rerankers in recommendation systems suffer from position bias when serializing candidate sets into prompts. We show this order sensitivity creates an exploitable attack...",
+      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2607.24869&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2607.24869%0A-+Title%3A+Ranked+by+Position%3A+Order+Sensitivity+as+an+Exploitable+Attack+Surface+in+LLM+Listwise+Recommenders%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2607.24869v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
     }
   ]
 }
