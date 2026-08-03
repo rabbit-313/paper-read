@@ -1,6 +1,6 @@
 {
-  "date": "2026-08-02",
-  "generatedAt": "2026-08-02T22:56:58.426534+00:00",
+  "date": "2026-08-03",
+  "generatedAt": "2026-08-03T23:01:31.696306+00:00",
   "focus": "Recommender systems, recommendation, retrieval, ranking, and related ML/DL papers",
   "items": [
     {
@@ -29,9 +29,80 @@
       "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2607.25420&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2607.25420%0A-+Title%3A+MARS%3A+Multi-Agent+Re-ranking+for+Repeat-Order+Food+Delivery+Recommendation%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2607.25420v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
     },
     {
+      "id": "2607.28895",
+      "title": "LLM-Based Generative Retrieval for Snapchat Content Recommendation",
+      "url": "http://arxiv.org/abs/2607.28895v1",
+      "source": "arXiv",
+      "published": "2026-07-30",
+      "authors": [
+        "Liam Collins",
+        "Jiwen Ren",
+        "Donald Loveland",
+        "Bhuvesh Kumar",
+        "Clark Mingxuan Ju",
+        "Xuan Guo",
+        "Mo Li",
+        "Alvin Hou",
+        "Yi Cui",
+        "Peng Yang",
+        "Jian Wang",
+        "Saud Afzal Shafi",
+        "Nga Than",
+        "Ruiming Lu",
+        "Wenfeng Zhuo",
+        "Dongheng Li",
+        "Lili Zhang",
+        "Mingtao Zhang",
+        "Jinchao Ye",
+        "Vincent Xue",
+        "Chunhui Zhu",
+        "Neil Shah"
+      ],
+      "venue": "",
+      "citationCount": null,
+      "influentialCitationCount": null,
+      "discussionCount": null,
+      "score": 70.0,
+      "reasons": [
+        "推薦システム",
+        "検索・ retrieval",
+        "協調フィルタリング",
+        "LLM x 推薦",
+        "新着 arXiv"
+      ],
+      "summary": "Pretrained large language models (LLMs) are promising retrieval engines because they combine rich semantic priors, strong sequence modeling capabilities, and favorable scaling behavior. However, turning a pretrained...",
+      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2607.28895&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2607.28895%0A-+Title%3A+LLM-Based+Generative+Retrieval+for+Snapchat+Content+Recommendation%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2607.28895v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
+    },
+    {
+      "id": "2607.28971",
+      "title": "Don't Contrast the Impossible: Region-Constrained Batching for Contrastive User Modeling on a Local Community Platform",
+      "url": "http://arxiv.org/abs/2607.28971v1",
+      "source": "arXiv",
+      "published": "2026-07-31",
+      "authors": [
+        "Seungho Han",
+        "Byeongchang Kim",
+        "Jin Yu"
+      ],
+      "venue": "",
+      "citationCount": null,
+      "influentialCitationCount": null,
+      "discussionCount": null,
+      "score": 70.0,
+      "reasons": [
+        "推薦システム",
+        "ランキング",
+        "検索・ retrieval",
+        "グラフ推薦",
+        "新着 arXiv"
+      ],
+      "summary": "Contrastive learning is widely used for user modeling in large-scale recommender systems, where standard in-batch negatives implicitly assume universal exposure that any user can be shown any item. On local community...",
+      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2607.28971&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2607.28971%0A-+Title%3A+Don%27t+Contrast+the+Impossible%3A+Region-Constrained+Batching+for+Contrastive+User+Modeling+on+a+Local+Community+Platform%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2607.28971v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
+    },
+    {
       "id": "2607.26720",
       "title": "CaIRec: Calibrated Modality Imputation for Incomplete Multimodal Recommendation",
-      "url": "http://arxiv.org/abs/2607.26720v1",
+      "url": "http://arxiv.org/abs/2607.26720v2",
       "source": "arXiv",
       "published": "2026-07-29",
       "authors": [
@@ -54,7 +125,7 @@
         "新着 arXiv"
       ],
       "summary": "Real-world multimodal recommender systems often face incomplete modality observations, where items lack images, text, or other content features. Such incompleteness weakens item representations and degrades...",
-      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2607.26720&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2607.26720%0A-+Title%3A+CaIRec%3A+Calibrated+Modality+Imputation+for+Incomplete+Multimodal+Recommendation%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2607.26720v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
+      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2607.26720&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2607.26720%0A-+Title%3A+CaIRec%3A+Calibrated+Modality+Imputation+for+Incomplete+Multimodal+Recommendation%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2607.26720v2%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
     },
     {
       "id": "2607.27744",
@@ -121,7 +192,7 @@
         "ランキング",
         "検索・ retrieval",
         "新着 arXiv",
-        "3日前の新着"
+        "4日前の新着"
       ],
       "summary": "Modern recommendation models gain prediction quality by scaling feature-interaction and sequence modules, but production cost constraints cap how far systems can scale. In this work, we propose Request-Oriented...",
       "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2607.27744&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2607.27744%0A-+Title%3A+ROCS%3A+Request-Oriented+Compute+Sharing+for+Efficient+Large-Scale+Recommendation%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2607.27744v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
@@ -145,10 +216,41 @@
         "ランキング",
         "協調フィルタリング",
         "新着 arXiv",
-        "4日前の新着"
+        "5日前の新着"
       ],
       "summary": "Algorithmic news personalization in regional markets often fails because modern deep learning models require massive interaction data while real-world news has a short Time-to-Live (TTL < 48 h) and shallow article...",
       "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2607.26832&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2607.26832%0A-+Title%3A+Kairos%3A+Numerically+Robust+News+Recommendation+under+Item+Cold-Start+via+Cholesky-based+LinUCB%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2607.26832v2%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
+    },
+    {
+      "id": "2607.29241",
+      "title": "RecHarness: A Bandit-Routed Agentic Harness for Self-Evolving Recommender Systems",
+      "url": "http://arxiv.org/abs/2607.29241v1",
+      "source": "arXiv",
+      "published": "2026-07-31",
+      "authors": [
+        "Haoran Ling",
+        "Yuecheng Li",
+        "Zeyu Song",
+        "Jing Yao",
+        "Shuwen Kang",
+        "Chi Lu",
+        "Wenjin Wu",
+        "Peng Jiang"
+      ],
+      "venue": "",
+      "citationCount": null,
+      "influentialCitationCount": null,
+      "discussionCount": null,
+      "score": 62.0,
+      "reasons": [
+        "推薦システム",
+        "LLM x 推薦",
+        "バンディット",
+        "新着 arXiv",
+        "3日前の新着"
+      ],
+      "summary": "Optimizing modern recommender models still depends heavily on engineers manually iterating over architectural, objective, and training-strategy changes. While LLM-based agents can automate this trial-and-error...",
+      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2607.29241&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2607.29241%0A-+Title%3A+RecHarness%3A+A+Bandit-Routed+Agentic+Harness+for+Self-Evolving+Recommender+Systems%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2607.29241v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
     },
     {
       "id": "2607.25823",
@@ -184,106 +286,10 @@
         "検索・ retrieval",
         "LLM x 推薦",
         "新着 arXiv",
-        "5日前の新着"
+        "6日前の新着"
       ],
       "summary": "Modern recommendation interfaces organise content into shelves: themed rows such as \"More of What You Like\" or \"New Releases for You.\" In production systems, these shelves are typically defined through hand-crafted...",
       "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2607.25823&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2607.25823%0A-+Title%3A+Hypothesis-Driven+Shelf+Generation+for+Personalised+Recommendation%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2607.25823v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
-    },
-    {
-      "id": "2607.25640",
-      "title": "LLM-as-a-Judge for Evaluating System Responses in Conversational Music Recommendation",
-      "url": "http://arxiv.org/abs/2607.25640v1",
-      "source": "arXiv",
-      "published": "2026-07-28",
-      "authors": [
-        "Seungheon Doh",
-        "Bruno Sguerra",
-        "Sergio Oramas",
-        "Elena V. Epure",
-        "Juhan Nam"
-      ],
-      "venue": "",
-      "citationCount": null,
-      "influentialCitationCount": null,
-      "discussionCount": null,
-      "score": 62.0,
-      "reasons": [
-        "推薦システム",
-        "ランキング",
-        "LLM x 推薦",
-        "新着 arXiv",
-        "5日前の新着"
-      ],
-      "summary": "Conversational Recommendation Systems (CRS) aim to achieve two primary objectives: recommending relevant items and generating natural language responses. While recommendation accuracy is effectively measured by...",
-      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2607.25640&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2607.25640%0A-+Title%3A+LLM-as-a-Judge+for+Evaluating+System+Responses+in+Conversational+Music+Recommendation%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2607.25640v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
-    },
-    {
-      "id": "2607.25471",
-      "title": "TRWH: A Text-Driven Random Walk Heterogeneous GNN for Semantic-Aware Sparse Recommendation",
-      "url": "http://arxiv.org/abs/2607.25471v1",
-      "source": "arXiv",
-      "published": "2026-07-28",
-      "authors": [
-        "He Ma",
-        "Chen Liu"
-      ],
-      "venue": "",
-      "citationCount": null,
-      "influentialCitationCount": null,
-      "discussionCount": null,
-      "score": 62.0,
-      "reasons": [
-        "推薦システム",
-        "グラフ推薦",
-        "LLM x 推薦",
-        "新着 arXiv",
-        "5日前の新着"
-      ],
-      "summary": "Graph Neural Networks (GNNs) and Large Language Models (LLMs) have each advanced recommendation systems by modeling structural and semantic signals, respectively. However, integrating their complementary strengths...",
-      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2607.25471&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2607.25471%0A-+Title%3A+TRWH%3A+A+Text-Driven+Random+Walk+Heterogeneous+GNN+for+Semantic-Aware+Sparse+Recommendation%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2607.25471v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
-    },
-    {
-      "id": "2607.25346",
-      "title": "The Case Against Generation for Retrieval: Discriminative Language Models as Effective Retrievers",
-      "url": "http://arxiv.org/abs/2607.25346v1",
-      "source": "arXiv",
-      "published": "2026-07-28",
-      "authors": [
-        "Zhe Xu",
-        "Prachi Agrawal",
-        "Kavosh Asadi",
-        "Tianyi Chen",
-        "Carl Hu",
-        "Justin Johnson",
-        "Wuwei Lan",
-        "Mingfu Liang",
-        "Xi Liu",
-        "Tik On Lui",
-        "Oladipo Ositelu",
-        "Sandeep Pandey",
-        "Ankit Peshin",
-        "Feng Qi",
-        "Anil Ramakrishna",
-        "Kaushik Rangadurai",
-        "Frank Shyu",
-        "Luke Simon",
-        "Yang Yang",
-        "Chiyu Zhang"
-      ],
-      "venue": "",
-      "citationCount": null,
-      "influentialCitationCount": null,
-      "discussionCount": null,
-      "score": 62.0,
-      "reasons": [
-        "推薦システム",
-        "検索・ retrieval",
-        "LLM x 推薦",
-        "新着 arXiv",
-        "5日前の新着"
-      ],
-      "summary": "Large Language Models (LLMs) have emerged as powerful assets for recommender systems. However, deploying them as generative recommenders or zero-shot rankers at web-scale remains bottlenecked by prohibitive...",
-      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2607.25346&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2607.25346%0A-+Title%3A+The+Case+Against+Generation+for+Retrieval%3A+Discriminative+Language+Models+as+Effective+Retrievers%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2607.25346v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
     }
   ]
 }
