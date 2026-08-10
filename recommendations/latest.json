@@ -1,6 +1,6 @@
 {
-  "date": "2026-08-09",
-  "generatedAt": "2026-08-09T22:31:53.466981+00:00",
+  "date": "2026-08-10",
+  "generatedAt": "2026-08-10T22:37:26.108137+00:00",
   "focus": "Recommender systems, recommendation, retrieval, ranking, and related ML/DL papers",
   "items": [
     {
@@ -166,7 +166,7 @@
         "ランキング",
         "検索・ retrieval",
         "新着 arXiv",
-        "10日前の新着"
+        "11日前の新着"
       ],
       "summary": "Modern recommendation models gain prediction quality by scaling feature-interaction and sequence modules, but production cost constraints cap how far systems can scale. In this work, we propose Request-Oriented...",
       "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2607.27744&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2607.27744%0A-+Title%3A+ROCS%3A+Request-Oriented+Compute+Sharing+for+Efficient+Large-Scale+Recommendation%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2607.27744v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
@@ -190,10 +190,46 @@
         "ランキング",
         "協調フィルタリング",
         "新着 arXiv",
-        "11日前の新着"
+        "12日前の新着"
       ],
       "summary": "Algorithmic news personalization in regional markets often fails because modern deep learning models require massive interaction data while real-world news has a short Time-to-Live (TTL < 48 h) and shallow article...",
       "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2607.26832&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2607.26832%0A-+Title%3A+Kairos%3A+Numerically+Robust+News+Recommendation+under+Item+Cold-Start+via+Cholesky-based+LinUCB%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2607.26832v2%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
+    },
+    {
+      "id": "2608.06632",
+      "title": "Shape Your Feed: An LLM-based Agentic System for Conversational Recommendation",
+      "url": "http://arxiv.org/abs/2608.06632v1",
+      "source": "arXiv",
+      "published": "2026-08-06",
+      "authors": [
+        "Ziyun Xu",
+        "Bosen Ding",
+        "Yue Zhang",
+        "Ji Qi",
+        "Qingyuan Song",
+        "Jizhou Huang",
+        "Liwei Wang",
+        "Jefferey Santelli",
+        "Yue Weng",
+        "Qichao Que",
+        "Zhenheng Yang",
+        "Junfeng Pan",
+        "Linhong Zhu"
+      ],
+      "venue": "",
+      "citationCount": null,
+      "influentialCitationCount": null,
+      "discussionCount": null,
+      "score": 62.0,
+      "reasons": [
+        "推薦システム",
+        "ランキング",
+        "LLM x 推薦",
+        "新着 arXiv",
+        "4日前の新着"
+      ],
+      "summary": "Industrial recommendation systems predominantly adopt a passive ranking paradigm that infers user preferences from implicit behavioral signals (e.g., clicks, dwell time) rather than explicit, natural language inputs....",
+      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2608.06632&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2608.06632%0A-+Title%3A+Shape+Your+Feed%3A+An+LLM-based+Agentic+System+for+Conversational+Recommendation%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2608.06632v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
     },
     {
       "id": "2608.06068",
@@ -217,7 +253,7 @@
         "ランキング",
         "LLM x 推薦",
         "新着 arXiv",
-        "3日前の新着"
+        "4日前の新着"
       ],
       "summary": "We demonstrate Cleo, a transparent and controllable conversational product advisor that addresses the challenges of opacity, unpredictability of LLMs, and the complexity of comparisons in conversational commerce. With...",
       "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2608.06068&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2608.06068%0A-+Title%3A+Cleo%3A+A+Transparent+and+Controllable+Chatbot+for+Conversational+Commerce%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2608.06068v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
@@ -245,36 +281,10 @@
         "グラフ推薦",
         "LLM x 推薦",
         "新着 arXiv",
-        "5日前の新着"
+        "6日前の新着"
       ],
       "summary": "Recommender systems remain domain-bound: a model trained on one interaction environment typically requires retraining or target-domain adaptation before it can operate on a new catalogue. A recommender trained on...",
       "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2608.03899&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2608.03899%0A-+Title%3A+ATLAS%3A+Learning+to+Recommend+Across+Unseen+Domains%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2608.03899v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
-    },
-    {
-      "id": "2608.03091",
-      "title": "Position Bias Undermines Preference Consistency in Listwise LLM-Based Reranking",
-      "url": "http://arxiv.org/abs/2608.03091v1",
-      "source": "arXiv",
-      "published": "2026-08-04",
-      "authors": [
-        "Ethan Bito",
-        "Yongli Ren",
-        "Estrid He"
-      ],
-      "venue": "",
-      "citationCount": null,
-      "influentialCitationCount": null,
-      "discussionCount": null,
-      "score": 62.0,
-      "reasons": [
-        "推薦システム",
-        "ランキング",
-        "LLM x 推薦",
-        "新着 arXiv",
-        "5日前の新着"
-      ],
-      "summary": "Large language models (LLMs) have emerged as promising listwise rerankers for recommender systems, but their reliability under equivalent candidate permutations remains unclear. Since recommendation candidates form an...",
-      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2608.03091&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2608.03091%0A-+Title%3A+Position+Bias+Undermines+Preference+Consistency+in+Listwise+LLM-Based+Reranking%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2608.03091v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
     }
   ]
 }
