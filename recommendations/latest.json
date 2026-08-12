@@ -1,6 +1,6 @@
 {
-  "date": "2026-08-11",
-  "generatedAt": "2026-08-11T22:42:04.635988+00:00",
+  "date": "2026-08-12",
+  "generatedAt": "2026-08-12T22:41:02.201146+00:00",
   "focus": "Recommender systems, recommendation, retrieval, ranking, and related ML/DL papers",
   "items": [
     {
@@ -47,6 +47,61 @@
       ],
       "summary": "Pretrained large language models (LLMs) are promising retrieval engines because they combine rich semantic priors, strong sequence modeling capabilities, and favorable scaling behavior. However, turning a pretrained...",
       "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2607.28895&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2607.28895%0A-+Title%3A+LLM-Based+Generative+Retrieval+for+Snapchat+Content+Recommendation%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2607.28895v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
+    },
+    {
+      "id": "2608.10187",
+      "title": "ConnectionMind: Leveraging Social Networks and Large Language Models for Personalized Recommendation at Meta",
+      "url": "http://arxiv.org/abs/2608.10187v1",
+      "source": "arXiv",
+      "published": "2026-08-10",
+      "authors": [
+        "Haoyu Han",
+        "Yuming Liu",
+        "Lei Huang",
+        "Lizhu Zhang",
+        "Jiliang Tang",
+        "Xiangjun Fan"
+      ],
+      "venue": "",
+      "citationCount": null,
+      "influentialCitationCount": null,
+      "discussionCount": null,
+      "score": 70.0,
+      "reasons": [
+        "推薦システム",
+        "グラフ推薦",
+        "LLM x 推薦",
+        "強化学習",
+        "新着 arXiv"
+      ],
+      "summary": "Modern recommendation systems on social media platforms such as Meta must model complex social relationships, including friendships, group memberships, and creator interactions, alongside massive and heterogeneous...",
+      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2608.10187&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2608.10187%0A-+Title%3A+ConnectionMind%3A+Leveraging+Social+Networks+and+Large+Language+Models+for+Personalized+Recommendation+at+Meta%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2608.10187v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
+    },
+    {
+      "id": "2608.10176",
+      "title": "TRACE: Trustworthy Retrieval-Augmented Conversational Engine",
+      "url": "http://arxiv.org/abs/2608.10176v1",
+      "source": "arXiv",
+      "published": "2026-08-10",
+      "authors": [
+        "Touseef Hasan",
+        "Laila Cure",
+        "Souvika Sarkar"
+      ],
+      "venue": "",
+      "citationCount": null,
+      "influentialCitationCount": null,
+      "discussionCount": null,
+      "score": 70.0,
+      "reasons": [
+        "推薦システム",
+        "検索・ retrieval",
+        "グラフ推薦",
+        "LLM x 推薦",
+        "新着 arXiv"
+      ],
+      "summary": "Public service chatbots are expected to deliver recommendations from an underlying public service directory, while also making sure that the recommendations respect explicit user constraints. In practice, public...",
+      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2608.10176&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2608.10176%0A-+Title%3A+TRACE%3A+Trustworthy+Retrieval-Augmented+Conversational+Engine%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2608.10176v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
     },
     {
       "id": "2608.08968",
@@ -201,7 +256,7 @@
         "ランキング",
         "検索・ retrieval",
         "新着 arXiv",
-        "12日前の新着"
+        "13日前の新着"
       ],
       "summary": "Modern recommendation models gain prediction quality by scaling feature-interaction and sequence modules, but production cost constraints cap how far systems can scale. In this work, we propose Request-Oriented...",
       "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2607.27744&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2607.27744%0A-+Title%3A+ROCS%3A+Request-Oriented+Compute+Sharing+for+Efficient+Large-Scale+Recommendation%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2607.27744v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
@@ -225,80 +280,10 @@
         "ランキング",
         "協調フィルタリング",
         "新着 arXiv",
-        "13日前の新着"
+        "14日前の新着"
       ],
       "summary": "Algorithmic news personalization in regional markets often fails because modern deep learning models require massive interaction data while real-world news has a short Time-to-Live (TTL < 48 h) and shallow article...",
       "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2607.26832&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2607.26832%0A-+Title%3A+Kairos%3A+Numerically+Robust+News+Recommendation+under+Item+Cold-Start+via+Cholesky-based+LinUCB%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2607.26832v2%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
-    },
-    {
-      "id": "2608.09443",
-      "title": "Coupled Graph--Policy Distillation for Personalized Medication Safety in Older Adults with Multimorbidity",
-      "url": "http://arxiv.org/abs/2608.09443v1",
-      "source": "arXiv",
-      "published": "2026-08-10",
-      "authors": [
-        "Zihan Wang",
-        "Anglin Liu",
-        "Rongyi Wang",
-        "Dantong Li",
-        "Yi Lu",
-        "Siqing Yuan",
-        "Hongxia Xu",
-        "Zhongtian Long",
-        "Jintai Chen"
-      ],
-      "venue": "",
-      "citationCount": null,
-      "influentialCitationCount": null,
-      "discussionCount": null,
-      "score": 62.0,
-      "reasons": [
-        "推薦システム",
-        "グラフ推薦",
-        "LLM x 推薦",
-        "新着 arXiv",
-        "1日前の新着"
-      ],
-      "summary": "Large language model (LLM) agents can support medication review between clinical visits, but safe choices for older adults with multimorbidity depend on conditions, medications, and geriatric risks that users may...",
-      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2608.09443&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2608.09443%0A-+Title%3A+Coupled+Graph--Policy+Distillation+for+Personalized+Medication+Safety+in+Older+Adults+with+Multimorbidity%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2608.09443v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
-    },
-    {
-      "id": "2608.09440",
-      "title": "MetaStrategy: Generative Ranking with Executable LLM Strategies",
-      "url": "http://arxiv.org/abs/2608.09440v1",
-      "source": "arXiv",
-      "published": "2026-08-10",
-      "authors": [
-        "Chengyu Lai",
-        "Jiuning Lin",
-        "Zhibo Xiao",
-        "Xiaodong Zhu",
-        "Ruiquan Lan",
-        "Bin Zhang",
-        "Zihong Huang",
-        "Wendong Zhang",
-        "Chuxin Chen",
-        "Yinjiang Cai",
-        "Shuai Zhong",
-        "Lingqing Zhang",
-        "Dimin Wang",
-        "Jialin Zhu",
-        "Han Zhu"
-      ],
-      "venue": "",
-      "citationCount": null,
-      "influentialCitationCount": null,
-      "discussionCount": null,
-      "score": 62.0,
-      "reasons": [
-        "推薦システム",
-        "ランキング",
-        "LLM x 推薦",
-        "新着 arXiv",
-        "1日前の新着"
-      ],
-      "summary": "Industrial recommender systems rank heterogeneous content under coupled user, business, commercial, and experience objectives. Existing generative ranking methods typically construct item sequences directly, making...",
-      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2608.09440&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2608.09440%0A-+Title%3A+MetaStrategy%3A+Generative+Ranking+with+Executable+LLM+Strategies%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2608.09440v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
     }
   ]
 }
