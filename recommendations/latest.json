@@ -1,6 +1,6 @@
 {
-  "date": "2026-08-12",
-  "generatedAt": "2026-08-12T22:41:02.201146+00:00",
+  "date": "2026-08-13",
+  "generatedAt": "2026-08-13T22:41:42.447056+00:00",
   "focus": "Recommender systems, recommendation, retrieval, ranking, and related ML/DL papers",
   "items": [
     {
@@ -47,6 +47,37 @@
       ],
       "summary": "Pretrained large language models (LLMs) are promising retrieval engines because they combine rich semantic priors, strong sequence modeling capabilities, and favorable scaling behavior. However, turning a pretrained...",
       "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2607.28895&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2607.28895%0A-+Title%3A+LLM-Based+Generative+Retrieval+for+Snapchat+Content+Recommendation%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2607.28895v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
+    },
+    {
+      "id": "2608.12184",
+      "title": "Making Collaborative Signals Count: Graph-Aware Large Language Models for Sequential Recommendation",
+      "url": "http://arxiv.org/abs/2608.12184v1",
+      "source": "arXiv",
+      "published": "2026-08-12",
+      "authors": [
+        "Fenglin Yan",
+        "Bohao Wang",
+        "Jian Zhang",
+        "Yu Cui",
+        "Tongya Zheng",
+        "Ye Feng",
+        "Can Wang",
+        "Jiawei Chen"
+      ],
+      "venue": "",
+      "citationCount": null,
+      "influentialCitationCount": null,
+      "discussionCount": null,
+      "score": 70.0,
+      "reasons": [
+        "推薦システム",
+        "協調フィルタリング",
+        "グラフ推薦",
+        "LLM x 推薦",
+        "新着 arXiv"
+      ],
+      "summary": "Large language models (LLMs) have been widely adopted as backbones for recommender systems. However, their language-centric pretraining makes it difficult to capture collaborative signals implicit in user-item...",
+      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2608.12184&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2608.12184%0A-+Title%3A+Making+Collaborative+Signals+Count%3A+Graph-Aware+Large+Language+Models+for+Sequential+Recommendation%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2608.12184v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
     },
     {
       "id": "2608.10187",
@@ -104,63 +135,6 @@
       "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2608.10176&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2608.10176%0A-+Title%3A+TRACE%3A+Trustworthy+Retrieval-Augmented+Conversational+Engine%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2608.10176v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
     },
     {
-      "id": "2608.08968",
-      "title": "GALA: Graph-Augmented LLM Agents for Root Cause Analysis and Incident Response in Microservices",
-      "url": "http://arxiv.org/abs/2608.08968v1",
-      "source": "arXiv",
-      "published": "2026-08-10",
-      "authors": [
-        "Yifang Tian",
-        "Yaming Liu",
-        "Zichun Chong",
-        "Zihang Huang",
-        "Yiran Li",
-        "Hans-Arno Jacobsen"
-      ],
-      "venue": "",
-      "citationCount": null,
-      "influentialCitationCount": null,
-      "discussionCount": null,
-      "score": 70.0,
-      "reasons": [
-        "推薦システム",
-        "ランキング",
-        "グラフ推薦",
-        "LLM x 推薦",
-        "新着 arXiv"
-      ],
-      "summary": "Microservice root cause analysis (RCA) requires correlating failures across heterogeneous telemetry within complex service dependency graphs. Existing methods often rely on a single telemetry modality; recent LLM-...",
-      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2608.08968&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2608.08968%0A-+Title%3A+GALA%3A+Graph-Augmented+LLM+Agents+for+Root+Cause+Analysis+and+Incident+Response+in+Microservices%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2608.08968v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
-    },
-    {
-      "id": "2608.08069",
-      "title": "HugSelect: An Explainable Multi-Criteria Decision-Support Framework for foundation-model selection",
-      "url": "http://arxiv.org/abs/2608.08069v1",
-      "source": "arXiv",
-      "published": "2026-08-08",
-      "authors": [
-        "Alireza Joonbakhsh",
-        "Arda Canser Adalı",
-        "Slinger Jansen",
-        "Farshad Khunjush",
-        "Siamak Farshidi"
-      ],
-      "venue": "",
-      "citationCount": null,
-      "influentialCitationCount": null,
-      "discussionCount": null,
-      "score": 70.0,
-      "reasons": [
-        "推薦システム",
-        "ランキング",
-        "検索・ retrieval",
-        "LLM x 推薦",
-        "新着 arXiv"
-      ],
-      "summary": "Foundation models are increasingly reused as software components, making model selection a critical software-engineering decision. Current model hubs primarily support discovery through popularity metrics, often...",
-      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2608.08069&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2608.08069%0A-+Title%3A+HugSelect%3A+An+Explainable+Multi-Criteria+Decision-Support+Framework+for+foundation-model+selection%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2608.08069v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
-    },
-    {
       "id": "2608.09016",
       "title": "PreGress: Ranking-Native Pre-training and Prompting for Graph Node Ranking",
       "url": "http://arxiv.org/abs/2608.09016v1",
@@ -190,6 +164,34 @@
       ],
       "summary": "Node ranking is a fundamental problem in graph information retrieval, measuring the relative importance of nodes and supporting a wide range of applications such as influence analysis, recommendation, and graph-based...",
       "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2608.09016&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2608.09016%0A-+Title%3A+PreGress%3A+Ranking-Native+Pre-training+and+Prompting+for+Graph+Node+Ranking%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2608.09016v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
+    },
+    {
+      "id": "2608.08069",
+      "title": "HugSelect: An Explainable Multi-Criteria Decision-Support Framework for foundation-model selection",
+      "url": "http://arxiv.org/abs/2608.08069v1",
+      "source": "arXiv",
+      "published": "2026-08-08",
+      "authors": [
+        "Alireza Joonbakhsh",
+        "Arda Canser Adalı",
+        "Slinger Jansen",
+        "Farshad Khunjush",
+        "Siamak Farshidi"
+      ],
+      "venue": "",
+      "citationCount": null,
+      "influentialCitationCount": null,
+      "discussionCount": null,
+      "score": 70.0,
+      "reasons": [
+        "推薦システム",
+        "ランキング",
+        "検索・ retrieval",
+        "LLM x 推薦",
+        "新着 arXiv"
+      ],
+      "summary": "Foundation models are increasingly reused as software components, making model selection a critical software-engineering decision. Current model hubs primarily support discovery through popularity metrics, often...",
+      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2608.08069&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2608.08069%0A-+Title%3A+HugSelect%3A+An+Explainable+Multi-Criteria+Decision-Support+Framework+for+foundation-model+selection%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2608.08069v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
     },
     {
       "id": "2607.27744",
@@ -256,19 +258,24 @@
         "ランキング",
         "検索・ retrieval",
         "新着 arXiv",
-        "13日前の新着"
+        "14日前の新着"
       ],
       "summary": "Modern recommendation models gain prediction quality by scaling feature-interaction and sequence modules, but production cost constraints cap how far systems can scale. In this work, we propose Request-Oriented...",
       "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2607.27744&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2607.27744%0A-+Title%3A+ROCS%3A+Request-Oriented+Compute+Sharing+for+Efficient+Large-Scale+Recommendation%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2607.27744v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
     },
     {
-      "id": "2607.26832",
-      "title": "Kairos: Numerically Robust News Recommendation under Item Cold-Start via Cholesky-based LinUCB",
-      "url": "http://arxiv.org/abs/2607.26832v2",
+      "id": "2608.10257",
+      "title": "GenRec: An LLM-Backed Recommendation Ranker at Netflix",
+      "url": "http://arxiv.org/abs/2608.10257v1",
       "source": "arXiv",
-      "published": "2026-07-29",
+      "published": "2026-08-10",
       "authors": [
-        "Finn Hertsch"
+        "Ying Li",
+        "Shradha Sehgal",
+        "Arjun Rao",
+        "Rein Houthooft",
+        "Yaochen Zhu",
+        "Ashish Rastogi"
       ],
       "venue": "",
       "citationCount": null,
@@ -278,12 +285,12 @@
       "reasons": [
         "推薦システム",
         "ランキング",
-        "協調フィルタリング",
+        "LLM x 推薦",
         "新着 arXiv",
-        "14日前の新着"
+        "3日前の新着"
       ],
-      "summary": "Algorithmic news personalization in regional markets often fails because modern deep learning models require massive interaction data while real-world news has a short Time-to-Live (TTL < 48 h) and shallow article...",
-      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2607.26832&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2607.26832%0A-+Title%3A+Kairos%3A+Numerically+Robust+News+Recommendation+under+Item+Cold-Start+via+Cholesky-based+LinUCB%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2607.26832v2%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
+      "summary": "Large language models (LLMs) are reshaping recommender systems by enabling richer modeling of users, content, and context directly in natural language. At Netflix, we are exploring this direction through GenRec, an...",
+      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2608.10257&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2608.10257%0A-+Title%3A+GenRec%3A+An+LLM-Backed+Recommendation+Ranker+at+Netflix%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2608.10257v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
     }
   ]
 }
