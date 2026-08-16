@@ -1,6 +1,6 @@
 {
-  "date": "2026-08-15",
-  "generatedAt": "2026-08-15T22:21:38.719077+00:00",
+  "date": "2026-08-16",
+  "generatedAt": "2026-08-16T22:20:54.331320+00:00",
   "focus": "Recommender systems, recommendation, retrieval, ranking, and related ML/DL papers",
   "items": [
     {
@@ -144,7 +144,7 @@
         "ランキング",
         "LLM x 推薦",
         "新着 arXiv",
-        "5日前の新着"
+        "6日前の新着"
       ],
       "summary": "Large language models (LLMs) are reshaping recommender systems by enabling richer modeling of users, content, and context directly in natural language. At Netflix, we are exploring this direction through GenRec, an...",
       "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2608.10257&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2608.10257%0A-+Title%3A+GenRec%3A+An+LLM-Backed+Recommendation+Ranker+at+Netflix%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2608.10257v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
@@ -176,7 +176,7 @@
         "グラフ推薦",
         "LLM x 推薦",
         "新着 arXiv",
-        "5日前の新着"
+        "6日前の新着"
       ],
       "summary": "Large language model (LLM) agents can support medication review between clinical visits, but safe choices for older adults with multimorbidity depend on conditions, medications, and geriatric risks that users may...",
       "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2608.09443&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2608.09443%0A-+Title%3A+Coupled+Graph--Policy+Distillation+for+Personalized+Medication+Safety+in+Older+Adults+with+Multimorbidity%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2608.09443v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
@@ -214,7 +214,7 @@
         "ランキング",
         "LLM x 推薦",
         "新着 arXiv",
-        "5日前の新着"
+        "6日前の新着"
       ],
       "summary": "Industrial recommender systems rank heterogeneous content under coupled user, business, commercial, and experience objectives. Existing generative ranking methods typically construct item sequences directly, making...",
       "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2608.09440&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2608.09440%0A-+Title%3A+MetaStrategy%3A+Generative+Ranking+with+Executable+LLM+Strategies%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2608.09440v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
@@ -314,7 +314,7 @@
         "ランキング",
         "検索・ retrieval",
         "新着 arXiv",
-        "5日前の新着"
+        "6日前の新着"
       ],
       "summary": "Industrial recommender systems commonly use cascaded retrieval, ranking, and re-ranking pipelines. Although efficient, these pipelines fragment information and objectives across modules, rely on rigid rules, and have...",
       "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2608.09408&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2608.09408%0A-+Title%3A+DREAM+Technical+Report%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2608.09408v3%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
