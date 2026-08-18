@@ -1,12 +1,12 @@
 {
-  "date": "2026-08-17",
-  "generatedAt": "2026-08-17T22:24:36.606301+00:00",
+  "date": "2026-08-18",
+  "generatedAt": "2026-08-18T22:24:07.107633+00:00",
   "focus": "Recommender systems, recommendation, retrieval, ranking, and related ML/DL papers",
   "items": [
     {
       "id": "2608.12184",
       "title": "Making Collaborative Signals Count: Graph-Aware Large Language Models for Sequential Recommendation",
-      "url": "http://arxiv.org/abs/2608.12184v1",
+      "url": "http://arxiv.org/abs/2608.12184v2",
       "source": "arXiv",
       "published": "2026-08-12",
       "authors": [
@@ -32,7 +32,7 @@
         "新着 arXiv"
       ],
       "summary": "Large language models (LLMs) have been widely adopted as backbones for recommender systems. However, their language-centric pretraining makes it difficult to capture collaborative signals implicit in user-item...",
-      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2608.12184&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2608.12184%0A-+Title%3A+Making+Collaborative+Signals+Count%3A+Graph-Aware+Large+Language+Models+for+Sequential+Recommendation%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2608.12184v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
+      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2608.12184&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2608.12184%0A-+Title%3A+Making+Collaborative+Signals+Count%3A+Graph-Aware+Large+Language+Models+for+Sequential+Recommendation%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2608.12184v2%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
     },
     {
       "id": "2608.10187",
@@ -64,15 +64,15 @@
       "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2608.10187&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2608.10187%0A-+Title%3A+ConnectionMind%3A+Leveraging+Social+Networks+and+Large+Language+Models+for+Personalized+Recommendation+at+Meta%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2608.10187v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
     },
     {
-      "id": "2608.10176",
-      "title": "TRACE: Trustworthy Retrieval-Augmented Conversational Engine",
-      "url": "http://arxiv.org/abs/2608.10176v1",
+      "id": "2608.16407",
+      "title": "POI Recommendation with LLM-Augmented Multi-Graph Learning and Contrastive Alignment",
+      "url": "http://arxiv.org/abs/2608.16407v1",
       "source": "arXiv",
-      "published": "2026-08-10",
+      "published": "2026-08-17",
       "authors": [
-        "Touseef Hasan",
-        "Laila Cure",
-        "Souvika Sarkar"
+        "Burak Tamer",
+        "Wolfram Höpken",
+        "Zehui Wang"
       ],
       "venue": "",
       "citationCount": null,
@@ -81,13 +81,45 @@
       "score": 70.0,
       "reasons": [
         "推薦システム",
-        "検索・ retrieval",
+        "協調フィルタリング",
         "グラフ推薦",
         "LLM x 推薦",
         "新着 arXiv"
       ],
-      "summary": "Public service chatbots are expected to deliver recommendations from an underlying public service directory, while also making sure that the recommendations respect explicit user constraints. In practice, public...",
-      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2608.10176&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2608.10176%0A-+Title%3A+TRACE%3A+Trustworthy+Retrieval-Augmented+Conversational+Engine%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2608.10176v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
+      "summary": "Point-of-interest (POI) recommendation models based on graph neural networks achieve strong performance by propagating collaborative signals over user-item interactions, yet they struggle with the cold-start problem,...",
+      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2608.16407&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2608.16407%0A-+Title%3A+POI+Recommendation+with+LLM-Augmented+Multi-Graph+Learning+and+Contrastive+Alignment%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2608.16407v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
+    },
+    {
+      "id": "2608.15949",
+      "title": "Ask to Be Sure: Informative Interactions for Confident Multi-Turn LLM Recommendation",
+      "url": "http://arxiv.org/abs/2608.15949v1",
+      "source": "arXiv",
+      "published": "2026-08-16",
+      "authors": [
+        "Cedar Site Bai",
+        "Duanshun Li",
+        "Zhenyu Liao",
+        "Sheikh Sarwar",
+        "Huiyuan Chen",
+        "Yuan Chen",
+        "Changhe Yuan",
+        "Haiyang Zhang",
+        "Qilin Qi"
+      ],
+      "venue": "",
+      "citationCount": null,
+      "influentialCitationCount": null,
+      "discussionCount": null,
+      "score": 62.0,
+      "reasons": [
+        "推薦システム",
+        "LLM x 推薦",
+        "強化学習",
+        "新着 arXiv",
+        "2日前の新着"
+      ],
+      "summary": "Recent advances in large language models (LLMs) have enabled their use as conversational recommender systems (CRS), demonstrating strong recommendation accuracy and natural dialogue. However, guiding multi-turn...",
+      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2608.15949&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2608.15949%0A-+Title%3A+Ask+to+Be+Sure%3A+Informative+Interactions+for+Confident+Multi-Turn+LLM+Recommendation%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2608.15949v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
     },
     {
       "id": "2608.14399",
@@ -109,7 +141,7 @@
         "グラフ推薦",
         "LLM x 推薦",
         "新着 arXiv",
-        "3日前の新着"
+        "4日前の新着"
       ],
       "summary": "Patients increasingly ask large language model (LLM) assistants which doctor to see, making these systems AI infomediaries: algorithms that intermediate one person's choice among other people and thereby decide,...",
       "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2608.14399&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2608.14399%0A-+Title%3A+Whose+doctor+does+the+AI+recommend%3F+An+algorithm+audit+of+reputation+and+demographic+signals+in+large+language+model-assisted+physician+choice%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2608.14399v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
@@ -138,7 +170,7 @@
         "検索・ retrieval",
         "LLM x 推薦",
         "新着 arXiv",
-        "3日前の新着"
+        "4日前の新着"
       ],
       "summary": "Conversational recommendation for e-commerce is increasingly mediated by large language models (LLMs), yet many real-world deployments operate under a stricter requirement: recommendations must be drawn only from a...",
       "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2608.14068&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2608.14068%0A-+Title%3A+MACS%3A+A+Hybrid+Multi-Agent+Framework+for+Reliable+Conversational+E-Commerce+Recommendation%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2608.14068v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
@@ -167,59 +199,19 @@
         "ランキング",
         "LLM x 推薦",
         "新着 arXiv",
-        "7日前の新着"
+        "8日前の新着"
       ],
       "summary": "Large language models (LLMs) are reshaping recommender systems by enabling richer modeling of users, content, and context directly in natural language. At Netflix, we are exploring this direction through GenRec, an...",
       "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2608.10257&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2608.10257%0A-+Title%3A+GenRec%3A+An+LLM-Backed+Recommendation+Ranker+at+Netflix%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2608.10257v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
     },
     {
-      "id": "2608.14429",
-      "title": "PriCoRec: A Privacy-Aware Cloud-Device Collaborative Framework for Ad Recommendation under Feature Constraints",
-      "url": "http://arxiv.org/abs/2608.14429v1",
+      "id": "2608.16704",
+      "title": "Unbiased Recommender Systems with Implicit Feedback",
+      "url": "http://arxiv.org/abs/2608.16704v1",
       "source": "arXiv",
-      "published": "2026-08-14",
+      "published": "2026-08-17",
       "authors": [
-        "Dairui Liu",
-        "Zhongyi Lu",
-        "Jitao Lu",
-        "Aghiles Salah",
-        "Mete Sertkan",
-        "Roger Zhe Li",
-        "Changhong Jin",
-        "Barry Smyth",
-        "Xingsheng Guo",
-        "Ruihai Dong"
-      ],
-      "venue": "",
-      "citationCount": null,
-      "influentialCitationCount": null,
-      "discussionCount": null,
-      "score": 62.0,
-      "reasons": [
-        "推薦システム",
-        "ランキング",
-        "協調フィルタリング",
-        "新着 arXiv",
-        "3日前の新着"
-      ],
-      "summary": "Privacy regulations increasingly restrict cloud processing of sensitive user data (e.g., age, gender), hindering traditional cloud-only recommendation models. To mitigate this challenge, we propose a Privacy-aware...",
-      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2608.14429&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2608.14429%0A-+Title%3A+PriCoRec%3A+A+Privacy-Aware+Cloud-Device+Collaborative+Framework+for+Ad+Recommendation+under+Feature+Constraints%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2608.14429v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
-    },
-    {
-      "id": "2608.10297",
-      "title": "Neural Tree Collaborative Filtering: Rethinking Graph Collaborative Filtering as Tree Collaborative Filtering with Curvature-Aware Propagation Depth",
-      "url": "http://arxiv.org/abs/2608.10297v1",
-      "source": "arXiv",
-      "published": "2026-08-10",
-      "authors": [
-        "Jinfeng Xu",
-        "Zheyu Chen",
-        "Ziyue Peng",
-        "Shuo Yang",
-        "Jinze Li",
-        "Wenhao Yuan",
-        "Jian Chen",
-        "Edith C. H. Ngai"
+        "Md Aminul Islam"
       ],
       "venue": "",
       "citationCount": null,
@@ -231,10 +223,10 @@
         "協調フィルタリング",
         "グラフ推薦",
         "新着 arXiv",
-        "7日前の新着"
+        "1日前の新着"
       ],
-      "summary": "Graph Collaborative Filtering (GCF) has become the dominant paradigm in modern recommender systems by modeling user-item interactions as a bipartite graph and propagating embeddings through a fixed number of message-...",
-      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2608.10297&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2608.10297%0A-+Title%3A+Neural+Tree+Collaborative+Filtering%3A+Rethinking+Graph+Collaborative+Filtering+as+Tree+Collaborative+Filtering+with+Curvature-Aware+Propagation+Depth%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2608.10297v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
+      "summary": "Recommender systems typically rely on implicit feedback (e.g., clicks) to infer user preferences. However, such data is inherently prone to various biases, including position bias and popularity bias. Position bias...",
+      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2608.16704&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2608.16704%0A-+Title%3A+Unbiased+Recommender+Systems+with+Implicit+Feedback%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2608.16704v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
     }
   ]
 }
