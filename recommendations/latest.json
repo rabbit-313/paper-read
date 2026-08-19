@@ -1,6 +1,6 @@
 {
-  "date": "2026-08-18",
-  "generatedAt": "2026-08-18T22:24:07.107633+00:00",
+  "date": "2026-08-19",
+  "generatedAt": "2026-08-19T22:24:49.369984+00:00",
   "focus": "Recommender systems, recommendation, retrieval, ranking, and related ML/DL papers",
   "items": [
     {
@@ -35,35 +35,6 @@
       "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2608.12184&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2608.12184%0A-+Title%3A+Making+Collaborative+Signals+Count%3A+Graph-Aware+Large+Language+Models+for+Sequential+Recommendation%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2608.12184v2%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
     },
     {
-      "id": "2608.10187",
-      "title": "ConnectionMind: Leveraging Social Networks and Large Language Models for Personalized Recommendation at Meta",
-      "url": "http://arxiv.org/abs/2608.10187v1",
-      "source": "arXiv",
-      "published": "2026-08-10",
-      "authors": [
-        "Haoyu Han",
-        "Yuming Liu",
-        "Lei Huang",
-        "Lizhu Zhang",
-        "Jiliang Tang",
-        "Xiangjun Fan"
-      ],
-      "venue": "",
-      "citationCount": null,
-      "influentialCitationCount": null,
-      "discussionCount": null,
-      "score": 70.0,
-      "reasons": [
-        "推薦システム",
-        "グラフ推薦",
-        "LLM x 推薦",
-        "強化学習",
-        "新着 arXiv"
-      ],
-      "summary": "Modern recommendation systems on social media platforms such as Meta must model complex social relationships, including friendships, group memberships, and creator interactions, alongside massive and heterogeneous...",
-      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2608.10187&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2608.10187%0A-+Title%3A+ConnectionMind%3A+Leveraging+Social+Networks+and+Large+Language+Models+for+Personalized+Recommendation+at+Meta%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2608.10187v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
-    },
-    {
       "id": "2608.16407",
       "title": "POI Recommendation with LLM-Augmented Multi-Graph Learning and Contrastive Alignment",
       "url": "http://arxiv.org/abs/2608.16407v1",
@@ -88,6 +59,35 @@
       ],
       "summary": "Point-of-interest (POI) recommendation models based on graph neural networks achieve strong performance by propagating collaborative signals over user-item interactions, yet they struggle with the cold-start problem,...",
       "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2608.16407&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2608.16407%0A-+Title%3A+POI+Recommendation+with+LLM-Augmented+Multi-Graph+Learning+and+Contrastive+Alignment%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2608.16407v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
+    },
+    {
+      "id": "2608.17316",
+      "title": "Empowering Compact LLMs with Fusion of Layer-wise Exits for Recommendation",
+      "url": "http://arxiv.org/abs/2608.17316v1",
+      "source": "arXiv",
+      "published": "2026-08-18",
+      "authors": [
+        "Xurong Liang",
+        "Tong Chen",
+        "Quoc Viet Hung Nguyen",
+        "Jianxin Li",
+        "Xiangliang Zhang",
+        "Hongzhi Yin"
+      ],
+      "venue": "",
+      "citationCount": null,
+      "influentialCitationCount": null,
+      "discussionCount": null,
+      "score": 62.0,
+      "reasons": [
+        "推薦システム",
+        "ランキング",
+        "LLM x 推薦",
+        "新着 arXiv",
+        "1日前の新着"
+      ],
+      "summary": "Large language model-based recommender systems (LLM-RSs) have demonstrated remarkable capabilities, but are computationally unsustainable for many real-world applications. Compact LLMs offer a practical alternative,...",
+      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2608.17316&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2608.17316%0A-+Title%3A+Empowering+Compact+LLMs+with+Fusion+of+Layer-wise+Exits+for+Recommendation%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2608.17316v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
     },
     {
       "id": "2608.15949",
@@ -116,7 +116,7 @@
         "LLM x 推薦",
         "強化学習",
         "新着 arXiv",
-        "2日前の新着"
+        "3日前の新着"
       ],
       "summary": "Recent advances in large language models (LLMs) have enabled their use as conversational recommender systems (CRS), demonstrating strong recommendation accuracy and natural dialogue. However, guiding multi-turn...",
       "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2608.15949&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2608.15949%0A-+Title%3A+Ask+to+Be+Sure%3A+Informative+Interactions+for+Confident+Multi-Turn+LLM+Recommendation%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2608.15949v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
@@ -141,7 +141,7 @@
         "グラフ推薦",
         "LLM x 推薦",
         "新着 arXiv",
-        "4日前の新着"
+        "5日前の新着"
       ],
       "summary": "Patients increasingly ask large language model (LLM) assistants which doctor to see, making these systems AI infomediaries: algorithms that intermediate one person's choice among other people and thereby decide,...",
       "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2608.14399&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2608.14399%0A-+Title%3A+Whose+doctor+does+the+AI+recommend%3F+An+algorithm+audit+of+reputation+and+demographic+signals+in+large+language+model-assisted+physician+choice%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2608.14399v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
@@ -170,24 +170,27 @@
         "検索・ retrieval",
         "LLM x 推薦",
         "新着 arXiv",
-        "4日前の新着"
+        "5日前の新着"
       ],
       "summary": "Conversational recommendation for e-commerce is increasingly mediated by large language models (LLMs), yet many real-world deployments operate under a stricter requirement: recommendations must be drawn only from a...",
       "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2608.14068&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2608.14068%0A-+Title%3A+MACS%3A+A+Hybrid+Multi-Agent+Framework+for+Reliable+Conversational+E-Commerce+Recommendation%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2608.14068v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
     },
     {
-      "id": "2608.10257",
-      "title": "GenRec: An LLM-Backed Recommendation Ranker at Netflix",
-      "url": "http://arxiv.org/abs/2608.10257v1",
+      "id": "2608.17613",
+      "title": "Once Generated, Ranked: End-to-End Generative Slate Recommendation with Unified Semantic-Collaborative IDs",
+      "url": "http://arxiv.org/abs/2608.17613v1",
       "source": "arXiv",
-      "published": "2026-08-10",
+      "published": "2026-08-18",
       "authors": [
-        "Ying Li",
-        "Shradha Sehgal",
-        "Arjun Rao",
-        "Rein Houthooft",
-        "Yaochen Zhu",
-        "Ashish Rastogi"
+        "Yang Hu",
+        "Jiayi Guo",
+        "Jingui Ma",
+        "Ning Li",
+        "Jiangling Qin",
+        "Yanming Li",
+        "Yang Deng",
+        "Xiaoshuang Chen",
+        "Kaiqiao Zhan"
       ],
       "venue": "",
       "citationCount": null,
@@ -197,12 +200,12 @@
       "reasons": [
         "推薦システム",
         "ランキング",
-        "LLM x 推薦",
+        "協調フィルタリング",
         "新着 arXiv",
-        "8日前の新着"
+        "1日前の新着"
       ],
-      "summary": "Large language models (LLMs) are reshaping recommender systems by enabling richer modeling of users, content, and context directly in natural language. At Netflix, we are exploring this direction through GenRec, an...",
-      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2608.10257&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2608.10257%0A-+Title%3A+GenRec%3A+An+LLM-Backed+Recommendation+Ranker+at+Netflix%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2608.10257v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
+      "summary": "Slate recommendation treats a slate rather than an individual item as the recommendation unit, requiring joint optimization of item interactions and slate utility. Existing approaches typically separate candidate...",
+      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2608.17613&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2608.17613%0A-+Title%3A+Once+Generated%2C+Ranked%3A+End-to-End+Generative+Slate+Recommendation+with+Unified+Semantic-Collaborative+IDs%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2608.17613v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
     },
     {
       "id": "2608.16704",
@@ -223,7 +226,7 @@
         "協調フィルタリング",
         "グラフ推薦",
         "新着 arXiv",
-        "1日前の新着"
+        "2日前の新着"
       ],
       "summary": "Recommender systems typically rely on implicit feedback (e.g., clicks) to infer user preferences. However, such data is inherently prone to various biases, including position bias and popularity bias. Position bias...",
       "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2608.16704&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2608.16704%0A-+Title%3A+Unbiased+Recommender+Systems+with+Implicit+Feedback%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2608.16704v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
