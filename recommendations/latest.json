@@ -1,6 +1,6 @@
 {
-  "date": "2026-08-22",
-  "generatedAt": "2026-08-22T22:21:45.328548+00:00",
+  "date": "2026-08-23",
+  "generatedAt": "2026-08-23T22:21:59.967832+00:00",
   "focus": "Recommender systems, recommendation, retrieval, ranking, and related ML/DL papers",
   "items": [
     {
@@ -136,7 +136,7 @@
         "ランキング",
         "LLM x 推薦",
         "新着 arXiv",
-        "3日前の新着"
+        "4日前の新着"
       ],
       "summary": "Industrial explainable-recommendation systems built on LLMs incur a substantial serving cost: each request triggers an LLM generation, with latency in the hundreds of milliseconds and cost that scales linearly with...",
       "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2608.18531&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2608.18531%0A-+Title%3A+Pairwise+Ranking+Outperforms+Single-Action+RL+for+Offline+Explanation+Selection%3A+A+Practical+Lesson%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2608.18531v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
@@ -165,7 +165,7 @@
         "ランキング",
         "LLM x 推薦",
         "新着 arXiv",
-        "4日前の新着"
+        "5日前の新着"
       ],
       "summary": "Large language model-based recommender systems (LLM-RSs) have demonstrated remarkable capabilities, but are computationally unsustainable for many real-world applications. Compact LLMs offer a practical alternative,...",
       "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2608.17316&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2608.17316%0A-+Title%3A+Empowering+Compact+LLMs+with+Fusion+of+Layer-wise+Exits+for+Recommendation%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2608.17316v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
@@ -197,7 +197,7 @@
         "LLM x 推薦",
         "強化学習",
         "新着 arXiv",
-        "6日前の新着"
+        "7日前の新着"
       ],
       "summary": "Recent advances in large language models (LLMs) have enabled their use as conversational recommender systems (CRS), demonstrating strong recommendation accuracy and natural dialogue. However, guiding multi-turn...",
       "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2608.15949&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2608.15949%0A-+Title%3A+Ask+to+Be+Sure%3A+Informative+Interactions+for+Confident+Multi-Turn+LLM+Recommendation%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2608.15949v2%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
@@ -222,7 +222,7 @@
         "グラフ推薦",
         "LLM x 推薦",
         "新着 arXiv",
-        "8日前の新着"
+        "9日前の新着"
       ],
       "summary": "Patients increasingly ask large language model (LLM) assistants which doctor to see, making these systems AI infomediaries: algorithms that intermediate one person's choice among other people and thereby decide,...",
       "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2608.14399&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2608.14399%0A-+Title%3A+Whose+doctor+does+the+AI+recommend%3F+An+algorithm+audit+of+reputation+and+demographic+signals+in+large+language+model-assisted+physician+choice%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2608.14399v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
