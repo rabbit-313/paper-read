@@ -1,6 +1,6 @@
 {
-  "date": "2026-08-24",
-  "generatedAt": "2026-08-24T22:26:41.365715+00:00",
+  "date": "2026-08-25",
+  "generatedAt": "2026-08-25T22:27:34.677782+00:00",
   "focus": "Recommender systems, recommendation, retrieval, ranking, and related ML/DL papers",
   "items": [
     {
@@ -36,6 +36,32 @@
       "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2608.19665&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2608.19665%0A-+Title%3A+Training-Free+LLM-Based+Recommendation+with+Post-LLM+Item+Refinement+Using+Collaborative+Signals%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2608.19665v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
     },
     {
+      "id": "2608.23484",
+      "title": "Multi-Modal Semantic Expansion with Constrained LLM Reranking for Conversational Music Recommendation",
+      "url": "http://arxiv.org/abs/2608.23484v1",
+      "source": "arXiv",
+      "published": "2026-08-24",
+      "authors": [
+        "Naman Garg",
+        "Sarika Jain",
+        "George Fazekas"
+      ],
+      "venue": "",
+      "citationCount": null,
+      "influentialCitationCount": null,
+      "discussionCount": null,
+      "score": 70.0,
+      "reasons": [
+        "推薦システム",
+        "ランキング",
+        "検索・ retrieval",
+        "LLM x 推薦",
+        "新着 arXiv"
+      ],
+      "summary": "We present Team Semiintelligencn's solution for the ACM RecSys 2026 TalkPlayData Challenge, addressing conversational music recommendation through a multi-modal and personalized conversational recommender system. Our...",
+      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2608.23484&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2608.23484%0A-+Title%3A+Multi-Modal+Semantic+Expansion+with+Constrained+LLM+Reranking+for+Conversational+Music+Recommendation%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2608.23484v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
+    },
+    {
       "id": "2608.19998",
       "title": "SCoRD: Semantic-Assisted Continual Retriever-Reranker Distillation for LLM-Based Recommendation",
       "url": "http://arxiv.org/abs/2608.19998v1",
@@ -65,32 +91,6 @@
       "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2608.19998&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2608.19998%0A-+Title%3A+SCoRD%3A+Semantic-Assisted+Continual+Retriever-Reranker+Distillation+for+LLM-Based+Recommendation%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2608.19998v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
     },
     {
-      "id": "2608.18952",
-      "title": "rEDMRec: Distilling Large Language Model Reasoning into an Editable Experience Memory for Recommendation",
-      "url": "http://arxiv.org/abs/2608.18952v1",
-      "source": "arXiv",
-      "published": "2026-08-19",
-      "authors": [
-        "Minh Hoang Nguyen",
-        "Tung Le",
-        "Huy Tien Nguyen"
-      ],
-      "venue": "",
-      "citationCount": null,
-      "influentialCitationCount": null,
-      "discussionCount": null,
-      "score": 70.0,
-      "reasons": [
-        "推薦システム",
-        "ランキング",
-        "グラフ推薦",
-        "LLM x 推薦",
-        "新着 arXiv"
-      ],
-      "summary": "Large language models can improve recommendation quality by reasoning explicitly over user history and candidate items - for example, extracting a user's preferences or explaining why one item fits better than another...",
-      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2608.18952&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2608.18952%0A-+Title%3A+rEDMRec%3A+Distilling+Large+Language+Model+Reasoning+into+an+Editable+Experience+Memory+for+Recommendation%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2608.18952v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
-    },
-    {
       "id": "2608.16407",
       "title": "POI Recommendation with LLM-Augmented Multi-Graph Learning and Contrastive Alignment",
       "url": "http://arxiv.org/abs/2608.16407v1",
@@ -117,6 +117,34 @@
       "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2608.16407&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2608.16407%0A-+Title%3A+POI+Recommendation+with+LLM-Augmented+Multi-Graph+Learning+and+Contrastive+Alignment%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2608.16407v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
     },
     {
+      "id": "2608.22108",
+      "title": "Development and Feasibility Evaluation of an Edge AI as Medical Device System for Breast Cancer Multidisciplinary Team Meetings",
+      "url": "http://arxiv.org/abs/2608.22108v1",
+      "source": "arXiv",
+      "published": "2026-08-22",
+      "authors": [
+        "Aarzoo Dhiman",
+        "Farzana Haque",
+        "Kartikae Grover",
+        "Lydia Brian Smith",
+        "William Stephen Jones"
+      ],
+      "venue": "",
+      "citationCount": null,
+      "influentialCitationCount": null,
+      "discussionCount": null,
+      "score": 62.0,
+      "reasons": [
+        "推薦システム",
+        "検索・ retrieval",
+        "LLM x 推薦",
+        "新着 arXiv",
+        "3日前の新着"
+      ],
+      "summary": "Breast Cancer Multidisciplinary Team (MDT) meetings manage increasingly complex cases under considerable time pressure, and documentation requirements can reduce clinical efficiency and decision quality. Existing AI...",
+      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2608.22108&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2608.22108%0A-+Title%3A+Development+and+Feasibility+Evaluation+of+an+Edge+AI+as+Medical+Device+System+for+Breast+Cancer+Multidisciplinary+Team+Meetings%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2608.22108v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
+    },
+    {
       "id": "2608.18531",
       "title": "Pairwise Ranking Outperforms Single-Action RL for Offline Explanation Selection: A Practical Lesson",
       "url": "http://arxiv.org/abs/2608.18531v1",
@@ -136,24 +164,23 @@
         "ランキング",
         "LLM x 推薦",
         "新着 arXiv",
-        "5日前の新着"
+        "6日前の新着"
       ],
       "summary": "Industrial explainable-recommendation systems built on LLMs incur a substantial serving cost: each request triggers an LLM generation, with latency in the hundreds of milliseconds and cost that scales linearly with...",
       "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2608.18531&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2608.18531%0A-+Title%3A+Pairwise+Ranking+Outperforms+Single-Action+RL+for+Offline+Explanation+Selection%3A+A+Practical+Lesson%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2608.18531v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
     },
     {
-      "id": "2608.17316",
-      "title": "Empowering Compact LLMs with Fusion of Layer-wise Exits for Recommendation",
-      "url": "http://arxiv.org/abs/2608.17316v1",
+      "id": "2608.20801",
+      "title": "Profiling What Matters: Context-Aware Item Profiles from Large-Scale Metadata for LLM Recommenders",
+      "url": "http://arxiv.org/abs/2608.20801v1",
       "source": "arXiv",
-      "published": "2026-08-18",
+      "published": "2026-08-21",
       "authors": [
-        "Xurong Liang",
-        "Tong Chen",
-        "Quoc Viet Hung Nguyen",
-        "Jianxin Li",
-        "Xiangliang Zhang",
-        "Hongzhi Yin"
+        "Dojun Hwang",
+        "Seunghan Lee",
+        "Cheonyoung Park",
+        "Sara Yu",
+        "SeongKu Kang"
       ],
       "venue": "",
       "citationCount": null,
@@ -165,27 +192,27 @@
         "ランキング",
         "LLM x 推薦",
         "新着 arXiv",
-        "6日前の新着"
+        "4日前の新着"
       ],
-      "summary": "Large language model-based recommender systems (LLM-RSs) have demonstrated remarkable capabilities, but are computationally unsustainable for many real-world applications. Compact LLMs offer a practical alternative,...",
-      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2608.17316&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2608.17316%0A-+Title%3A+Empowering+Compact+LLMs+with+Fusion+of+Layer-wise+Exits+for+Recommendation%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2608.17316v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
+      "summary": "While Large Language Models (LLMs) have significantly advanced reranking in recommendation, effectively leveraging item-side information remains challenging. Real-world items are described by vast, heterogeneous, and...",
+      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2608.20801&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2608.20801%0A-+Title%3A+Profiling+What+Matters%3A+Context-Aware+Item+Profiles+from+Large-Scale+Metadata+for+LLM+Recommenders%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2608.20801v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
     },
     {
-      "id": "2608.15949",
-      "title": "Ask to Be Sure: Informative Interactions for Confident Multi-Turn LLM Recommendation",
-      "url": "http://arxiv.org/abs/2608.15949v2",
+      "id": "2608.20611",
+      "title": "Difficulty-Aware Semantic-ID Optimization for Generative Recommendation",
+      "url": "http://arxiv.org/abs/2608.20611v1",
       "source": "arXiv",
-      "published": "2026-08-16",
+      "published": "2026-08-20",
       "authors": [
-        "Cedar Site Bai",
-        "Zhenyu Liao",
-        "Duanshun Li",
-        "Sheikh Sarwar",
-        "Huiyuan Chen",
-        "Yuan Chen",
-        "Changhe Yuan",
-        "Haiyang Zhang",
-        "Qilin Qi"
+        "Xin Yu",
+        "Stephen Li",
+        "Sina Aghaei",
+        "Zifan Zhu",
+        "Jiamu Bai",
+        "Guanjie Huang",
+        "Bo Peng",
+        "Yiyao Liu",
+        "Lingzhou Xue"
       ],
       "venue": "",
       "citationCount": null,
@@ -194,38 +221,13 @@
       "score": 62.0,
       "reasons": [
         "推薦システム",
-        "LLM x 推薦",
-        "強化学習",
+        "ランキング",
+        "検索・ retrieval",
         "新着 arXiv",
-        "8日前の新着"
+        "5日前の新着"
       ],
-      "summary": "Recent advances in large language models (LLMs) have enabled their use as conversational recommender systems (CRS), demonstrating strong recommendation accuracy and natural dialogue. However, guiding multi-turn...",
-      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2608.15949&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2608.15949%0A-+Title%3A+Ask+to+Be+Sure%3A+Informative+Interactions+for+Confident+Multi-Turn+LLM+Recommendation%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2608.15949v2%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
-    },
-    {
-      "id": "2608.14399",
-      "title": "Whose doctor does the AI recommend? An algorithm audit of reputation and demographic signals in large language model-assisted physician choice",
-      "url": "http://arxiv.org/abs/2608.14399v1",
-      "source": "arXiv",
-      "published": "2026-08-14",
-      "authors": [
-        "Syeda Anshrah Gillani",
-        "Mirza Samad Ahmed Baig"
-      ],
-      "venue": "",
-      "citationCount": null,
-      "influentialCitationCount": null,
-      "discussionCount": null,
-      "score": 62.0,
-      "reasons": [
-        "推薦システム",
-        "グラフ推薦",
-        "LLM x 推薦",
-        "新着 arXiv",
-        "10日前の新着"
-      ],
-      "summary": "Patients increasingly ask large language model (LLM) assistants which doctor to see, making these systems AI infomediaries: algorithms that intermediate one person's choice among other people and thereby decide,...",
-      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2608.14399&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2608.14399%0A-+Title%3A+Whose+doctor+does+the+AI+recommend%3F+An+algorithm+audit+of+reputation+and+demographic+signals+in+large+language+model-assisted+physician+choice%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2608.14399v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
+      "summary": "Semantic-ID-based generative recommendation casts retrieval and ranking as autoregressive generation over hierarchical item identifiers. A common recipe is SFT followed by GRPO, yet vanilla GRPO is poorly matched to...",
+      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2608.20611&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2608.20611%0A-+Title%3A+Difficulty-Aware+Semantic-ID+Optimization+for+Generative+Recommendation%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2608.20611v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
     }
   ]
 }
