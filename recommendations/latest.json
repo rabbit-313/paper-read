@@ -1,6 +1,6 @@
 {
-  "date": "2026-08-28",
-  "generatedAt": "2026-08-28T05:59:05.944457+00:00",
+  "date": "2026-08-29",
+  "generatedAt": "2026-08-29T03:32:20.350792+00:00",
   "focus": "Recommender systems, recommendation, retrieval, ranking, and related ML/DL papers",
   "items": [
     {
@@ -173,7 +173,7 @@
         "協調フィルタリング",
         "LLM x 推薦",
         "新着 arXiv",
-        "1日前の新着"
+        "2日前の新着"
       ],
       "summary": "Agentic recommender systems ground each decision of a large language model (LLM) in a persistent memory of the user, and in existing agents that memory is text: a narrative written and maintained by further LLM calls....",
       "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2608.26895&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2608.26895%0A-+Title%3A+When+Memory+Takes+Gradients%3A+Collaborative+Vector+Memory+for+Agentic+Recommender+Systems%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2608.26895v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
@@ -201,7 +201,7 @@
         "検索・ retrieval",
         "LLM x 推薦",
         "新着 arXiv",
-        "4日前の新着"
+        "5日前の新着"
       ],
       "summary": "Tax-loss harvesting demonstrates consistent benefits to long-term portfolio growth; yet implementing it efficiently often involves complex considerations that are specific to the holdings within that portfolio and the...",
       "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2608.23908&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2608.23908%0A-+Title%3A+Retrieval-augmented+generation+vs.+deterministic+tax+computation+in+multi-agent+financial+advisory%3A+A+2x2+factorial+experiment%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2608.23908v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
@@ -229,7 +229,7 @@
         "検索・ retrieval",
         "LLM x 推薦",
         "新着 arXiv",
-        "6日前の新着"
+        "7日前の新着"
       ],
       "summary": "Breast Cancer Multidisciplinary Team (MDT) meetings manage increasingly complex cases under considerable time pressure, and documentation requirements can reduce clinical efficiency and decision quality. Existing AI...",
       "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2608.22108&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2608.22108%0A-+Title%3A+Development+and+Feasibility+Evaluation+of+an+Edge+AI+as+Medical+Device+System+for+Breast+Cancer+Multidisciplinary+Team+Meetings%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2608.22108v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
