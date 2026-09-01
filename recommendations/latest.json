@@ -1,203 +1,232 @@
 {
-  "date": "2026-08-31",
-  "generatedAt": "2026-08-31T00:16:15.315902+00:00",
+  "date": "2026-09-01",
+  "generatedAt": "2026-09-01T01:02:23.258631+00:00",
   "focus": "Recommender systems, recommendation, retrieval, ranking, and related ML/DL papers",
   "items": [
     {
-      "id": "1905.08108",
-      "title": "Neural Graph Collaborative Filtering",
-      "url": "https://arxiv.org/abs/1905.08108",
-      "source": "Semantic Scholar",
-      "published": "2019-05-20",
+      "id": "2608.29410",
+      "title": "Agents as Knowledge Integrator and Utilizer in Multimodal Recommendation",
+      "url": "http://arxiv.org/abs/2608.29410v1",
+      "source": "arXiv",
+      "published": "2026-08-29",
       "authors": [
-        "Xiang Wang",
-        "Xiangnan He",
-        "Meng Wang",
-        "Fuli Feng",
-        "Tat-Seng Chua"
+        "Jinfeng Xu",
+        "Zheyu Chen",
+        "Shuo Yang",
+        "Jinze Li",
+        "Puzhen Wu",
+        "Zewei Liu",
+        "Zheng Lin",
+        "Jianheng Tang",
+        "Jing Yang",
+        "Wei Wang",
+        "Xiping Hu",
+        "Edith Ngai"
       ],
-      "venue": "Annual International ACM SIGIR Conference on Research and Development in Information Retrieval",
-      "citationCount": 4006,
-      "influentialCitationCount": 643,
-      "discussionCount": null,
-      "score": 65.0,
-      "reasons": [
-        "推薦システム",
-        "協調フィルタリング",
-        "グラフ推薦",
-        "引用数 4006"
-      ],
-      "summary": "Learning vector representations (aka. embeddings) of users and items lies at the core of modern recommender systems. Ranging from early matrix factorization to recently emerged deep learning based methods, existing...",
-      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+1905.08108&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+1905.08108%0A-+Title%3A+Neural+Graph+Collaborative+Filtering%0A-+URL%3A+https%3A%2F%2Farxiv.org%2Fabs%2F1905.08108%0A-+Source%3A+Semantic+Scholar%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
-    },
-    {
-      "id": "1708.05031",
-      "title": "Neural Collaborative Filtering",
-      "url": "https://arxiv.org/abs/1708.05031",
-      "source": "Semantic Scholar",
-      "published": "2017-04-03",
-      "authors": [
-        "Xiangnan He",
-        "Lizi Liao",
-        "Hanwang Zhang",
-        "Liqiang Nie",
-        "Xia Hu",
-        "Tat-Seng Chua"
-      ],
-      "venue": "The Web Conference",
-      "citationCount": 7279,
-      "influentialCitationCount": 1008,
-      "discussionCount": null,
-      "score": 57.0,
-      "reasons": [
-        "推薦システム",
-        "協調フィルタリング",
-        "引用数 7279"
-      ],
-      "summary": "In recent years, deep neural networks have yielded immense success on speech recognition, computer vision and natural language processing. However, the exploration of deep neural networks on recommender systems has...",
-      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+1708.05031&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+1708.05031%0A-+Title%3A+Neural+Collaborative+Filtering%0A-+URL%3A+https%3A%2F%2Farxiv.org%2Fabs%2F1708.05031%0A-+Source%3A+Semantic+Scholar%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
-    },
-    {
-      "id": "recommendations-when-using-llm-backed-genai-systems-for-foss-contributions",
-      "title": "Recommendations When Using LLM-Backed GenAI Systems for FOSS Contributions",
-      "url": "https://sfconservancy.org/llm-gen-ai/llm-backed-generative-ai-recommendations.html",
-      "source": "Hacker News",
-      "published": "2026-08-25",
-      "authors": [],
       "venue": "",
       "citationCount": null,
       "influentialCitationCount": null,
-      "discussionCount": 0,
-      "score": 38.0,
+      "discussionCount": null,
+      "score": 70.0,
+      "reasons": [
+        "推薦システム",
+        "ランキング",
+        "グラフ推薦",
+        "LLM x 推薦",
+        "新着 arXiv"
+      ],
+      "summary": "Online platforms increasingly rely on multimodal recommender systems to rank products, media, and other Web content. Existing methods usually inject visual and textual features into item representations or build...",
+      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2608.29410&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2608.29410%0A-+Title%3A+Agents+as+Knowledge+Integrator+and+Utilizer+in+Multimodal+Recommendation%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2608.29410v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
+    },
+    {
+      "id": "2608.23484",
+      "title": "Multi-Modal Semantic Expansion with Constrained LLM Reranking for Conversational Music Recommendation",
+      "url": "http://arxiv.org/abs/2608.23484v1",
+      "source": "arXiv",
+      "published": "2026-08-24",
+      "authors": [
+        "Naman Garg",
+        "Sarika Jain",
+        "George Fazekas"
+      ],
+      "venue": "",
+      "citationCount": null,
+      "influentialCitationCount": null,
+      "discussionCount": null,
+      "score": 70.0,
+      "reasons": [
+        "推薦システム",
+        "ランキング",
+        "検索・ retrieval",
+        "LLM x 推薦",
+        "新着 arXiv"
+      ],
+      "summary": "We present Team Semiintelligencn's solution for the ACM RecSys 2026 TalkPlayData Challenge, addressing conversational music recommendation through a multi-modal and personalized conversational recommender system. Our...",
+      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2608.23484&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2608.23484%0A-+Title%3A+Multi-Modal+Semantic+Expansion+with+Constrained+LLM+Reranking+for+Conversational+Music+Recommendation%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2608.23484v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
+    },
+    {
+      "id": "2608.25104",
+      "title": "SWIM: Step-Wise Integrated Measure for Session-supervised List Evaluation in Generative Re-ranking",
+      "url": "http://arxiv.org/abs/2608.25104v1",
+      "source": "arXiv",
+      "published": "2026-08-25",
+      "authors": [
+        "Yuanhao Pu",
+        "Chenghao Zhang",
+        "Chao Feng",
+        "Xunyong Yang",
+        "Xiang Li",
+        "Yongqi Liu",
+        "Defu Lian",
+        "Kaiqiao Zhan",
+        "Kun Gai"
+      ],
+      "venue": "",
+      "citationCount": null,
+      "influentialCitationCount": null,
+      "discussionCount": null,
+      "score": 62.0,
+      "reasons": [
+        "推薦システム",
+        "ランキング",
+        "検索・ retrieval",
+        "新着 arXiv",
+        "7日前の新着"
+      ],
+      "summary": "Modern industrial recommender systems have increasingly adopted the Generator-Evaluator (G-E) framework for the re-ranking stage. Within this paradigm, the generator produces candidate item lists from a pool filtered...",
+      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2608.25104&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2608.25104%0A-+Title%3A+SWIM%3A+Step-Wise+Integrated+Measure+for+Session-supervised+List+Evaluation+in+Generative+Re-ranking%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2608.25104v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
+    },
+    {
+      "id": "2608.23908",
+      "title": "Retrieval-augmented generation vs. deterministic tax computation in multi-agent financial advisory: A 2x2 factorial experiment",
+      "url": "http://arxiv.org/abs/2608.23908v1",
+      "source": "arXiv",
+      "published": "2026-08-24",
+      "authors": [
+        "Aryan Brar",
+        "Justin Du",
+        "Avery Lor",
+        "Kylie Seto",
+        "Eric Taylor"
+      ],
+      "venue": "",
+      "citationCount": null,
+      "influentialCitationCount": null,
+      "discussionCount": null,
+      "score": 62.0,
+      "reasons": [
+        "推薦システム",
+        "検索・ retrieval",
+        "LLM x 推薦",
+        "新着 arXiv",
+        "8日前の新着"
+      ],
+      "summary": "Tax-loss harvesting demonstrates consistent benefits to long-term portfolio growth; yet implementing it efficiently often involves complex considerations that are specific to the holdings within that portfolio and the...",
+      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2608.23908&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2608.23908%0A-+Title%3A+Retrieval-augmented+generation+vs.+deterministic+tax+computation+in+multi-agent+financial+advisory%3A+A+2x2+factorial+experiment%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2608.23908v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
+    },
+    {
+      "id": "2608.23400",
+      "title": "Adaptive Item-based Collaborative Structures via Noise Rescheduling in Diffusion for Generative Recommendation",
+      "url": "http://arxiv.org/abs/2608.23400v1",
+      "source": "arXiv",
+      "published": "2026-08-24",
+      "authors": [
+        "Jiaqi Wang",
+        "Tianying Liu",
+        "Heng Chang",
+        "Jihong Guan",
+        "Wengen Li",
+        "Shuigeng Zhou"
+      ],
+      "venue": "",
+      "citationCount": null,
+      "influentialCitationCount": null,
+      "discussionCount": null,
+      "score": 62.0,
+      "reasons": [
+        "推薦システム",
+        "協調フィルタリング",
+        "生成モデル",
+        "新着 arXiv",
+        "8日前の新着"
+      ],
+      "summary": "Discrete Diffusion Models (DDMs) have recently been introduced to recommendation systems, modeling user history as a token generation process via iterative denoising. However, while effective at capturing user-level...",
+      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2608.23400&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2608.23400%0A-+Title%3A+Adaptive+Item-based+Collaborative+Structures+via+Noise+Rescheduling+in+Diffusion+for+Generative+Recommendation%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2608.23400v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
+    },
+    {
+      "id": "2608.28905",
+      "title": "Off-Policy Evaluation for Semantic ID Recommenders: Does the Model's Own Code Hierarchy Help?",
+      "url": "http://arxiv.org/abs/2608.28905v1",
+      "source": "arXiv",
+      "published": "2026-08-28",
+      "authors": [
+        "Artem Betlei"
+      ],
+      "venue": "",
+      "citationCount": null,
+      "influentialCitationCount": null,
+      "discussionCount": null,
+      "score": 54.0,
+      "reasons": [
+        "推薦システム",
+        "ランキング",
+        "新着 arXiv",
+        "4日前の新着"
+      ],
+      "summary": "Generative recommenders increasingly emit semantic IDs (SIDs): each item is a short sequence of hierarchical discrete codes from a residual quantizer, decoded autoregressively. Before spending scarce A/B-test, a team...",
+      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2608.28905&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2608.28905%0A-+Title%3A+Off-Policy+Evaluation+for+Semantic+ID+Recommenders%3A+Does+the+Model%27s+Own+Code+Hierarchy+Help%3F%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2608.28905v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
+    },
+    {
+      "id": "2608.26755",
+      "title": "Safety by Design: Realized-Cost Constraints for Contextual Bandits with Continuous Actions",
+      "url": "http://arxiv.org/abs/2608.26755v1",
+      "source": "arXiv",
+      "published": "2026-08-27",
+      "authors": [
+        "Spyros Dragazis",
+        "Aldo Pacchiano"
+      ],
+      "venue": "",
+      "citationCount": null,
+      "influentialCitationCount": null,
+      "discussionCount": null,
+      "score": 54.0,
+      "reasons": [
+        "推薦システム",
+        "バンディット",
+        "新着 arXiv",
+        "5日前の新着"
+      ],
+      "summary": "Contextual bandits are a standard framework for sequential decision-making under uncertainty, with applications in clinical trials, dosage selection, recommendation systems, and autonomous systems. Safety is central...",
+      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2608.26755&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2608.26755%0A-+Title%3A+Safety+by+Design%3A+Realized-Cost+Constraints+for+Contextual+Bandits+with+Continuous+Actions%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2608.26755v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
+    },
+    {
+      "id": "2608.23154",
+      "title": "The Disconnect Between Better Descriptive Reasoning Trace Quality and Recommendation Effectiveness",
+      "url": "http://arxiv.org/abs/2608.23154v1",
+      "source": "arXiv",
+      "published": "2026-08-24",
+      "authors": [
+        "Gustavo Penha",
+        "Juan Elenter",
+        "Claudia Hauff",
+        "Hugues Bouchard",
+        "Paul Bennett",
+        "Mounia Lalmas"
+      ],
+      "venue": "",
+      "citationCount": null,
+      "influentialCitationCount": null,
+      "discussionCount": null,
+      "score": 54.0,
       "reasons": [
         "推薦システム",
         "LLM x 推薦",
-        "6日前の新着"
+        "新着 arXiv",
+        "8日前の新着"
       ],
-      "summary": "タイトルと話題性から、今日の読書候補として拾っています。",
-      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+recommendations-when-using-llm-backed-genai-systems-for-foss-contributions&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+recommendations-when-using-llm-backed-genai-systems-for-foss-contributions%0A-+Title%3A+Recommendations+When+Using+LLM-Backed+GenAI+Systems+for+FOSS+Contributions%0A-+URL%3A+https%3A%2F%2Fsfconservancy.org%2Fllm-gen-ai%2Fllm-backed-generative-ai-recommendations.html%0A-+Source%3A+Hacker+News%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
-    },
-    {
-      "id": "2501.13908",
-      "title": "Graph Neural Controlled Differential Equations For Collaborative Filtering",
-      "url": "https://arxiv.org/abs/2501.13908",
-      "source": "Semantic Scholar",
-      "published": "2025-01-23",
-      "authors": [
-        "Ke Xu",
-        "Weizhi Zhang",
-        "Zihe Song",
-        "Yuanjie Zhu",
-        "Philip S. Yu"
-      ],
-      "venue": "The Web Conference",
-      "citationCount": 7,
-      "influentialCitationCount": 0,
-      "discussionCount": null,
-      "score": 30.35,
-      "reasons": [
-        "推薦システム",
-        "協調フィルタリング",
-        "グラフ推薦"
-      ],
-      "summary": "Graph Convolution Networks (GCNs) are widely considered state-of-the-art for recommendation systems. Several studies in the field of recommendation systems have attempted to apply collaborative filtering (CF) within...",
-      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2501.13908&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2501.13908%0A-+Title%3A+Graph+Neural+Controlled+Differential+Equations+For+Collaborative+Filtering%0A-+URL%3A+https%3A%2F%2Farxiv.org%2Fabs%2F2501.13908%0A-+Source%3A+Semantic+Scholar%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
-    },
-    {
-      "id": "cccfnet-a-content-boosted-collaborative-filtering-neural-network-for-cross-domai",
-      "title": "CCCFNet: A Content-Boosted Collaborative Filtering Neural Network for Cross Domain Recommender Systems",
-      "url": "https://www.semanticscholar.org/paper/99675f860615cbe8c2df0b537473371ce3cb35ea",
-      "source": "Semantic Scholar",
-      "published": "2017-04-03",
-      "authors": [
-        "Jianxun Lian",
-        "Fuzheng Zhang",
-        "Xing Xie",
-        "Guangzhong Sun"
-      ],
-      "venue": "The Web Conference",
-      "citationCount": 142,
-      "influentialCitationCount": 11,
-      "discussionCount": null,
-      "score": 30.2,
-      "reasons": [
-        "推薦システム",
-        "協調フィルタリング",
-        "引用数 142"
-      ],
-      "summary": "To overcome data sparsity problem, we propose a cross domain recommendation system named CCCFNet which can combine collaborative filtering and content-based filtering in a unified framework. We first introduce a...",
-      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+cccfnet-a-content-boosted-collaborative-filtering-neural-network-for-cross-domai&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+cccfnet-a-content-boosted-collaborative-filtering-neural-network-for-cross-domai%0A-+Title%3A+CCCFNet%3A+A+Content-Boosted+Collaborative+Filtering+Neural+Network+for+Cross+Domain+Recommender+Systems%0A-+URL%3A+https%3A%2F%2Fwww.semanticscholar.org%2Fpaper%2F99675f860615cbe8c2df0b537473371ce3cb35ea%0A-+Source%3A+Semantic+Scholar%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
-    },
-    {
-      "id": "when-latent-features-meet-side-information-a-preference-relation-based-graph-neu",
-      "title": "When latent features meet side information: A preference relation based graph neural network for collaborative filtering",
-      "url": "https://www.semanticscholar.org/paper/ba734ff1e14480c03ac0d769a6a341fb4608a382",
-      "source": "Semantic Scholar",
-      "published": "2025-01-01",
-      "authors": [
-        "Xiangting Shi",
-        "Yakang Zhang",
-        "Abinash Pujahari",
-        "S. Mishra"
-      ],
-      "venue": "Expert systems with applications",
-      "citationCount": 112,
-      "influentialCitationCount": 1,
-      "discussionCount": null,
-      "score": 27.7,
-      "reasons": [
-        "協調フィルタリング",
-        "グラフ推薦",
-        "引用数 112"
-      ],
-      "summary": "タイトルと話題性から、今日の読書候補として拾っています。",
-      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+when-latent-features-meet-side-information-a-preference-relation-based-graph-neu&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+when-latent-features-meet-side-information-a-preference-relation-based-graph-neu%0A-+Title%3A+When+latent+features+meet+side+information%3A+A+preference+relation+based+graph+neural+network+for+collaborative+filtering%0A-+URL%3A+https%3A%2F%2Fwww.semanticscholar.org%2Fpaper%2Fba734ff1e14480c03ac0d769a6a341fb4608a382%0A-+Source%3A+Semantic+Scholar%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
-    },
-    {
-      "id": "graph-convolutional-network-with-neural-collaborative-filtering-for-predicting-m",
-      "title": "Graph Convolutional Network with Neural Collaborative Filtering for Predicting miRNA-Disease Association",
-      "url": "https://www.semanticscholar.org/paper/89c6c17d7ab1abe272e8382f7e89c1eeab3dc76f",
-      "source": "Semantic Scholar",
-      "published": "2025-01-01",
-      "authors": [
-        "Jihwan Ha"
-      ],
-      "venue": "Biomedicines",
-      "citationCount": 34,
-      "influentialCitationCount": 0,
-      "discussionCount": null,
-      "score": 23.7,
-      "reasons": [
-        "協調フィルタリング",
-        "グラフ推薦"
-      ],
-      "summary": "Background: Over the past few decades, micro ribonucleic acids (miRNAs) have been shown to play significant roles in various biological processes, including disease incidence. Therefore, much effort has been devoted...",
-      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+graph-convolutional-network-with-neural-collaborative-filtering-for-predicting-m&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+graph-convolutional-network-with-neural-collaborative-filtering-for-predicting-m%0A-+Title%3A+Graph+Convolutional+Network+with+Neural+Collaborative+Filtering+for+Predicting+miRNA-Disease+Association%0A-+URL%3A+https%3A%2F%2Fwww.semanticscholar.org%2Fpaper%2F89c6c17d7ab1abe272e8382f7e89c1eeab3dc76f%0A-+Source%3A+Semantic+Scholar%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
-    },
-    {
-      "id": "software-service-recommendation-base-on-collaborative-filtering-neural-network-m",
-      "title": "Software Service Recommendation Base on Collaborative Filtering Neural Network Model",
-      "url": "https://www.semanticscholar.org/paper/d9c0ff9c29162c38be29c90997cce01a0fa787a5",
-      "source": "Semantic Scholar",
-      "published": "2018-11-12",
-      "authors": [
-        "Liang Chen",
-        "Angyu Zheng",
-        "Yinglan Feng",
-        "Fenfang Xie",
-        "Zibin Zheng"
-      ],
-      "venue": "International Conference on Service Oriented Computing",
-      "citationCount": 25,
-      "influentialCitationCount": 4,
-      "discussionCount": null,
-      "score": 23.65,
-      "reasons": [
-        "推薦システム",
-        "協調フィルタリング"
-      ],
-      "summary": "タイトルと話題性から、今日の読書候補として拾っています。",
-      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+software-service-recommendation-base-on-collaborative-filtering-neural-network-m&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+software-service-recommendation-base-on-collaborative-filtering-neural-network-m%0A-+Title%3A+Software+Service+Recommendation+Base+on+Collaborative+Filtering+Neural+Network+Model%0A-+URL%3A+https%3A%2F%2Fwww.semanticscholar.org%2Fpaper%2Fd9c0ff9c29162c38be29c90997cce01a0fa787a5%0A-+Source%3A+Semantic+Scholar%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
+      "summary": "Recent work has focused on improving explicit natural-language descriptive reasoning traces for generative recommendation. This includes systems that augment semantic ID (SID) prediction with chain-of-thought...",
+      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2608.23154&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2608.23154%0A-+Title%3A+The+Disconnect+Between+Better+Descriptive+Reasoning+Trace+Quality+and+Recommendation+Effectiveness%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2608.23154v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
     }
   ]
 }
