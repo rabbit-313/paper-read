@@ -1,6 +1,6 @@
 {
-  "date": "2026-09-03",
-  "generatedAt": "2026-09-03T23:49:07.146284+00:00",
+  "date": "2026-09-04",
+  "generatedAt": "2026-09-04T23:47:38.540445+00:00",
   "focus": "Recommender systems, recommendation, retrieval, ranking, and related ML/DL papers",
   "items": [
     {
@@ -66,32 +66,57 @@
       "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2608.29410&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2608.29410%0A-+Title%3A+Agents+as+Knowledge+Integrator+and+Utilizer+in+Multimodal+Recommendation%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2608.29410v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
     },
     {
-      "id": "2608.27006",
-      "title": "Conversational Recommendation over Live E-Commerce Catalogues with Self-Refreshing Retrieval",
-      "url": "http://arxiv.org/abs/2608.27006v1",
-      "source": "arXiv",
-      "published": "2026-08-27",
+      "id": "1905.08108",
+      "title": "Neural Graph Collaborative Filtering",
+      "url": "https://arxiv.org/abs/1905.08108",
+      "source": "Semantic Scholar",
+      "published": "2019-05-20",
       "authors": [
-        "Ante Kapetanovic",
-        "Tomislav Duricic",
-        "Dionizije Fa",
-        "Andro Mercep",
-        "Emanuel Lacic"
+        "Xiang Wang",
+        "Xiangnan He",
+        "Meng Wang",
+        "Fuli Feng",
+        "Tat-Seng Chua"
+      ],
+      "venue": "Annual International ACM SIGIR Conference on Research and Development in Information Retrieval",
+      "citationCount": 4014,
+      "influentialCitationCount": 644,
+      "discussionCount": null,
+      "score": 65.0,
+      "reasons": [
+        "推薦システム",
+        "協調フィルタリング",
+        "グラフ推薦",
+        "引用数 4014"
+      ],
+      "summary": "Learning vector representations (aka. embeddings) of users and items lies at the core of modern recommender systems. Ranging from early matrix factorization to recently emerged deep learning based methods, existing...",
+      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+1905.08108&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+1905.08108%0A-+Title%3A+Neural+Graph+Collaborative+Filtering%0A-+URL%3A+https%3A%2F%2Farxiv.org%2Fabs%2F1905.08108%0A-+Source%3A+Semantic+Scholar%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
+    },
+    {
+      "id": "2609.04159",
+      "title": "SENTINEL-RL: Offloading Topological Reasoning from LLM Agents in the Security Operations Center",
+      "url": "http://arxiv.org/abs/2609.04159v1",
+      "source": "arXiv",
+      "published": "2026-09-03",
+      "authors": [
+        "Uday Vallabhaneni",
+        "Cassie L. Cagwin",
+        "David J. Wild"
       ],
       "venue": "",
       "citationCount": null,
       "influentialCitationCount": null,
       "discussionCount": null,
-      "score": 70.0,
+      "score": 62.0,
       "reasons": [
         "推薦システム",
-        "ランキング",
-        "検索・ retrieval",
+        "グラフ推薦",
         "LLM x 推薦",
-        "新着 arXiv"
+        "新着 arXiv",
+        "1日前の新着"
       ],
-      "summary": "Conversational recommender systems based on large language models (LLMs) are usually evaluated on static, pre-indexed item collections, yet e-commerce catalogues change continuously as products are added or removed,...",
-      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2608.27006&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2608.27006%0A-+Title%3A+Conversational+Recommendation+over+Live+E-Commerce+Catalogues+with+Self-Refreshing+Retrieval%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2608.27006v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
+      "summary": "Large language model (LLM) agents are increasingly proposed as autonomous SOC analysts, but two limitations make them unreliable at enterprise scale: a finite context window cannot hold a multi-thousand-host...",
+      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2609.04159&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2609.04159%0A-+Title%3A+SENTINEL-RL%3A+Offloading+Topological+Reasoning+from+LLM+Agents+in+the+Security+Operations+Center%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2609.04159v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
     },
     {
       "id": "2609.02170",
@@ -118,7 +143,7 @@
         "LLM x 推薦",
         "強化学習",
         "新着 arXiv",
-        "1日前の新着"
+        "2日前の新着"
       ],
       "summary": "Advertising recommendation requires continuously tuning complex system parameters while balancing commercial returns and user experience. Recent work has introduced large language models (LLMs) with skill documents to...",
       "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2609.02170&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2609.02170%0A-+Title%3A+DMRL%3A+Document-Mediated+Reinforcement+Learning+for+Skill+Optimization+in+Advertising+Recommendation%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2609.02170v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
@@ -146,7 +171,7 @@
         "検索・ retrieval",
         "LLM x 推薦",
         "新着 arXiv",
-        "2日前の新着"
+        "3日前の新着"
       ],
       "summary": "We investigate the role of conversational context modeling in user preference tracking for Conversational Recommendation Systems (CRSs). In this regard, we propose DREAMS, a novel tree-structured context modeling...",
       "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2609.00618&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2609.00618%0A-+Title%3A+Towards+Effective+Structured+Context+Modeling+for+Conversational+Recommender+Systems+via+Dual-node+Monte+Carlo+Tree+Search%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2609.00618v2%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
@@ -177,7 +202,7 @@
         "ランキング",
         "LLM x 推薦",
         "新着 arXiv",
-        "3日前の新着"
+        "4日前の新着"
       ],
       "summary": "Next-basket repurchase recommendation is commonly formulated as a ranking task: given a customer's purchase history, the system ranks previously purchased items that may be needed again. In production settings,...",
       "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2608.30333&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2608.30333%0A-+Title%3A+Beyond+Ranking+Accuracy%3A+Evaluating+LLM-Cited+Feature+Rationales+for+Next+Basket+Repurchase+Recommendation%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2608.30333v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
@@ -212,38 +237,10 @@
         "検索・ retrieval",
         "LLM x 推薦",
         "新着 arXiv",
-        "3日前の新着"
+        "4日前の新着"
       ],
       "summary": "Item-to-item (I2I) retrieval is a core primitive in large-scale recommendation and advertising systems. In production Snap Dynamic Product Ads (DPA), I2I retrieval faces two challenges: separate visual, textual, and...",
       "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2608.30255&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2608.30255%0A-+Title%3A+CAMIE%3A+Co-Engagement-Aware+Multimodal+Item+Embeddings+for+Snap+Dynamic+Product+Ads+Retrieval%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2608.30255v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
-    },
-    {
-      "id": "2608.26895",
-      "title": "When Memory Takes Gradients: Collaborative Vector Memory for Agentic Recommender Systems",
-      "url": "http://arxiv.org/abs/2608.26895v1",
-      "source": "arXiv",
-      "published": "2026-08-27",
-      "authors": [
-        "Hanchong Chen",
-        "Xing Tang",
-        "Lingjie Li",
-        "Xiongfeng Shan",
-        "Xiuqiang He"
-      ],
-      "venue": "",
-      "citationCount": null,
-      "influentialCitationCount": null,
-      "discussionCount": null,
-      "score": 62.0,
-      "reasons": [
-        "推薦システム",
-        "協調フィルタリング",
-        "LLM x 推薦",
-        "新着 arXiv",
-        "7日前の新着"
-      ],
-      "summary": "Agentic recommender systems ground each decision of a large language model (LLM) in a persistent memory of the user, and in existing agents that memory is text: a narrative written and maintained by further LLM calls....",
-      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2608.26895&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2608.26895%0A-+Title%3A+When+Memory+Takes+Gradients%3A+Collaborative+Vector+Memory+for+Agentic+Recommender+Systems%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2608.26895v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
     }
   ]
 }
