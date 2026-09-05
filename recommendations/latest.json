@@ -1,246 +1,64 @@
 {
-  "date": "2026-09-04",
-  "generatedAt": "2026-09-04T23:47:38.540445+00:00",
+  "date": "2026-09-05",
+  "generatedAt": "2026-09-05T23:35:31.352347+00:00",
   "focus": "Recommender systems, recommendation, retrieval, ranking, and related ML/DL papers",
   "items": [
     {
-      "id": "2609.00086",
-      "title": "Retrieval, Scoring, and Decoding Shape Performance and Stability in LLM-based Conversational Recommendation",
-      "url": "http://arxiv.org/abs/2609.00086v1",
-      "source": "arXiv",
-      "published": "2026-08-31",
-      "authors": [
-        "Ante Kapetanovic",
-        "Tomislav Duricic",
-        "Andro Mercep",
-        "Emanuel Lacic"
-      ],
+      "id": "recommendations-when-using-llm-backed-genai-systems-for-foss-contributions",
+      "title": "Recommendations When Using LLM-Backed GenAI Systems for FOSS Contributions",
+      "url": "https://sfconservancy.org/llm-gen-ai/llm-backed-generative-ai-recommendations.html",
+      "source": "Hacker News",
+      "published": "2026-08-25",
+      "authors": [],
       "venue": "",
       "citationCount": null,
       "influentialCitationCount": null,
-      "discussionCount": null,
-      "score": 70.0,
+      "discussionCount": 0,
+      "score": 38.0,
       "reasons": [
         "推薦システム",
-        "検索・ retrieval",
-        "協調フィルタリング",
         "LLM x 推薦",
-        "新着 arXiv"
+        "11日前の新着"
       ],
-      "summary": "Large language models (LLMs) are increasingly used as rerankers in conversational recommender systems, yet measured gains depend strongly on the retrieval and inference protocol. On the ReDial conversational movie...",
-      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2609.00086&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2609.00086%0A-+Title%3A+Retrieval%2C+Scoring%2C+and+Decoding+Shape+Performance+and+Stability+in+LLM-based+Conversational+Recommendation%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2609.00086v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
+      "summary": "タイトルと話題性から、今日の読書候補として拾っています。",
+      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+recommendations-when-using-llm-backed-genai-systems-for-foss-contributions&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+recommendations-when-using-llm-backed-genai-systems-for-foss-contributions%0A-+Title%3A+Recommendations+When+Using+LLM-Backed+GenAI+Systems+for+FOSS+Contributions%0A-+URL%3A+https%3A%2F%2Fsfconservancy.org%2Fllm-gen-ai%2Fllm-backed-generative-ai-recommendations.html%0A-+Source%3A+Hacker+News%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
     },
     {
-      "id": "2608.29410",
-      "title": "Agents as Knowledge Integrator and Utilizer in Multimodal Recommendation",
-      "url": "http://arxiv.org/abs/2608.29410v1",
-      "source": "arXiv",
-      "published": "2026-08-29",
-      "authors": [
-        "Jinfeng Xu",
-        "Zheyu Chen",
-        "Shuo Yang",
-        "Jinze Li",
-        "Puzhen Wu",
-        "Zewei Liu",
-        "Zheng Lin",
-        "Jianheng Tang",
-        "Jing Yang",
-        "Wei Wang",
-        "Xiping Hu",
-        "Edith Ngai"
-      ],
-      "venue": "",
-      "citationCount": null,
-      "influentialCitationCount": null,
-      "discussionCount": null,
-      "score": 70.0,
-      "reasons": [
-        "推薦システム",
-        "ランキング",
-        "グラフ推薦",
-        "LLM x 推薦",
-        "新着 arXiv"
-      ],
-      "summary": "Online platforms increasingly rely on multimodal recommender systems to rank products, media, and other Web content. Existing methods usually inject visual and textual features into item representations or build...",
-      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2608.29410&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2608.29410%0A-+Title%3A+Agents+as+Knowledge+Integrator+and+Utilizer+in+Multimodal+Recommendation%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2608.29410v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
-    },
-    {
-      "id": "1905.08108",
-      "title": "Neural Graph Collaborative Filtering",
-      "url": "https://arxiv.org/abs/1905.08108",
-      "source": "Semantic Scholar",
-      "published": "2019-05-20",
-      "authors": [
-        "Xiang Wang",
-        "Xiangnan He",
-        "Meng Wang",
-        "Fuli Feng",
-        "Tat-Seng Chua"
-      ],
-      "venue": "Annual International ACM SIGIR Conference on Research and Development in Information Retrieval",
-      "citationCount": 4014,
-      "influentialCitationCount": 644,
-      "discussionCount": null,
-      "score": 65.0,
-      "reasons": [
-        "推薦システム",
-        "協調フィルタリング",
-        "グラフ推薦",
-        "引用数 4014"
-      ],
-      "summary": "Learning vector representations (aka. embeddings) of users and items lies at the core of modern recommender systems. Ranging from early matrix factorization to recently emerged deep learning based methods, existing...",
-      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+1905.08108&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+1905.08108%0A-+Title%3A+Neural+Graph+Collaborative+Filtering%0A-+URL%3A+https%3A%2F%2Farxiv.org%2Fabs%2F1905.08108%0A-+Source%3A+Semantic+Scholar%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
-    },
-    {
-      "id": "2609.04159",
-      "title": "SENTINEL-RL: Offloading Topological Reasoning from LLM Agents in the Security Operations Center",
-      "url": "http://arxiv.org/abs/2609.04159v1",
-      "source": "arXiv",
-      "published": "2026-09-03",
-      "authors": [
-        "Uday Vallabhaneni",
-        "Cassie L. Cagwin",
-        "David J. Wild"
-      ],
-      "venue": "",
-      "citationCount": null,
-      "influentialCitationCount": null,
-      "discussionCount": null,
-      "score": 62.0,
-      "reasons": [
-        "推薦システム",
-        "グラフ推薦",
-        "LLM x 推薦",
-        "新着 arXiv",
-        "1日前の新着"
-      ],
-      "summary": "Large language model (LLM) agents are increasingly proposed as autonomous SOC analysts, but two limitations make them unreliable at enterprise scale: a finite context window cannot hold a multi-thousand-host...",
-      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2609.04159&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2609.04159%0A-+Title%3A+SENTINEL-RL%3A+Offloading+Topological+Reasoning+from+LLM+Agents+in+the+Security+Operations+Center%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2609.04159v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
-    },
-    {
-      "id": "2609.02170",
-      "title": "DMRL: Document-Mediated Reinforcement Learning for Skill Optimization in Advertising Recommendation",
-      "url": "http://arxiv.org/abs/2609.02170v1",
-      "source": "arXiv",
+      "id": "should-every-web-page-expose-an-ai-friendly-json-representation",
+      "title": "Should every web page expose an AI-friendly JSON representation?",
+      "url": "https://news.ycombinator.com/item?id=49542310",
+      "source": "Hacker News",
       "published": "2026-09-02",
-      "authors": [
-        "Wei Zhang",
-        "Hongji Li",
-        "Song Sun",
-        "Peng Yu",
-        "Xue Yang",
-        "Lei Zhao",
-        "Peng Jiang"
-      ],
+      "authors": [],
       "venue": "",
       "citationCount": null,
       "influentialCitationCount": null,
-      "discussionCount": null,
-      "score": 62.0,
+      "discussionCount": 2,
+      "score": 22.4,
       "reasons": [
-        "推薦システム",
-        "LLM x 推薦",
-        "強化学習",
-        "新着 arXiv",
-        "2日前の新着"
+        "3日前の新着",
+        "HN コメント 2"
       ],
-      "summary": "Advertising recommendation requires continuously tuning complex system parameters while balancing commercial returns and user experience. Recent work has introduced large language models (LLMs) with skill documents to...",
-      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2609.02170&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2609.02170%0A-+Title%3A+DMRL%3A+Document-Mediated+Reinforcement+Learning+for+Skill+Optimization+in+Advertising+Recommendation%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2609.02170v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
+      "summary": "タイトルと話題性から、今日の読書候補として拾っています。",
+      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+should-every-web-page-expose-an-ai-friendly-json-representation&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+should-every-web-page-expose-an-ai-friendly-json-representation%0A-+Title%3A+Should+every+web+page+expose+an+AI-friendly+JSON+representation%3F%0A-+URL%3A+https%3A%2F%2Fnews.ycombinator.com%2Fitem%3Fid%3D49542310%0A-+Source%3A+Hacker+News%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
     },
     {
-      "id": "2609.00618",
-      "title": "Towards Effective Structured Context Modeling for Conversational Recommender Systems via Dual-node Monte Carlo Tree Search",
-      "url": "http://arxiv.org/abs/2609.00618v2",
-      "source": "arXiv",
-      "published": "2026-09-01",
-      "authors": [
-        "Jincheng Zhang",
-        "Chen Huang",
-        "Wenqiang Lei",
-        "See-Kiong Ng",
-        "Yang Deng"
-      ],
+      "id": "ask-hn-what-a-fullstack-dev-should-know-about-security",
+      "title": "Ask HN: What a fullstack dev should know about security?",
+      "url": "https://news.ycombinator.com/item?id=49408476",
+      "source": "Hacker News",
+      "published": "2026-08-23",
+      "authors": [],
       "venue": "",
       "citationCount": null,
       "influentialCitationCount": null,
-      "discussionCount": null,
-      "score": 62.0,
+      "discussionCount": 0,
+      "score": 22.0,
       "reasons": [
-        "推薦システム",
-        "検索・ retrieval",
-        "LLM x 推薦",
-        "新着 arXiv",
-        "3日前の新着"
+        "13日前の新着"
       ],
-      "summary": "We investigate the role of conversational context modeling in user preference tracking for Conversational Recommendation Systems (CRSs). In this regard, we propose DREAMS, a novel tree-structured context modeling...",
-      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2609.00618&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2609.00618%0A-+Title%3A+Towards+Effective+Structured+Context+Modeling+for+Conversational+Recommender+Systems+via+Dual-node+Monte+Carlo+Tree+Search%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2609.00618v2%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
-    },
-    {
-      "id": "2608.30333",
-      "title": "Beyond Ranking Accuracy: Evaluating LLM-Cited Feature Rationales for Next Basket Repurchase Recommendation",
-      "url": "http://arxiv.org/abs/2608.30333v1",
-      "source": "arXiv",
-      "published": "2026-08-31",
-      "authors": [
-        "Yanan Cao",
-        "Anay Dombe",
-        "Murali Mohana Krishna Dandu",
-        "Shreeranjani Srirangamsridharan",
-        "Sinduja Subramaniam",
-        "Yogananth Mahalingam",
-        "Evren Korpeoglu",
-        "Kannan Achan"
-      ],
-      "venue": "",
-      "citationCount": null,
-      "influentialCitationCount": null,
-      "discussionCount": null,
-      "score": 62.0,
-      "reasons": [
-        "推薦システム",
-        "ランキング",
-        "LLM x 推薦",
-        "新着 arXiv",
-        "4日前の新着"
-      ],
-      "summary": "Next-basket repurchase recommendation is commonly formulated as a ranking task: given a customer's purchase history, the system ranks previously purchased items that may be needed again. In production settings,...",
-      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2608.30333&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2608.30333%0A-+Title%3A+Beyond+Ranking+Accuracy%3A+Evaluating+LLM-Cited+Feature+Rationales+for+Next+Basket+Repurchase+Recommendation%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2608.30333v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
-    },
-    {
-      "id": "2608.30255",
-      "title": "CAMIE: Co-Engagement-Aware Multimodal Item Embeddings for Snap Dynamic Product Ads Retrieval",
-      "url": "http://arxiv.org/abs/2608.30255v1",
-      "source": "arXiv",
-      "published": "2026-08-31",
-      "authors": [
-        "Xiaodong Liu",
-        "Siman Wang",
-        "Congfei Zhang",
-        "Hsiang-wei Chao",
-        "Xiao Bai",
-        "Wen Zhang",
-        "Jingxiao Ma",
-        "Zhe Liu",
-        "Yunzhi Zhou",
-        "Yajun Wang",
-        "Jinchao Li",
-        "Yu Zhang"
-      ],
-      "venue": "",
-      "citationCount": null,
-      "influentialCitationCount": null,
-      "discussionCount": null,
-      "score": 62.0,
-      "reasons": [
-        "推薦システム",
-        "検索・ retrieval",
-        "LLM x 推薦",
-        "新着 arXiv",
-        "4日前の新着"
-      ],
-      "summary": "Item-to-item (I2I) retrieval is a core primitive in large-scale recommendation and advertising systems. In production Snap Dynamic Product Ads (DPA), I2I retrieval faces two challenges: separate visual, textual, and...",
-      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2608.30255&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2608.30255%0A-+Title%3A+CAMIE%3A+Co-Engagement-Aware+Multimodal+Item+Embeddings+for+Snap+Dynamic+Product+Ads+Retrieval%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2608.30255v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
+      "summary": "タイトルと話題性から、今日の読書候補として拾っています。",
+      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+ask-hn-what-a-fullstack-dev-should-know-about-security&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+ask-hn-what-a-fullstack-dev-should-know-about-security%0A-+Title%3A+Ask+HN%3A+What+a+fullstack+dev+should+know+about+security%3F%0A-+URL%3A+https%3A%2F%2Fnews.ycombinator.com%2Fitem%3Fid%3D49408476%0A-+Source%3A+Hacker+News%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
     }
   ]
 }
