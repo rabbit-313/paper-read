@@ -1,6 +1,6 @@
 {
-  "date": "2026-09-08",
-  "generatedAt": "2026-09-08T23:53:18.174610+00:00",
+  "date": "2026-09-09",
+  "generatedAt": "2026-09-09T23:51:28.120390+00:00",
   "focus": "Recommender systems, recommendation, retrieval, ranking, and related ML/DL papers",
   "items": [
     {
@@ -30,6 +30,32 @@
       ],
       "summary": "This paper studies adaptive recommendation under intent drift, where feedback from each recommendation outcome can reveal whether the relational evidence used for ranking is useful, missing, or misleading. While...",
       "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2609.04651&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2609.04651%0A-+Title%3A+Continual+Graph+Memory+for+Adaptive+Recommendation+under+Intent+Drift%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2609.04651v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
+    },
+    {
+      "id": "2609.05748",
+      "title": "A Multi-Source Ensemble Approach to Candidate Generation for Alternative Vacation Rental Property Recommendations",
+      "url": "http://arxiv.org/abs/2609.05748v1",
+      "source": "arXiv",
+      "published": "2026-09-04",
+      "authors": [
+        "Syed Mohammed Arshad Zaidi",
+        "Eric Rincon",
+        "Shayan Hassantabar"
+      ],
+      "venue": "",
+      "citationCount": null,
+      "influentialCitationCount": null,
+      "discussionCount": null,
+      "score": 78.0,
+      "reasons": [
+        "推薦システム",
+        "ランキング",
+        "検索・ retrieval",
+        "協調フィルタリング",
+        "グラフ推薦"
+      ],
+      "summary": "Alternative property recommendations play a critical role in vacation rental marketplaces, helping users discover relevant options when viewing a specific listing. However, generating high-quality candidate...",
+      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2609.05748&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2609.05748%0A-+Title%3A+A+Multi-Source+Ensemble+Approach+to+Candidate+Generation+for+Alternative+Vacation+Rental+Property+Recommendations%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2609.05748v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
     },
     {
       "id": "2609.05110",
@@ -89,54 +115,83 @@
       "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2609.04882&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2609.04882%0A-+Title%3A+AtomRec%3A+Evolving+Atomic+Memory+for+Agentic+Recommendation%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2609.04882v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
     },
     {
-      "id": "2608.29410",
-      "title": "Agents as Knowledge Integrator and Utilizer in Multimodal Recommendation",
-      "url": "http://arxiv.org/abs/2608.29410v1",
+      "id": "2609.08663",
+      "title": "MoEMB: Scaling Universal Multimodal Embeddings with Efficient Mixture-of-Experts Models",
+      "url": "http://arxiv.org/abs/2609.08663v1",
       "source": "arXiv",
-      "published": "2026-08-29",
+      "published": "2026-09-08",
       "authors": [
-        "Jinfeng Xu",
-        "Zheyu Chen",
-        "Shuo Yang",
-        "Jinze Li",
-        "Puzhen Wu",
-        "Zewei Liu",
-        "Zheng Lin",
-        "Jianheng Tang",
-        "Jing Yang",
-        "Wei Wang",
-        "Xiping Hu",
-        "Edith Ngai"
+        "Xuanming Cui",
+        "Shlok Kumar Mishra",
+        "Wentao Bao",
+        "Aashu Singh",
+        "Zihao Wang",
+        "Xiangjun Fan",
+        "Jun Xiao",
+        "Ser-Nam Lim",
+        "Jianpeng Cheng"
       ],
       "venue": "",
       "citationCount": null,
       "influentialCitationCount": null,
       "discussionCount": null,
-      "score": 70.0,
+      "score": 62.0,
       "reasons": [
         "推薦システム",
-        "ランキング",
-        "グラフ推薦",
+        "検索・ retrieval",
         "LLM x 推薦",
-        "新着 arXiv"
+        "新着 arXiv",
+        "1日前の新着"
       ],
-      "summary": "Online platforms increasingly rely on multimodal recommender systems to rank products, media, and other Web content. Existing methods usually inject visual and textual features into item representations or build...",
-      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2608.29410&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2608.29410%0A-+Title%3A+Agents+as+Knowledge+Integrator+and+Utilizer+in+Multimodal+Recommendation%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2608.29410v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
+      "summary": "Universal multimodal embedding (UME) increasingly demands encoder's capacity for handling a broad range of tasks and modalities with increased complexity. Prior scaling methods either increase the representation size,...",
+      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2609.08663&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2609.08663%0A-+Title%3A+MoEMB%3A+Scaling+Universal+Multimodal+Embeddings+with+Efficient+Mixture-of-Experts+Models%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2609.08663v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
     },
     {
-      "id": "2609.05385",
-      "title": "Necessary or Sufficient? Evaluating LLM Explanations With Behavioural Evidence",
-      "url": "http://arxiv.org/abs/2609.05385v1",
+      "id": "2609.08248",
+      "title": "Agentic ML Exploration (A-MLE) for Ads Ranking",
+      "url": "http://arxiv.org/abs/2609.08248v1",
       "source": "arXiv",
-      "published": "2026-09-04",
+      "published": "2026-09-08",
       "authors": [
-        "Urja Pawar",
-        "Rajitha Ramanayake",
-        "Nabeel Kemal",
-        "Ashwin Kandath",
-        "Owen O'Neill",
-        "Guillaume Bourgeon",
-        "Houssem Chatbri"
+        "Erwin Gao",
+        "Vinodh Kumar Sunkara",
+        "Jingyi Guan",
+        "Qinjin Jia",
+        "Hangjun Xu",
+        "Xiang Ji",
+        "Sherman Wong",
+        "Surya Teja Chavali",
+        "Pratik Vaishnavi",
+        "Aryan Pandhi",
+        "Xiaoyu Deng",
+        "Zhaodong Wang",
+        "Samarth Inani",
+        "Fan Yang",
+        "Jakob Moberg",
+        "Zoe Zu",
+        "Nicolas Bievre",
+        "Sami Khenissi",
+        "Amit Jaspal",
+        "Ehsan Fakharizadi",
+        "Srinidhi Viswanathan",
+        "Dorothy Sun",
+        "Abishek Vanam",
+        "Sneha Iyer",
+        "Sheela Yadawad",
+        "Wenjie Chen",
+        "Gaby Nahum",
+        "Junhua Gu",
+        "Peter Chu",
+        "Yucheng Liu",
+        "Xin Zhao",
+        "Vitor Cid",
+        "Chaorong Chen",
+        "Vijay Pappu",
+        "Ashwin Kumar",
+        "Wenlin Chen",
+        "Ben Schulte",
+        "Deepak Chandra",
+        "Ritwik Tewari"
       ],
       "venue": "",
       "citationCount": null,
@@ -148,10 +203,42 @@
         "ランキング",
         "LLM x 推薦",
         "新着 arXiv",
-        "4日前の新着"
+        "1日前の新着"
+      ],
+      "summary": "Modern industrial ads ranking stacks are increasingly bottlenecked not by model capacity or training compute, but by the throughput of human ML iteration - the cycles of research, implementation, training, debugging,...",
+      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2609.08248&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2609.08248%0A-+Title%3A+Agentic+ML+Exploration+%28A-MLE%29+for+Ads+Ranking%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2609.08248v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
+    },
+    {
+      "id": "2609.05385",
+      "title": "Necessary or Sufficient? Evaluating LLM Explanations With Behavioural Evidence",
+      "url": "http://arxiv.org/abs/2609.05385v2",
+      "source": "arXiv",
+      "published": "2026-09-04",
+      "authors": [
+        "Urja Pawar",
+        "Rajitha Ramanayake",
+        "Nabeel Kemal",
+        "Ashwin Kandath",
+        "Owen O'Neill",
+        "Guillaume Bourgeon",
+        "Houssem Chatbri",
+        "Christopher Martin",
+        "Vadim Pertsovskiy"
+      ],
+      "venue": "",
+      "citationCount": null,
+      "influentialCitationCount": null,
+      "discussionCount": null,
+      "score": 62.0,
+      "reasons": [
+        "推薦システム",
+        "ランキング",
+        "LLM x 推薦",
+        "新着 arXiv",
+        "5日前の新着"
       ],
       "summary": "LLM decision components that can operate within agent workflows often produce action-relevant recommendations or judgements together with explanations. Operators may use the named factors to monitor a system, diagnose...",
-      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2609.05385&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2609.05385%0A-+Title%3A+Necessary+or+Sufficient%3F+Evaluating+LLM+Explanations+With+Behavioural+Evidence%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2609.05385v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
+      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2609.05385&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2609.05385%0A-+Title%3A+Necessary+or+Sufficient%3F+Evaluating+LLM+Explanations+With+Behavioural+Evidence%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2609.05385v2%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
     },
     {
       "id": "2609.05063",
@@ -176,62 +263,10 @@
         "検索・ retrieval",
         "LLM x 推薦",
         "新着 arXiv",
-        "4日前の新着"
+        "5日前の新着"
       ],
       "summary": "When a customer adds a professional camera to their cart, should the system suggest a matching lens, a generic tripod, or another camera body? Complementary Product Recommendation is vital for comprehensive basket...",
       "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2609.05063&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2609.05063%0A-+Title%3A+Beyond+Co-purchase+Relation%3A+Evolution+of+Complementary+Recommendations+at+Allegro%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2609.05063v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
-    },
-    {
-      "id": "2609.04871",
-      "title": "AutoLR: Automating the Path from Research to Launch Review in Industrial Recommender Systems",
-      "url": "http://arxiv.org/abs/2609.04871v1",
-      "source": "arXiv",
-      "published": "2026-09-04",
-      "authors": [
-        "Qi Zhang",
-        "Yanlin Chen",
-        "Wenchao Xiao"
-      ],
-      "venue": "",
-      "citationCount": null,
-      "influentialCitationCount": null,
-      "discussionCount": null,
-      "score": 62.0,
-      "reasons": [
-        "推薦システム",
-        "ランキング",
-        "LLM x 推薦",
-        "新着 arXiv",
-        "4日前の新着"
-      ],
-      "summary": "Improving an industrial recommender is an iterative research-and-engineering process rather than a direct path from idea to deployment. In \\textbf{DASHEN, NetEase's gaming-community app}, algorithm engineers typically...",
-      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2609.04871&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2609.04871%0A-+Title%3A+AutoLR%3A+Automating+the+Path+from+Research+to+Launch+Review+in+Industrial+Recommender+Systems%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2609.04871v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
-    },
-    {
-      "id": "2609.04159",
-      "title": "SENTINEL-RL: Offloading Topological Reasoning from LLM Agents in the Security Operations Center",
-      "url": "http://arxiv.org/abs/2609.04159v1",
-      "source": "arXiv",
-      "published": "2026-09-03",
-      "authors": [
-        "Uday Vallabhaneni",
-        "Cassie L. Cagwin",
-        "David J. Wild"
-      ],
-      "venue": "",
-      "citationCount": null,
-      "influentialCitationCount": null,
-      "discussionCount": null,
-      "score": 62.0,
-      "reasons": [
-        "推薦システム",
-        "グラフ推薦",
-        "LLM x 推薦",
-        "新着 arXiv",
-        "5日前の新着"
-      ],
-      "summary": "Large language model (LLM) agents are increasingly proposed as autonomous SOC analysts, but two limitations make them unreliable at enterprise scale: a finite context window cannot hold a multi-thousand-host...",
-      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2609.04159&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2609.04159%0A-+Title%3A+SENTINEL-RL%3A+Offloading+Topological+Reasoning+from+LLM+Agents+in+the+Security+Operations+Center%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2609.04159v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
     }
   ]
 }
