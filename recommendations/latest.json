@@ -1,6 +1,6 @@
 {
-  "date": "2026-09-09",
-  "generatedAt": "2026-09-09T23:51:28.120390+00:00",
+  "date": "2026-09-10",
+  "generatedAt": "2026-09-10T23:47:08.469762+00:00",
   "focus": "Recommender systems, recommendation, retrieval, ranking, and related ML/DL papers",
   "items": [
     {
@@ -115,6 +115,34 @@
       "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2609.04882&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2609.04882%0A-+Title%3A+AtomRec%3A+Evolving+Atomic+Memory+for+Agentic+Recommendation%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2609.04882v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
     },
     {
+      "id": "2609.09664",
+      "title": "PRAGMA: Evaluating Personalized Guidance with Memory Alignment in Lifelong Conversations",
+      "url": "http://arxiv.org/abs/2609.09664v1",
+      "source": "arXiv",
+      "published": "2026-09-09",
+      "authors": [
+        "Hyojeong Yu",
+        "Hyukhun Koh",
+        "Minsung Kim",
+        "Yunah Jang",
+        "Kyomin Jung"
+      ],
+      "venue": "",
+      "citationCount": null,
+      "influentialCitationCount": null,
+      "discussionCount": null,
+      "score": 62.0,
+      "reasons": [
+        "推薦システム",
+        "検索・ retrieval",
+        "LLM x 推薦",
+        "新着 arXiv",
+        "1日前の新着"
+      ],
+      "summary": "Large language models (LLMs) are increasingly deployed as personalized assistants that interact with users over extended periods of time. As conversations grow longer, relying on full interaction histories becomes...",
+      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2609.09664&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2609.09664%0A-+Title%3A+PRAGMA%3A+Evaluating+Personalized+Guidance+with+Memory+Alignment+in+Lifelong+Conversations%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2609.09664v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
+    },
+    {
       "id": "2609.08663",
       "title": "MoEMB: Scaling Universal Multimodal Embeddings with Efficient Mixture-of-Experts Models",
       "url": "http://arxiv.org/abs/2609.08663v1",
@@ -141,7 +169,7 @@
         "検索・ retrieval",
         "LLM x 推薦",
         "新着 arXiv",
-        "1日前の新着"
+        "2日前の新着"
       ],
       "summary": "Universal multimodal embedding (UME) increasingly demands encoder's capacity for handling a broad range of tasks and modalities with increased complexity. Prior scaling methods either increase the representation size,...",
       "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2609.08663&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2609.08663%0A-+Title%3A+MoEMB%3A+Scaling+Universal+Multimodal+Embeddings+with+Efficient+Mixture-of-Experts+Models%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2609.08663v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
@@ -203,7 +231,7 @@
         "ランキング",
         "LLM x 推薦",
         "新着 arXiv",
-        "1日前の新着"
+        "2日前の新着"
       ],
       "summary": "Modern industrial ads ranking stacks are increasingly bottlenecked not by model capacity or training compute, but by the throughput of human ML iteration - the cycles of research, implementation, training, debugging,...",
       "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2609.08248&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2609.08248%0A-+Title%3A+Agentic+ML+Exploration+%28A-MLE%29+for+Ads+Ranking%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2609.08248v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
@@ -235,38 +263,10 @@
         "ランキング",
         "LLM x 推薦",
         "新着 arXiv",
-        "5日前の新着"
+        "6日前の新着"
       ],
       "summary": "LLM decision components that can operate within agent workflows often produce action-relevant recommendations or judgements together with explanations. Operators may use the named factors to monitor a system, diagnose...",
       "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2609.05385&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2609.05385%0A-+Title%3A+Necessary+or+Sufficient%3F+Evaluating+LLM+Explanations+With+Behavioural+Evidence%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2609.05385v2%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
-    },
-    {
-      "id": "2609.05063",
-      "title": "Beyond Co-purchase Relation: Evolution of Complementary Recommendations at Allegro",
-      "url": "http://arxiv.org/abs/2609.05063v1",
-      "source": "arXiv",
-      "published": "2026-09-04",
-      "authors": [
-        "Aleksandra Osowska-Kurczab",
-        "Klaudia Nazarko",
-        "Eliška Kosturová",
-        "Lidia Wojciechowska",
-        "Michał Bień"
-      ],
-      "venue": "",
-      "citationCount": null,
-      "influentialCitationCount": null,
-      "discussionCount": null,
-      "score": 62.0,
-      "reasons": [
-        "推薦システム",
-        "検索・ retrieval",
-        "LLM x 推薦",
-        "新着 arXiv",
-        "5日前の新着"
-      ],
-      "summary": "When a customer adds a professional camera to their cart, should the system suggest a matching lens, a generic tripod, or another camera body? Complementary Product Recommendation is vital for comprehensive basket...",
-      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2609.05063&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2609.05063%0A-+Title%3A+Beyond+Co-purchase+Relation%3A+Evolution+of+Complementary+Recommendations+at+Allegro%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2609.05063v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
     }
   ]
 }
