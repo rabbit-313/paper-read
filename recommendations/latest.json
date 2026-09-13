@@ -1,8 +1,27 @@
 {
-  "date": "2026-09-12",
-  "generatedAt": "2026-09-12T23:48:53.697522+00:00",
+  "date": "2026-09-13",
+  "generatedAt": "2026-09-13T23:56:21.850739+00:00",
   "focus": "Recommender systems, recommendation, retrieval, ranking, and related ML/DL papers",
   "items": [
+    {
+      "id": "ask-hn-career-paths-to-consider-if-i-am-better-at-supporting-than-creating",
+      "title": "Ask HN: Career paths to consider if I am better at supporting than creating?",
+      "url": "https://news.ycombinator.com/item?id=49682920",
+      "source": "Hacker News",
+      "published": "2026-09-13",
+      "authors": [],
+      "venue": "",
+      "citationCount": null,
+      "influentialCitationCount": null,
+      "discussionCount": 26,
+      "score": 27.2,
+      "reasons": [
+        "0日前の新着",
+        "HN コメント 26"
+      ],
+      "summary": "タイトルと話題性から、今日の読書候補として拾っています。",
+      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+ask-hn-career-paths-to-consider-if-i-am-better-at-supporting-than-creating&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+ask-hn-career-paths-to-consider-if-i-am-better-at-supporting-than-creating%0A-+Title%3A+Ask+HN%3A+Career+paths+to+consider+if+I+am+better+at+supporting+than+creating%3F%0A-+URL%3A+https%3A%2F%2Fnews.ycombinator.com%2Fitem%3Fid%3D49682920%0A-+Source%3A+Hacker+News%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
+    },
     {
       "id": "ask-hn-best-sentence-corpora-with-native-audio-for-language-learning",
       "title": "Ask HN: Best sentence corpora with native audio for language learning?",
@@ -16,7 +35,7 @@
       "discussionCount": 2,
       "score": 22.4,
       "reasons": [
-        "5日前の新着",
+        "6日前の新着",
         "HN コメント 2"
       ],
       "summary": "タイトルと話題性から、今日の読書候補として拾っています。",
@@ -35,7 +54,7 @@
       "discussionCount": 2,
       "score": 22.4,
       "reasons": [
-        "10日前の新着",
+        "11日前の新着",
         "HN コメント 2"
       ],
       "summary": "タイトルと話題性から、今日の読書候補として拾っています。",
