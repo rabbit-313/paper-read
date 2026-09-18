@@ -1,6 +1,6 @@
 {
-  "date": "2026-09-17",
-  "generatedAt": "2026-09-17T23:56:30.826871+00:00",
+  "date": "2026-09-18",
+  "generatedAt": "2026-09-18T23:55:21.700789+00:00",
   "focus": "Recommender systems, recommendation, retrieval, ranking, and related ML/DL papers",
   "items": [
     {
@@ -13,11 +13,11 @@
       "venue": "",
       "citationCount": null,
       "influentialCitationCount": null,
-      "discussionCount": 29,
-      "score": 27.8,
+      "discussionCount": 30,
+      "score": 28.0,
       "reasons": [
-        "4日前の新着",
-        "HN コメント 29"
+        "5日前の新着",
+        "HN コメント 30"
       ],
       "summary": "タイトルと話題性から、今日の読書候補として拾っています。",
       "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+ask-hn-career-paths-to-consider-if-i-am-better-at-supporting-than-creating&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+ask-hn-career-paths-to-consider-if-i-am-better-at-supporting-than-creating%0A-+Title%3A+Ask+HN%3A+Career+paths+to+consider+if+I+am+better+at+supporting+than+creating%3F%0A-+URL%3A+https%3A%2F%2Fnews.ycombinator.com%2Fitem%3Fid%3D49682920%0A-+Source%3A+Hacker+News%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
@@ -35,7 +35,7 @@
       "discussionCount": 2,
       "score": 22.4,
       "reasons": [
-        "10日前の新着",
+        "11日前の新着",
         "HN コメント 2"
       ],
       "summary": "タイトルと話題性から、今日の読書候補として拾っています。",
