@@ -1,8 +1,90 @@
 {
-  "date": "2026-09-18",
-  "generatedAt": "2026-09-18T23:55:21.700789+00:00",
+  "date": "2026-09-19",
+  "generatedAt": "2026-09-19T23:55:58.841958+00:00",
   "focus": "Recommender systems, recommendation, retrieval, ranking, and related ML/DL papers",
   "items": [
+    {
+      "id": "exploring-llm-based-generative-recommender-systems-corpora-customization-and-eva",
+      "title": "Exploring LLM-Based Generative Recommender Systems: Corpora, Customization, and Evaluation Insights",
+      "url": "https://www.semanticscholar.org/paper/67ad94a3adc2994e2a2b78bde50e02e4efd4707d",
+      "source": "Semantic Scholar",
+      "published": "2025-12-01",
+      "authors": [
+        "Shuqi Yang",
+        "Mingrui Jing",
+        "Shuai Wang",
+        "Jiaqing Wang",
+        "Wei-Jie Xing",
+        "Yan Hu"
+      ],
+      "venue": "Innovation in aging",
+      "citationCount": 1,
+      "influentialCitationCount": 0,
+      "discussionCount": null,
+      "score": 38.05,
+      "reasons": [
+        "推薦システム",
+        "検索・ retrieval",
+        "グラフ推薦",
+        "LLM x 推薦"
+      ],
+      "summary": "Abstract Large Language Model-Driven Generative Recommender Systems (LLM-GRSs) are increasingly transforming healthcare, particularly in question-answering systems. This study systematically reviewed their corpora...",
+      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+exploring-llm-based-generative-recommender-systems-corpora-customization-and-eva&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+exploring-llm-based-generative-recommender-systems-corpora-customization-and-eva%0A-+Title%3A+Exploring+LLM-Based+Generative+Recommender+Systems%3A+Corpora%2C+Customization%2C+and+Evaluation+Insights%0A-+URL%3A+https%3A%2F%2Fwww.semanticscholar.org%2Fpaper%2F67ad94a3adc2994e2a2b78bde50e02e4efd4707d%0A-+Source%3A+Semantic+Scholar%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
+    },
+    {
+      "id": "2508.14646",
+      "title": "OneLoc: Geo-Aware Generative Recommender Systems for Local Life Service",
+      "url": "https://arxiv.org/abs/2508.14646",
+      "source": "Semantic Scholar",
+      "published": "2025-08-20",
+      "authors": [
+        "Zhipeng Wei",
+        "Kuo Cai",
+        "Junda She",
+        "Jie Chen",
+        "Minghao Chen",
+        "Yang Zeng"
+      ],
+      "venue": "Web Search and Data Mining",
+      "citationCount": 16,
+      "influentialCitationCount": 0,
+      "discussionCount": null,
+      "score": 30.8,
+      "reasons": [
+        "推薦システム",
+        "グラフ推薦",
+        "強化学習"
+      ],
+      "summary": "Local life service is a vital scenario in Kuaishou App, in which we recommend videos with stores' location information. Thus, recommendation in our scenario is challenging because we should take into account user's...",
+      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2508.14646&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2508.14646%0A-+Title%3A+OneLoc%3A+Geo-Aware+Generative+Recommender+Systems+for+Local+Life+Service%0A-+URL%3A+https%3A%2F%2Farxiv.org%2Fabs%2F2508.14646%0A-+Source%3A+Semantic+Scholar%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
+    },
+    {
+      "id": "2511.10492",
+      "title": "Guiding Generative Recommender Systems with Structured Human Priors via Multi-head Decoding",
+      "url": "https://arxiv.org/abs/2511.10492",
+      "source": "Semantic Scholar",
+      "published": "2025-11-13",
+      "authors": [
+        "Yunkai Zhang",
+        "Qiang Zhang",
+        "Feng Lin",
+        "Rui-Zhong Qiu",
+        "Hanchao Yu",
+        "Jason Liu"
+      ],
+      "venue": "The Web Conference",
+      "citationCount": 4,
+      "influentialCitationCount": 0,
+      "discussionCount": null,
+      "score": 30.2,
+      "reasons": [
+        "推薦システム",
+        "ランキング",
+        "LLM x 推薦"
+      ],
+      "summary": "Optimizing recommender systems for objectives beyond accuracy, such as diversity, novelty, and personalization, is crucial for long-term user satisfaction. To this end, the industry has accumulated vast amounts of...",
+      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2511.10492&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2511.10492%0A-+Title%3A+Guiding+Generative+Recommender+Systems+with+Structured+Human+Priors+via+Multi-head+Decoding%0A-+URL%3A+https%3A%2F%2Farxiv.org%2Fabs%2F2511.10492%0A-+Source%3A+Semantic+Scholar%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
+    },
     {
       "id": "ask-hn-career-paths-to-consider-if-i-am-better-at-supporting-than-creating",
       "title": "Ask HN: Career paths to consider if I am better at supporting than creating?",
@@ -16,11 +98,89 @@
       "discussionCount": 30,
       "score": 28.0,
       "reasons": [
-        "5日前の新着",
+        "6日前の新着",
         "HN コメント 30"
       ],
       "summary": "タイトルと話題性から、今日の読書候補として拾っています。",
       "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+ask-hn-career-paths-to-consider-if-i-am-better-at-supporting-than-creating&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+ask-hn-career-paths-to-consider-if-i-am-better-at-supporting-than-creating%0A-+Title%3A+Ask+HN%3A+Career+paths+to+consider+if+I+am+better+at+supporting+than+creating%3F%0A-+URL%3A+https%3A%2F%2Fnews.ycombinator.com%2Fitem%3Fid%3D49682920%0A-+Source%3A+Hacker+News%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
+    },
+    {
+      "id": "full-retraining-incremental-fine-tuning-and-hybrid-serving-model-updating-and-se",
+      "title": "Full Retraining, Incremental Fine-tuning, and Hybrid Serving: Model Updating and Serving for Industrial Generative Recommender Systems",
+      "url": "https://www.semanticscholar.org/paper/ac40289d784aeea51d419ed40f3e8d26ec57a23c",
+      "source": "Semantic Scholar",
+      "published": "2026-07-19",
+      "authors": [
+        "Lu Fan",
+        "Qijiong Liu",
+        "Zhongzhou Liu",
+        "Guoyuan An",
+        "Wei Guo",
+        "Yong Liu"
+      ],
+      "venue": "Annual International ACM SIGIR Conference on Research and Development in Information Retrieval",
+      "citationCount": 0,
+      "influentialCitationCount": 0,
+      "discussionCount": null,
+      "score": 24.0,
+      "reasons": [
+        "推薦システム",
+        "直近3か月"
+      ],
+      "summary": "Generative recommendation casts recommendation as conditional sequence generation over text- or token-based representations and has shown strong promise in industrial systems. However, keeping such models up to date...",
+      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+full-retraining-incremental-fine-tuning-and-hybrid-serving-model-updating-and-se&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+full-retraining-incremental-fine-tuning-and-hybrid-serving-model-updating-and-se%0A-+Title%3A+Full+Retraining%2C+Incremental+Fine-tuning%2C+and+Hybrid+Serving%3A+Model+Updating+and+Serving+for+Industrial+Generative+Recommender+Systems%0A-+URL%3A+https%3A%2F%2Fwww.semanticscholar.org%2Fpaper%2Fac40289d784aeea51d419ed40f3e8d26ec57a23c%0A-+Source%3A+Semantic+Scholar%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
+    },
+    {
+      "id": "2406.05255",
+      "title": "Generative Explore-Exploit: Training-free Optimization of Generative Recommender Systems using LLM Optimizers",
+      "url": "https://arxiv.org/abs/2406.05255",
+      "source": "Semantic Scholar",
+      "published": "2024-06-07",
+      "authors": [
+        "Lütfi Kerem Senel",
+        "B. Fetahu",
+        "Davis Yoshida",
+        "Zhiyu Chen",
+        "Giuseppe Castellucci",
+        "Nikhita Vedula"
+      ],
+      "venue": "Annual Meeting of the Association for Computational Linguistics",
+      "citationCount": 15,
+      "influentialCitationCount": 0,
+      "discussionCount": null,
+      "score": 22.75,
+      "reasons": [
+        "推薦システム",
+        "LLM x 推薦"
+      ],
+      "summary": "Recommender systems are widely used to suggest engaging content, and Large Language Models (LLMs) have given rise to generative recommenders. Such systems can directly generate items, including for open-set tasks like...",
+      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2406.05255&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2406.05255%0A-+Title%3A+Generative+Explore-Exploit%3A+Training-free+Optimization+of+Generative+Recommender+Systems+using+LLM+Optimizers%0A-+URL%3A+https%3A%2F%2Farxiv.org%2Fabs%2F2406.05255%0A-+Source%3A+Semantic+Scholar%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
+    },
+    {
+      "id": "2510.25093",
+      "title": "Continual Low-Rank Adapters for LLM-based Generative Recommender Systems",
+      "url": "https://arxiv.org/abs/2510.25093",
+      "source": "Semantic Scholar",
+      "published": "2025-10-29",
+      "authors": [
+        "Hyunsik Yoo",
+        "Ting-Wei Li",
+        "Seongku Kang",
+        "Zhining Liu",
+        "Charlie Xu",
+        "Qi Qi"
+      ],
+      "venue": "arXiv.org",
+      "citationCount": 9,
+      "influentialCitationCount": 2,
+      "discussionCount": null,
+      "score": 22.65,
+      "reasons": [
+        "推薦システム",
+        "LLM x 推薦"
+      ],
+      "summary": "While large language models (LLMs) achieve strong performance in recommendation, they face challenges in continual learning as users, items, and user preferences evolve over time. Existing LoRA-based continual methods...",
+      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2510.25093&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2510.25093%0A-+Title%3A+Continual+Low-Rank+Adapters+for+LLM-based+Generative+Recommender+Systems%0A-+URL%3A+https%3A%2F%2Farxiv.org%2Fabs%2F2510.25093%0A-+Source%3A+Semantic+Scholar%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
     },
     {
       "id": "ask-hn-best-sentence-corpora-with-native-audio-for-language-learning",
@@ -35,7 +195,7 @@
       "discussionCount": 2,
       "score": 22.4,
       "reasons": [
-        "11日前の新着",
+        "12日前の新着",
         "HN コメント 2"
       ],
       "summary": "タイトルと話題性から、今日の読書候補として拾っています。",
