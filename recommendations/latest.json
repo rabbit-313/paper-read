@@ -1,8 +1,113 @@
 {
-  "date": "2026-09-23",
-  "generatedAt": "2026-09-23T00:04:04.722452+00:00",
+  "date": "2026-09-24",
+  "generatedAt": "2026-09-24T00:16:13.080791+00:00",
   "focus": "Recommender systems, recommendation, retrieval, ranking, and related ML/DL papers",
   "items": [
+    {
+      "id": "1905.08108",
+      "title": "Neural Graph Collaborative Filtering",
+      "url": "https://arxiv.org/abs/1905.08108",
+      "source": "Semantic Scholar",
+      "published": "2019-05-20",
+      "authors": [
+        "Xiang Wang",
+        "Xiangnan He",
+        "Meng Wang",
+        "Fuli Feng",
+        "Tat-Seng Chua"
+      ],
+      "venue": "Annual International ACM SIGIR Conference on Research and Development in Information Retrieval",
+      "citationCount": 4066,
+      "influentialCitationCount": 648,
+      "discussionCount": null,
+      "score": 65.0,
+      "reasons": [
+        "推薦システム",
+        "協調フィルタリング",
+        "グラフ推薦",
+        "引用数 4066"
+      ],
+      "summary": "Learning vector representations (aka. embeddings) of users and items lies at the core of modern recommender systems. Ranging from early matrix factorization to recently emerged deep learning based methods, existing...",
+      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+1905.08108&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+1905.08108%0A-+Title%3A+Neural+Graph+Collaborative+Filtering%0A-+URL%3A+https%3A%2F%2Farxiv.org%2Fabs%2F1905.08108%0A-+Source%3A+Semantic+Scholar%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
+    },
+    {
+      "id": "1708.05031",
+      "title": "Neural Collaborative Filtering",
+      "url": "https://arxiv.org/abs/1708.05031",
+      "source": "Semantic Scholar",
+      "published": "2017-04-03",
+      "authors": [
+        "Xiangnan He",
+        "Lizi Liao",
+        "Hanwang Zhang",
+        "Liqiang Nie",
+        "Xia Hu",
+        "Tat-Seng Chua"
+      ],
+      "venue": "The Web Conference",
+      "citationCount": 7355,
+      "influentialCitationCount": 1011,
+      "discussionCount": null,
+      "score": 57.0,
+      "reasons": [
+        "推薦システム",
+        "協調フィルタリング",
+        "引用数 7355"
+      ],
+      "summary": "In recent years, deep neural networks have yielded immense success on speech recognition, computer vision and natural language processing. However, the exploration of deep neural networks on recommender systems has...",
+      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+1708.05031&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+1708.05031%0A-+Title%3A+Neural+Collaborative+Filtering%0A-+URL%3A+https%3A%2F%2Farxiv.org%2Fabs%2F1708.05031%0A-+Source%3A+Semantic+Scholar%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
+    },
+    {
+      "id": "2501.13908",
+      "title": "Graph Neural Controlled Differential Equations For Collaborative Filtering",
+      "url": "https://arxiv.org/abs/2501.13908",
+      "source": "Semantic Scholar",
+      "published": "2025-01-23",
+      "authors": [
+        "Ke Xu",
+        "Weizhi Zhang",
+        "Zihe Song",
+        "Yuanjie Zhu",
+        "Philip S. Yu"
+      ],
+      "venue": "The Web Conference",
+      "citationCount": 7,
+      "influentialCitationCount": 0,
+      "discussionCount": null,
+      "score": 30.35,
+      "reasons": [
+        "推薦システム",
+        "協調フィルタリング",
+        "グラフ推薦"
+      ],
+      "summary": "Graph Convolution Networks (GCNs) are widely considered state-of-the-art for recommendation systems. Several studies in the field of recommendation systems have attempted to apply collaborative filtering (CF) within...",
+      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2501.13908&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2501.13908%0A-+Title%3A+Graph+Neural+Controlled+Differential+Equations+For+Collaborative+Filtering%0A-+URL%3A+https%3A%2F%2Farxiv.org%2Fabs%2F2501.13908%0A-+Source%3A+Semantic+Scholar%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
+    },
+    {
+      "id": "cccfnet-a-content-boosted-collaborative-filtering-neural-network-for-cross-domai",
+      "title": "CCCFNet: A Content-Boosted Collaborative Filtering Neural Network for Cross Domain Recommender Systems",
+      "url": "https://www.semanticscholar.org/paper/99675f860615cbe8c2df0b537473371ce3cb35ea",
+      "source": "Semantic Scholar",
+      "published": "2017-04-03",
+      "authors": [
+        "Jianxun Lian",
+        "Fuzheng Zhang",
+        "Xing Xie",
+        "Guangzhong Sun"
+      ],
+      "venue": "The Web Conference",
+      "citationCount": 143,
+      "influentialCitationCount": 11,
+      "discussionCount": null,
+      "score": 30.25,
+      "reasons": [
+        "推薦システム",
+        "協調フィルタリング",
+        "引用数 143"
+      ],
+      "summary": "To overcome data sparsity problem, we propose a cross domain recommendation system named CCCFNet which can combine collaborative filtering and content-based filtering in a unified framework. We first introduce a...",
+      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+cccfnet-a-content-boosted-collaborative-filtering-neural-network-for-cross-domai&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+cccfnet-a-content-boosted-collaborative-filtering-neural-network-for-cross-domai%0A-+Title%3A+CCCFNet%3A+A+Content-Boosted+Collaborative+Filtering+Neural+Network+for+Cross+Domain+Recommender+Systems%0A-+URL%3A+https%3A%2F%2Fwww.semanticscholar.org%2Fpaper%2F99675f860615cbe8c2df0b537473371ce3cb35ea%0A-+Source%3A+Semantic+Scholar%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
+    },
     {
       "id": "ask-hn-career-paths-to-consider-if-i-am-better-at-supporting-than-creating",
       "title": "Ask HN: Career paths to consider if I am better at supporting than creating?",
@@ -16,11 +121,82 @@
       "discussionCount": 30,
       "score": 28.0,
       "reasons": [
-        "10日前の新着",
+        "11日前の新着",
         "HN コメント 30"
       ],
       "summary": "タイトルと話題性から、今日の読書候補として拾っています。",
       "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+ask-hn-career-paths-to-consider-if-i-am-better-at-supporting-than-creating&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+ask-hn-career-paths-to-consider-if-i-am-better-at-supporting-than-creating%0A-+Title%3A+Ask+HN%3A+Career+paths+to+consider+if+I+am+better+at+supporting+than+creating%3F%0A-+URL%3A+https%3A%2F%2Fnews.ycombinator.com%2Fitem%3Fid%3D49682920%0A-+Source%3A+Hacker+News%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
+    },
+    {
+      "id": "when-latent-features-meet-side-information-a-preference-relation-based-graph-neu",
+      "title": "When latent features meet side information: A preference relation based graph neural network for collaborative filtering",
+      "url": "https://www.semanticscholar.org/paper/ba734ff1e14480c03ac0d769a6a341fb4608a382",
+      "source": "Semantic Scholar",
+      "published": "2025-01-01",
+      "authors": [
+        "Xiangting Shi",
+        "Yakang Zhang",
+        "Abinash Pujahari",
+        "S. Mishra"
+      ],
+      "venue": "Expert systems with applications",
+      "citationCount": 114,
+      "influentialCitationCount": 1,
+      "discussionCount": null,
+      "score": 27.8,
+      "reasons": [
+        "協調フィルタリング",
+        "グラフ推薦",
+        "引用数 114"
+      ],
+      "summary": "タイトルと話題性から、今日の読書候補として拾っています。",
+      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+when-latent-features-meet-side-information-a-preference-relation-based-graph-neu&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+when-latent-features-meet-side-information-a-preference-relation-based-graph-neu%0A-+Title%3A+When+latent+features+meet+side+information%3A+A+preference+relation+based+graph+neural+network+for+collaborative+filtering%0A-+URL%3A+https%3A%2F%2Fwww.semanticscholar.org%2Fpaper%2Fba734ff1e14480c03ac0d769a6a341fb4608a382%0A-+Source%3A+Semantic+Scholar%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
+    },
+    {
+      "id": "graph-convolutional-network-with-neural-collaborative-filtering-for-predicting-m",
+      "title": "Graph Convolutional Network with Neural Collaborative Filtering for Predicting miRNA-Disease Association",
+      "url": "https://www.semanticscholar.org/paper/89c6c17d7ab1abe272e8382f7e89c1eeab3dc76f",
+      "source": "Semantic Scholar",
+      "published": "2025-01-01",
+      "authors": [
+        "Jihwan Ha"
+      ],
+      "venue": "Biomedicines",
+      "citationCount": 36,
+      "influentialCitationCount": 0,
+      "discussionCount": null,
+      "score": 23.8,
+      "reasons": [
+        "協調フィルタリング",
+        "グラフ推薦"
+      ],
+      "summary": "Background: Over the past few decades, micro ribonucleic acids (miRNAs) have been shown to play significant roles in various biological processes, including disease incidence. Therefore, much effort has been devoted...",
+      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+graph-convolutional-network-with-neural-collaborative-filtering-for-predicting-m&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+graph-convolutional-network-with-neural-collaborative-filtering-for-predicting-m%0A-+Title%3A+Graph+Convolutional+Network+with+Neural+Collaborative+Filtering+for+Predicting+miRNA-Disease+Association%0A-+URL%3A+https%3A%2F%2Fwww.semanticscholar.org%2Fpaper%2F89c6c17d7ab1abe272e8382f7e89c1eeab3dc76f%0A-+Source%3A+Semantic+Scholar%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
+    },
+    {
+      "id": "software-service-recommendation-base-on-collaborative-filtering-neural-network-m",
+      "title": "Software Service Recommendation Base on Collaborative Filtering Neural Network Model",
+      "url": "https://www.semanticscholar.org/paper/d9c0ff9c29162c38be29c90997cce01a0fa787a5",
+      "source": "Semantic Scholar",
+      "published": "2018-11-12",
+      "authors": [
+        "Liang Chen",
+        "Angyu Zheng",
+        "Yinglan Feng",
+        "Fenfang Xie",
+        "Zibin Zheng"
+      ],
+      "venue": "International Conference on Service Oriented Computing",
+      "citationCount": 25,
+      "influentialCitationCount": 4,
+      "discussionCount": null,
+      "score": 23.65,
+      "reasons": [
+        "推薦システム",
+        "協調フィルタリング"
+      ],
+      "summary": "タイトルと話題性から、今日の読書候補として拾っています。",
+      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+software-service-recommendation-base-on-collaborative-filtering-neural-network-m&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+software-service-recommendation-base-on-collaborative-filtering-neural-network-m%0A-+Title%3A+Software+Service+Recommendation+Base+on+Collaborative+Filtering+Neural+Network+Model%0A-+URL%3A+https%3A%2F%2Fwww.semanticscholar.org%2Fpaper%2Fd9c0ff9c29162c38be29c90997cce01a0fa787a5%0A-+Source%3A+Semantic+Scholar%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
     }
   ]
 }
