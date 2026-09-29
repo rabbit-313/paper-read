@@ -1,26 +1,228 @@
 {
-  "date": "2026-09-27",
-  "generatedAt": "2026-09-27T00:19:09.724721+00:00",
+  "date": "2026-09-29",
+  "generatedAt": "2026-09-29T01:31:00.755151+00:00",
   "focus": "Recommender systems, recommendation, retrieval, ranking, and related ML/DL papers",
   "items": [
     {
-      "id": "ask-hn-career-paths-to-consider-if-i-am-better-at-supporting-than-creating",
-      "title": "Ask HN: Career paths to consider if I am better at supporting than creating?",
-      "url": "https://news.ycombinator.com/item?id=49682920",
-      "source": "Hacker News",
-      "published": "2026-09-13",
-      "authors": [],
+      "id": "2609.32803",
+      "title": "Nutri-ATLAS: Embodied Agent for Tabulated Lookup and Assistance for Smarter nutrition",
+      "url": "http://arxiv.org/abs/2609.32803v1",
+      "source": "arXiv",
+      "published": "2026-09-26",
+      "authors": [
+        "Uttej Kallakuri",
+        "Boxun Hu",
+        "Ankur A. Butala",
+        "Najim Dehak",
+        "Tinoosh Mohsenin"
+      ],
       "venue": "",
       "citationCount": null,
       "influentialCitationCount": null,
-      "discussionCount": 30,
-      "score": 28.0,
+      "discussionCount": null,
+      "score": 70.0,
       "reasons": [
-        "14日前の新着",
-        "HN コメント 30"
+        "推薦システム",
+        "検索・ retrieval",
+        "グラフ推薦",
+        "LLM x 推薦",
+        "新着 arXiv"
       ],
-      "summary": "タイトルと話題性から、今日の読書候補として拾っています。",
-      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+ask-hn-career-paths-to-consider-if-i-am-better-at-supporting-than-creating&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+ask-hn-career-paths-to-consider-if-i-am-better-at-supporting-than-creating%0A-+Title%3A+Ask+HN%3A+Career+paths+to+consider+if+I+am+better+at+supporting+than+creating%3F%0A-+URL%3A+https%3A%2F%2Fnews.ycombinator.com%2Fitem%3Fid%3D49682920%0A-+Source%3A+Hacker+News%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
+      "summary": "Generative and Agentic IoT systems offer a promising foundation for digital healthcare applications that combine sensing, personalized reasoning, and autonomous interaction in real-world environments. Nutrition...",
+      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2609.32803&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2609.32803%0A-+Title%3A+Nutri-ATLAS%3A+Embodied+Agent+for+Tabulated+Lookup+and+Assistance+for+Smarter+nutrition%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2609.32803v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
+    },
+    {
+      "id": "2609.29973",
+      "title": "Learning Better Reasoning for Generative Recommendation with Semantic IDs",
+      "url": "http://arxiv.org/abs/2609.29973v1",
+      "source": "arXiv",
+      "published": "2026-09-24",
+      "authors": [
+        "Mengdan Zhu",
+        "Yufan Zhao",
+        "Sophie Di",
+        "Yao Zhao",
+        "Tao Di",
+        "Yulan Yan",
+        "Sridhar Iyer",
+        "Liang Zhao"
+      ],
+      "venue": "",
+      "citationCount": null,
+      "influentialCitationCount": null,
+      "discussionCount": null,
+      "score": 70.0,
+      "reasons": [
+        "推薦システム",
+        "ランキング",
+        "検索・ retrieval",
+        "強化学習",
+        "新着 arXiv"
+      ],
+      "summary": "Generative recommendation reformulates item retrieval as sequence generation, allowing a unified model to directly generate the next item from a user's interaction history. Semantic IDs further make this paradigm...",
+      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2609.29973&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2609.29973%0A-+Title%3A+Learning+Better+Reasoning+for+Generative+Recommendation+with+Semantic+IDs%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2609.29973v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
+    },
+    {
+      "id": "2609.05748",
+      "title": "A Multi-Source Ensemble Approach to Candidate Generation for Alternative Vacation Rental Property Recommendations",
+      "url": "http://arxiv.org/abs/2609.05748v1",
+      "source": "arXiv",
+      "published": "2026-09-04",
+      "authors": [
+        "Syed Mohammed Arshad Zaidi",
+        "Eric Rincon",
+        "Shayan Hassantabar"
+      ],
+      "venue": "",
+      "citationCount": null,
+      "influentialCitationCount": null,
+      "discussionCount": null,
+      "score": 66.0,
+      "reasons": [
+        "推薦システム",
+        "ランキング",
+        "検索・ retrieval",
+        "協調フィルタリング",
+        "グラフ推薦"
+      ],
+      "summary": "Alternative property recommendations play a critical role in vacation rental marketplaces, helping users discover relevant options when viewing a specific listing. However, generating high-quality candidate...",
+      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2609.05748&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2609.05748%0A-+Title%3A+A+Multi-Source+Ensemble+Approach+to+Candidate+Generation+for+Alternative+Vacation+Rental+Property+Recommendations%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2609.05748v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
+    },
+    {
+      "id": "2609.27953",
+      "title": "The Recall Ceiling of LLM Recommendation Reranking",
+      "url": "http://arxiv.org/abs/2609.27953v1",
+      "source": "arXiv",
+      "published": "2026-08-27",
+      "authors": [
+        "Zhaohui Wang"
+      ],
+      "venue": "",
+      "citationCount": null,
+      "influentialCitationCount": null,
+      "discussionCount": null,
+      "score": 66.0,
+      "reasons": [
+        "推薦システム",
+        "ランキング",
+        "検索・ retrieval",
+        "協調フィルタリング",
+        "LLM x 推薦"
+      ],
+      "summary": "Some LLM-based recommendation rerankers are evaluated under an oracle protocol that guarantees the ground-truth item is present in the scored set, either by injecting it into the candidate list or by scoring it...",
+      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2609.27953&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2609.27953%0A-+Title%3A+The+Recall+Ceiling+of+LLM+Recommendation+Reranking%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2609.27953v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
+    },
+    {
+      "id": "2609.22441",
+      "title": "Connected Content Retriever: Dense Graph Edge Features Powering Pre-Ranking at LinkedIn",
+      "url": "http://arxiv.org/abs/2609.22441v1",
+      "source": "arXiv",
+      "published": "2026-09-18",
+      "authors": [
+        "Akhilesh Gupta",
+        "Sudarshan Srinivasa Ramanujam",
+        "Chirag Bhanuprasad Mehta",
+        "Reshma Asharaf Beena",
+        "Dhritiman Das",
+        "Birjodh Singh Tiwana",
+        "Bhargavkumar Kanubhai Patel",
+        "Mack Lee",
+        "Renyi Tang"
+      ],
+      "venue": "",
+      "citationCount": null,
+      "influentialCitationCount": null,
+      "discussionCount": null,
+      "score": 62.0,
+      "reasons": [
+        "推薦システム",
+        "ランキング",
+        "グラフ推薦",
+        "新着 arXiv",
+        "11日前の新着"
+      ],
+      "summary": "In large-scale recommendation systems like the LinkedIn Feed, content generated by a member's network (connections and follows) makes up over 70% of impressions and engagement. It is therefore essential that the pre-...",
+      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2609.22441&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2609.22441%0A-+Title%3A+Connected+Content+Retriever%3A+Dense+Graph+Edge+Features+Powering+Pre-Ranking+at+LinkedIn%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2609.22441v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
+    },
+    {
+      "id": "2609.29341",
+      "title": "SkinAgent AI: A Safety-Grounded Multimodal Agentic Framework for Non-Diagnostic Skincare Support",
+      "url": "http://arxiv.org/abs/2609.29341v1",
+      "source": "arXiv",
+      "published": "2026-09-24",
+      "authors": [
+        "Muhammad Muhtasim Shahriar",
+        "Abdullah Mohammad Sayem",
+        "Tze Hui Liew",
+        "M. F. Mridha",
+        "Md. Mahiuddin"
+      ],
+      "venue": "",
+      "citationCount": null,
+      "influentialCitationCount": null,
+      "discussionCount": null,
+      "score": 62.0,
+      "reasons": [
+        "推薦システム",
+        "グラフ推薦",
+        "LLM x 推薦",
+        "新着 arXiv",
+        "5日前の新着"
+      ],
+      "summary": "Consumer-facing skincare AI must coordinate visual evidence, product information, tool use, and user-facing actions within explicit evidence and safety boundaries. This study evaluates SkinAgent AI, a non-diagnostic...",
+      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2609.29341&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2609.29341%0A-+Title%3A+SkinAgent+AI%3A+A+Safety-Grounded+Multimodal+Agentic+Framework+for+Non-Diagnostic+Skincare+Support%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2609.29341v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
+    },
+    {
+      "id": "2609.27155",
+      "title": "The Like Trap: Multi-Stage Poisoning against Agents in Similarity-based Recommendation Systems",
+      "url": "http://arxiv.org/abs/2609.27155v1",
+      "source": "arXiv",
+      "published": "2026-09-22",
+      "authors": [
+        "Yue Xing",
+        "Pengfei He",
+        "Zitao Li"
+      ],
+      "venue": "",
+      "citationCount": null,
+      "influentialCitationCount": null,
+      "discussionCount": null,
+      "score": 62.0,
+      "reasons": [
+        "推薦システム",
+        "検索・ retrieval",
+        "LLM x 推薦",
+        "新着 arXiv",
+        "7日前の新着"
+      ],
+      "summary": "With recent advancements in large language models (LLMs) and LLM-based agents, these agents are becoming increasingly autonomous and gaining broader access to act on users' behalf on the internet. However, the...",
+      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2609.27155&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2609.27155%0A-+Title%3A+The+Like+Trap%3A+Multi-Stage+Poisoning+against+Agents+in+Similarity-based+Recommendation+Systems%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2609.27155v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
+    },
+    {
+      "id": "2609.31253",
+      "title": "Enriching Sequential Recommendation with Graph Laplacian Positional Embeddings",
+      "url": "http://arxiv.org/abs/2609.31253v1",
+      "source": "arXiv",
+      "published": "2026-09-25",
+      "authors": [
+        "Ekaterina Trushkova",
+        "Artur Gimranov",
+        "Anton Lysenko"
+      ],
+      "venue": "",
+      "citationCount": null,
+      "influentialCitationCount": null,
+      "discussionCount": null,
+      "score": 62.0,
+      "reasons": [
+        "推薦システム",
+        "ランキング",
+        "グラフ推薦",
+        "新着 arXiv",
+        "4日前の新着"
+      ],
+      "summary": "Sequential recommenders typically rely on learnable positional embeddings to encode the order of user interactions. In this work, we ask whether this ordinal signal can be replaced by a structural one derived from the...",
+      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2609.31253&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2609.31253%0A-+Title%3A+Enriching+Sequential+Recommendation+with+Graph+Laplacian+Positional+Embeddings%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2609.31253v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
     }
   ]
 }
