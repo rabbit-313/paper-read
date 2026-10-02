@@ -1,258 +1,215 @@
 {
-  "date": "2026-10-01",
-  "generatedAt": "2026-10-01T01:06:26.385175+00:00",
+  "date": "2026-10-02",
+  "generatedAt": "2026-10-02T01:22:29.011940+00:00",
   "focus": "Recommender systems, recommendation, retrieval, ranking, and related ML/DL papers",
   "items": [
     {
-      "id": "2609.32803",
-      "title": "Nutri-ATLAS: Embodied Agent for Tabulated Lookup and Assistance for Smarter nutrition",
-      "url": "http://arxiv.org/abs/2609.32803v1",
-      "source": "arXiv",
-      "published": "2026-09-26",
+      "id": "llm-enhanced-multi-channel-recommendation-with-adaptive-ensemble-ranking",
+      "title": "LLM-Enhanced Multi-Channel Recommendation with Adaptive Ensemble Ranking",
+      "url": "https://www.semanticscholar.org/paper/3abd4f9af80c131966858ceae60693f07f9240ed",
+      "source": "Semantic Scholar",
+      "published": "2025-10-24",
       "authors": [
-        "Uttej Kallakuri",
-        "Boxun Hu",
-        "Ankur A. Butala",
-        "Najim Dehak",
-        "Tinoosh Mohsenin"
+        "Aijia Sun"
       ],
-      "venue": "",
-      "citationCount": null,
-      "influentialCitationCount": null,
+      "venue": "Proceedings of the 4th International Conference on Artificial Intelligence and Intelligent Information Processing",
+      "citationCount": 10,
+      "influentialCitationCount": 0,
       "discussionCount": null,
-      "score": 70.0,
-      "reasons": [
-        "推薦システム",
-        "検索・ retrieval",
-        "グラフ推薦",
-        "LLM x 推薦",
-        "新着 arXiv"
-      ],
-      "summary": "Generative and Agentic IoT systems offer a promising foundation for digital healthcare applications that combine sensing, personalized reasoning, and autonomous interaction in real-world environments. Nutrition...",
-      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2609.32803&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2609.32803%0A-+Title%3A+Nutri-ATLAS%3A+Embodied+Agent+for+Tabulated+Lookup+and+Assistance+for+Smarter+nutrition%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2609.32803v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
-    },
-    {
-      "id": "2609.39043",
-      "title": "Routing Between Generative and Collaborative User Profiles: A Serving-Time Gate for Controllable Novelty",
-      "url": "http://arxiv.org/abs/2609.39043v1",
-      "source": "arXiv",
-      "published": "2026-09-30",
-      "authors": [
-        "Milad Sabouri",
-        "Neeraj Sharma",
-        "Sardar Hamidian",
-        "Shaghayegh Agah"
-      ],
-      "venue": "",
-      "citationCount": null,
-      "influentialCitationCount": null,
-      "discussionCount": null,
-      "score": 70.0,
-      "reasons": [
-        "推薦システム",
-        "ランキング",
-        "協調フィルタリング",
-        "LLM x 推薦",
-        "新着 arXiv"
-      ],
-      "summary": "Large language models (LLMs) enable rich semantic user profiles for recommendation, but such profiles are more expensive to generate and are not necessarily desirable to deploy uniformly. We study whether LLM-...",
-      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2609.39043&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2609.39043%0A-+Title%3A+Routing+Between+Generative+and+Collaborative+User+Profiles%3A+A+Serving-Time+Gate+for+Controllable+Novelty%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2609.39043v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
-    },
-    {
-      "id": "2609.36688",
-      "title": "GRP v0.1 Technical Report",
-      "url": "http://arxiv.org/abs/2609.36688v1",
-      "source": "arXiv",
-      "published": "2026-09-29",
-      "authors": [
-        "Wenfeng Zhuo",
-        "Vincent Xue",
-        "Charles Wei",
-        "Cong Ni",
-        "Ruiming Lu",
-        "Jiwen Ren",
-        "Mo Li",
-        "Peng Yang",
-        "Xufei Wang",
-        "Dongheng Li",
-        "Jiacong He",
-        "Yi Song",
-        "Yufei Fan",
-        "Mikhail Obukhov",
-        "Yiwen Chen",
-        "Yvette Liu",
-        "Yin Ye",
-        "Chengjie Wu",
-        "Mingtao Zhang",
-        "Jinchao Ye",
-        "Lili Zhang",
-        "Chunhui Zhu"
-      ],
-      "venue": "",
-      "citationCount": null,
-      "influentialCitationCount": null,
-      "discussionCount": null,
-      "score": 70.0,
+      "score": 38.5,
       "reasons": [
         "推薦システム",
         "ランキング",
         "検索・ retrieval",
-        "強化学習",
-        "新着 arXiv"
-      ],
-      "summary": "Industrial recommendation systems rely on multi-stage cascades whose retrieval, ranking, and serving components are difficult to replace jointly. We present GRP, a generative recommendation framework that combines...",
-      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2609.36688&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2609.36688%0A-+Title%3A+GRP+v0.1+Technical+Report%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2609.36688v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
-    },
-    {
-      "id": "2609.35285",
-      "title": "Textual User Taste: Natural-Language User Context for Foundation-Model Recommender System at Scale",
-      "url": "http://arxiv.org/abs/2609.35285v1",
-      "source": "arXiv",
-      "published": "2026-09-28",
-      "authors": [
-        "Ghazal Fazelnia",
-        "Paul Gigioli",
-        "Eliza Klyce",
-        "Sharon Zheng",
-        "Katie Zelvin",
-        "Ye Myat Thein",
-        "Anurag Deshpande",
-        "Seda Davtyan",
-        "Kate Remeika",
-        "Maya Hristakeva",
-        "Erik Franco",
-        "Karen Banzon",
-        "Peng Ge",
-        "Jacqueline Wood",
-        "Nandini Singh",
-        "David Murgatroyd",
-        "Mounia Lalmas",
-        "Yves Raimond",
-        "Andreas Damianou"
-      ],
-      "venue": "",
-      "citationCount": null,
-      "influentialCitationCount": null,
-      "discussionCount": null,
-      "score": 70.0,
-      "reasons": [
-        "推薦システム",
-        "ランキング",
-        "検索・ retrieval",
-        "LLM x 推薦",
-        "新着 arXiv"
-      ],
-      "summary": "Foundation model recommender systems require user context that can be consumed by large language models, reasoned over, and refined through natural-language interaction. Traditional behavioral embedding vectors remain...",
-      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2609.35285&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2609.35285%0A-+Title%3A+Textual+User+Taste%3A+Natural-Language+User+Context+for+Foundation-Model+Recommender+System+at+Scale%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2609.35285v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
-    },
-    {
-      "id": "2609.05748",
-      "title": "A Multi-Source Ensemble Approach to Candidate Generation for Alternative Vacation Rental Property Recommendations",
-      "url": "http://arxiv.org/abs/2609.05748v1",
-      "source": "arXiv",
-      "published": "2026-09-04",
-      "authors": [
-        "Syed Mohammed Arshad Zaidi",
-        "Eric Rincon",
-        "Shayan Hassantabar"
-      ],
-      "venue": "",
-      "citationCount": null,
-      "influentialCitationCount": null,
-      "discussionCount": null,
-      "score": 66.0,
-      "reasons": [
-        "推薦システム",
-        "ランキング",
-        "検索・ retrieval",
-        "協調フィルタリング",
-        "グラフ推薦"
-      ],
-      "summary": "Alternative property recommendations play a critical role in vacation rental marketplaces, helping users discover relevant options when viewing a specific listing. However, generating high-quality candidate...",
-      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2609.05748&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2609.05748%0A-+Title%3A+A+Multi-Source+Ensemble+Approach+to+Candidate+Generation+for+Alternative+Vacation+Rental+Property+Recommendations%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2609.05748v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
-    },
-    {
-      "id": "2609.27953",
-      "title": "The Recall Ceiling of LLM Recommendation Reranking",
-      "url": "http://arxiv.org/abs/2609.27953v1",
-      "source": "arXiv",
-      "published": "2026-08-27",
-      "authors": [
-        "Zhaohui Wang"
-      ],
-      "venue": "",
-      "citationCount": null,
-      "influentialCitationCount": null,
-      "discussionCount": null,
-      "score": 66.0,
-      "reasons": [
-        "推薦システム",
-        "ランキング",
-        "検索・ retrieval",
-        "協調フィルタリング",
         "LLM x 推薦"
       ],
-      "summary": "Some LLM-based recommendation rerankers are evaluated under an oracle protocol that guarantees the ground-truth item is present in the scored set, either by injecting it into the candidate list or by scoring it...",
-      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2609.27953&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2609.27953%0A-+Title%3A+The+Recall+Ceiling+of+LLM+Recommendation+Reranking%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2609.27953v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
+      "summary": "Recommendation systems help users find relevant options among many choices. Traditional methods often fail to capture the semantic information in user reviews and descriptions, which limits personalized...",
+      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+llm-enhanced-multi-channel-recommendation-with-adaptive-ensemble-ranking&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+llm-enhanced-multi-channel-recommendation-with-adaptive-ensemble-ranking%0A-+Title%3A+LLM-Enhanced+Multi-Channel+Recommendation+with+Adaptive+Ensemble+Ranking%0A-+URL%3A+https%3A%2F%2Fwww.semanticscholar.org%2Fpaper%2F3abd4f9af80c131966858ceae60693f07f9240ed%0A-+Source%3A+Semantic+Scholar%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
     },
     {
-      "id": "1905.08108",
-      "title": "Neural Graph Collaborative Filtering",
-      "url": "https://arxiv.org/abs/1905.08108",
+      "id": "recbert-semantic-recommendation-engine-with-large-language-model-enhanced-query-",
+      "title": "RecBERT: Semantic Recommendation Engine with Large Language Model Enhanced Query Segmentation for k-Nearest Neighbors Ranking Retrieval",
+      "url": "https://www.semanticscholar.org/paper/8f36cd43f298eacd3ecd2cee3b695b7a09594335",
       "source": "Semantic Scholar",
-      "published": "2019-05-20",
+      "published": "2024",
       "authors": [
-        "Xiang Wang",
-        "Xiang-Nan He",
-        "Meng Wang",
-        "Fuli Feng",
-        "Tat-Seng Chua"
+        "Richard W. S. Wu"
       ],
-      "venue": "Annual International ACM SIGIR Conference on Research and Development in Information Retrieval",
-      "citationCount": 4081,
-      "influentialCitationCount": 650,
+      "venue": "Intell. Converged Networks",
+      "citationCount": 7,
+      "influentialCitationCount": 0,
       "discussionCount": null,
-      "score": 65.0,
-      "reasons": [
-        "推薦システム",
-        "協調フィルタリング",
-        "グラフ推薦",
-        "引用数 4081"
-      ],
-      "summary": "Learning vector representations (aka. embeddings) of users and items lies at the core of modern recommender systems. Ranging from early matrix factorization to recently emerged deep learning based methods, existing...",
-      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+1905.08108&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+1905.08108%0A-+Title%3A+Neural+Graph+Collaborative+Filtering%0A-+URL%3A+https%3A%2F%2Farxiv.org%2Fabs%2F1905.08108%0A-+Source%3A+Semantic+Scholar%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
-    },
-    {
-      "id": "2609.22441",
-      "title": "Connected Content Retriever: Dense Graph Edge Features Powering Pre-Ranking at LinkedIn",
-      "url": "http://arxiv.org/abs/2609.22441v1",
-      "source": "arXiv",
-      "published": "2026-09-18",
-      "authors": [
-        "Akhilesh Gupta",
-        "Sudarshan Srinivasa Ramanujam",
-        "Chirag Bhanuprasad Mehta",
-        "Reshma Asharaf Beena",
-        "Dhritiman Das",
-        "Birjodh Singh Tiwana",
-        "Bhargavkumar Kanubhai Patel",
-        "Mack Lee",
-        "Renyi Tang"
-      ],
-      "venue": "",
-      "citationCount": null,
-      "influentialCitationCount": null,
-      "discussionCount": null,
-      "score": 62.0,
+      "score": 38.35,
       "reasons": [
         "推薦システム",
         "ランキング",
-        "グラフ推薦",
-        "新着 arXiv",
-        "13日前の新着"
+        "検索・ retrieval",
+        "LLM x 推薦"
       ],
-      "summary": "In large-scale recommendation systems like the LinkedIn Feed, content generated by a member's network (connections and follows) makes up over 70% of impressions and engagement. It is therefore essential that the pre-...",
-      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2609.22441&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2609.22441%0A-+Title%3A+Connected+Content+Retriever%3A+Dense+Graph+Edge+Features+Powering+Pre-Ranking+at+LinkedIn%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2609.22441v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
+      "summary": "タイトルと話題性から、今日の読書候補として拾っています。",
+      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+recbert-semantic-recommendation-engine-with-large-language-model-enhanced-query-&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+recbert-semantic-recommendation-engine-with-large-language-model-enhanced-query-%0A-+Title%3A+RecBERT%3A+Semantic+Recommendation+Engine+with+Large+Language+Model+Enhanced+Query+Segmentation+for+k-Nearest+Neighbors+Ranking+Retrieval%0A-+URL%3A+https%3A%2F%2Fwww.semanticscholar.org%2Fpaper%2F8f36cd43f298eacd3ecd2cee3b695b7a09594335%0A-+Source%3A+Semantic+Scholar%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
+    },
+    {
+      "id": "2508.14515",
+      "title": "MISS: Multi-Modal Tree Indexing and Searching with Lifelong Sequential Behavior for Retrieval Recommendation",
+      "url": "https://arxiv.org/abs/2508.14515",
+      "source": "Semantic Scholar",
+      "published": "2025-08-20",
+      "authors": [
+        "Cheng-Cheng Guo",
+        "Jun-Da She",
+        "Kuo Cai",
+        "Shiyao Wang",
+        "Qigen Hu",
+        "Qiang Luo"
+      ],
+      "venue": "International Conference on Information and Knowledge Management",
+      "citationCount": 5,
+      "influentialCitationCount": 0,
+      "discussionCount": null,
+      "score": 38.25,
+      "reasons": [
+        "推薦システム",
+        "ランキング",
+        "検索・ retrieval",
+        "協調フィルタリング"
+      ],
+      "summary": "Large-scale industrial recommendation systems typically employ a two-stage paradigm of retrieval and ranking to handle huge amounts of information. Recent research focuses on improving the performance of retrieval...",
+      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2508.14515&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2508.14515%0A-+Title%3A+MISS%3A+Multi-Modal+Tree+Indexing+and+Searching+with+Lifelong+Sequential+Behavior+for+Retrieval+Recommendation%0A-+URL%3A+https%3A%2F%2Farxiv.org%2Fabs%2F2508.14515%0A-+Source%3A+Semantic+Scholar%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
+    },
+    {
+      "id": "2504.16454",
+      "title": "Killing Two Birds with One Stone: Unifying Retrieval and Ranking with a Single Generative Recommendation Model",
+      "url": "https://arxiv.org/abs/2504.16454",
+      "source": "Semantic Scholar",
+      "published": "2025-04-23",
+      "authors": [
+        "Luan-Kang Zhang",
+        "Kenan Song",
+        "Yi-Quan Lee",
+        "Wei Guo",
+        "Hao Wang",
+        "Yawen Li"
+      ],
+      "venue": "Annual International ACM SIGIR Conference on Research and Development in Information Retrieval",
+      "citationCount": 31,
+      "influentialCitationCount": 0,
+      "discussionCount": null,
+      "score": 31.55,
+      "reasons": [
+        "推薦システム",
+        "ランキング",
+        "検索・ retrieval"
+      ],
+      "summary": "In recommendation systems, the traditional multi-stage paradigm, which includes retrieval and ranking, often suffers from information loss between stages and diminishes performance. Recent advances in generative...",
+      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2504.16454&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2504.16454%0A-+Title%3A+Killing+Two+Birds+with+One+Stone%3A+Unifying+Retrieval+and+Ranking+with+a+Single+Generative+Recommendation+Model%0A-+URL%3A+https%3A%2F%2Farxiv.org%2Fabs%2F2504.16454%0A-+Source%3A+Semantic+Scholar%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
+    },
+    {
+      "id": "2505.22238",
+      "title": "Yambda-5B — A Large-Scale Multi-Modal Dataset for Ranking and Retrieval",
+      "url": "https://arxiv.org/abs/2505.22238",
+      "source": "Semantic Scholar",
+      "published": "2025-05-28",
+      "authors": [
+        "Alexander Ploshkin",
+        "V. Tytskiy",
+        "Alexey Pismenny",
+        "Vladimir Baikalov",
+        "Evgeny Taychinov",
+        "Artem Permiakov"
+      ],
+      "venue": "ACM Conference on Recommender Systems",
+      "citationCount": 24,
+      "influentialCitationCount": 3,
+      "discussionCount": null,
+      "score": 31.5,
+      "reasons": [
+        "推薦システム",
+        "ランキング",
+        "検索・ retrieval"
+      ],
+      "summary": "We present Yambda-5B, a large-scale open dataset sourced from the Yandex.Music streaming platform. Yambda-5B contains 4.79 billion user-item interactions from 1 million users across 9.39 million tracks. The dataset...",
+      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2505.22238&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2505.22238%0A-+Title%3A+Yambda-5B+%E2%80%94+A+Large-Scale+Multi-Modal+Dataset+for+Ranking+and+Retrieval%0A-+URL%3A+https%3A%2F%2Farxiv.org%2Fabs%2F2505.22238%0A-+Source%3A+Semantic+Scholar%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
+    },
+    {
+      "id": "2502.10284",
+      "title": "A Hybrid Cross-Stage Coordination Pre-ranking Model for Online Recommendation Systems",
+      "url": "https://arxiv.org/abs/2502.10284",
+      "source": "Semantic Scholar",
+      "published": "2025-02-14",
+      "authors": [
+        "Bin Zhao",
+        "Hou-Yi Qi",
+        "Guangwu Xu",
+        "Mian Ma",
+        "Xiwei Zhao",
+        "Feng Mei"
+      ],
+      "venue": "The Web Conference",
+      "citationCount": 11,
+      "influentialCitationCount": 1,
+      "discussionCount": null,
+      "score": 30.65,
+      "reasons": [
+        "推薦システム",
+        "ランキング",
+        "検索・ retrieval"
+      ],
+      "summary": "Large-scale recommendation systems often adopt cascading architecture consisting of retrieval, pre-ranking, ranking, and re-ranking stages. With strict latency requirements, pre-ranking utilizes lightweight models to...",
+      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2502.10284&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2502.10284%0A-+Title%3A+A+Hybrid+Cross-Stage+Coordination+Pre-ranking+Model+for+Online+Recommendation+Systems%0A-+URL%3A+https%3A%2F%2Farxiv.org%2Fabs%2F2502.10284%0A-+Source%3A+Semantic+Scholar%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
+    },
+    {
+      "id": "2507.10097",
+      "title": "User Long-Term Multi-Interest Retrieval Model for Recommendation",
+      "url": "https://arxiv.org/abs/2507.10097",
+      "source": "Semantic Scholar",
+      "published": "2025-07-14",
+      "authors": [
+        "Yue Meng",
+        "Cheng Guo",
+        "Xiaohui Hu",
+        "Honghu Deng",
+        "Yi Cao",
+        "Tong Liu"
+      ],
+      "venue": "ACM Conference on Recommender Systems",
+      "citationCount": 12,
+      "influentialCitationCount": 0,
+      "discussionCount": null,
+      "score": 30.6,
+      "reasons": [
+        "推薦システム",
+        "ランキング",
+        "検索・ retrieval"
+      ],
+      "summary": "User behavior sequence modeling, which captures user interest from rich historical interactions, is pivotal for industrial recommendation systems. Despite breakthroughs in ranking-stage models capable of leveraging...",
+      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2507.10097&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2507.10097%0A-+Title%3A+User+Long-Term+Multi-Interest+Retrieval+Model+for+Recommendation%0A-+URL%3A+https%3A%2F%2Farxiv.org%2Fabs%2F2507.10097%0A-+Source%3A+Semantic+Scholar%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
+    },
+    {
+      "id": "preference-optimized-retrieval-and-ranking-for-efficient-multimodal-recommendati",
+      "title": "Preference-Optimized Retrieval and Ranking for Efficient Multimodal Recommendation",
+      "url": "https://www.semanticscholar.org/paper/5f1d49c5b7e0d67675f254fe4871da7b24c8a62f",
+      "source": "Semantic Scholar",
+      "published": "2025-08-03",
+      "authors": [
+        "Zhenrui Yue",
+        "Hui-Min Zeng",
+        "Yue-Qi Wang",
+        "Julian J. McAuley",
+        "Dong Wang"
+      ],
+      "venue": "Knowledge Discovery and Data Mining",
+      "citationCount": 4,
+      "influentialCitationCount": 0,
+      "discussionCount": null,
+      "score": 30.2,
+      "reasons": [
+        "推薦システム",
+        "ランキング",
+        "検索・ retrieval"
+      ],
+      "summary": "Large multimodal models (LMMs) exhibit enhanced capabilities in understanding and generating both textual and visual content. By leveraging item metadata, LMMs are also applied for recommendation and demonstrate...",
+      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+preference-optimized-retrieval-and-ranking-for-efficient-multimodal-recommendati&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+preference-optimized-retrieval-and-ranking-for-efficient-multimodal-recommendati%0A-+Title%3A+Preference-Optimized+Retrieval+and+Ranking+for+Efficient+Multimodal+Recommendation%0A-+URL%3A+https%3A%2F%2Fwww.semanticscholar.org%2Fpaper%2F5f1d49c5b7e0d67675f254fe4871da7b24c8a62f%0A-+Source%3A+Semantic+Scholar%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
     }
   ]
 }
