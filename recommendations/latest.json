@@ -1,8 +1,34 @@
 {
-  "date": "2026-10-08",
-  "generatedAt": "2026-10-08T01:35:54.534245+00:00",
+  "date": "2026-10-09",
+  "generatedAt": "2026-10-09T01:46:08.920869+00:00",
   "focus": "Recommender systems, recommendation, retrieval, ranking, and related ML/DL papers",
   "items": [
+    {
+      "id": "2610.11228",
+      "title": "Multimodal Graph Retrieval-Augmented Sequential Recommendation via Collaborative Filtering Paths",
+      "url": "http://arxiv.org/abs/2610.11228v1",
+      "source": "arXiv",
+      "published": "2026-10-08",
+      "authors": [
+        "Jason Marcell Setiadi",
+        "Xin Cao",
+        "Lina Yao"
+      ],
+      "venue": "",
+      "citationCount": null,
+      "influentialCitationCount": null,
+      "discussionCount": null,
+      "score": 86.0,
+      "reasons": [
+        "推薦システム",
+        "ランキング",
+        "検索・ retrieval",
+        "協調フィルタリング",
+        "グラフ推薦"
+      ],
+      "summary": "Multimodal Large Language Models (MLLMs) have demonstrated strong potential for sequential recommendation through their ability to reason over complex multimodal data. However, existing approaches either rely solely...",
+      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2610.11228&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2610.11228%0A-+Title%3A+Multimodal+Graph+Retrieval-Augmented+Sequential+Recommendation+via+Collaborative+Filtering+Paths%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2610.11228v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
+    },
     {
       "id": "2610.06703",
       "title": "Reading the Mood: Emotion-Guided Book-to-Music Recommendation via CGANs and LLMs",
@@ -157,7 +183,7 @@
         "ランキング",
         "バンディット",
         "新着 arXiv",
-        "4日前の新着"
+        "5日前の新着"
       ],
       "summary": "Carousel interfaces allow a recommender system to directly observe how far a user has browsed. This signal distinguishes displayed but unclicked items from items that were never displayed, whereas conventional...",
       "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2610.05220&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2610.05220%0A-+Title%3A+Ranking+Bandits+for+Carousel+Interfaces+with+Observable+Browsing+Depth%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2610.05220v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
@@ -185,36 +211,10 @@
         "グラフ推薦",
         "生成モデル",
         "新着 arXiv",
-        "7日前の新着"
+        "8日前の新着"
       ],
       "summary": "Machine learning (ML) has emerged as a promising approach for improving diffusion MRI (dMRI) tractography, a task that remains limited by the intrinsic tension between local diffusion information and global anatomical...",
       "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2610.01894&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2610.01894%0A-+Title%3A+A+foundation+for+systematic+analysis+of+transformers+and+RNNs+for+tractography%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2610.01894v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
-    },
-    {
-      "id": "2610.09070",
-      "title": "Covariate-dependent Joint Modeling of Multivariate Ordinal Preferences and Its Connections with Comparison Models",
-      "url": "http://arxiv.org/abs/2610.09070v1",
-      "source": "arXiv",
-      "published": "2026-10-06",
-      "authors": [
-        "Yujie Chen",
-        "Antik Chakraborty",
-        "Anindya Bhadra"
-      ],
-      "venue": "",
-      "citationCount": null,
-      "influentialCitationCount": null,
-      "discussionCount": null,
-      "score": 62.0,
-      "reasons": [
-        "推薦システム",
-        "グラフ推薦",
-        "LLM x 推薦",
-        "新着 arXiv",
-        "2日前の新着"
-      ],
-      "summary": "Multivariate ordinal data along with covariates are commonly collected in problems ranging from alignment of language models with human preferences, as well as in recommender systems. For example, data sets such as...",
-      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2610.09070&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2610.09070%0A-+Title%3A+Covariate-dependent+Joint+Modeling+of+Multivariate+Ordinal+Preferences+and+Its+Connections+with+Comparison+Models%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2610.09070v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
     }
   ]
 }
