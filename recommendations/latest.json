@@ -1,6 +1,6 @@
 {
-  "date": "2026-10-10",
-  "generatedAt": "2026-10-10T01:32:41.359210+00:00",
+  "date": "2026-10-11",
+  "generatedAt": "2026-10-11T00:42:30.685232+00:00",
   "focus": "Recommender systems, recommendation, retrieval, ranking, and related ML/DL papers",
   "items": [
     {
@@ -183,7 +183,7 @@
         "ランキング",
         "バンディット",
         "新着 arXiv",
-        "6日前の新着"
+        "7日前の新着"
       ],
       "summary": "Carousel interfaces allow a recommender system to directly observe how far a user has browsed. This signal distinguishes displayed but unclicked items from items that were never displayed, whereas conventional...",
       "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2610.05220&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2610.05220%0A-+Title%3A+Ranking+Bandits+for+Carousel+Interfaces+with+Observable+Browsing+Depth%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2610.05220v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
@@ -211,7 +211,7 @@
         "グラフ推薦",
         "生成モデル",
         "新着 arXiv",
-        "9日前の新着"
+        "10日前の新着"
       ],
       "summary": "Machine learning (ML) has emerged as a promising approach for improving diffusion MRI (dMRI) tractography, a task that remains limited by the intrinsic tension between local diffusion information and global anatomical...",
       "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2610.01894&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2610.01894%0A-+Title%3A+A+foundation+for+systematic+analysis+of+transformers+and+RNNs+for+tractography%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2610.01894v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
