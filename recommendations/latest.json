@@ -1,155 +1,48 @@
 {
-  "date": "2026-10-15",
-  "generatedAt": "2026-10-15T00:18:42.226349+00:00",
+  "date": "2026-10-16",
+  "generatedAt": "2026-10-16T00:08:13.048198+00:00",
   "focus": "Recommender systems, recommendation, retrieval, ranking, and related ML/DL papers",
   "items": [
     {
-      "id": "2610.11228",
-      "title": "Multimodal Graph Retrieval-Augmented Sequential Recommendation via Collaborative Filtering Paths",
-      "url": "http://arxiv.org/abs/2610.11228v1",
+      "id": "2610.16440",
+      "title": "ARMED: Adaptive Retrieval-Augmented Medication Recommendation",
+      "url": "http://arxiv.org/abs/2610.16440v1",
       "source": "arXiv",
-      "published": "2026-10-08",
+      "published": "2026-10-12",
       "authors": [
-        "Jason Marcell Setiadi",
-        "Xin Cao",
-        "Lina Yao"
+        "Kyungkeon Chung",
+        "Se Un Park",
+        "Hyejin Lee",
+        "Junyoung Park"
       ],
       "venue": "",
       "citationCount": null,
       "influentialCitationCount": null,
       "discussionCount": null,
-      "score": 86.0,
+      "score": 62.0,
       "reasons": [
         "推薦システム",
-        "ランキング",
         "検索・ retrieval",
-        "協調フィルタリング",
-        "グラフ推薦"
+        "LLM x 推薦",
+        "新着 arXiv",
+        "4日前の新着"
       ],
-      "summary": "Multimodal Large Language Models (MLLMs) have demonstrated strong potential for sequential recommendation through their ability to reason over complex multimodal data. However, existing approaches either rely solely...",
-      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2610.11228&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2610.11228%0A-+Title%3A+Multimodal+Graph+Retrieval-Augmented+Sequential+Recommendation+via+Collaborative+Filtering+Paths%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2610.11228v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
+      "summary": "Medication recommendation requires jointly considering diagnoses, comorbidities, longitudinal patient history, and treatment interactions. Although recent retrieval-augmented generation approaches using language...",
+      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2610.16440&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2610.16440%0A-+Title%3A+ARMED%3A+Adaptive+Retrieval-Augmented+Medication+Recommendation%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2610.16440v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
     },
     {
-      "id": "2610.15864",
-      "title": "Personalized LLM Recommendation with Semantic IDs: Autoregressive Beam Search vs. Multi-Token Prediction",
-      "url": "http://arxiv.org/abs/2610.15864v1",
+      "id": "2610.15832",
+      "title": "Local Citation Recommendation Without Graph Signals",
+      "url": "http://arxiv.org/abs/2610.15832v1",
       "source": "arXiv",
       "published": "2026-10-11",
       "authors": [
-        "Sejoon Oh",
-        "Fernando Amat Gil",
-        "Evan Smothers",
-        "Dan Iter",
-        "Mark Thornburg",
-        "Dawit Mureja Argaw",
-        "Sourabh Medapati",
-        "Thea Wang",
-        "Ria Verma",
-        "Qiuling Xu",
-        "Harshit Syal",
-        "Ehsan Gholami",
-        "Moumita Bhattacharya",
-        "Ashish Rastogi"
-      ],
-      "venue": "",
-      "citationCount": null,
-      "influentialCitationCount": null,
-      "discussionCount": null,
-      "score": 78.0,
-      "reasons": [
-        "推薦システム",
-        "ランキング",
-        "検索・ retrieval",
-        "LLM x 推薦",
-        "強化学習"
-      ],
-      "summary": "Large-scale personalization is shifting from embedding-table retrieval to LLM-based recommenders that generate the Semantic ID (SID) of the item to recommend, where each SID is a short sequence of discrete...",
-      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2610.15864&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2610.15864%0A-+Title%3A+Personalized+LLM+Recommendation+with+Semantic+IDs%3A+Autoregressive+Beam+Search+vs.+Multi-Token+Prediction%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2610.15864v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
-    },
-    {
-      "id": "2610.06703",
-      "title": "Reading the Mood: Emotion-Guided Book-to-Music Recommendation via CGANs and LLMs",
-      "url": "http://arxiv.org/abs/2610.06703v1",
-      "source": "arXiv",
-      "published": "2026-10-05",
-      "authors": [
-        "Manousos Linardakis",
-        "Georgios Alexandridis"
-      ],
-      "venue": "",
-      "citationCount": null,
-      "influentialCitationCount": null,
-      "discussionCount": null,
-      "score": 70.0,
-      "reasons": [
-        "推薦システム",
-        "ランキング",
-        "協調フィルタリング",
-        "LLM x 推薦",
-        "新着 arXiv"
-      ],
-      "summary": "Background music that matches the mood of a text has been shown to make readers feel more immersed and improve their reading experience, motivating recommender systems that pair books with mood-matched music. In this...",
-      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2610.06703&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2610.06703%0A-+Title%3A+Reading+the+Mood%3A+Emotion-Guided+Book-to-Music+Recommendation+via+CGANs+and+LLMs%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2610.06703v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
-    },
-    {
-      "id": "2609.05748",
-      "title": "A Multi-Source Ensemble Approach to Candidate Generation for Alternative Vacation Rental Property Recommendations",
-      "url": "http://arxiv.org/abs/2609.05748v1",
-      "source": "arXiv",
-      "published": "2026-09-04",
-      "authors": [
-        "Syed Mohammed Arshad Zaidi",
-        "Eric Rincon",
-        "Shayan Hassantabar"
-      ],
-      "venue": "",
-      "citationCount": null,
-      "influentialCitationCount": null,
-      "discussionCount": null,
-      "score": 66.0,
-      "reasons": [
-        "推薦システム",
-        "ランキング",
-        "検索・ retrieval",
-        "協調フィルタリング",
-        "グラフ推薦"
-      ],
-      "summary": "Alternative property recommendations play a critical role in vacation rental marketplaces, helping users discover relevant options when viewing a specific listing. However, generating high-quality candidate...",
-      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2609.05748&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2609.05748%0A-+Title%3A+A+Multi-Source+Ensemble+Approach+to+Candidate+Generation+for+Alternative+Vacation+Rental+Property+Recommendations%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2609.05748v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
-    },
-    {
-      "id": "2609.27953",
-      "title": "The Recall Ceiling of LLM Recommendation Reranking",
-      "url": "http://arxiv.org/abs/2609.27953v1",
-      "source": "arXiv",
-      "published": "2026-08-27",
-      "authors": [
-        "Zhaohui Wang"
-      ],
-      "venue": "",
-      "citationCount": null,
-      "influentialCitationCount": null,
-      "discussionCount": null,
-      "score": 66.0,
-      "reasons": [
-        "推薦システム",
-        "ランキング",
-        "検索・ retrieval",
-        "協調フィルタリング",
-        "LLM x 推薦"
-      ],
-      "summary": "Some LLM-based recommendation rerankers are evaluated under an oracle protocol that guarantees the ground-truth item is present in the scored set, either by injecting it into the candidate list or by scoring it...",
-      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2609.27953&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2609.27953%0A-+Title%3A+The+Recall+Ceiling+of+LLM+Recommendation+Reranking%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2609.27953v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
-    },
-    {
-      "id": "2610.05220",
-      "title": "Ranking Bandits for Carousel Interfaces with Observable Browsing Depth",
-      "url": "http://arxiv.org/abs/2610.05220v1",
-      "source": "arXiv",
-      "published": "2026-10-04",
-      "authors": [
-        "Takuma Yasuda",
-        "Atsuyoshi Nakamura"
+        "Benjamin Basseri",
+        "Pavlos Protopapas",
+        "Kemeng Zhang",
+        "Alberto Accomazzi",
+        "Stephanie Jarmak",
+        "Anna Kelbert"
       ],
       "venue": "",
       "citationCount": null,
@@ -158,68 +51,217 @@
       "score": 62.0,
       "reasons": [
         "推薦システム",
-        "ランキング",
-        "バンディット",
+        "検索・ retrieval",
+        "グラフ推薦",
         "新着 arXiv",
-        "11日前の新着"
+        "5日前の新着"
       ],
-      "summary": "Carousel interfaces allow a recommender system to directly observe how far a user has browsed. This signal distinguishes displayed but unclicked items from items that were never displayed, whereas conventional...",
-      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2610.05220&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2610.05220%0A-+Title%3A+Ranking+Bandits+for+Carousel+Interfaces+with+Observable+Browsing+Depth%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2610.05220v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
+      "summary": "Resolving correct citations can be a time-consuming task for research writers. We address local citation recommendation (LCR), where the goal is to retrieve appropriate references for a given sentence. Web tools...",
+      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2610.15832&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2610.15832%0A-+Title%3A+Local+Citation+Recommendation+Without+Graph+Signals%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2610.15832v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
     },
     {
-      "id": "2610.01894",
-      "title": "A foundation for systematic analysis of transformers and RNNs for tractography",
-      "url": "http://arxiv.org/abs/2610.01894v1",
+      "id": "2610.14709",
+      "title": "Vela: User Behavior as Supervision Sparks LLM Intelligence",
+      "url": "http://arxiv.org/abs/2610.14709v1",
       "source": "arXiv",
-      "published": "2026-10-01",
+      "published": "2026-10-10",
       "authors": [
-        "Emmanuelle Renauld",
-        "Philippe Poulin",
-        "Hugo Larochelle",
-        "Antoine Théberge",
-        "Maxime Descoteaux"
+        "Yang Xiao",
+        "Yusong Sun",
+        "Haoyi Wu",
+        "Wenyang Hui",
+        "Weiqiang Hang",
+        "Luqing Wang",
+        "Zejian Wang",
+        "Zirui Tu",
+        "Jingsheng Mao",
+        "Shaobo Hu",
+        "Yang Luo",
+        "Jiale Guo",
+        "Jin Zhang",
+        "Yudan Liu",
+        "Zhaokai Luo",
+        "Ren Huan",
+        "Yao Hu",
+        "Chengyue Jiang",
+        "Wenjie Li",
+        "Chuan Mu"
       ],
       "venue": "",
       "citationCount": null,
       "influentialCitationCount": null,
       "discussionCount": null,
       "score": 62.0,
+      "reasons": [
+        "推薦システム",
+        "LLM x 推薦",
+        "強化学習",
+        "新着 arXiv",
+        "6日前の新着"
+      ],
+      "summary": "Large language models are increasingly deployed in applications that act on users' long-term behavior histories, from personal assistants to recommendation and advertising systems. These applications demand the user...",
+      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2610.14709&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2610.14709%0A-+Title%3A+Vela%3A+User+Behavior+as+Supervision+Sparks+LLM+Intelligence%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2610.14709v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
+    },
+    {
+      "id": "2610.19446",
+      "title": "xLightGCN: Explainable Graph Neural Network Based Recommendation Systems with Most Influential Peers",
+      "url": "http://arxiv.org/abs/2610.19446v1",
+      "source": "arXiv",
+      "published": "2026-10-14",
+      "authors": [
+        "Calder Johnson",
+        "Robin Cohen"
+      ],
+      "venue": "",
+      "citationCount": null,
+      "influentialCitationCount": null,
+      "discussionCount": null,
+      "score": 54.0,
       "reasons": [
         "推薦システム",
         "グラフ推薦",
-        "生成モデル",
-        "新着 arXiv",
-        "14日前の新着"
-      ],
-      "summary": "Machine learning (ML) has emerged as a promising approach for improving diffusion MRI (dMRI) tractography, a task that remains limited by the intrinsic tension between local diffusion information and global anatomical...",
-      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2610.01894&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2610.01894%0A-+Title%3A+A+foundation+for+systematic+analysis+of+transformers+and+RNNs+for+tractography%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2610.01894v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
-    },
-    {
-      "id": "2610.18308",
-      "title": "SimInter: Evidence-Grounded User Simulation with Interview-Based Profile Enrichment for Conversational Recommender Systems",
-      "url": "http://arxiv.org/abs/2610.18308v1",
-      "source": "arXiv",
-      "published": "2026-10-13",
-      "authors": [
-        "Erfan Shahabi",
-        "Amirhossein Roshandel",
-        "Mohammad Sadegh Sadeghi",
-        "Azadeh Shakery"
-      ],
-      "venue": "",
-      "citationCount": null,
-      "influentialCitationCount": null,
-      "discussionCount": null,
-      "score": 62.0,
-      "reasons": [
-        "推薦システム",
-        "グラフ推薦",
-        "LLM x 推薦",
         "新着 arXiv",
         "2日前の新着"
       ],
-      "summary": "Conversational Recommender Systems (CRSs) require reliable user simulators for cost-effective evaluation. LLM-based simulators have made realistic simulation possible but typically condition on profiles derived from...",
-      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2610.18308&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2610.18308%0A-+Title%3A+SimInter%3A+Evidence-Grounded+User+Simulation+with+Interview-Based+Profile+Enrichment+for+Conversational+Recommender+Systems%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2610.18308v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
+      "summary": "Recommendation systems, systems that predict a user's preference for items in order to curate that user's feed, are a ubiquitous and central feature in online social networks. While they are a central piece of our...",
+      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2610.19446&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2610.19446%0A-+Title%3A+xLightGCN%3A+Explainable+Graph+Neural+Network+Based+Recommendation+Systems+with+Most+Influential+Peers%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2610.19446v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
+    },
+    {
+      "id": "2610.16108",
+      "title": "GUIDE: Computationally Augmented Consensus for Trustworthy Clinical Practice Guidelines",
+      "url": "http://arxiv.org/abs/2610.16108v1",
+      "source": "arXiv",
+      "published": "2026-10-12",
+      "authors": [
+        "Yuanfan Lin",
+        "Jie Di",
+        "Xujin He",
+        "Zhenzhe Lin",
+        "Jialing Chen",
+        "Ruiyang Li",
+        "Changyu Zheng",
+        "Yuanrui Shang",
+        "Weiqin Peng",
+        "Jingxi Qin",
+        "Xiong Wang",
+        "Dongxin Ye",
+        "Yining Huang",
+        "Guoqiang Li",
+        "Andi Xu",
+        "Sijia Yu",
+        "Ruixin Wang",
+        "Yahan Yang",
+        "Xiaohang Wu",
+        "Duoru Lin",
+        "Jingjing Chen",
+        "Zhenzhen Liu",
+        "Wenben Chen",
+        "Haotian Lin"
+      ],
+      "venue": "",
+      "citationCount": null,
+      "influentialCitationCount": null,
+      "discussionCount": null,
+      "score": 54.0,
+      "reasons": [
+        "推薦システム",
+        "協調フィルタリング",
+        "新着 arXiv",
+        "4日前の新着"
+      ],
+      "summary": "Maintaining up-to-date clinical practice guidelines (CPGs) is essential for evidence-based medicine, but rapid evidence growth and complex expert consensus formation limit timely updates. We developed GUIDE, a multi-...",
+      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2610.16108&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2610.16108%0A-+Title%3A+GUIDE%3A+Computationally+Augmented+Consensus+for+Trustworthy+Clinical+Practice+Guidelines%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2610.16108v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
+    },
+    {
+      "id": "2610.14550",
+      "title": "LLM-based User-Product Relevance Evaluation for Dynamic Product Advertising",
+      "url": "http://arxiv.org/abs/2610.14550v1",
+      "source": "arXiv",
+      "published": "2026-10-10",
+      "authors": [
+        "Wen Zhang",
+        "Xiao Bai",
+        "Hsiang-wei Chao",
+        "Mengfan Zhu",
+        "Tong Zhao",
+        "Mingxuan Ju",
+        "Xiaodong Liu",
+        "Congfei Zhang",
+        "Yunzhi Zhou",
+        "Yajun Wang",
+        "Jinchao Li",
+        "Yu Zhang"
+      ],
+      "venue": "",
+      "citationCount": null,
+      "influentialCitationCount": null,
+      "discussionCount": null,
+      "score": 54.0,
+      "reasons": [
+        "検索・ retrieval",
+        "LLM x 推薦",
+        "新着 arXiv",
+        "6日前の新着"
+      ],
+      "summary": "Dynamic Product Advertising (DPA) retrieval systems are a core component of modern e-commerce advertising; however, their evaluation remains challenging. Conventional offline engagement metrics are limited by sparse,...",
+      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2610.14550&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2610.14550%0A-+Title%3A+LLM-based+User-Product+Relevance+Evaluation+for+Dynamic+Product+Advertising%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2610.14550v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
+    },
+    {
+      "id": "2610.14487",
+      "title": "AlignPoison: Conditional Targeted Poisoning of Generative Recommenders via Decoding-Aligned Prefixes",
+      "url": "http://arxiv.org/abs/2610.14487v1",
+      "source": "arXiv",
+      "published": "2026-10-10",
+      "authors": [
+        "Zhuoxuan Zhang",
+        "Jinhao Duan",
+        "Xinyu Zhao",
+        "Jinduo Guo",
+        "Shuai Shao",
+        "Rui Li",
+        "Luke Simon",
+        "Zhun Deng",
+        "Tianlong Chen",
+        "Bo Sun"
+      ],
+      "venue": "",
+      "citationCount": null,
+      "influentialCitationCount": null,
+      "discussionCount": null,
+      "score": 54.0,
+      "reasons": [
+        "推薦システム",
+        "ランキング",
+        "新着 arXiv",
+        "6日前の新着"
+      ],
+      "summary": "Generative recommendation models based on autoregressive decoding have been adopted as alternatives to classical ranking-based systems. While their modeling flexibility has been widely studied, their resilience to...",
+      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2610.14487&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2610.14487%0A-+Title%3A+AlignPoison%3A+Conditional+Targeted+Poisoning+of+Generative+Recommenders+via+Decoding-Aligned+Prefixes%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2610.14487v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
+    },
+    {
+      "id": "2610.17823",
+      "title": "Mitigating Popularity Bias in Sequential Recommendations with Sparse Prior-Regularized Objective",
+      "url": "http://arxiv.org/abs/2610.17823v1",
+      "source": "arXiv",
+      "published": "2026-10-13",
+      "authors": [
+        "Anton Pembek",
+        "Anton Klenitskiy",
+        "Alexander Savchenko",
+        "Alexey Vasilev"
+      ],
+      "venue": "",
+      "citationCount": null,
+      "influentialCitationCount": null,
+      "discussionCount": null,
+      "score": 46.0,
+      "reasons": [
+        "推薦システム",
+        "新着 arXiv",
+        "3日前の新着"
+      ],
+      "summary": "Popularity bias is a well-known challenge in recommender systems, often leading to the over-exposure of popular items and reduced catalog coverage. In this work, we propose PR-entmax, a sparse prior-regularized...",
+      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2610.17823&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2610.17823%0A-+Title%3A+Mitigating+Popularity+Bias+in+Sequential+Recommendations+with+Sparse+Prior-Regularized+Objective%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2610.17823v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
     }
   ]
 }
