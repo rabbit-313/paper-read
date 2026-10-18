@@ -1,6 +1,6 @@
 {
-  "date": "2026-10-17",
-  "generatedAt": "2026-10-17T23:48:10.596021+00:00",
+  "date": "2026-10-18",
+  "generatedAt": "2026-10-18T23:57:01.451471+00:00",
   "focus": "Recommender systems, recommendation, retrieval, ranking, and related ML/DL papers",
   "items": [
     {
@@ -161,7 +161,7 @@
         "ランキング",
         "バンディット",
         "新着 arXiv",
-        "13日前の新着"
+        "14日前の新着"
       ],
       "summary": "Carousel interfaces allow a recommender system to directly observe how far a user has browsed. This signal distinguishes displayed but unclicked items from items that were never displayed, whereas conventional...",
       "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2610.05220&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2610.05220%0A-+Title%3A+Ranking+Bandits+for+Carousel+Interfaces+with+Observable+Browsing+Depth%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2610.05220v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
@@ -188,7 +188,7 @@
         "グラフ推薦",
         "LLM x 推薦",
         "新着 arXiv",
-        "4日前の新着"
+        "5日前の新着"
       ],
       "summary": "Conversational Recommender Systems (CRSs) require reliable user simulators for cost-effective evaluation. LLM-based simulators have made realistic simulation possible but typically condition on profiles derived from...",
       "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2610.18308&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2610.18308%0A-+Title%3A+SimInter%3A+Evidence-Grounded+User+Simulation+with+Interview-Based+Profile+Enrichment+for+Conversational+Recommender+Systems%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2610.18308v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
@@ -231,7 +231,7 @@
         "LLM x 推薦",
         "強化学習",
         "新着 arXiv",
-        "7日前の新着"
+        "8日前の新着"
       ],
       "summary": "Large language models are increasingly deployed in applications that act on users' long-term behavior histories, from personal assistants to recommendation and advertising systems. These applications demand the user...",
       "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2610.14709&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2610.14709%0A-+Title%3A+Vela%3A+User+Behavior+as+Supervision+Sparks+LLM+Intelligence%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2610.14709v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
