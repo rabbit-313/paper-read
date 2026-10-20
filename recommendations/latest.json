@@ -1,44 +1,35 @@
 {
-  "date": "2026-10-18",
-  "generatedAt": "2026-10-18T23:57:01.451471+00:00",
+  "date": "2026-10-20",
+  "generatedAt": "2026-10-20T00:55:20.913147+00:00",
   "focus": "Recommender systems, recommendation, retrieval, ranking, and related ML/DL papers",
   "items": [
     {
-      "id": "2610.15864",
-      "title": "Personalized LLM Recommendation with Semantic IDs: Autoregressive Beam Search vs. Multi-Token Prediction",
-      "url": "http://arxiv.org/abs/2610.15864v1",
+      "id": "2610.22797",
+      "title": "Reasoning Reranking with Semantic IDs as the Sole Item Representation",
+      "url": "http://arxiv.org/abs/2610.22797v1",
       "source": "arXiv",
-      "published": "2026-10-11",
+      "published": "2026-10-16",
       "authors": [
-        "Sejoon Oh",
-        "Fernando Amat Gil",
-        "Evan Smothers",
-        "Dan Iter",
-        "Mark Thornburg",
-        "Dawit Mureja Argaw",
-        "Sourabh Medapati",
-        "Thea Wang",
-        "Ria Verma",
-        "Qiuling Xu",
-        "Harshit Syal",
-        "Ehsan Gholami",
-        "Moumita Bhattacharya",
-        "Ashish Rastogi"
+        "Zhenwei Tang",
+        "Jintao Liu",
+        "Di Bai",
+        "Xidong Wu",
+        "Xinwu Cheng"
       ],
       "venue": "",
       "citationCount": null,
       "influentialCitationCount": null,
       "discussionCount": null,
-      "score": 78.0,
+      "score": 70.0,
       "reasons": [
         "推薦システム",
         "ランキング",
-        "検索・ retrieval",
         "LLM x 推薦",
-        "強化学習"
+        "強化学習",
+        "新着 arXiv"
       ],
-      "summary": "Large-scale personalization is shifting from embedding-table retrieval to LLM-based recommenders that generate the Semantic ID (SID) of the item to recommend, where each SID is a short sequence of discrete...",
-      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2610.15864&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2610.15864%0A-+Title%3A+Personalized+LLM+Recommendation+with+Semantic+IDs%3A+Autoregressive+Beam+Search+vs.+Multi-Token+Prediction%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2610.15864v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
+      "summary": "Reasoning rerankers write a rationale before ranking a candidate slate, and existing systems read item metadata to do so, even though generative recommenders increasingly represent items as compact Semantic IDs...",
+      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2610.22797&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2610.22797%0A-+Title%3A+Reasoning+Reranking+with+Semantic+IDs+as+the+Sole+Item+Representation%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2610.22797v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
     },
     {
       "id": "2610.19065",
@@ -65,31 +56,6 @@
       ],
       "summary": "Generative retrieval (GR) has emerged as a strong candidate generator for sequential recommendation as language models and semantic-item identifiers have improved. However, GR is not a uniformly stronger replacement...",
       "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2610.19065&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2610.19065%0A-+Title%3A+Revisiting+Generative+vs.+Dense+Retrieval%3A+A+Static+Value+Prior+Reverses+the+Gap%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2610.19065v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
-    },
-    {
-      "id": "2610.06703",
-      "title": "Reading the Mood: Emotion-Guided Book-to-Music Recommendation via CGANs and LLMs",
-      "url": "http://arxiv.org/abs/2610.06703v1",
-      "source": "arXiv",
-      "published": "2026-10-05",
-      "authors": [
-        "Manousos Linardakis",
-        "Georgios Alexandridis"
-      ],
-      "venue": "",
-      "citationCount": null,
-      "influentialCitationCount": null,
-      "discussionCount": null,
-      "score": 70.0,
-      "reasons": [
-        "推薦システム",
-        "ランキング",
-        "協調フィルタリング",
-        "LLM x 推薦",
-        "新着 arXiv"
-      ],
-      "summary": "Background music that matches the mood of a text has been shown to make readers feel more immersed and improve their reading experience, motivating recommender systems that pair books with mood-matched music. In this...",
-      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2610.06703&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2610.06703%0A-+Title%3A+Reading+the+Mood%3A+Emotion-Guided+Book-to-Music+Recommendation+via+CGANs+and+LLMs%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2610.06703v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
     },
     {
       "id": "2609.05748",
@@ -142,31 +108,6 @@
       "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2609.27953&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2609.27953%0A-+Title%3A+The+Recall+Ceiling+of+LLM+Recommendation+Reranking%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2609.27953v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
     },
     {
-      "id": "2610.05220",
-      "title": "Ranking Bandits for Carousel Interfaces with Observable Browsing Depth",
-      "url": "http://arxiv.org/abs/2610.05220v1",
-      "source": "arXiv",
-      "published": "2026-10-04",
-      "authors": [
-        "Takuma Yasuda",
-        "Atsuyoshi Nakamura"
-      ],
-      "venue": "",
-      "citationCount": null,
-      "influentialCitationCount": null,
-      "discussionCount": null,
-      "score": 62.0,
-      "reasons": [
-        "推薦システム",
-        "ランキング",
-        "バンディット",
-        "新着 arXiv",
-        "14日前の新着"
-      ],
-      "summary": "Carousel interfaces allow a recommender system to directly observe how far a user has browsed. This signal distinguishes displayed but unclicked items from items that were never displayed, whereas conventional...",
-      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2610.05220&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2610.05220%0A-+Title%3A+Ranking+Bandits+for+Carousel+Interfaces+with+Observable+Browsing+Depth%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2610.05220v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
-    },
-    {
       "id": "2610.18308",
       "title": "SimInter: Evidence-Grounded User Simulation with Interview-Based Profile Enrichment for Conversational Recommender Systems",
       "url": "http://arxiv.org/abs/2610.18308v1",
@@ -188,7 +129,7 @@
         "グラフ推薦",
         "LLM x 推薦",
         "新着 arXiv",
-        "5日前の新着"
+        "7日前の新着"
       ],
       "summary": "Conversational Recommender Systems (CRSs) require reliable user simulators for cost-effective evaluation. LLM-based simulators have made realistic simulation possible but typically condition on profiles derived from...",
       "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2610.18308&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2610.18308%0A-+Title%3A+SimInter%3A+Evidence-Grounded+User+Simulation+with+Interview-Based+Profile+Enrichment+for+Conversational+Recommender+Systems%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2610.18308v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
@@ -231,10 +172,63 @@
         "LLM x 推薦",
         "強化学習",
         "新着 arXiv",
-        "8日前の新着"
+        "10日前の新着"
       ],
       "summary": "Large language models are increasingly deployed in applications that act on users' long-term behavior histories, from personal assistants to recommendation and advertising systems. These applications demand the user...",
       "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2610.14709&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2610.14709%0A-+Title%3A+Vela%3A+User+Behavior+as+Supervision+Sparks+LLM+Intelligence%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2610.14709v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
+    },
+    {
+      "id": "2610.09070",
+      "title": "Covariate-dependent Joint Modeling of Multivariate Ordinal Preferences and Its Connections with Comparison Models",
+      "url": "http://arxiv.org/abs/2610.09070v1",
+      "source": "arXiv",
+      "published": "2026-10-06",
+      "authors": [
+        "Yujie Chen",
+        "Antik Chakraborty",
+        "Anindya Bhadra"
+      ],
+      "venue": "",
+      "citationCount": null,
+      "influentialCitationCount": null,
+      "discussionCount": null,
+      "score": 62.0,
+      "reasons": [
+        "推薦システム",
+        "グラフ推薦",
+        "LLM x 推薦",
+        "新着 arXiv",
+        "14日前の新着"
+      ],
+      "summary": "Multivariate ordinal data along with covariates are commonly collected in problems ranging from alignment of language models with human preferences, as well as in recommender systems. For example, data sets such as...",
+      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2610.09070&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2610.09070%0A-+Title%3A+Covariate-dependent+Joint+Modeling+of+Multivariate+Ordinal+Preferences+and+Its+Connections+with+Comparison+Models%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2610.09070v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
+    },
+    {
+      "id": "2610.23707",
+      "title": "Tool Recommendation for Multi-Step Agents: Finding Every Tool a Task Needs",
+      "url": "http://arxiv.org/abs/2610.23707v1",
+      "source": "arXiv",
+      "published": "2026-10-16",
+      "authors": [
+        "Sam Partee",
+        "River Stevens",
+        "Thierry Damiba",
+        "Valerie Fanelle"
+      ],
+      "venue": "",
+      "citationCount": null,
+      "influentialCitationCount": null,
+      "discussionCount": null,
+      "score": 62.0,
+      "reasons": [
+        "推薦システム",
+        "ランキング",
+        "検索・ retrieval",
+        "新着 arXiv",
+        "4日前の新着"
+      ],
+      "summary": "A multi-step agent task fails when a single tool it needs is missing, yet the tools an agent may need are too many to list: the roughly 8,200 tools on the platform we study have definitions that together exceed the...",
+      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2610.23707&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2610.23707%0A-+Title%3A+Tool+Recommendation+for+Multi-Step+Agents%3A+Finding+Every+Tool+a+Task+Needs%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2610.23707v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
     }
   ]
 }
