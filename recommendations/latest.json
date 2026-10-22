@@ -1,6 +1,6 @@
 {
-  "date": "2026-10-21",
-  "generatedAt": "2026-10-21T00:23:49.471457+00:00",
+  "date": "2026-10-22",
+  "generatedAt": "2026-10-22T00:27:26.360275+00:00",
   "focus": "Recommender systems, recommendation, retrieval, ranking, and related ML/DL papers",
   "items": [
     {
@@ -60,32 +60,6 @@
       ],
       "summary": "Next point-of-interest (POI) recommendation uses visit histories and POI content, but text and images are often missing. Large language model agents have been applied to recommender systems for preference modeling and...",
       "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2610.25801&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2610.25801%0A-+Title%3A+Learning+Complementary+Agent+Groups+via+Task+Hypergraphs+for+Next-POI+Recommendation+with+Missing+Modalities%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2610.25801v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
-    },
-    {
-      "id": "2610.19065",
-      "title": "Revisiting Generative vs. Dense Retrieval: A Static Value Prior Reverses the Gap",
-      "url": "http://arxiv.org/abs/2610.19065v1",
-      "source": "arXiv",
-      "published": "2026-10-13",
-      "authors": [
-        "Renbo Tu",
-        "Yang Liu",
-        "Shuying Sun"
-      ],
-      "venue": "",
-      "citationCount": null,
-      "influentialCitationCount": null,
-      "discussionCount": null,
-      "score": 70.0,
-      "reasons": [
-        "推薦システム",
-        "ランキング",
-        "検索・ retrieval",
-        "LLM x 推薦",
-        "新着 arXiv"
-      ],
-      "summary": "Generative retrieval (GR) has emerged as a strong candidate generator for sequential recommendation as language models and semantic-item identifiers have improved. However, GR is not a uniformly stronger replacement...",
-      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2610.19065&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2610.19065%0A-+Title%3A+Revisiting+Generative+vs.+Dense+Retrieval%3A+A+Static+Value+Prior+Reverses+the+Gap%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2610.19065v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
     },
     {
       "id": "2609.05748",
@@ -159,7 +133,7 @@
         "グラフ推薦",
         "LLM x 推薦",
         "新着 arXiv",
-        "8日前の新着"
+        "9日前の新着"
       ],
       "summary": "Conversational Recommender Systems (CRSs) require reliable user simulators for cost-effective evaluation. LLM-based simulators have made realistic simulation possible but typically condition on profiles derived from...",
       "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2610.18308&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2610.18308%0A-+Title%3A+SimInter%3A+Evidence-Grounded+User+Simulation+with+Interview-Based+Profile+Enrichment+for+Conversational+Recommender+Systems%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2610.18308v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
@@ -202,22 +176,29 @@
         "LLM x 推薦",
         "強化学習",
         "新着 arXiv",
-        "11日前の新着"
+        "12日前の新着"
       ],
       "summary": "Large language models are increasingly deployed in applications that act on users' long-term behavior histories, from personal assistants to recommendation and advertising systems. These applications demand the user...",
       "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2610.14709&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2610.14709%0A-+Title%3A+Vela%3A+User+Behavior+as+Supervision+Sparks+LLM+Intelligence%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2610.14709v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
     },
     {
-      "id": "2610.23707",
-      "title": "Tool Recommendation for Multi-Step Agents: Finding Every Tool a Task Needs",
-      "url": "http://arxiv.org/abs/2610.23707v1",
+      "id": "2610.28569",
+      "title": "ECHO: Efficient Cascade with Homogeneous Operators for Distillation-Guided 100K-Sequence Modeling",
+      "url": "http://arxiv.org/abs/2610.28569v1",
       "source": "arXiv",
-      "published": "2026-10-16",
+      "published": "2026-10-20",
       "authors": [
-        "Sam Partee",
-        "River Stevens",
-        "Thierry Damiba",
-        "Valerie Fanelle"
+        "Wenhao Li",
+        "Qinglin Jia",
+        "Chenghou Jin",
+        "Zihong Xian",
+        "Jiezhou Ji",
+        "Yanzhi Liu",
+        "Zezheng Wang",
+        "Ruiming Tang",
+        "Chaoyi Ma",
+        "Zhaojie Liu",
+        "Wenwu Ou"
       ],
       "venue": "",
       "citationCount": null,
@@ -229,10 +210,38 @@
         "ランキング",
         "検索・ retrieval",
         "新着 arXiv",
-        "5日前の新着"
+        "2日前の新着"
       ],
-      "summary": "A multi-step agent task fails when a single tool it needs is missing, yet the tools an agent may need are too many to list: the roughly 8,200 tools on the platform we study have definitions that together exceed the...",
-      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2610.23707&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2610.23707%0A-+Title%3A+Tool+Recommendation+for+Multi-Step+Agents%3A+Finding+Every+Tool+a+Task+Needs%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2610.23707v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
+      "summary": "Modeling lifetime user behavior sequences is essential for capturing long-range preferences in industrial recommendation, yet 100K-length user sequences make target-aware ranking prohibitively expensive. Search-based...",
+      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2610.28569&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2610.28569%0A-+Title%3A+ECHO%3A+Efficient+Cascade+with+Homogeneous+Operators+for+Distillation-Guided+100K-Sequence+Modeling%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2610.28569v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
+    },
+    {
+      "id": "2610.28568",
+      "title": "Evolving Semantic Indexes for Generative Retrieval",
+      "url": "http://arxiv.org/abs/2610.28568v1",
+      "source": "arXiv",
+      "published": "2026-10-20",
+      "authors": [
+        "Jinming Nian",
+        "Jyun-Yu Jiang",
+        "Henry Tsai",
+        "Yi Fang",
+        "Zhirong Liang"
+      ],
+      "venue": "",
+      "citationCount": null,
+      "influentialCitationCount": null,
+      "discussionCount": null,
+      "score": 62.0,
+      "reasons": [
+        "推薦システム",
+        "検索・ retrieval",
+        "LLM x 推薦",
+        "新着 arXiv",
+        "2日前の新着"
+      ],
+      "summary": "Generative retrieval (GR) casts search and recommendation as autoregressive generation of discrete semantic identifiers (SIDs). SID design largely determines GR quality, but its discrete, interdependent components...",
+      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2610.28568&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2610.28568%0A-+Title%3A+Evolving+Semantic+Indexes+for+Generative+Retrieval%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2610.28568v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
     }
   ]
 }
