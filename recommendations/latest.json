@@ -1,226 +1,188 @@
 {
-  "date": "2026-10-29",
-  "generatedAt": "2026-10-29T01:36:03.900805+00:00",
+  "date": "2026-10-30",
+  "generatedAt": "2026-10-30T01:38:18.917878+00:00",
   "focus": "Recommender systems, recommendation, retrieval, ranking, and related ML/DL papers",
   "items": [
     {
-      "id": "2610.37280",
-      "title": "Modeling Preference Dependencies with Directed Acyclic Graphs for Narrative-Driven Recommendation",
-      "url": "http://arxiv.org/abs/2610.37280v1",
-      "source": "arXiv",
-      "published": "2026-10-27",
+      "id": "1409.2944",
+      "title": "Collaborative Deep Learning for Recommender Systems",
+      "url": "https://arxiv.org/abs/1409.2944",
+      "source": "Semantic Scholar",
+      "published": "2014-09-09",
       "authors": [
-        "Mingzhe Lu",
-        "Jian Qin",
-        "Ruize Qin",
-        "Jinhao Liu",
-        "Yunpeng Li",
-        "Hang Su"
+        "Hao Wang",
+        "Naiyan Wang",
+        "Dit-Yan Yeung"
       ],
-      "venue": "",
-      "citationCount": null,
-      "influentialCitationCount": null,
+      "venue": "Knowledge Discovery and Data Mining",
+      "citationCount": 1770,
+      "influentialCitationCount": 172,
       "discussionCount": null,
-      "score": 78.0,
+      "score": 57.0,
       "reasons": [
         "推薦システム",
-        "ランキング",
-        "検索・ retrieval",
-        "グラフ推薦",
-        "LLM x 推薦"
-      ],
-      "summary": "Narrative-driven recommendation allows users to express multifaceted needs through free-form text where stated preferences naturally qualify and condition one another. Existing methods typically treat narratives as...",
-      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2610.37280&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2610.37280%0A-+Title%3A+Modeling+Preference+Dependencies+with+Directed+Acyclic+Graphs+for+Narrative-Driven+Recommendation%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2610.37280v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
-    },
-    {
-      "id": "2610.36954",
-      "title": "When Diffusion Recommenders Stop Sampling: Preserving Generative Diversity",
-      "url": "http://arxiv.org/abs/2610.36954v1",
-      "source": "arXiv",
-      "published": "2026-10-27",
-      "authors": [
-        "Louis Castres Saint Martin",
-        "Alain Rakotomamonjy",
-        "Patrick Gallinari"
-      ],
-      "venue": "",
-      "citationCount": null,
-      "influentialCitationCount": null,
-      "discussionCount": null,
-      "score": 70.0,
-      "reasons": [
-        "推薦システム",
-        "ランキング",
-        "検索・ retrieval",
-        "生成モデル",
-        "新着 arXiv"
-      ],
-      "summary": "A user history can admit multiple plausible next interactions, yet conventional sequential recommenders produce a single deterministic ranking. While diffusion models offer a natural way to sample alternative...",
-      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2610.36954&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2610.36954%0A-+Title%3A+When+Diffusion+Recommenders+Stop+Sampling%3A+Preserving+Generative+Diversity%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2610.36954v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
-    },
-    {
-      "id": "2609.05748",
-      "title": "A Multi-Source Ensemble Approach to Candidate Generation for Alternative Vacation Rental Property Recommendations",
-      "url": "http://arxiv.org/abs/2609.05748v1",
-      "source": "arXiv",
-      "published": "2026-09-04",
-      "authors": [
-        "Syed Mohammed Arshad Zaidi",
-        "Eric Rincon",
-        "Shayan Hassantabar"
-      ],
-      "venue": "",
-      "citationCount": null,
-      "influentialCitationCount": null,
-      "discussionCount": null,
-      "score": 66.0,
-      "reasons": [
-        "推薦システム",
-        "ランキング",
-        "検索・ retrieval",
         "協調フィルタリング",
+        "引用数 1770"
+      ],
+      "summary": "Collaborative filtering (CF) is a successful approach commonly used by many recommender systems. Conventional CF-based methods use the ratings given to items by users as the sole source of information for learning to...",
+      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+1409.2944&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+1409.2944%0A-+Title%3A+Collaborative+Deep+Learning+for+Recommender+Systems%0A-+URL%3A+https%3A%2F%2Farxiv.org%2Fabs%2F1409.2944%0A-+Source%3A+Semantic+Scholar%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
+    },
+    {
+      "id": "1606.07792",
+      "title": "Wide & Deep Learning for Recommender Systems",
+      "url": "https://arxiv.org/abs/1606.07792",
+      "source": "Semantic Scholar",
+      "published": "2016-06-24",
+      "authors": [
+        "Heng-Tze Cheng",
+        "Levent Koç",
+        "Jeremiah Harmsen",
+        "Tal Shaked",
+        "T. Chandra",
+        "H. Aradhye"
+      ],
+      "venue": "DLRS@RecSys",
+      "citationCount": 4375,
+      "influentialCitationCount": 466,
+      "discussionCount": null,
+      "score": 49.0,
+      "reasons": [
+        "推薦システム",
+        "引用数 4375"
+      ],
+      "summary": "Generalized linear models with nonlinear feature transformations are widely used for large-scale regression and classification problems with sparse inputs. Memorization of feature interactions through a wide set of...",
+      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+1606.07792&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+1606.07792%0A-+Title%3A+Wide+%26+Deep+Learning+for+Recommender+Systems%0A-+URL%3A+https%3A%2F%2Farxiv.org%2Fabs%2F1606.07792%0A-+Source%3A+Semantic+Scholar%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
+    },
+    {
+      "id": "show-hn-adrs-for-ai-deliberation-records-for-human-ai-work-versioned-in-git",
+      "title": "Show HN: ADRs for AI – Deliberation records for human–AI work, versioned in Git",
+      "url": "https://adrs.systems",
+      "source": "Hacker News",
+      "published": "2026-10-25",
+      "authors": [],
+      "venue": "",
+      "citationCount": null,
+      "influentialCitationCount": null,
+      "discussionCount": 58,
+      "score": 33.6,
+      "reasons": [
+        "5日前の新着",
+        "HN コメント 58"
+      ],
+      "summary": "タイトルと話題性から、今日の読書候補として拾っています。",
+      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+show-hn-adrs-for-ai-deliberation-records-for-human-ai-work-versioned-in-git&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+show-hn-adrs-for-ai-deliberation-records-for-human-ai-work-versioned-in-git%0A-+Title%3A+Show+HN%3A+ADRs+for+AI+%E2%80%93+Deliberation+records+for+human%E2%80%93AI+work%2C+versioned+in+Git%0A-+URL%3A+https%3A%2F%2Fadrs.systems%0A-+Source%3A+Hacker+News%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
+    },
+    {
+      "id": "in-depth-survey-deep-learning-in-recommender-systems-exploring-prediction-and-ra",
+      "title": "In-depth survey: deep learning in recommender systems—exploring prediction and ranking models, datasets, feature analysis, and emerging trends",
+      "url": "https://www.semanticscholar.org/paper/274637b206d71699749c1849d2f1c0b4afcba61b",
+      "source": "Semantic Scholar",
+      "published": "2025-03-21",
+      "authors": [
+        "Shivangi Gheewala",
+        "Shuxiang Xu",
+        "Soonja Yeom"
+      ],
+      "venue": "Neural computing & applications (Print)",
+      "citationCount": 60,
+      "influentialCitationCount": 2,
+      "discussionCount": null,
+      "score": 25.2,
+      "reasons": [
+        "推薦システム",
+        "ランキング"
+      ],
+      "summary": "Due to the exponential growth of online information, users are often welcomed with a huge range of products and services along with descriptions, reviews, and comments. Although this information available to users is...",
+      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+in-depth-survey-deep-learning-in-recommender-systems-exploring-prediction-and-ra&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+in-depth-survey-deep-learning-in-recommender-systems-exploring-prediction-and-ra%0A-+Title%3A+In-depth+survey%3A+deep+learning+in+recommender+systems%E2%80%94exploring+prediction+and+ranking+models%2C+datasets%2C+feature+analysis%2C+and+emerging+trends%0A-+URL%3A+https%3A%2F%2Fwww.semanticscholar.org%2Fpaper%2F274637b206d71699749c1849d2f1c0b4afcba61b%0A-+Source%3A+Semantic+Scholar%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
+    },
+    {
+      "id": "2502.19271",
+      "title": "Multiview graph dual-attention deep learning and contrastive learning for multi-criteria recommender systems",
+      "url": "https://arxiv.org/abs/2502.19271",
+      "source": "Semantic Scholar",
+      "published": "2025-02-26",
+      "authors": [
+        "S. Forouzandeh",
+        "P. Krivitsky",
+        "Rohitash Chandra"
+      ],
+      "venue": "Expert systems with applications",
+      "citationCount": 10,
+      "influentialCitationCount": 0,
+      "discussionCount": null,
+      "score": 22.5,
+      "reasons": [
+        "推薦システム",
         "グラフ推薦"
       ],
-      "summary": "Alternative property recommendations play a critical role in vacation rental marketplaces, helping users discover relevant options when viewing a specific listing. However, generating high-quality candidate...",
-      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2609.05748&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2609.05748%0A-+Title%3A+A+Multi-Source+Ensemble+Approach+to+Candidate+Generation+for+Alternative+Vacation+Rental+Property+Recommendations%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2609.05748v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
+      "summary": "Recommender systems leveraging deep learning models have been crucial for assisting users in selecting items aligned with their preferences and interests. However, a significant challenge persists in single-criteria...",
+      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2502.19271&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2502.19271%0A-+Title%3A+Multiview+graph+dual-attention+deep+learning+and+contrastive+learning+for+multi-criteria+recommender+systems%0A-+URL%3A+https%3A%2F%2Farxiv.org%2Fabs%2F2502.19271%0A-+Source%3A+Semantic+Scholar%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
     },
     {
-      "id": "2609.27953",
-      "title": "The Recall Ceiling of LLM Recommendation Reranking",
-      "url": "http://arxiv.org/abs/2609.27953v1",
-      "source": "arXiv",
-      "published": "2026-08-27",
+      "id": "a-comprehensive-survey-of-recommender-systems-based-on-deep-learning",
+      "title": "A Comprehensive Survey of Recommender Systems Based on Deep Learning",
+      "url": "https://www.semanticscholar.org/paper/160e5375cb52b485afd2b52d73d2c231e5fdedd5",
+      "source": "Semantic Scholar",
+      "published": "2023-10-17",
       "authors": [
-        "Zhaohui Wang"
+        "Hong Zhou",
+        "Fei Xiong",
+        "Hongshu Chen"
       ],
-      "venue": "",
-      "citationCount": null,
-      "influentialCitationCount": null,
+      "venue": "Applied Sciences",
+      "citationCount": 60,
+      "influentialCitationCount": 2,
       "discussionCount": null,
-      "score": 66.0,
+      "score": 17.2,
       "reasons": [
-        "推薦システム",
-        "ランキング",
-        "検索・ retrieval",
-        "協調フィルタリング",
-        "LLM x 推薦"
+        "推薦システム"
       ],
-      "summary": "Some LLM-based recommendation rerankers are evaluated under an oracle protocol that guarantees the ground-truth item is present in the scored set, either by injecting it into the candidate list or by scoring it...",
-      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2609.27953&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2609.27953%0A-+Title%3A+The+Recall+Ceiling+of+LLM+Recommendation+Reranking%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2609.27953v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
+      "summary": "With the increasing abundance of information resources and the development of deep learning techniques, recommender systems (RSs) based on deep learning have gradually become a research focus. Although RSs have...",
+      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+a-comprehensive-survey-of-recommender-systems-based-on-deep-learning&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+a-comprehensive-survey-of-recommender-systems-based-on-deep-learning%0A-+Title%3A+A+Comprehensive+Survey+of+Recommender+Systems+Based+on+Deep+Learning%0A-+URL%3A+https%3A%2F%2Fwww.semanticscholar.org%2Fpaper%2F160e5375cb52b485afd2b52d73d2c231e5fdedd5%0A-+Source%3A+Semantic+Scholar%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
     },
     {
-      "id": "2610.36890",
-      "title": "Latent Residual Reasoning for Ranking in Generative Recommendation",
-      "url": "http://arxiv.org/abs/2610.36890v1",
-      "source": "arXiv",
-      "published": "2026-10-27",
+      "id": "a-systematic-review-of-the-literature-on-deep-learning-approaches-for-cross-doma",
+      "title": "A systematic review of the literature on deep learning approaches for cross-domain recommender systems",
+      "url": "https://www.semanticscholar.org/paper/e8f93904608402b91519178446c9294283b874cf",
+      "source": "Semantic Scholar",
+      "published": "2024-09-01",
       "authors": [
-        "Haihan Shi",
-        "Ruidong Han",
-        "Wenjie Wang",
-        "Shangyu Chen",
-        "Sunhao Dai",
-        "Yongqi Li",
-        "Yangyang Li",
-        "Fei Jiang",
-        "Wei Lin",
-        "Fuli Feng",
-        "Xiangnan He"
+        "Matthew O. Ayemowa",
+        "Roliana Ibrahim",
+        "Yunusa Adamu Bena"
       ],
-      "venue": "",
-      "citationCount": null,
-      "influentialCitationCount": null,
+      "venue": "Decision Analytics Journal",
+      "citationCount": 29,
+      "influentialCitationCount": 0,
       "discussionCount": null,
-      "score": 62.0,
+      "score": 15.45,
       "reasons": [
-        "推薦システム",
-        "ランキング",
-        "LLM x 推薦",
-        "新着 arXiv",
-        "2日前の新着"
+        "推薦システム"
       ],
-      "summary": "Generative recommendation (GR) models for ranking typically adopt a fast-thinking direct prediction paradigm with strong practical efficiency. However, ranking requires fine-grained scoring across multiple candidate...",
-      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2610.36890&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2610.36890%0A-+Title%3A+Latent+Residual+Reasoning+for+Ranking+in+Generative+Recommendation%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2610.36890v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
+      "summary": "タイトルと話題性から、今日の読書候補として拾っています。",
+      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+a-systematic-review-of-the-literature-on-deep-learning-approaches-for-cross-doma&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+a-systematic-review-of-the-literature-on-deep-learning-approaches-for-cross-doma%0A-+Title%3A+A+systematic+review+of+the+literature+on+deep+learning+approaches+for+cross-domain+recommender+systems%0A-+URL%3A+https%3A%2F%2Fwww.semanticscholar.org%2Fpaper%2Fe8f93904608402b91519178446c9294283b874cf%0A-+Source%3A+Semantic+Scholar%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
     },
     {
-      "id": "2610.36370",
-      "title": "IOSage: Detecting HPC I/O Bottleneck Patterns to Guide LLM Recommendations",
-      "url": "http://arxiv.org/abs/2610.36370v1",
-      "source": "arXiv",
-      "published": "2026-10-26",
+      "id": "an-approach-for-multi-context-aware-multi-criteria-recommender-systems-based-on-",
+      "title": "An Approach for Multi-Context-Aware Multi-Criteria Recommender Systems Based on Deep Learning",
+      "url": "https://www.semanticscholar.org/paper/de3b23e7b3d0ebaccb8580722d5c3f4de9a808d4",
+      "source": "Semantic Scholar",
+      "published": "2024",
       "authors": [
-        "Mahdi Banisharif",
-        "Tabassum Mahmud",
-        "Ahmad Tarraf",
-        "Suren Byna",
-        "Ali Jannesari"
+        "Ifrah Afzal",
+        "B. Yilmazel",
+        "Cihan Kaleli"
       ],
-      "venue": "",
-      "citationCount": null,
-      "influentialCitationCount": null,
+      "venue": "IEEE Access",
+      "citationCount": 20,
+      "influentialCitationCount": 0,
       "discussionCount": null,
-      "score": 62.0,
+      "score": 15.0,
       "reasons": [
-        "推薦システム",
-        "検索・ retrieval",
-        "LLM x 推薦",
-        "新着 arXiv",
-        "3日前の新着"
+        "推薦システム"
       ],
-      "summary": "HPC applications often leave much of their parallel file system's bandwidth unused, and turning their Darshan logs into concrete I/O fixes still requires a scarce I/O expert. Rule-based tools flag counters against...",
-      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2610.36370&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2610.36370%0A-+Title%3A+IOSage%3A+Detecting+HPC+I%2FO+Bottleneck+Patterns+to+Guide+LLM+Recommendations%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2610.36370v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
-    },
-    {
-      "id": "2610.34673",
-      "title": "Agent Memory as Recommendation: Recommender-System Design for Long-Term Memory of LLM Agents",
-      "url": "http://arxiv.org/abs/2610.34673v1",
-      "source": "arXiv",
-      "published": "2026-10-26",
-      "authors": [
-        "Xinyu Zhang",
-        "Weiwei Sun"
-      ],
-      "venue": "",
-      "citationCount": null,
-      "influentialCitationCount": null,
-      "discussionCount": null,
-      "score": 62.0,
-      "reasons": [
-        "推薦システム",
-        "グラフ推薦",
-        "LLM x 推薦",
-        "新着 arXiv",
-        "3日前の新着"
-      ],
-      "summary": "Large language model (LLM) agents that serve users across many sessions must choose, for every request, the few stored memories that enter a limited context window. This choice largely decides whether the agent...",
-      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2610.34673&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2610.34673%0A-+Title%3A+Agent+Memory+as+Recommendation%3A+Recommender-System+Design+for+Long-Term+Memory+of+LLM+Agents%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2610.34673v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
-    },
-    {
-      "id": "2610.31119",
-      "title": "Constraint Reasoning and Large Language Models Join Forces: Providing Contrastive Explanations for Real-World Optimisation-Based Applications",
-      "url": "http://arxiv.org/abs/2610.31119v1",
-      "source": "arXiv",
-      "published": "2026-10-22",
-      "authors": [
-        "Roger X. Lera-Leri",
-        "Filippo Bistaffa",
-        "Athina Georgara",
-        "Juan A. Rodríguez-Aguilar"
-      ],
-      "venue": "",
-      "citationCount": null,
-      "influentialCitationCount": null,
-      "discussionCount": null,
-      "score": 62.0,
-      "reasons": [
-        "推薦システム",
-        "グラフ推薦",
-        "LLM x 推薦",
-        "新着 arXiv",
-        "7日前の新着"
-      ],
-      "summary": "We focus on optimisation-based Decision Support Systems in real-world applications. In this context, we aim to provide contrastive explanations that answer users' questions about recommendations based on the solution...",
-      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2610.31119&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2610.31119%0A-+Title%3A+Constraint+Reasoning+and+Large+Language+Models+Join+Forces%3A+Providing+Contrastive+Explanations+for+Real-World+Optimisation-Based+Applications%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2610.31119v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
+      "summary": "In an era where digital information is abundant, the role of recommender systems in navigating this vast landscape has become increasingly vital. This study proposes a novel deep learning-based approach integrating...",
+      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+an-approach-for-multi-context-aware-multi-criteria-recommender-systems-based-on-&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+an-approach-for-multi-context-aware-multi-criteria-recommender-systems-based-on-%0A-+Title%3A+An+Approach+for+Multi-Context-Aware+Multi-Criteria+Recommender+Systems+Based+on+Deep+Learning%0A-+URL%3A+https%3A%2F%2Fwww.semanticscholar.org%2Fpaper%2Fde3b23e7b3d0ebaccb8580722d5c3f4de9a808d4%0A-+Source%3A+Semantic+Scholar%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
     }
   ]
 }
