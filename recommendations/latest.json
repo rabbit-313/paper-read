@@ -1,6 +1,6 @@
 {
-  "date": "2026-11-01",
-  "generatedAt": "2026-11-01T00:44:22.300248+00:00",
+  "date": "2026-11-02",
+  "generatedAt": "2026-11-02T01:18:45.291007+00:00",
   "focus": "Recommender systems, recommendation, retrieval, ranking, and related ML/DL papers",
   "items": [
     {
@@ -99,7 +99,7 @@
         "ランキング",
         "LLM x 推薦",
         "新着 arXiv",
-        "3日前の新着"
+        "4日前の新着"
       ],
       "summary": "Recommenders on Web platforms such as e-commerce and music streaming need their training recipes re-tuned for each dataset. Large language model (LLM) agents can now rewrite these recipes, enabling recursive self-...",
       "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2610.39352&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2610.39352%0A-+Title%3A+Try+Before+You+Evolve%3A+Ranking-Scored+Trials+for+Recursive+Self-Improvement+of+Recommender+Systems%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2610.39352v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
@@ -125,7 +125,7 @@
         "検索・ retrieval",
         "LLM x 推薦",
         "新着 arXiv",
-        "5日前の新着"
+        "6日前の新着"
       ],
       "summary": "Large Language Models (LLMs) are increasingly used as recommendation generators in conversational recommender systems (RS) via retrieval-augmented generation (RAG). This flexible design introduces new sources of...",
       "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2610.37962&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2610.37962%0A-+Title%3A+Statistical+Detection+of+Positional+Bias+in+LLM-Based+Recommender+Systems%3A+Methodologies+and+Empirical+Evidence%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2610.37962v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
@@ -159,7 +159,7 @@
         "ランキング",
         "LLM x 推薦",
         "新着 arXiv",
-        "5日前の新着"
+        "6日前の新着"
       ],
       "summary": "Generative recommendation (GR) models for ranking typically adopt a fast-thinking direct prediction paradigm with strong practical efficiency. However, ranking requires fine-grained scoring across multiple candidate...",
       "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2610.36890&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2610.36890%0A-+Title%3A+Latent+Residual+Reasoning+for+Ranking+in+Generative+Recommendation%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2610.36890v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
@@ -187,7 +187,7 @@
         "検索・ retrieval",
         "LLM x 推薦",
         "新着 arXiv",
-        "6日前の新着"
+        "7日前の新着"
       ],
       "summary": "HPC applications often leave much of their parallel file system's bandwidth unused, and turning their Darshan logs into concrete I/O fixes still requires a scarce I/O expert. Rule-based tools flag counters against...",
       "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2610.36370&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2610.36370%0A-+Title%3A+IOSage%3A+Detecting+HPC+I%2FO+Bottleneck+Patterns+to+Guide+LLM+Recommendations%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2610.36370v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
@@ -226,7 +226,7 @@
         "ランキング",
         "検索・ retrieval",
         "新着 arXiv",
-        "3日前の新着"
+        "4日前の新着"
       ],
       "summary": "Query-based recommendation separates expressing user needs from locating matching items. Its central learning problem is how to turn item interactions into effective retrieval requests when interaction logs do not...",
       "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2610.39984&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2610.39984%0A-+Title%3A+R2QRec%3A+Learning+Recommendation+Queries+from+Retrieval+Feedback%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2610.39984v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
