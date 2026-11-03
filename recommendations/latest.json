@@ -1,6 +1,6 @@
 {
-  "date": "2026-11-02",
-  "generatedAt": "2026-11-02T01:18:45.291007+00:00",
+  "date": "2026-11-03",
+  "generatedAt": "2026-11-03T03:19:32.063747+00:00",
   "focus": "Recommender systems, recommendation, retrieval, ranking, and related ML/DL papers",
   "items": [
     {
@@ -27,6 +27,33 @@
       ],
       "summary": "Financial AI systems must support decision-bearing questions involving payments, collections, cash flow, and compliance while ensuring numerical accuracy, traceability, and auditability. Large language models (LLMs)...",
       "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2610.39230&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2610.39230%0A-+Title%3A+Beyond+LLM+Wrappers%3A+Context+Engineering+and+the+Three-Engine+Architecture+for+Reliable+Financial+AI%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2610.39230v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
+    },
+    {
+      "id": "2611.00972",
+      "title": "PACT: Defending Recommendation against Promotional News Rewriting via Attack-Diverse Score Consistency",
+      "url": "http://arxiv.org/abs/2611.00972v1",
+      "source": "arXiv",
+      "published": "2026-10-31",
+      "authors": [
+        "Chongxian Chen",
+        "Fan Mo",
+        "Xin Fan",
+        "Hayato Yamana"
+      ],
+      "venue": "",
+      "citationCount": null,
+      "influentialCitationCount": null,
+      "discussionCount": null,
+      "score": 70.0,
+      "reasons": [
+        "推薦システム",
+        "ランキング",
+        "LLM x 推薦",
+        "強化学習",
+        "新着 arXiv"
+      ],
+      "summary": "Personalized news recommenders are increasingly vulnerable to LLM-powered promotional attacks, where content providers rephrase headlines to manipulate rankings without altering underlying facts. Defending against...",
+      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2611.00972&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2611.00972%0A-+Title%3A+PACT%3A+Defending+Recommendation+against+Promotional+News+Rewriting+via+Attack-Diverse+Score+Consistency%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2611.00972v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
     },
     {
       "id": "2609.05748",
@@ -79,6 +106,99 @@
       "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2609.27953&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2609.27953%0A-+Title%3A+The+Recall+Ceiling+of+LLM+Recommendation+Reranking%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2609.27953v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
     },
     {
+      "id": "2611.01129",
+      "title": "HiGenTrans: Hierarchical LLM Knowledge Transfer for Generative Recommendation",
+      "url": "http://arxiv.org/abs/2611.01129v1",
+      "source": "arXiv",
+      "published": "2026-10-31",
+      "authors": [
+        "Zhuohang Jiang",
+        "Yuxin Chen",
+        "Haohao Qu",
+        "ZeFei luo",
+        "Yunlong Wang",
+        "Xu Yuan",
+        "Haojie Ding",
+        "Boheng Zhang",
+        "Fan Yang",
+        "Hongyang Wang",
+        "Jun Wang",
+        "Zhongbo Sun",
+        "Wenqi Fan",
+        "Li Qing",
+        "Wenwu Ou",
+        "Peng Jiang"
+      ],
+      "venue": "",
+      "citationCount": null,
+      "influentialCitationCount": null,
+      "discussionCount": null,
+      "score": 62.0,
+      "reasons": [
+        "推薦システム",
+        "ランキング",
+        "LLM x 推薦",
+        "新着 arXiv",
+        "3日前の新着"
+      ],
+      "summary": "Generative recommendation promises to simplify conventional multi-stage recommender systems by generating item Semantic IDs (SIDs) autoregressively. However, two obstacles limit its effective- ness in industrial...",
+      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2611.01129&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2611.01129%0A-+Title%3A+HiGenTrans%3A+Hierarchical+LLM+Knowledge+Transfer+for+Generative+Recommendation%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2611.01129v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
+    },
+    {
+      "id": "2611.01126",
+      "title": "Do GEO Gains Survive the Live Web? Evaluating In-the-Wild Visibility Gains of Generative Engine Optimization via LIVE-GEO",
+      "url": "http://arxiv.org/abs/2611.01126v1",
+      "source": "arXiv",
+      "published": "2026-10-31",
+      "authors": [
+        "Runze Kong",
+        "Haibo Jin",
+        "Xucheng Yu",
+        "Xiaoqi Wang",
+        "Huimin Zeng",
+        "Haohan Wang"
+      ],
+      "venue": "",
+      "citationCount": null,
+      "influentialCitationCount": null,
+      "discussionCount": null,
+      "score": 62.0,
+      "reasons": [
+        "推薦システム",
+        "検索・ retrieval",
+        "LLM x 推薦",
+        "新着 arXiv",
+        "3日前の新着"
+      ],
+      "summary": "Generative engine optimization (GEO) rewrites web content so that LLM-based search systems, also termed generative engines (GEs), rank it higher in their answers and recommendations. However, existing GEO evaluations...",
+      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2611.01126&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2611.01126%0A-+Title%3A+Do+GEO+Gains+Survive+the+Live+Web%3F+Evaluating+In-the-Wild+Visibility+Gains+of+Generative+Engine+Optimization+via+LIVE-GEO%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2611.01126v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
+    },
+    {
+      "id": "2610.41368",
+      "title": "RECITE: Revising Eligibility Criteria Incorporating Textual Evidence",
+      "url": "http://arxiv.org/abs/2610.41368v1",
+      "source": "arXiv",
+      "published": "2026-10-30",
+      "authors": [
+        "Russell Ro",
+        "Reza Abbasi-Asl"
+      ],
+      "venue": "",
+      "citationCount": null,
+      "influentialCitationCount": null,
+      "discussionCount": null,
+      "score": 62.0,
+      "reasons": [
+        "推薦システム",
+        "検索・ retrieval",
+        "LLM x 推薦",
+        "新着 arXiv",
+        "4日前の新着"
+      ],
+      "summary": "Overly restrictive eligibility criteria contribute to widespread enrollment failure in clinical trials, yet published recommendations for how specific criteria should be broadened remain disconnected from trial design...",
+      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2610.41368&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2610.41368%0A-+Title%3A+RECITE%3A+Revising+Eligibility+Criteria+Incorporating+Textual+Evidence%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2610.41368v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
+    },
+    {
       "id": "2610.39352",
       "title": "Try Before You Evolve: Ranking-Scored Trials for Recursive Self-Improvement of Recommender Systems",
       "url": "http://arxiv.org/abs/2610.39352v1",
@@ -99,137 +219,10 @@
         "ランキング",
         "LLM x 推薦",
         "新着 arXiv",
-        "4日前の新着"
+        "5日前の新着"
       ],
       "summary": "Recommenders on Web platforms such as e-commerce and music streaming need their training recipes re-tuned for each dataset. Large language model (LLM) agents can now rewrite these recipes, enabling recursive self-...",
       "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2610.39352&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2610.39352%0A-+Title%3A+Try+Before+You+Evolve%3A+Ranking-Scored+Trials+for+Recursive+Self-Improvement+of+Recommender+Systems%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2610.39352v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
-    },
-    {
-      "id": "2610.37962",
-      "title": "Statistical Detection of Positional Bias in LLM-Based Recommender Systems: Methodologies and Empirical Evidence",
-      "url": "http://arxiv.org/abs/2610.37962v1",
-      "source": "arXiv",
-      "published": "2026-10-27",
-      "authors": [
-        "Carlos Peláez-González",
-        "Francisco Herrera",
-        "Andrés Herrera-Poyatos"
-      ],
-      "venue": "",
-      "citationCount": null,
-      "influentialCitationCount": null,
-      "discussionCount": null,
-      "score": 62.0,
-      "reasons": [
-        "推薦システム",
-        "検索・ retrieval",
-        "LLM x 推薦",
-        "新着 arXiv",
-        "6日前の新着"
-      ],
-      "summary": "Large Language Models (LLMs) are increasingly used as recommendation generators in conversational recommender systems (RS) via retrieval-augmented generation (RAG). This flexible design introduces new sources of...",
-      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2610.37962&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2610.37962%0A-+Title%3A+Statistical+Detection+of+Positional+Bias+in+LLM-Based+Recommender+Systems%3A+Methodologies+and+Empirical+Evidence%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2610.37962v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
-    },
-    {
-      "id": "2610.36890",
-      "title": "Latent Residual Reasoning for Ranking in Generative Recommendation",
-      "url": "http://arxiv.org/abs/2610.36890v1",
-      "source": "arXiv",
-      "published": "2026-10-27",
-      "authors": [
-        "Haihan Shi",
-        "Ruidong Han",
-        "Wenjie Wang",
-        "Shangyu Chen",
-        "Sunhao Dai",
-        "Yongqi Li",
-        "Yangyang Li",
-        "Fei Jiang",
-        "Wei Lin",
-        "Fuli Feng",
-        "Xiangnan He"
-      ],
-      "venue": "",
-      "citationCount": null,
-      "influentialCitationCount": null,
-      "discussionCount": null,
-      "score": 62.0,
-      "reasons": [
-        "推薦システム",
-        "ランキング",
-        "LLM x 推薦",
-        "新着 arXiv",
-        "6日前の新着"
-      ],
-      "summary": "Generative recommendation (GR) models for ranking typically adopt a fast-thinking direct prediction paradigm with strong practical efficiency. However, ranking requires fine-grained scoring across multiple candidate...",
-      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2610.36890&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2610.36890%0A-+Title%3A+Latent+Residual+Reasoning+for+Ranking+in+Generative+Recommendation%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2610.36890v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
-    },
-    {
-      "id": "2610.36370",
-      "title": "IOSage: Detecting HPC I/O Bottleneck Patterns to Guide LLM Recommendations",
-      "url": "http://arxiv.org/abs/2610.36370v1",
-      "source": "arXiv",
-      "published": "2026-10-26",
-      "authors": [
-        "Mahdi Banisharif",
-        "Tabassum Mahmud",
-        "Ahmad Tarraf",
-        "Suren Byna",
-        "Ali Jannesari"
-      ],
-      "venue": "",
-      "citationCount": null,
-      "influentialCitationCount": null,
-      "discussionCount": null,
-      "score": 62.0,
-      "reasons": [
-        "推薦システム",
-        "検索・ retrieval",
-        "LLM x 推薦",
-        "新着 arXiv",
-        "7日前の新着"
-      ],
-      "summary": "HPC applications often leave much of their parallel file system's bandwidth unused, and turning their Darshan logs into concrete I/O fixes still requires a scarce I/O expert. Rule-based tools flag counters against...",
-      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2610.36370&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2610.36370%0A-+Title%3A+IOSage%3A+Detecting+HPC+I%2FO+Bottleneck+Patterns+to+Guide+LLM+Recommendations%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2610.36370v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
-    },
-    {
-      "id": "2610.39984",
-      "title": "R2QRec: Learning Recommendation Queries from Retrieval Feedback",
-      "url": "http://arxiv.org/abs/2610.39984v1",
-      "source": "arXiv",
-      "published": "2026-10-29",
-      "authors": [
-        "Weixin Chen",
-        "Shuchang Liu",
-        "Hailan Yang",
-        "Yuhan Zhao",
-        "Li Kang",
-        "Xuefeng Zhang",
-        "Chenghao Zhang",
-        "Xinyuan Wang",
-        "Hanchen Yang",
-        "Yinghao Wu",
-        "Hua Huang",
-        "Yandong Bai",
-        "Fan Yang",
-        "Xiang Li",
-        "Chunjie Chen",
-        "Li Chen"
-      ],
-      "venue": "",
-      "citationCount": null,
-      "influentialCitationCount": null,
-      "discussionCount": null,
-      "score": 62.0,
-      "reasons": [
-        "推薦システム",
-        "ランキング",
-        "検索・ retrieval",
-        "新着 arXiv",
-        "4日前の新着"
-      ],
-      "summary": "Query-based recommendation separates expressing user needs from locating matching items. Its central learning problem is how to turn item interactions into effective retrieval requests when interaction logs do not...",
-      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2610.39984&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2610.39984%0A-+Title%3A+R2QRec%3A+Learning+Recommendation+Queries+from+Retrieval+Feedback%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2610.39984v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
     }
   ]
 }
