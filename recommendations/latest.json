@@ -1,33 +1,8 @@
 {
-  "date": "2026-11-03",
-  "generatedAt": "2026-11-03T03:19:32.063747+00:00",
+  "date": "2026-11-04",
+  "generatedAt": "2026-11-04T01:56:27.858557+00:00",
   "focus": "Recommender systems, recommendation, retrieval, ranking, and related ML/DL papers",
   "items": [
-    {
-      "id": "2610.39230",
-      "title": "Beyond LLM Wrappers: Context Engineering and the Three-Engine Architecture for Reliable Financial AI",
-      "url": "http://arxiv.org/abs/2610.39230v1",
-      "source": "arXiv",
-      "published": "2026-10-29",
-      "authors": [
-        "Pradeep Kumar GS",
-        "Ravi Tanniru"
-      ],
-      "venue": "",
-      "citationCount": null,
-      "influentialCitationCount": null,
-      "discussionCount": null,
-      "score": 70.0,
-      "reasons": [
-        "推薦システム",
-        "検索・ retrieval",
-        "グラフ推薦",
-        "LLM x 推薦",
-        "新着 arXiv"
-      ],
-      "summary": "Financial AI systems must support decision-bearing questions involving payments, collections, cash flow, and compliance while ensuring numerical accuracy, traceability, and auditability. Large language models (LLMs)...",
-      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2610.39230&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2610.39230%0A-+Title%3A+Beyond+LLM+Wrappers%3A+Context+Engineering+and+the+Three-Engine+Architecture+for+Reliable+Financial+AI%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2610.39230v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
-    },
     {
       "id": "2611.00972",
       "title": "PACT: Defending Recommendation against Promotional News Rewriting via Attack-Diverse Score Consistency",
@@ -106,6 +81,84 @@
       "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2609.27953&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2609.27953%0A-+Title%3A+The+Recall+Ceiling+of+LLM+Recommendation+Reranking%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2609.27953v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
     },
     {
+      "id": "2611.03525",
+      "title": "Grading the Unannotated: Insights from the WorkRB Skill Extraction Challenge at RecSys-HR 2026",
+      "url": "http://arxiv.org/abs/2611.03525v1",
+      "source": "arXiv",
+      "published": "2026-11-02",
+      "authors": [
+        "Warre Veys",
+        "Luis Gasco",
+        "Jens-Joris Decorte"
+      ],
+      "venue": "",
+      "citationCount": null,
+      "influentialCitationCount": null,
+      "discussionCount": null,
+      "score": 62.0,
+      "reasons": [
+        "推薦システム",
+        "ランキング",
+        "LLM x 推薦",
+        "新着 arXiv",
+        "2日前の新着"
+      ],
+      "summary": "Skill extraction benchmarks score models against a few human-annotated positives and treat every other skill in the vocabulary as equally wrong. At the scale of ESCO (13,939 skills) this binary view can reward models...",
+      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2611.03525&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2611.03525%0A-+Title%3A+Grading+the+Unannotated%3A+Insights+from+the+WorkRB+Skill+Extraction+Challenge+at+RecSys-HR+2026%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2611.03525v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
+    },
+    {
+      "id": "2611.03113",
+      "title": "Preprocessing Choices in Fine-Tuning Data Matter: Utility and Demographic Sensitivity in LLM-Based Recommendation",
+      "url": "http://arxiv.org/abs/2611.03113v1",
+      "source": "arXiv",
+      "published": "2026-11-02",
+      "authors": [
+        "Furkan Yasir Goksu",
+        "Yaren Yilmaz",
+        "Sule Gunduz Oguducu"
+      ],
+      "venue": "",
+      "citationCount": null,
+      "influentialCitationCount": null,
+      "discussionCount": null,
+      "score": 62.0,
+      "reasons": [
+        "推薦システム",
+        "グラフ推薦",
+        "LLM x 推薦",
+        "新着 arXiv",
+        "2日前の新着"
+      ],
+      "summary": "Large language models (LLMs) have introduced a generative approach to recommendation, producing item lists from textual representations of user histories and item information. However, this generative setting raises...",
+      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2611.03113&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2611.03113%0A-+Title%3A+Preprocessing+Choices+in+Fine-Tuning+Data+Matter%3A+Utility+and+Demographic+Sensitivity+in+LLM-Based+Recommendation%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2611.03113v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
+    },
+    {
+      "id": "2611.02673",
+      "title": "Auditing Representation-Space Fraud Detection: A Bayesian IRL Framework for Calibrated Uncertainty and Its Limits",
+      "url": "http://arxiv.org/abs/2611.02673v1",
+      "source": "arXiv",
+      "published": "2026-11-02",
+      "authors": [
+        "Shivam Swarup",
+        "Divya Prakash Shrivastava",
+        "Rakesh Thakur"
+      ],
+      "venue": "",
+      "citationCount": null,
+      "influentialCitationCount": null,
+      "discussionCount": null,
+      "score": 62.0,
+      "reasons": [
+        "推薦システム",
+        "LLM x 推薦",
+        "強化学習",
+        "新着 arXiv",
+        "2日前の新着"
+      ],
+      "summary": "Shilling detectors for recommender systems are almost always evaluated by one number, detection AUROC, with no account of when it can be trusted. We audit representation-space detection with VEIL (Variational...",
+      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2611.02673&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2611.02673%0A-+Title%3A+Auditing+Representation-Space+Fraud+Detection%3A+A+Bayesian+IRL+Framework+for+Calibrated+Uncertainty+and+Its+Limits%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2611.02673v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
+    },
+    {
       "id": "2611.01129",
       "title": "HiGenTrans: Hierarchical LLM Knowledge Transfer for Generative Recommendation",
       "url": "http://arxiv.org/abs/2611.01129v1",
@@ -139,7 +192,7 @@
         "ランキング",
         "LLM x 推薦",
         "新着 arXiv",
-        "3日前の新着"
+        "4日前の新着"
       ],
       "summary": "Generative recommendation promises to simplify conventional multi-stage recommender systems by generating item Semantic IDs (SIDs) autoregressively. However, two obstacles limit its effective- ness in industrial...",
       "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2611.01129&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2611.01129%0A-+Title%3A+HiGenTrans%3A+Hierarchical+LLM+Knowledge+Transfer+for+Generative+Recommendation%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2611.01129v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
@@ -168,61 +221,10 @@
         "検索・ retrieval",
         "LLM x 推薦",
         "新着 arXiv",
-        "3日前の新着"
+        "4日前の新着"
       ],
       "summary": "Generative engine optimization (GEO) rewrites web content so that LLM-based search systems, also termed generative engines (GEs), rank it higher in their answers and recommendations. However, existing GEO evaluations...",
       "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2611.01126&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2611.01126%0A-+Title%3A+Do+GEO+Gains+Survive+the+Live+Web%3F+Evaluating+In-the-Wild+Visibility+Gains+of+Generative+Engine+Optimization+via+LIVE-GEO%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2611.01126v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
-    },
-    {
-      "id": "2610.41368",
-      "title": "RECITE: Revising Eligibility Criteria Incorporating Textual Evidence",
-      "url": "http://arxiv.org/abs/2610.41368v1",
-      "source": "arXiv",
-      "published": "2026-10-30",
-      "authors": [
-        "Russell Ro",
-        "Reza Abbasi-Asl"
-      ],
-      "venue": "",
-      "citationCount": null,
-      "influentialCitationCount": null,
-      "discussionCount": null,
-      "score": 62.0,
-      "reasons": [
-        "推薦システム",
-        "検索・ retrieval",
-        "LLM x 推薦",
-        "新着 arXiv",
-        "4日前の新着"
-      ],
-      "summary": "Overly restrictive eligibility criteria contribute to widespread enrollment failure in clinical trials, yet published recommendations for how specific criteria should be broadened remain disconnected from trial design...",
-      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2610.41368&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2610.41368%0A-+Title%3A+RECITE%3A+Revising+Eligibility+Criteria+Incorporating+Textual+Evidence%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2610.41368v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
-    },
-    {
-      "id": "2610.39352",
-      "title": "Try Before You Evolve: Ranking-Scored Trials for Recursive Self-Improvement of Recommender Systems",
-      "url": "http://arxiv.org/abs/2610.39352v1",
-      "source": "arXiv",
-      "published": "2026-10-29",
-      "authors": [
-        "Xu Huang",
-        "Jiawei Feng",
-        "Jiancan Wu"
-      ],
-      "venue": "",
-      "citationCount": null,
-      "influentialCitationCount": null,
-      "discussionCount": null,
-      "score": 62.0,
-      "reasons": [
-        "推薦システム",
-        "ランキング",
-        "LLM x 推薦",
-        "新着 arXiv",
-        "5日前の新着"
-      ],
-      "summary": "Recommenders on Web platforms such as e-commerce and music streaming need their training recipes re-tuned for each dataset. Large language model (LLM) agents can now rewrite these recipes, enabling recursive self-...",
-      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2610.39352&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2610.39352%0A-+Title%3A+Try+Before+You+Evolve%3A+Ranking-Scored+Trials+for+Recursive+Self-Improvement+of+Recommender+Systems%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2610.39352v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
     }
   ]
 }
