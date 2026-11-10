@@ -1,33 +1,8 @@
 {
-  "date": "2026-11-09",
-  "generatedAt": "2026-11-09T01:28:31.589549+00:00",
+  "date": "2026-11-10",
+  "generatedAt": "2026-11-10T03:58:11.742278+00:00",
   "focus": "Recommender systems, recommendation, retrieval, ranking, and related ML/DL papers",
   "items": [
-    {
-      "id": "2611.04775",
-      "title": "Learning to Rank Explanations for Recommendation with Language Models",
-      "url": "http://arxiv.org/abs/2611.04775v1",
-      "source": "arXiv",
-      "published": "2026-11-03",
-      "authors": [
-        "Ben Kabongo",
-        "Vincent Guigue"
-      ],
-      "venue": "",
-      "citationCount": null,
-      "influentialCitationCount": null,
-      "discussionCount": null,
-      "score": 78.0,
-      "reasons": [
-        "推薦システム",
-        "ランキング",
-        "検索・ retrieval",
-        "協調フィルタリング",
-        "LLM x 推薦"
-      ],
-      "summary": "Recommender systems are ubiquitous on the Web, making understandable explanations essential for users. Although large language models (LLMs) increasingly generate natural-language justifications, evaluating their...",
-      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2611.04775&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2611.04775%0A-+Title%3A+Learning+to+Rank+Explanations+for+Recommendation+with+Language+Models%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2611.04775v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
-    },
     {
       "id": "2611.07588",
       "title": "What Gets Hacked in a Collaborative Reward for LLM Recommenders: The Part That Does Not Depend on the User",
@@ -61,6 +36,84 @@
       "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2611.07588&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2611.07588%0A-+Title%3A+What+Gets+Hacked+in+a+Collaborative+Reward+for+LLM+Recommenders%3A+The+Part+That+Does+Not+Depend+on+the+User%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2611.07588v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
     },
     {
+      "id": "2611.08804",
+      "title": "Generative Search and Recommendation at Shopify",
+      "url": "http://arxiv.org/abs/2611.08804v1",
+      "source": "arXiv",
+      "published": "2026-11-05",
+      "authors": [
+        "Juhana Kangaspunta",
+        "Khalil Hajji",
+        "Darshan Fofadiya",
+        "Kyumin Park",
+        "Michael Garner",
+        "Anthony Maltsev",
+        "Ryan Synk",
+        "Jose Sepulveda",
+        "Joshua Crisologo",
+        "Shuying Sun",
+        "Akshay Soni"
+      ],
+      "venue": "",
+      "citationCount": null,
+      "influentialCitationCount": null,
+      "discussionCount": null,
+      "score": 70.0,
+      "reasons": [
+        "推薦システム",
+        "検索・ retrieval",
+        "LLM x 推薦",
+        "強化学習",
+        "新着 arXiv"
+      ],
+      "summary": "Search and recommendation at Shopify require retrieving relevant products from a changing catalog of billions of products under strict latency constraints. We present SID-LLM, which casts both tasks as generating...",
+      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2611.08804&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2611.08804%0A-+Title%3A+Generative+Search+and+Recommendation+at+Shopify%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2611.08804v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
+    },
+    {
+      "id": "2611.08718",
+      "title": "Memory-Aware Multi-Agent Architecture with LLM-based Orchestration for Conversational Recommendation",
+      "url": "http://arxiv.org/abs/2611.08718v1",
+      "source": "arXiv",
+      "published": "2026-11-05",
+      "authors": [
+        "Emilly Pitman de Castro",
+        "Vanessa Silva",
+        "Gustavo Kanno",
+        "Marcus Santos",
+        "Bruno Ferraz do Amaral",
+        "Marcelo Nogueira",
+        "Lucas Francisco Pellicer",
+        "Lucas Lanaro",
+        "Pedro Augusto Luiz",
+        "João Renato Ribeiro Manesco",
+        "Giovanni Carbinatti",
+        "Isabela de Lima Santos",
+        "Lucas Oliveira Jeronymo",
+        "Jeison Fappi",
+        "Raul Rotilli Aguirre",
+        "Fabio André Frantz",
+        "Renata De Paris",
+        "Fabiana Marucci",
+        "Lohan Silva",
+        "Vinicius Diniz Reolon",
+        "Wandemberg Gibaut"
+      ],
+      "venue": "",
+      "citationCount": null,
+      "influentialCitationCount": null,
+      "discussionCount": null,
+      "score": 70.0,
+      "reasons": [
+        "推薦システム",
+        "ランキング",
+        "検索・ retrieval",
+        "LLM x 推薦",
+        "新着 arXiv"
+      ],
+      "summary": "Conversational recommender systems often treat user sessions in isolation, limiting their ability to capture how user intent evolves over time. While large language models (LLMs) have improved semantic understanding,...",
+      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2611.08718&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2611.08718%0A-+Title%3A+Memory-Aware+Multi-Agent+Architecture+with+LLM-based+Orchestration+for+Conversational+Recommendation%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2611.08718v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
+    },
+    {
       "id": "2611.07614",
       "title": "The Popular Get More Popular: Auditing Brand Bias in Generative Search",
       "url": "http://arxiv.org/abs/2611.07614v1",
@@ -85,42 +138,6 @@
       ],
       "summary": "The shift from traditional to generative search has fundamentally transformed online product discovery. Because conversational recommendations synthesize choices into a few direct answers, subtle systemic preferences...",
       "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2611.07614&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2611.07614%0A-+Title%3A+The+Popular+Get+More+Popular%3A+Auditing+Brand+Bias+in+Generative+Search%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2611.07614v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
-    },
-    {
-      "id": "2611.05643",
-      "title": "Data-Efficient Scaling-Law Discovery for Recommendation Systems via Coupled Hyperparameter Scaling",
-      "url": "http://arxiv.org/abs/2611.05643v1",
-      "source": "arXiv",
-      "published": "2026-11-03",
-      "authors": [
-        "John Martabano Landy",
-        "Louis C. Tiao",
-        "Yao Xuan",
-        "Luc Kien Hang",
-        "Rupinder P. Khandpur",
-        "Arvind M. Vepa",
-        "Srinidhi Raghavendran",
-        "Anirudh Agrawal",
-        "Xiaoyi Leo Liu",
-        "Jiang Liu",
-        "Peggy Yao",
-        "Alireza Vahdatpour",
-        "Djordje Gligorijevic"
-      ],
-      "venue": "",
-      "citationCount": null,
-      "influentialCitationCount": null,
-      "discussionCount": null,
-      "score": 70.0,
-      "reasons": [
-        "推薦システム",
-        "ランキング",
-        "検索・ retrieval",
-        "LLM x 推薦",
-        "新着 arXiv"
-      ],
-      "summary": "Large-scale ranking and recommendation models of Web platforms benefit from increased compute much as large language models do, and their scaling behavior is broadly power-law in form. Yet ranking models have...",
-      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2611.05643&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2611.05643%0A-+Title%3A+Data-Efficient+Scaling-Law+Discovery+for+Recommendation+Systems+via+Coupled+Hyperparameter+Scaling%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2611.05643v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
     },
     {
       "id": "2609.05748",
@@ -197,7 +214,7 @@
         "ランキング",
         "検索・ retrieval",
         "新着 arXiv",
-        "4日前の新着"
+        "5日前の新着"
       ],
       "summary": "When a tropical cyclone (TC) threatens several ports, preparedness planning depends on anticipating which ports are likely to be affected and where disruptions may last longest. Limited historical observations at...",
       "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2611.07296&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2611.07296%0A-+Title%3A+Robust+Ranking+of+Port+Impacts+from+Impending+Tropical+Cyclones%3A+A+Two-Stage+Recommendation+System%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2611.07296v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
@@ -223,7 +240,7 @@
         "ランキング",
         "協調フィルタリング",
         "新着 arXiv",
-        "5日前の新着"
+        "6日前の新着"
       ],
       "summary": "Collaborative filtering (CF) is a cornerstone of recommender systems and plays a relevant role in many modern applications. CF uses user-item interaction data to discover future preferences. Although deep learning...",
       "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2611.06610&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2611.06610%0A-+Title%3A+Alternatives+to+Shallow+Autoencoders+for+Collaborative+Filtering%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2611.06610v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
