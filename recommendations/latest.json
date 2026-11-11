@@ -1,6 +1,6 @@
 {
-  "date": "2026-11-10",
-  "generatedAt": "2026-11-10T03:58:11.742278+00:00",
+  "date": "2026-11-11",
+  "generatedAt": "2026-11-11T01:43:49.214938+00:00",
   "focus": "Recommender systems, recommendation, retrieval, ranking, and related ML/DL papers",
   "items": [
     {
@@ -214,7 +214,7 @@
         "ランキング",
         "検索・ retrieval",
         "新着 arXiv",
-        "5日前の新着"
+        "6日前の新着"
       ],
       "summary": "When a tropical cyclone (TC) threatens several ports, preparedness planning depends on anticipating which ports are likely to be affected and where disruptions may last longest. Limited historical observations at...",
       "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2611.07296&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2611.07296%0A-+Title%3A+Robust+Ranking+of+Port+Impacts+from+Impending+Tropical+Cyclones%3A+A+Two-Stage+Recommendation+System%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2611.07296v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
@@ -240,7 +240,7 @@
         "ランキング",
         "協調フィルタリング",
         "新着 arXiv",
-        "6日前の新着"
+        "7日前の新着"
       ],
       "summary": "Collaborative filtering (CF) is a cornerstone of recommender systems and plays a relevant role in many modern applications. CF uses user-item interaction data to discover future preferences. Although deep learning...",
       "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2611.06610&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2611.06610%0A-+Title%3A+Alternatives+to+Shallow+Autoencoders+for+Collaborative+Filtering%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2611.06610v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
