@@ -1,24 +1,24 @@
 {
-  "date": "2026-11-13",
-  "generatedAt": "2026-11-13T02:26:41.688462+00:00",
+  "date": "2026-11-14",
+  "generatedAt": "2026-11-14T01:59:13.756117+00:00",
   "focus": "Recommender systems, recommendation, retrieval, ranking, and related ML/DL papers",
   "items": [
     {
-      "id": "2611.07588",
-      "title": "What Gets Hacked in a Collaborative Reward for LLM Recommenders: The Part That Does Not Depend on the User",
-      "url": "http://arxiv.org/abs/2611.07588v1",
+      "id": "2611.15426",
+      "title": "SimRec: Learning to Search, Ask, and Recommend from Simulated Interaction",
+      "url": "http://arxiv.org/abs/2611.15426v1",
       "source": "arXiv",
-      "published": "2026-11-05",
+      "published": "2026-11-11",
       "authors": [
-        "Zhuangsheng Li",
-        "Liang Dong",
-        "Yu Wu",
-        "Dailin Li",
-        "Yu Xia",
-        "Yunhan C. Zhang",
-        "Rui Cai",
-        "Yi Wu",
-        "Julian McAuley"
+        "Yaxin Zhang",
+        "Xingyu Wu",
+        "Yuchen Yan",
+        "Yuqin Dai",
+        "Hong Zhao",
+        "Lixing Shen",
+        "Zhan Chen",
+        "Jian Shao",
+        "Yongliang Shen"
       ],
       "venue": "",
       "citationCount": null,
@@ -28,46 +28,12 @@
       "reasons": [
         "推薦システム",
         "ランキング",
-        "協調フィルタリング",
+        "検索・ retrieval",
         "LLM x 推薦",
         "強化学習"
       ],
-      "summary": "Collaborative-filtering (CF) scores provide graded, personalized rewards for training large language model (LLM) recommenders through reinforcement learning. However, these rewards can cause exposure collapse: even...",
-      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2611.07588&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2611.07588%0A-+Title%3A+What+Gets+Hacked+in+a+Collaborative+Reward+for+LLM+Recommenders%3A+The+Part+That+Does+Not+Depend+on+the+User%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2611.07588v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
-    },
-    {
-      "id": "2611.08804",
-      "title": "Generative Search and Recommendation at Shopify",
-      "url": "http://arxiv.org/abs/2611.08804v1",
-      "source": "arXiv",
-      "published": "2026-11-05",
-      "authors": [
-        "Juhana Kangaspunta",
-        "Khalil Hajji",
-        "Darshan Fofadiya",
-        "Kyumin Park",
-        "Michael Garner",
-        "Anthony Maltsev",
-        "Ryan Synk",
-        "Jose Sepulveda",
-        "Joshua Crisologo",
-        "Shuying Sun",
-        "Akshay Soni"
-      ],
-      "venue": "",
-      "citationCount": null,
-      "influentialCitationCount": null,
-      "discussionCount": null,
-      "score": 70.0,
-      "reasons": [
-        "推薦システム",
-        "検索・ retrieval",
-        "LLM x 推薦",
-        "強化学習",
-        "新着 arXiv"
-      ],
-      "summary": "Search and recommendation at Shopify require retrieving relevant products from a changing catalog of billions of products under strict latency constraints. We present SID-LLM, which casts both tasks as generating...",
-      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2611.08804&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2611.08804%0A-+Title%3A+Generative+Search+and+Recommendation+at+Shopify%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2611.08804v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
+      "summary": "LLM-based recommendation agents can search catalogs, inspect products, ask users, and revise rejected recommendations. However, these behaviors are often governed by hand-designed workflows, while existing training...",
+      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2611.15426&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2611.15426%0A-+Title%3A+SimRec%3A+Learning+to+Search%2C+Ask%2C+and+Recommend+from+Simulated+Interaction%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2611.15426v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
     },
     {
       "id": "2611.08718",
@@ -214,7 +180,7 @@
         "ランキング",
         "検索・ retrieval",
         "新着 arXiv",
-        "8日前の新着"
+        "9日前の新着"
       ],
       "summary": "When a tropical cyclone (TC) threatens several ports, preparedness planning depends on anticipating which ports are likely to be affected and where disruptions may last longest. Limited historical observations at...",
       "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2611.07296&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2611.07296%0A-+Title%3A+Robust+Ranking+of+Port+Impacts+from+Impending+Tropical+Cyclones%3A+A+Two-Stage+Recommendation+System%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2611.07296v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
@@ -240,10 +206,34 @@
         "ランキング",
         "協調フィルタリング",
         "新着 arXiv",
-        "9日前の新着"
+        "10日前の新着"
       ],
       "summary": "Collaborative filtering (CF) is a cornerstone of recommender systems and plays a relevant role in many modern applications. CF uses user-item interaction data to discover future preferences. Although deep learning...",
       "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2611.06610&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2611.06610%0A-+Title%3A+Alternatives+to+Shallow+Autoencoders+for+Collaborative+Filtering%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2611.06610v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
+    },
+    {
+      "id": "2611.17239",
+      "title": "When Both Sides Adapt: The Challenges of Evaluating Interactive LLM Systems",
+      "url": "http://arxiv.org/abs/2611.17239v1",
+      "source": "arXiv",
+      "published": "2026-11-12",
+      "authors": [
+        "Hannah Li"
+      ],
+      "venue": "",
+      "citationCount": null,
+      "influentialCitationCount": null,
+      "discussionCount": null,
+      "score": 62.0,
+      "reasons": [
+        "推薦システム",
+        "ランキング",
+        "LLM x 推薦",
+        "新着 arXiv",
+        "2日前の新着"
+      ],
+      "summary": "In interactive systems where users engage with LLMs, users are adaptive and, after observing LLM responses, can change their prompting strategy, as well as the type and difficulty of subsequent tasks. Thus model...",
+      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2611.17239&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2611.17239%0A-+Title%3A+When+Both+Sides+Adapt%3A+The+Challenges+of+Evaluating+Interactive+LLM+Systems%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2611.17239v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
     }
   ]
 }
