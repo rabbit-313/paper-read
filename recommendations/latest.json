@@ -1,39 +1,95 @@
 {
-  "date": "2026-11-17",
-  "generatedAt": "2026-11-17T04:20:39.431300+00:00",
+  "date": "2026-11-18",
+  "generatedAt": "2026-11-18T03:21:05.790937+00:00",
   "focus": "Recommender systems, recommendation, retrieval, ranking, and related ML/DL papers",
   "items": [
     {
-      "id": "2611.15426",
-      "title": "SimRec: Learning to Search, Ask, and Recommend from Simulated Interaction",
-      "url": "http://arxiv.org/abs/2611.15426v1",
+      "id": "2611.20268",
+      "title": "GNN-Based Deep Reinforcement Learning for Coastal Emergency Response under Extreme Water Levels",
+      "url": "http://arxiv.org/abs/2611.20268v1",
       "source": "arXiv",
-      "published": "2026-11-11",
+      "published": "2026-11-15",
       "authors": [
-        "Yaxin Zhang",
-        "Xingyu Wu",
-        "Yuchen Yan",
-        "Yuqin Dai",
-        "Hong Zhao",
-        "Lixing Shen",
-        "Zhan Chen",
-        "Jian Shao",
-        "Yongliang Shen"
+        "Marcello Sano",
+        "Samuele Casagrande",
+        "Davide Ferrario",
+        "Sebastiano Vascon",
+        "Silvia Torresan",
+        "Andrea Critto"
       ],
       "venue": "",
       "citationCount": null,
       "influentialCitationCount": null,
       "discussionCount": null,
-      "score": 78.0,
+      "score": 70.0,
+      "reasons": [
+        "推薦システム",
+        "グラフ推薦",
+        "LLM x 推薦",
+        "強化学習",
+        "新着 arXiv"
+      ],
+      "summary": "When a storm surge approaches a coastal town, the emergency plan must be put into action quickly using water-level forecasts, flood extent, road access, vulnerable residents and shelters. Bringing this information...",
+      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2611.20268&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2611.20268%0A-+Title%3A+GNN-Based+Deep+Reinforcement+Learning+for+Coastal+Emergency+Response+under+Extreme+Water+Levels%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2611.20268v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
+    },
+    {
+      "id": "2611.22163",
+      "title": "Cluster-Guided Decoding with Trust-Region Constraints for Personalized Recommendation",
+      "url": "http://arxiv.org/abs/2611.22163v1",
+      "source": "arXiv",
+      "published": "2026-11-17",
+      "authors": [
+        "Gezheng Wen",
+        "Chao Shen",
+        "Raviteja Anantha",
+        "Tan Shen Cliff Chung",
+        "Layne C. Price"
+      ],
+      "venue": "",
+      "citationCount": null,
+      "influentialCitationCount": null,
+      "discussionCount": null,
+      "score": 70.0,
       "reasons": [
         "推薦システム",
         "ランキング",
         "検索・ retrieval",
         "LLM x 推薦",
-        "強化学習"
+        "新着 arXiv"
       ],
-      "summary": "LLM-based recommendation agents can search catalogs, inspect products, ask users, and revise rejected recommendations. However, these behaviors are often governed by hand-designed workflows, while existing training...",
-      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2611.15426&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2611.15426%0A-+Title%3A+SimRec%3A+Learning+to+Search%2C+Ask%2C+and+Recommend+from+Simulated+Interaction%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2611.15426v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
+      "summary": "Most recommenders score each item in the catalog separately, and do not explicitly model which semantic region of the catalog a recommendation belongs to. Models expressive enough to offer that control are often too...",
+      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2611.22163&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2611.22163%0A-+Title%3A+Cluster-Guided+Decoding+with+Trust-Region+Constraints+for+Personalized+Recommendation%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2611.22163v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
+    },
+    {
+      "id": "2611.22410",
+      "title": "More Than a Score: Reinforcement Learning with Verbalized Feedback for Generative Recommendation",
+      "url": "http://arxiv.org/abs/2611.22410v1",
+      "source": "arXiv",
+      "published": "2026-11-17",
+      "authors": [
+        "Zipeng Chen",
+        "Xinyu Lin",
+        "Yuliang Sun",
+        "Sheng Zhang",
+        "Zeyu Wang",
+        "Xiaowen Shi",
+        "Junwei Pan",
+        "Chengguo Yin"
+      ],
+      "venue": "",
+      "citationCount": null,
+      "influentialCitationCount": null,
+      "discussionCount": null,
+      "score": 70.0,
+      "reasons": [
+        "推薦システム",
+        "ランキング",
+        "LLM x 推薦",
+        "強化学習",
+        "新着 arXiv"
+      ],
+      "summary": "Large language models (LLMs) are increasingly used for generative recommendation, where recommended items are generated directly from users' interaction histories. To further improve recommendation quality,...",
+      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2611.22410&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2611.22410%0A-+Title%3A+More+Than+a+Score%3A+Reinforcement+Learning+with+Verbalized+Feedback+for+Generative+Recommendation%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2611.22410v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
     },
     {
       "id": "2609.05748",
@@ -110,7 +166,7 @@
         "ランキング",
         "検索・ retrieval",
         "新着 arXiv",
-        "12日前の新着"
+        "13日前の新着"
       ],
       "summary": "When a tropical cyclone (TC) threatens several ports, preparedness planning depends on anticipating which ports are likely to be affected and where disruptions may last longest. Limited historical observations at...",
       "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2611.07296&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2611.07296%0A-+Title%3A+Robust+Ranking+of+Port+Impacts+from+Impending+Tropical+Cyclones%3A+A+Two-Stage+Recommendation+System%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2611.07296v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
@@ -136,7 +192,7 @@
         "ランキング",
         "協調フィルタリング",
         "新着 arXiv",
-        "13日前の新着"
+        "14日前の新着"
       ],
       "summary": "Collaborative filtering (CF) is a cornerstone of recommender systems and plays a relevant role in many modern applications. CF uses user-item interaction data to discover future preferences. Although deep learning...",
       "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2611.06610&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2611.06610%0A-+Title%3A+Alternatives+to+Shallow+Autoencoders+for+Collaborative+Filtering%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2611.06610v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
@@ -163,60 +219,10 @@
         "LLM x 推薦",
         "生成モデル",
         "新着 arXiv",
-        "4日前の新着"
+        "5日前の新着"
       ],
       "summary": "Previous work has shown that alignment training on individual LLM agents can fail to transfer to multi-agent settings. We investigate the underlying mechanisms for this failure, and explore interventions to preserve...",
       "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2611.17820&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2611.17820%0A-+Title%3A+Aligning+AI+Teams%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2611.17820v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
-    },
-    {
-      "id": "2611.17239",
-      "title": "When Both Sides Adapt: The Challenges of Evaluating Interactive LLM Systems",
-      "url": "http://arxiv.org/abs/2611.17239v1",
-      "source": "arXiv",
-      "published": "2026-11-12",
-      "authors": [
-        "Hannah Li"
-      ],
-      "venue": "",
-      "citationCount": null,
-      "influentialCitationCount": null,
-      "discussionCount": null,
-      "score": 62.0,
-      "reasons": [
-        "推薦システム",
-        "ランキング",
-        "LLM x 推薦",
-        "新着 arXiv",
-        "5日前の新着"
-      ],
-      "summary": "In interactive systems where users engage with LLMs, users are adaptive and, after observing LLM responses, can change their prompting strategy, as well as the type and difficulty of subsequent tasks. Thus model...",
-      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2611.17239&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2611.17239%0A-+Title%3A+When+Both+Sides+Adapt%3A+The+Challenges+of+Evaluating+Interactive+LLM+Systems%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2611.17239v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
-    },
-    {
-      "id": "2611.15843",
-      "title": "Food Critic: An Agentic Visualization System for Auditable Restaurant-Safety Reasoning",
-      "url": "http://arxiv.org/abs/2611.15843v1",
-      "source": "arXiv",
-      "published": "2026-11-11",
-      "authors": [
-        "Arleth Salinas",
-        "Ishrat Jahan Eliza",
-        "Valerio Pascucci"
-      ],
-      "venue": "",
-      "citationCount": null,
-      "influentialCitationCount": null,
-      "discussionCount": null,
-      "score": 62.0,
-      "reasons": [
-        "推薦システム",
-        "検索・ retrieval",
-        "LLM x 推薦",
-        "新着 arXiv",
-        "6日前の新着"
-      ],
-      "summary": "Generative AI agents are increasingly being embedded into visualization systems that can search data, invoke tools, summarize evidence, and produce recommendations. However, when agents rely solely on their own...",
-      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2611.15843&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2611.15843%0A-+Title%3A+Food+Critic%3A+An+Agentic+Visualization+System+for+Auditable+Restaurant-Safety+Reasoning%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2611.15843v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
     }
   ]
 }
