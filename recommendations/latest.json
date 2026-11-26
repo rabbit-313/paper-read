@@ -1,6 +1,6 @@
 {
-  "date": "2026-11-25",
-  "generatedAt": "2026-11-25T04:47:37.728548+00:00",
+  "date": "2026-11-26",
+  "generatedAt": "2026-11-26T03:58:15.201701+00:00",
   "focus": "Recommender systems, recommendation, retrieval, ranking, and related ML/DL papers",
   "items": [
     {
@@ -145,46 +145,6 @@
       "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2611.26096&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2611.26096%0A-+Title%3A+From+Sessions+to+Serving%3A+Integrating+LLM-Based+Embeddings+into+Retrieval+for+Production+Content+Recommendation%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2611.26096v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
     },
     {
-      "id": "2611.24006",
-      "title": "MARS Technical Report",
-      "url": "http://arxiv.org/abs/2611.24006v1",
-      "source": "arXiv",
-      "published": "2026-11-18",
-      "authors": [
-        "Tong Liu",
-        "Chaoqun Hou",
-        "Longxiang Xiong",
-        "Junhong Lou",
-        "Jiaqi Zheng",
-        "Qixin Li",
-        "Zixin Zhao",
-        "Yong Duan",
-        "Xiannian Hu",
-        "Fengze Jiang",
-        "Yu Zhu",
-        "Cheng Guo",
-        "Xinyuan Qi",
-        "Zi Zhuang",
-        "Ping Liu",
-        "Lv Shao",
-        "Zongwei Wang"
-      ],
-      "venue": "",
-      "citationCount": null,
-      "influentialCitationCount": null,
-      "discussionCount": null,
-      "score": 70.0,
-      "reasons": [
-        "推薦システム",
-        "ランキング",
-        "検索・ retrieval",
-        "LLM x 推薦",
-        "新着 arXiv"
-      ],
-      "summary": "Modern industrial recommender systems use multi-stage cascades--retrieval, pre-ranking, ranking, and re-ranking--to narrow millions of candidates to a personalized list. While each stage deploys sophisticated models,...",
-      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2611.24006&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2611.24006%0A-+Title%3A+MARS+Technical+Report%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2611.24006v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
-    },
-    {
       "id": "2611.24426",
       "title": "DyNA-Mixer: Decoupling Time and Topology for Scalable Dynamic Node Affinity Prediction",
       "url": "http://arxiv.org/abs/2611.24426v1",
@@ -235,6 +195,38 @@
       ],
       "summary": "Alternative property recommendations play a critical role in vacation rental marketplaces, helping users discover relevant options when viewing a specific listing. However, generating high-quality candidate...",
       "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2609.05748&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2609.05748%0A-+Title%3A+A+Multi-Source+Ensemble+Approach+to+Candidate+Generation+for+Alternative+Vacation+Rental+Property+Recommendations%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2609.05748v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
+    },
+    {
+      "id": "2611.33036",
+      "title": "Towards Realistic Evaluation of Uncertainty Quantification for LLM-Based Recommender Systems",
+      "url": "http://arxiv.org/abs/2611.33036v1",
+      "source": "arXiv",
+      "published": "2026-11-24",
+      "authors": [
+        "Hao Wu",
+        "Sipeng Chen",
+        "Weikai Li",
+        "Tianyi Chen",
+        "Qiancheng Yang",
+        "Hang Zhou",
+        "Yizhou Sun",
+        "Wei Wang",
+        "Xiao Luo"
+      ],
+      "venue": "",
+      "citationCount": null,
+      "influentialCitationCount": null,
+      "discussionCount": null,
+      "score": 62.0,
+      "reasons": [
+        "推薦システム",
+        "ランキング",
+        "LLM x 推薦",
+        "新着 arXiv",
+        "2日前の新着"
+      ],
+      "summary": "Large language models (LLMs) provide a flexible interface for recommendation systems. However, their issued rankings require reliable instance-level uncertainty monitoring. In this scenario, comparing uncertainty...",
+      "requestUrl": "https://github.com/rabbit-313/paper-read/issues/new?title=Generate+translation+and+slides+for+2611.33036&body=%23%23+Paper+generation+request%0A%0A-+Paper+ID%3A+2611.33036%0A-+Title%3A+Towards+Realistic+Evaluation+of+Uncertainty+Quantification+for+LLM-Based+Recommender+Systems%0A-+URL%3A+http%3A%2F%2Farxiv.org%2Fabs%2F2611.33036v1%0A-+Source%3A+arXiv%0A%0A%23%23+Outputs%0A%0A-+%5Bx%5D+Japanese+translation+HTML%2FMarkdown%0A-+%5Bx%5D+Ochiai-format+summary+slides%0A%0A%23%23+Notes%0A%0ACreated+from+the+Paper+Read+recommendation+page.&labels=paper-generate"
     }
   ]
 }
